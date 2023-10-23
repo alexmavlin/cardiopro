@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
+
+@mixin nunito100 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+@mixin nunito100i {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+@mixin nunito200 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+@mixin nunito200i {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+@mixin nunito300 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@mixin nunito300i {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+@mixin nunito400 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin nunito400i {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@mixin nunito500 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@mixin nunito500i {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+@mixin nunito600 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@mixin nunito600i {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+@mixin nunito700 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@mixin nunito700i {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+@mixin nunito800 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+@mixin nunito800i {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+@mixin nunito900 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+@mixin nunito900i {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}

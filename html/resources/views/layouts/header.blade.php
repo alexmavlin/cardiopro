@@ -1,1 +1,4 @@
-<p>Header</p>
+<header class="header">
+    <p>Header</p>
+
+</header>
