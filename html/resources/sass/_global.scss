@@ -5,6 +5,7 @@
 }
 
 .container {
+    padding: 0px 15px;
     max-width: 1300px;
     width: 100%;
     padding: 0px 15px;
@@ -13,4 +14,18 @@
 
 .footer {
     margin-top: auto;
+}
+
+.global__heading {
+    @include nunito600;
+    color: #021647;
+    font-size: 38px;
+    line-height: 121%; /* 45.98px */
+    letter-spacing: -0.38px;
+}
+
+@media (max-width: 750px) {
+    .global__heading {
+        font-size: 29px;
+    }
 }

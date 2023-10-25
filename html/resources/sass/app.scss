@@ -2,6 +2,21 @@
 @import 'fonts';
 @import 'global';
 
+/* Layouts */
+@import 'layouts/header.scss';
+@import 'layouts/footer.scss';
+/* // Layouts */
+
+/* Page Parts */
+@import 'page_parts/faq.scss';
+/* // Page Parts */
+
+/* Pages */
+@import 'pages/formule-location-achat-dae-dsa.scss';
+@import 'pages/contact.scss';
+@import 'pages/faq.scss';
+/* // Pages */
+
 
 // getDefibrilators
 

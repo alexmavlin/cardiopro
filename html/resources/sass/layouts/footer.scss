@@ -1,0 +1,98 @@
+.footer {
+    &__top {
+        background: #EAF2FF;
+        padding: 52px 0px 32px;
+    }
+    &__top--inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__top--block {
+        max-width: 260px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 10px;
+        h2 {
+            @include nunito600;
+            color: #021647;
+            font-size: 22px;
+            line-height: normal;
+            margin-bottom: 13px;
+        }
+        nav {
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 14px;
+                li {
+                    a {
+                        display: flex;
+                        align-items: center;
+                        svg {
+                            margin-right: 13px;
+                            width: 24px;
+                            height: 24px;
+                        }
+                        span {
+                            @include nunito400;
+                            color: #021647;
+                            font-size: 16px;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__top--logo {
+        margin-bottom: 17px;
+    }
+    &__top--info {
+        @include nunito400;
+        color: #021647;
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    /* Copy */
+    &__copy {
+        padding: 24px 0px;
+        background-color: #001D64;
+    }
+    &__copy--inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p,
+        a {
+            @include nunito400;
+            color: #FFF;
+            font-size: 16px;
+            line-height: normal;
+        }
+    }
+    &__copy--legal {
+        display: flex;
+        gap: 16px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .footer__top--inner {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .footer__top--block {
+        flex-grow: 1;
+        max-width: unset;
+        width: 45%;
+    }
+}
+
+@media (max-width: 420px) {
+    .footer__copy--inner {
+        flex-direction: column-reverse;
+        gap: 16px;
+    }
+}
