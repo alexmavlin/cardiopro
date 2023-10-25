@@ -1,2 +1,2 @@
-require('./functions')
-require('./header')
+import './header'
+import './faq'
