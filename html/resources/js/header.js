@@ -71,7 +71,7 @@ function headerBelow1120px() {
     }
 }
 
-function headerAbove970px() {
+function headerAbove1120px() {
     /* Dropdowns functionality */
     let lis = document.querySelectorAll('.header__nav--dropdown__li');
     
