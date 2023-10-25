@@ -1,0 +1,97 @@
+.faq {
+    background: #F8FAFE;
+    padding: 55px 0px 60px 0px;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    &__wrapper {
+        display: flex;
+        max-width: 700px;
+        width: 100%;
+        flex-direction: column;
+        gap: 13px;
+    }
+    &__item {
+        padding-bottom: 24px;
+        overflow: hidden;
+        background-color: #FFF;
+        padding: 20px 31px;
+        border-radius: 16px;
+        border: 1px solid #E4EBFD;
+        & + .faq__item {
+            margin-top: 13px;
+        }
+    }
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        h3 {
+            @include nunito400;
+            color: #0F135A;
+            font-size: 18px;
+            font-style: normal;
+            line-height: 125%; /* 22.5px */
+        }
+    }
+    &__status--icon {
+        position: relative;
+        padding: 4px;
+        border-radius: 50%;
+        background:#E43937;
+        width: 22px;
+        height: 22px;
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            background-color: #FFF;
+            top: 50%;
+            left: 50%;
+            width: 14px;
+            height: 2px;
+            transition: transform .2s ease-in-out;
+        }
+        &::before {
+            transform: translate(-50%, -50%) rotate(0deg);
+        }
+        &::after {
+            transform: translate(-50%, -50%) rotate(90deg);
+        }
+    }
+    &__content {
+        padding-top: 10px;
+        transition: opacity .2s ease-in-out;
+        p {
+            @include nunito400;
+            color: #1E3557;
+            font-size: 15px;
+            font-style: normal;
+            line-height: 125%; /* 18.75px */
+        }
+    }
+
+    &__item.expanded {
+        .faq__header {
+            .faq__status--icon::after{
+                transform: translate(-50%, -50%) rotate(0deg);
+            }
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .faq {
+        padding: 40px 0 50px;
+    }
+    .faq__header h3 {
+        font-size: 17px;
+    }
+    .faq__content p {
+        font-size: 14px;
+    }
+}
