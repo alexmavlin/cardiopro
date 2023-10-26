@@ -1,0 +1,58 @@
+.mainScreen {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1 / 0.3625;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__img {
+        position: absolute;
+        width: 100% !important;
+        height: unset !important;
+        top: 0;
+        left: 0;
+        aspect-ratio:  1 / 0.3625;
+        object-fit: cover;
+        z-index: 1;
+    }
+    &__filter {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        backdrop-filter: brightness(0.6);
+    }
+    &__h1 {
+        position: relative;
+        z-index: 2;
+        padding: 0px 15px;
+        @include nunito800;
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+        font-size: 44px;
+        line-height: 115.5%; /* 50.82px */
+        letter-spacing: -0.44px;
+    }
+}
+
+@media (max-width: 600px) {
+    .mainScreen {
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 6px;
+        align-items: flex-end;
+        padding: 16px;
+        aspect-ratio: 1 / 1.1787;
+    }
+    .mainScreen__img {
+        aspect-ratio: 1 / 1.1787;
+    }
+    .mainScreen__h1 {
+        font-size: 32px;
+        line-height: 98.5%; /* 31.52px */
+    }
+}
+

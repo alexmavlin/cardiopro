@@ -75,7 +75,7 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="{{ route('faq') }}">
                                     <span>FAQ</span>
                                 </a>
                             </li>

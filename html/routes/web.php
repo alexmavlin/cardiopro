@@ -12,3 +12,9 @@ Route::group(['namespace' => 'Pages'], function() {
 });
 
 Auth::routes();
+
+Route::group(['namespace' => 'ServiceRoutes'], function() {
+    Route::get('/optimize', 'ServiceController@optimize');
+    Route::get('/migrate', 'ServiceController@migrate');
+    Route::get('/migrate-rollback', 'ServiceController@migrate_rollback');
+});

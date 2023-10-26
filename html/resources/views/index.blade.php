@@ -2,19 +2,13 @@
 
 @section('content')
 
-<!--    Footer & Header как всегда на мне. -->
-
-<!--    Первая секция: Obtenez des défibrillateurs pour professionnels
-        Здесь немного битая фотография, но экспортируется нормально. Вставь без этого разреза,
-        просто одним img -->
-
     <section class="getDefibrilators">
         <div class="container">
             <div class="getDefibrilators_inner">
                 <div class="getDefibrilators__portrait">
                     <img    srcset="{{ asset('images/content/homepage_getDefibrilators.webp') }} 1920w,
-                                img/content/homepage_getDefibrilators.webp 700w,
-                                img/content/homepage_getDefibrilators_400.webp 500w"
+                                    {{ asset('images/content/homepage_getDefibrilators.webp') }} 700w,
+                                    {{ asset('images/content/homepage_getDefibrilators_400.webp') }} 500w"
                         src="{{ asset('images/content/homepage_getDefibrilators.webp') }}"
                         width="579"
                         height="625"
@@ -60,11 +54,6 @@
             </div>
         </div>
     </section>
-    @section('getDefibrilators')
-
-
-<!--    Вторая секция: Commandez dès maintenant vos défibrillateurs pour une sécurité optimisée
-        Тут всё просто, бэм-бэм - готово! -->
 
     <section class="safety">
         <div class="safety__inner">
@@ -74,8 +63,8 @@
                 </div>
                 <div class="safety__content">
                     <img    srcset="{{ asset('images/content/homepage_safety.webp') }} 1920w,
-                                img/content/homepage_safety.webp 700w,
-                                img/content/homepage_safety_400.webp 500w"
+                                    {{ ('images/content/homepage_safety.webp') }} 700w,
+                                    {{ ('images/content/homepage_safety_400.webp') }} 500w"
                             src="{{ asset('images/content/homepage_safety.webp') }}"
                             width="681"
                             height="440"
@@ -92,7 +81,6 @@
             </div>
         </div>
     </section>
-    @section('safety')
 
 
 <!--    Третья секция: Comment le défibrillateur peut-il sauver des vies ? -->
@@ -133,12 +121,6 @@
             </div>
         </div>
     </section>
-    @section('howItWorks')
-
-
-<!--    Четвёртая секция: Vente et location de défibrillateurs : nos offres
-        Здесь есть табы, кода кликаешь на Location показывает дешевые, когда кликаешь на Achat - 
-        показывает дорогие. Разберешься? -->
     
     <section class="sale">
         <div class="container">
@@ -152,7 +134,6 @@
                     <button class="sale__button__active">Location</button>
                     <button class="">Achat</button>
                 </div>
-{{-- ACHAT --}}
             <div class="sale__content sale__active__frame">
                 <div class="sale__frame ">
                     <div class="sale__hidden__header">
@@ -262,9 +243,6 @@
                     </div>
                 </div>
         </div>
-                
-
-{{-- ACHAT --}}
                 <div class="sale__content">
                     <div class="sale__frame">
                         <div class="sale__hidden__header">
@@ -377,7 +355,6 @@
             </div>
         </div>
     </section>
-    @section('sale')
 
 <!--    Пятая секция: Protéger des vies grâce à un défibrillateur -->
 
@@ -437,7 +414,6 @@
             </div>
         </div>
     </section>
-    @section('protect')
 
 <!--    Шестая секция: FAQ -->
 
@@ -488,8 +464,6 @@
             </div>
         </div>
     </section>
-
-<!--    Седьмая секция: блоки -->
 
     <section class="additionalInfo">
         <div class="container">
@@ -629,6 +603,5 @@
             </div>
         </div>
     </section>
-    @section('additionalInfo')
 
 @endsection

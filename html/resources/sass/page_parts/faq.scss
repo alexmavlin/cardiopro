@@ -30,6 +30,8 @@
         justify-content: space-between;
         align-items: center;
         cursor: pointer;
+        padding-right: 30px;
+        position: relative;
         h3 {
             @include nunito400;
             color: #0F135A;
@@ -39,7 +41,10 @@
         }
     }
     &__status--icon {
-        position: relative;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
         padding: 4px;
         border-radius: 50%;
         background:#E43937;
