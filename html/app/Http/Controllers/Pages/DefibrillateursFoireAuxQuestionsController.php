@@ -22,6 +22,20 @@ class DefibrillateursFoireAuxQuestionsController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'breadcrumbs' => [
+                [
+                    'name' => 'Cardiopro',
+                    'link' => route('index'),
+                ],
+                [
+                    'name' => 'Nos Produits',
+                    'link' => '#',
+                ],
+                [
+                    'name' => 'FAQ Défibrillateur',
+                    'link' => route('faq'),
+                ],
+            ],
         ];
 
         return view('pages/defibrillateurs-foire-aux-questions', compact('data'));
