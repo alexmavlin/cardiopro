@@ -1,0 +1,126 @@
+.blogPosts {
+    padding-top: 35px;
+    &__preheader {
+        @include nunito600;
+        color: #C22921;
+        text-align: center;
+        font-size: 18px;
+        line-height: normal;
+        margin-bottom: 18px;
+    }
+    &__heading {
+        @include nunito800;
+        color: #021647;
+        text-align: center;
+        font-size: 28px;
+        line-height: 121%; /* 33.88px */
+        letter-spacing: -0.28px;
+        max-width: 740px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 28px;
+    }
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        max-width: 1105px;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 28px;
+    }
+    &__item {
+        flex-grow: 1;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 17px;
+        border-radius: 16px;
+        background: #FFF;
+        box-shadow: 0px 4px 15px 0px rgba(2, 22, 71, 0.15);
+        overflow: hidden;
+        padding-bottom: 16px;
+    }
+    &__item--img {
+        width: 100% !important;
+        height: unset !important;
+        aspect-ratio: 1 / 0.5254;
+        object-fit: cover;
+    }
+    &__item--date,
+    &__item--h3,
+    &__item--p {
+        padding-left: 23px;
+        padding-right: 16px;
+    }
+    &__item--date {
+        @include nunito700;
+        color: #C22921;
+        font-size: 14px;
+        line-height: normal;
+    }
+    &__item--h3 {
+        @include nunito800;
+        color: #021647;
+        font-size: 20px;
+        line-height: 127.9%; /* 25.58px */
+        text-transform: uppercase;
+    }
+    &__item--p {
+        @include nunito600;
+        color: #021647;
+        font-size: 17px;
+        line-height: normal;
+    }
+    &__item--a {
+        display: flex;
+        width: 218px;
+        height: 52px;
+        padding: 16px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 85px;
+        border: 1px solid #C22921;
+        background: #C22921;
+        margin-left: 23px;
+        margin-right: 16px;
+        margin-top: auto;
+        @include nunito800;
+        color: #FFF;
+        text-align: center;
+        font-size: 17px;
+        line-height: normal;
+    }
+
+    &__pagination {
+        max-width: 1105px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a {
+            display: flex;
+            align-items: center;
+            span {
+                @include nunito600;
+                color: #C22921;
+                font-size: 18px;
+                line-height: normal;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .blogPosts__item {
+        width: 45%;
+    }
+}
+@media (max-width: 600px) {
+    .blogPosts__item {
+        width: 100%;
+    }
+}
