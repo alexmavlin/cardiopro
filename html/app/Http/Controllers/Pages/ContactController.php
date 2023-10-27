@@ -22,6 +22,16 @@ class ContactController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'breadcrumbs' => [
+                [
+                    'name' => 'Cardiopro',
+                    'link' => route('index'),
+                ],
+                [
+                    'name' => 'Contact',
+                    'link' => route('contact'),
+                ],
+            ],
         ];
 
         return view('pages/contact', compact('data'));

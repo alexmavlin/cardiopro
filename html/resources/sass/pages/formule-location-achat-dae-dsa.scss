@@ -69,7 +69,6 @@
 
 // options
 .options {
-    background: #F8FAFE;
 }
 .options__inner {
     position: relative;
@@ -146,6 +145,11 @@
         font-size: 38px;
         @include nunito800;
         text-align: center;
+        a {
+            span {
+                color: #C22921;
+            }
+        }
     }
 }
 .suitsYou__inner {
@@ -153,6 +157,17 @@
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1106px;
+    &.img__rows {
+        max-width: 1105px;
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 25px;
+        .neverLost__row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
 
     h2 {
         margin-top: 25px;
@@ -205,7 +220,6 @@
 .suitsYou__row__second {
     max-width: 254px;
     position: relative;
-    top:18px
 }
 @media (max-width: 800px) {
     .suitsYou__header {

@@ -9,6 +9,12 @@ Route::group(['namespace' => 'Pages'], function() {
     Route::get('/defibrillateurs-foire-aux-questions', 'DefibrillateursFoireAuxQuestionsController')->name('faq');
     Route::get('/contact', 'ContactController')->name('contact');
     Route::get('/formule-location-achat-dae-dsa', 'FormuleLocationAchatDaeDsaController')->name('formule-dae-dsa');
+    Route::get('/specialiste-location-vente-defibrillateurs', 'SpecialisteLocationVenteDefibrillateursController')->name('specialiste-location-vente-defibrillateurs');
+    Route::get('/nos-valeurs-entreprise-vente-defibrillateur-automatise-externe', 'NosValeursEntrepriseVenteDefibrillateurAutomatiseExterneController')->name('nos-valeurs-entreprise-vente-defibrillateur-automatise-externe');
+    Route::get('/posts', 'BlogIndexController')->name('posts');
+    Route::get('/post/defibrillateur-pour-particulier', 'BlogSingleController')->name('posts-single');
+    Route::get('/defibrillateur-cardiaque-cest-quoi', 'DefibrillateurCardiaqueCestQuoiController')->name('defibrillateur-cardiaque-cest-quoi');
+    Route::get('/reconnaitre-un-arret-cardiaque', 'ReconnaitreUnArretCardiaqueController')->name('reconnaitre-un-arret-cardiaque');
 });
 
 Auth::routes();
