@@ -631,4 +631,6 @@
     </section>
     @section('additionalInfo')
 
+    @section('formuleLocation')
+
 @endsection
