@@ -1,0 +1,57 @@
+.commitmentPoints {
+    padding-top: 45px;
+    &__h2 {
+        max-width: 770px;
+        width: 100%;
+        margin: 0 auto;
+        @include nunito800;
+        color: #021647;
+        text-align: center;
+        font-size: 38px;
+        line-height: 121%; /* 45.98px */
+        letter-spacing: -0.38px;
+        margin-bottom: 28px;
+    }
+    &__inner {
+        display: flex;
+        gap: 17px;
+        max-width: 1105px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    &__block {
+        flex-grow: 1;
+        width: 100%;
+        display: flex;
+        padding: 21px 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        border-radius: 16px;
+        border: 1px solid #D9E1F7;
+        background: #F8FAFE;
+        h3 {
+            @include nunito800;
+            color: #0039C6;
+            text-align: center;
+            font-size: 21px;
+            line-height: 133.9%; /* 28.119px */
+        }
+        p {
+            @include nunito600;
+            color: #0039C6;
+            text-align: center;
+            font-size: 17px;
+            line-height: normal;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .commitmentPoints__h2 {
+        font-size: 29px;
+    }
+    .commitmentPoints__inner {
+        flex-direction: column;
+    }
+}

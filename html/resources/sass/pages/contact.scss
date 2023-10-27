@@ -78,6 +78,8 @@
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 .neverLost__img {
     flex-grow: 1;
@@ -94,13 +96,19 @@
     margin-left: 15px;
     flex-grow: 1;
     min-width: 353px;
-    // max-width: 498px;
-    width: 44%;
+    max-width: 515px;
+    width: 100%;
 
     p {
         color: #021647;
         font-size: 18px;
         @include nunito600;
+        a {
+            span {
+                color: #C22921;
+                text-decoration: underline;
+            }
+        }
     }
     p + p {
         margin-top: 8px;

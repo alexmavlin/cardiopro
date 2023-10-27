@@ -22,6 +22,20 @@ class FormuleLocationAchatDaeDsaController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'breadcrumbs' => [
+                [
+                    'name' => 'Cardiopro',
+                    'link' => route('index'),
+                ],
+                [
+                    'name' => 'Nos Produits',
+                    'link' => '#',
+                ],
+                [
+                    'name' => 'Formule location et achat DAE',
+                    'link' => route('formule-dae-dsa'),
+                ],
+            ],
         ];
 
         return view('pages/formule-location-achat-dae-dsa', compact('data'));

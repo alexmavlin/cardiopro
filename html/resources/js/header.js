@@ -27,7 +27,7 @@ function headerBelow1120px() {
     {
         lis.forEach(function(li) {
             li.addEventListener("click", function(e) {
-                e.preventDefault()
+                // e.preventDefault()
 
                 if(!li.classList.contains("active")) {
                     let dropdown = li.querySelector('.header__nav--dropdown')

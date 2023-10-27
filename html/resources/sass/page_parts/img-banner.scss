@@ -1,0 +1,13 @@
+.imgBanner {
+    &__inner {
+        display: flex;
+        justify-content: center;
+    }
+    &__img {
+        max-width: 1108px;
+        width: 100% !important;
+        height: auto !important;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}

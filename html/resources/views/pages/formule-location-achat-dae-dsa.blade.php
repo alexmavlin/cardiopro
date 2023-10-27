@@ -1,37 +1,41 @@
 @extends('layouts/app')
 
 @section('content')
-    
-<section class="formuleLocation">
-    <div class="formuleLocation__box">
-        <img    srcset="{{ asset('images/content/formulepage_formuleLocation.webp') }} 1920w,
-                img/content/formulepage_formuleLocation_600.webp 700w,
-                img/content/formulepage_formuleLocation_400.webp 500w"
-            src="{{ asset('images/content/formulepage_formuleLocation.webp') }}"
-            width="1600"
-            height="580"
-            alt=""
-            title="" 
-            class="formuleLocation__img">
-            <h2 class="">Formule location et achat DAE</h2>
-    </div>
-</section>
 
-<section class="linksRoad">
-    <div class="container">
-        <div class="linksRoad__inner">
-            <a class="">Cardiopro</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.45372 13.5462C5.18209 13.2746 5.18209 12.8341 5.45372 12.5624L9.59953 8.41666L5.45372 4.27089C5.18209 3.99922 5.18209 3.55873 5.45372 3.28706C5.7254 3.01543 6.16588 3.01543 6.43756 3.28705L11.0752 7.92474C11.3469 8.19642 11.3469 8.6369 11.0752 8.90858L6.43756 13.5462C6.16589 13.8179 5.7254 13.8179 5.45372 13.5462Z" fill="#021647"/>
-              </svg>
-            <a class="">Nos Offres</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.45372 13.5462C5.18209 13.2746 5.18209 12.8341 5.45372 12.5624L9.59953 8.41666L5.45372 4.27089C5.18209 3.99922 5.18209 3.55873 5.45372 3.28706C5.7254 3.01543 6.16588 3.01543 6.43756 3.28705L11.0752 7.92474C11.3469 8.19642 11.3469 8.6369 11.0752 8.90858L6.43756 13.5462C6.16589 13.8179 5.7254 13.8179 5.45372 13.5462Z" fill="#021647"/>
-              </svg>
-            <a class="">Formule location et achat DAE</a>
+    <section class="mainScreen">
+        <img    srcset="{{ asset('images/content/formulepage_formuleLocation.webp') }} 1920w,
+                        {{ asset('images/content/formulepage_formuleLocation_600.webp') }} 700w,
+                        {{ asset('images/content/formulepage_formuleLocation_400.webp 500w') }} 500w"
+                src="{{ asset('images/content/formulepage_formuleLocation.webp') }}"
+                width="1600"
+                height="580"
+                alt=""
+                title="" 
+                class="mainScreen__img">
+        <div class="mainScreen__filter"></div>
+
+        <h1 class="mainScreen__h1">Formule location et achat DAE</h1>
+    </section>
+
+@if (isset($data['breadcrumbs']))
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs__inner">
+                @for($i = 0; $i < count($data['breadcrumbs']); $i++)
+                    @if ($i != 0)
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.45372 13.5462C5.18209 13.2746 5.18209 12.8341 5.45372 12.5624L9.59953 8.41666L5.45372 4.27089C5.18209 3.99922 5.18209 3.55873 5.45372 3.28706C5.7254 3.01543 6.16588 3.01543 6.43756 3.28705L11.0752 7.92474C11.3469 8.19642 11.3469 8.6369 11.0752 8.90858L6.43756 13.5462C6.16589 13.8179 5.7254 13.8179 5.45372 13.5462Z" fill="#021647"/>
+                        </svg>
+                    @endif
+                    <a  href="{{ $data['breadcrumbs'][$i]['link'] }}"
+                        class="breadcrumbs__link">
+                        {{ $data['breadcrumbs'][$i]['name'] }}
+                    </a>
+                @endfor
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+@endif
 
 <section class="options">
     <div class="container">
@@ -720,5 +724,4 @@
         </div>
     </div>
 </section>
-@section('additionalInfo')
 @endsection
