@@ -7,13 +7,13 @@ use Illuminate\Http\Request;
 
 class BlogSingleController extends Controller
 {
-    private $description = "Qu’est ce qu’un défibrillateur automatique externe (DAE) ? CardioPro répond à toute vos questions sur l’utilisation d’un défibrillateur automatique ou semi-automatique, l’achat ou la location et les obligations concernant les défibrillateurs cardiaques.";
-    private $keywords = "défibrillateurs";
+    private $description = "";
+    private $keywords = "";
     private $canonical;
 
     public function __construct()
     {
-        $this->canonical = route('faq');
+        $this->canonical = route('posts-single');
     }
 
     public function __invoke()
@@ -33,11 +33,11 @@ class BlogSingleController extends Controller
                 ],
                 [
                     'name' => 'FAQ Défibrillateur',
-                    'link' => route('faq'),
+                    'link' => route('posts-single'),
                 ],
             ],
         ];
 
-        return view('pages/defibrillateurs-foire-aux-questions', compact('data'));
+        return view('pages/posts-single', compact('data'));
     }
 }
