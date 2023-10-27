@@ -604,4 +604,6 @@
         </div>
     </section>
 
+    @section('formuleLocation')
+
 @endsection
