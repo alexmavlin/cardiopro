@@ -28,14 +28,16 @@ class BlogSingleController extends Controller
                     'link' => route('index'),
                 ],
                 [
-                    'name' => 'Nos Produits',
-                    'link' => '#',
+                    'name' => 'Blog',
+                    'link' => route('posts'),
                 ],
                 [
-                    'name' => 'FAQ Défibrillateur',
+                    'name' => 'Avoir un défibrillateur chez soi',
                     'link' => route('posts-single'),
                 ],
             ],
+            'main_img' => asset('images/blog/blog_single_tmp_main.webp'),
+            'main_title' => 'Le défibrillateur pour particulier',
         ];
 
         return view('pages/posts-single', compact('data'));
