@@ -1,0 +1,137 @@
+.definitionDef__inner {
+    padding: 60px 0;
+    max-width: 1110px;
+    margin: 0 auto;
+    h2 {
+      text-align: center;
+        color: var(--text, #021647);
+        line-height: 121%; /* 45.98px */
+        letter-spacing: -0.38px;
+        font-size: 38px;
+        @include nunito800;  
+    }
+    p {
+        color: var(--text, #021647);
+        font-size: 18px;
+        @include nunito600;  
+    }
+    b {
+        @include nunito800; 
+    }
+    a {
+        color: var(--c-22921, #C22921);
+        text-decoration: underline;
+    }
+    span {
+        color: #C22921;
+        @include nunito800;  
+    }
+    p + p {
+        margin-top: 18px;
+    }
+}
+.definitionDef__item {
+    max-width: 503px;
+    width: 100%;
+}
+.definitionDef__content {
+    max-width: 503px;
+    min-width: 325px;
+}
+.definitionDef__header {
+    margin-bottom: 26px;
+}
+.definitionDef__header__mobile {
+    display: none;
+    margin: 25px 0 15px;
+}
+.definitionDef__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.definitionDef__row + .definitionDef__row  {
+    margin-top: 55px;
+}
+.definitionDef__img {
+    margin-right: 52px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    max-width: 544px;
+    width: 100% !important;
+    height: unset !important;
+    aspect-ratio: 1 / 0.799;
+    object-fit: cover;
+}
+.definitionDef__item {
+    display: flex;
+}
+.definitionDef__item + .definitionDef__item {
+    margin-left: 52px;
+}
+.definitionDef__row__img {
+    border-radius: 10px;
+    border: 1px solid var(--e-4-ebfd, #E4EBFD);
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+}
+.definitionDef__item__content {
+    margin-left: 33px;
+}
+@media (max-width: 1050px) {
+    .definitionDef__img {
+        max-width: 380px;
+    }
+}
+@media (max-width: 800px) {
+    .definitionDef__inner {
+        padding: 45px 0;
+    }
+    .definitionDef__img {
+        max-width: unset;
+        aspect-ratio: unset;
+        height: 212px !important;
+    }
+    .definitionDef__row {
+        flex-direction: column;
+    }
+    .definitionDef__header {
+        display: none;
+    }
+    .definitionDef__header__mobile {
+        display: block;
+        h2 {
+            font-size: 34px;
+        }
+    }
+    .definitionDef__content {
+        text-align: center;
+    }
+    .definitionDef__item + .definitionDef__item {
+        margin-left: 0;
+    }
+    .definitionDef__img {
+        margin-right: 0;
+    }
+    .definitionDef__row + .definitionDef__row {
+        margin-top: 35px;
+    }
+}
+@media (max-width: 450px) {
+    .definitionDef__inner {
+        h2 {
+            font-size: 28px;
+            line-height: 113%; /* 32.77px */
+            letter-spacing: -0.29px;
+        }
+        p {
+            font-size: 17px;
+        }
+    }
+    .definitionDef__inner {
+        padding: 35px 0;
+    }
+    .definitionDef__row + .definitionDef__row {
+        margin-top: 25px;
+    }
+}

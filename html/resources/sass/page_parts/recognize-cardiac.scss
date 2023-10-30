@@ -1,0 +1,74 @@
+.recognizeCardiac__inner {
+    h2 {
+        margin: 0 auto;
+        max-width: 823px;
+       text-align: center;
+        color: var(--text, #021647);
+        line-height: 121%; /* 45.98px */
+        letter-spacing: -0.38px;
+        font-size: 38px;
+        @include nunito800; 
+        margin-bottom: 28px;  
+    }
+}
+.recognizeCardiac__list {
+    display: flex;
+    max-width: 1108px;
+    margin: 0 auto;
+}
+.recognizeCardiac__item {
+    max-width: 363px;
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid rgba(194, 41, 33, 0.14);
+    background: var(--ffffff, #FFF);
+    display: flex;
+    padding: 21px 25px;
+    flex-direction: column;
+    align-items: center;
+}
+.recognizeCardiac__num {
+    color: var(--c-22921, #C22921);
+    text-align: center;
+    font-size: 49px;
+    @include nunito800; 
+    margin-bottom: 3px;
+}
+.recognizeCardiac__text {
+    color: var(--c-22921, #C22921);
+    text-align: center;
+    font-size: 18px;
+    @include nunito700; 
+    line-height: 132.4%; /* 23.832px */
+}
+.recognizeCardiac__item + .recognizeCardiac__item {
+    margin-left: 10px;
+}
+@media (max-width: 650px) {
+    .recognizeCardiac__inner {
+        h2 { 
+            font-size: 34px;
+            line-height: 113%; /* 32.77px */
+            letter-spacing: -0.29px;    
+            margin-bottom: 30px;
+        }
+    }
+    .recognizeCardiac__list {
+        flex-direction: column;
+    }
+    .recognizeCardiac__item {
+        max-width: unset;
+    }
+    .recognizeCardiac__item + .recognizeCardiac__item {
+        margin-left: 0px;
+        margin-top: 13px;
+    }
+}
+@media (max-width: 450px) {
+    .recognizeCardiac__inner {
+        h2 { 
+            font-size: 28px;
+            margin-bottom: 14px;
+        }
+    }
+}

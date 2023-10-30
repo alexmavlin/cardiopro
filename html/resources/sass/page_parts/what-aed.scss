@@ -1,0 +1,127 @@
+.whatAED {
+    padding: 55px 0 100px;
+}
+.whatAED__inner {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.whatAED__header {
+    max-width: 748px;
+    margin: 0 auto 30px;
+    h2 {
+        text-align: center;
+        color: var(--text, #021647);
+        line-height: 121%; /* 45.98px */
+        letter-spacing: -0.38px;
+        font-size: 38px;
+        @include nunito800; 
+        margin-bottom: 17px; 
+    }
+    p {
+        text-align: center;
+        color: var(--text, #021647);
+        font-size: 20px;
+        @include nunito700;  
+    }
+    a {
+        color: #C22921;
+        text-decoration: underline;
+    }
+}
+.whatAED__content {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.whatAED__item {
+    display: flex;
+}
+.whatAED__item + .whatAED__item {
+    margin-top: 35px;
+}
+.whatAED__content__p + .whatAED__content__p {
+    margin-top: 17px;
+}
+.whatAED__img {
+    margin-right: 52px;
+    border-radius: 10px;
+    max-width: 422px;
+    width: 100% !important;
+    // height: unset !important;
+    aspect-ratio: 1 / 0.682;
+    object-fit: cover;
+}
+.whatAED__content__header {
+        position: relative;
+        color: var(--text, #021647);
+        line-height: 123.4%; /* 28.382px */
+        font-size: 23px;
+        @include nunito800; 
+        margin-bottom: 16px; 
+        padding-bottom: 18px;
+}
+.whatAED__content__header::before  {
+    content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background-color: #D3DCF3;
+        bottom: 0; 
+        color: #D3DCF3;
+}
+.whatAED__content__p {
+        color: var(--text, #021647);
+        font-size: 18px;
+        @include nunito600;  
+    b {        
+        @include nunito800; 
+    }
+    a {
+        color: var(--c-22921, #C22921);
+        text-decoration: underline;
+    }
+}
+@media (max-width: 900px) {
+    .whatAED__img {
+        max-width: 340px;
+    }
+}
+@media (max-width: 800px) {
+    .whatAED__item {
+        flex-direction: column;
+    }
+    .whatAED__img {
+        max-width: unset;
+        aspect-ratio: unset;
+        height: 288px !important;
+    }
+    .whatAED__content__header {
+        margin-top: 16px;
+    }
+    .whatAED__item + .whatAED__item {
+        margin-top: 40px;
+    }
+    .whatAED {
+        padding: 40px 0 30px;
+    }
+    .whatAED {
+        padding: 55px 0 100px;
+    }
+    .whatAED__header {
+        margin-bottom: 16px;
+        h2 {
+            letter-spacing: -0.29px;
+            font-size: 34px;
+            margin-bottom: 0px; 
+        }
+        p {
+            display: none;
+        }
+    }
+}
+@media (max-width: 800px) {
+    .whatAED__header {
+        h2 {
+            font-size: 28px;
+        }
+    }
+}
