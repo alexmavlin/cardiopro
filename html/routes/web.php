@@ -15,6 +15,10 @@ Route::group(['namespace' => 'Pages'], function() {
     Route::get('/post/defibrillateur-pour-particulier', 'BlogSingleController')->name('posts-single');
     Route::get('/defibrillateur-cardiaque-cest-quoi', 'DefibrillateurCardiaqueCestQuoiController')->name('defibrillateur-cardiaque-cest-quoi');
     Route::get('/reconnaitre-un-arret-cardiaque', 'ReconnaitreUnArretCardiaqueController')->name('reconnaitre-un-arret-cardiaque');
+    Route::get('/chiffres-cles-arret-cardiaque', 'LesShiffresLesController')->name('chiffres-cles-arret-cardiaque');
+    Route::get('/legislation-defibrillateur', 'LaLegislationController')->name('legislation-defibrillateur');
+    Route::get('/lexique-defibrillateur', 'LexiqueController')->name('lexique-defibrillateur');
+    Route::get('/subventions-defibrillateur', 'LesSubventionsController')->name('subventions-defibrillateur');
 });
 
 Auth::routes();
