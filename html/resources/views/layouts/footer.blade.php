@@ -4,9 +4,9 @@
             <div class="footer__top--inner">
                 <div class="footer__top--block">
                     <a href="{{ route('index') }}" class="footer__top--logo">
-                        <img    src="{{ asset('images/content/logo_main.webp') }}" 
+                        <img    src="{{ asset('images/content/logo_page.png') }}" 
                                 alt=""
-                                width="154"
+                                width="218"
                                 height="46">
                     </a>
                     <p class="footer__top--info">Achat et location de défibrillateurs en France, Belgique, Luxembourg et Suisse</p>
@@ -81,7 +81,7 @@
                             </li>
                             <li>
                                 <a href="">
-                                    <span>Devuis</span>
+                                    <span>Devis</span>
                                 </a>
                             </li>
                             <li>

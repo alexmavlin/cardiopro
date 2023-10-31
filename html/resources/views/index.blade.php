@@ -17,15 +17,15 @@
                         class="getDefibrilators__img">
                 </div>
                 <div class="getDefibrilators__content">
-                    <h2 class="">Obtenez des défibrillateurs pour professionnels </h2>
+                    <h1 class="">Obtenez des défibrillateurs pour professionnels</h1>
                     <div class="getDefibrilators__group">
-                        <p class="">Avec CardioPro, l'accès à des défibrillateurs est simple et rapide. Disponible à la vente et à la location, vous pourrez <a href="https://cardiopro.fr/formule-location-achat-dae-dsa" class="getDefibrilators__a">trouver la formule</a> qui vous convient pour assurer la sécurité de vos clients et de votre personnel.</p>
+                        <p class="">Avec CardioPro, l'accès à des défibrillateurs est simple et rapide. Disponible à la vente et à la location, vous pourrez <a href="{{ route('formule-dae-dsa') }}" class="getDefibrilators__a"><span>trouver la formule</span></a> qui vous convient pour assurer la sécurité de vos clients et de votre personnel.</p>
                         <div class="getDefibrilators__button">
-                            <a href="" class="">
+                            <a href="https://cardiopro.fr/defibrillateur-prix" class="">
                                 Choisir un défibrillateur
                                 <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9354 1.77432C22.3315 3.31182 22.5741 5.47074 21.8452 7.32466C20.5989 10.4947 17.7947 13.3667 15.1347 16.091C13.8336 17.4235 12.5671 18.7206 11.5342 20C11.2958 19.7676 11.0493 19.5285 10.7963 19.2832C7.39974 15.9883 2.84134 11.5664 1.13675 7.32466C0.865647 6.65009 0.735988 5.92776 0.755671 5.20179C0.775355 4.47588 0.943976 3.76149 1.25124 3.10233C1.55851 2.4431 1.99798 1.85295 2.54285 1.36776C4.7118 -0.569202 8.1072 -0.267226 10.1711 1.77957L11.5342 3.1314L13.1129 1.5657C13.6307 1.0522 14.2486 0.648714 14.9289 0.37986C15.6091 0.111001 16.3374 -0.0175902 17.0694 0.00193214C17.8014 0.0214486 18.5218 0.188678 19.1864 0.493401C19.8511 0.798129 20.4462 1.23396 20.9354 1.77432ZM8.47293 10.6278L13.2134 4.49904L12.3016 9.12603H15.004C15.252 9.12603 15.3919 9.41098 15.2401 9.60716L10.4996 15.7359L11.4115 11.109H8.70905C8.46099 11.109 8.32117 10.824 8.47293 10.6278Z" fill="white"/>
-                                  </svg>
+                                </svg>
                             </a>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
         <div class="container">
             <div class="sale__inner">
                 <div class="sale__header">
-                    <h2 class="">Vente et location de défibrillateurs : nos offres</h2>
+                    <h2 class="">Vente et location de défibrillateurs : nos offres</h2>
                     <p class="">En tant que spécialistes de la location et la <a href="https://cardiopro.fr/achat-defibrillateur" class="">vente de défibrillateurs</a>, chez CardioPro, nous nous engageons à vous fournir des produits 
                         de la plus haute qualité fabriqués en Irlande et aux États-Unis. Pour en savoir plus sur notre entreprise et nos engagements, consultez notre page dédiée à la  <a href="https://cardiopro.fr/specialiste-location-vente-defibrillateurs" class="">présentation de CardioPro.</a></p>
                 </div>
@@ -137,7 +137,7 @@
             <div class="sale__content sale__active__frame">
                 <div class="sale__frame ">
                     <div class="sale__hidden__header">
-                        <h2>défibrillateur automatique</h2>
+                        <h3>défibrillateur automatique</h3>
                     </div>
                     <img    
                             src="{{ asset('images/content/homepage_sale.webp') }}"
@@ -147,12 +147,12 @@
                             title="" 
                             class="sale__img">
                     <div class="sale__frame__content">
-                        <h2>défibrillateur automatique</h2>
+                        <h3>défibrillateur automatique</h3>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
                               </svg>
-                            <p class="">Garatie 8 ans</p>
+                            <p class="">Garantie 8 ans</p>
                         </div>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -204,6 +204,12 @@
                                     <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
                                   </svg>
                                 <p class="">Support mural</p>
+                            </div>
+                            <div class="sale__frame__line">
+                                <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                                  </svg>
+                                <p class="">Tous les éléments ci-dessus</p>
                             </div>
                             <div class="sale__buttons">
                                 <a href="" class="sale__choisir">Choisir</a>
@@ -377,9 +383,11 @@
                                 class="protect__img">
                         <div class="protect__item__content">
                             <p class="protect__date">4/12/2022</p>
-                            <h2 class="">Peut-on avoir un défibrillateur chez soi ?</h2>
+                            <h3 class="">
+                                <a href="{{ route('posts-single') }}">Peut-on avoir un défibrillateur chez soi ?</a>
+                            </h3>
                             <p class="protect__item__p">Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est...</p>
-                            <a href="" class="">En savoir plus</a> 
+                            <a href="{{ route('posts-single') }}" class="">En savoir plus</a> 
                         </div>       
                     </div>
                     <div class="protect__item">
@@ -391,7 +399,7 @@
                                 class="protect__img">
                         <div class="protect__item__content">
                             <p class="protect__date">4/12/2022</p>
-                            <h2 class="">Les Subventions pour acquérir un défibrillateur</h2>
+                            <h3 class=""><a href="{{ route('posts-single') }}">Les Subventions pour acquérir un défibrillateur</a></h3>
                             <p class="protect__item__p">Un défibrillateur est un appareil de secours de grande importance mais...</p>
                             <a href="" class="">En savoir plus</a> 
                         </div>      
@@ -405,7 +413,7 @@
                                 class="protect__img">
                         <div class="protect__item__content">
                             <p class="protect__date">4/12/2022</p>
-                            <h2 class="">Défibrillateur et arrêts cardiaques : chiffres clés</h2>
+                            <h3 class=""><a href="{{ route('posts-single') }}">Défibrillateur et arrêts cardiaques : chiffres clés</a></h3>
                             <p class="protect__item__p">1 arrêt cardiaque sur 4 à lieu dans un lieu publique et une victime...</p>
                             <a href="" class="">En savoir plus</a> 
                         </div>       
@@ -426,38 +434,66 @@
                 <div class="faq__wrapper">
                     <div class="faq__item expanded">
                         <div class="faq__header">
-                            <h3>Qu’est-ce qu’un défibrillateur ?</h3>
+                            <h3>Qu’est-ce qu’un défibrillateur ?</h3>
                             <div class="faq__status--icon"></div>
                         </div>
                         <div class="faq__content">
-                            <p>Le viager est une transaction immobilière entre un acheteur (débirentier) et un vendeur (crédirentier). Le débirentier verse un bouquet et une rente à vie au crédirentier en échange de la jouissance du bien. Ceci, soit en viager libre, l'acheteur peut occuper le bien immédiatement, soit en viager occupé, le vendeur conserve le droit d'usage et d'habitation.</p>
+                            <p>Le <strong>défibrillateur</strong> est un appareil destiné à ramener le cœur de la victime vers son rythme normal lors d’un <strong>arrêt cardiaque. </strong> Son utilisation délivre un bref choc électrique lorsqu’est constaté un violent dysfonctionnement dans l’activité régulière de cet organe.</p>
+                            <p>Ce geste d’assistance médicale, ou défibrillation, est effectué à l’aide de deux électrodes auto-adhésives disposées sur le thorax. Elles transmettent l’électricité que leur fournit le boîtier de commande. <strong>Le défibrillateur</strong> est aussi parfaitement mobile, grâce à une ou plusieurs batteries. </p>
+                            <p>L’intensité et la durée de l’influx électrique sont ajustées par le<strong> défibrillateur </strong>selon les caractéristiques et les besoins de la victime. La taille et le format de l’appareil varient également, notamment pour les enfants. La nécessité d’avoir recours au défibrillateur peut être électroniquement indiquée par certains modèles.</p>
+                            <p>Nos kits proposent deux versions : un défibrillateur semi-automatisé (DSA) ou un défibrillateur automatisé (DAE). Pour l’un comme pour l’autre, les électrodes enduites de gel conducteur sont à placer selon les instructions. Dans le cas d’un défibrillateur automatisé, aucune intervention humaine n’est ensuite nécessaire pour le démarrage. Pour un semi-automatisé, l’utilisateur devra cependant actionner un bouton marche/arrêt.</p>
                         </div>
                     </div>
                     <div class="faq__item">
                         <div class="faq__header">
-                            <h3>A quoi sert un défibrillateur ?</h3>
+                            <h3>A quoi sert un défibrillateur ?</h3>
                             <div class="faq__status--icon"></div>
                         </div>
                         <div class="faq__content">
-                            <p>Acheter en viager peut s'avérer très avantageux pour différents profils d'investisseurs. C'est une opportunité d'acquérir un bien immobilier et de constituer progressivement un patrimoine sans recourir à un crédit et avec des frais bancaires réduits. De plus, cette transaction offre la possibilité d'offrir un soutien financier à un senior tout en bénéficiant d'avantages fiscaux intéressants.</p>
+                            <p>Un recours immédiat au<strong> défibrillateur</strong> est le geste de réanimation à adopter pour aider toute personne en <strong>état d’arrêt cardiaque. </strong></p>
+                            <p>A l’instant où les symptômes apparaissent, la victime subit en effet une fibrillation ventriculaire. Son malaise physique correspond plus précisément à un dérèglement électrique du cœur, forme la plus grave d’une arythmie cardiaque. Seul un choc électrique délivré sans délai par un défibrillateur peut lui épargner la mort subite.</p>
+                            <p>Les statistiques démontrent qu’un <strong>défibrillateur</strong> doit être utilisé dans les <strong>quatre minutes</strong> après l’arrêt du flux sanguin. Si sept minutes s’écoulaient sans mesure d’urgence, la victime éprouverait déjà les premières séquelles irréversibles. Au-delà, son décès est inévitable. </p>
+                            <p>Face à de telles données, une sensibilisation citoyenne aux troubles cardio-vasculaires et en faveur d’un usage étendu du défibrillateur est désormais incontournable. </p>
+                            <p>Vous équiper d’un <strong>défibrillateur</strong> peut ainsi nettement améliorer la sécurité sanitaire des employés et/ou des citoyens mais aussi vous assurer une<strong> protection juridique efficace, en cas d’incident. </strong>Un défibrillateur (DAE ou DSA) devrait donc être disponible dans chaque lieu public et chaque entreprise. </p>
                         </div>
                     </div>
                     <div class="faq__item">
                         <div class="faq__header">
-                            <h3>Qu’est-ce qu’un défibrillateur ?</h3>
+                            <h3>Comment se servir d’un défibrillateur ?</h3>
                             <div class="faq__status--icon"></div>
                         </div>
                         <div class="faq__content">
-                            <p>Les pièges d'une vente en viager peuvent inclure une évaluation inappropriée du bouquet initial ou de la rente ainsi que des risques d'impayés de la rente. Pour éviter ces problèmes, il est crucial de bien comprendre les termes du contrat et de consulter des <b>experts en viager</b>.</p>
+                            <p>L’utilisation d’un<strong> défibrillateur grand public</strong>, légalement autorisée pour tous depuis 2007, obéit à un déroulement précis qu’il convient de rappeler.<br> 
+                                Vous faîtes face à une personne inconsciente, présentant <strong>des symptômes de l’arrêt cardiaque. </strong> Il vous faut en premier lieu contacter les secours grâce aux numéros d’urgence. Il vous sera demandé de vérifier son souffle en approchant votre visage du sien ou en observant les mouvements de son ventre. Dix secondes d’observation suffiront pour constater que la personne ne respire plus. <br>
+                                Vous chargez alors un tiers de se munir du défibrillateur disponible le plus proche, alors que vous démarrez un massage cardiaque. Il est conseillé d’appuyer fortement et avec rapidité sur le milieu du thorax de la victime. <br>
+                                Le <strong>défibrillateur</strong> est alors mis en marche soit par un bouton arrêt/marche (DSA) ou en soulevant le capot (DAE). Une assistance vocable est, étape par étape, prodiguée par l’appareil. La procédure est simultanément proposée sous forme de pictogrammes sur l’écran. Un<strong> kit comprenant une paire de ciseaux, un rasoir jetable, des gants en vinyle, un masque pour la ventilation </strong>et deux compresses stériles est joint au défibrillateur. <br>
+                                Vous devez enlever les vêtements pour dégager le torse de la victime, à l’aide des ciseaux. Le rasoir jetable vous aidera à éliminer les poils avant de poser les électrodes. Assurez-vous également que la peau est sèche lors de la pose pour une adhérence maximale. Les électrodes que vous poserez selon le schéma disponible sur chacun d’entre eux sont pré-connectées au défibrillateur, dans la plupart des cas. Autrement, il vous suffit de les brancher à l’endroit indiqué. <br>
+                                Une <strong>analyse du rythme cardiaque </strong>s’ensuit et sera renouvelée toutes les deux minutes. Le défibrillateur détermine si un choc électrique est requis. A partir de cet instant, vous ne devez plus vous approcher de la victime. <br>
+                                En cas de défibrillateur automatique, le choc sera délivré et vous devez vous tenir à distance. En cas de défibrillateur semi-automatique, vous déclencher le choc en appuyant sur le bouton et vous reculez également. <br>
+                                Après chaque choc, vous reprenez le massage cardiaque sans enlever les électrodes. Cette alternance entre défibrillation et massage cardiaque doit être continue jusqu’à l’arrivée des secours. </p>
                         </div>
                     </div>
                     <div class="faq__item">
                         <div class="faq__header">
-                            <h3>Comment se servir d’un défibrillateur ?</h3>
+                            <h3>Pourquoi installer un défibrillateur ?</h3>
                             <div class="faq__status--icon"></div>
                         </div>
                         <div class="faq__content">
-                            <p>Il n'y a pas de limite d'âge spécifique, <b>vendre en viager à 70 ans</b>, 50 ans ou 85 ans est possible. Généralement, cela est plus courant chez les seniors qui cherchent à compléter leur retraite ou à bénéficier d'un capital immédiat. Toutefois, l'âge du crédirentier peut influencer le montant de la rente viagère, du bouquet et de la fiscalité applicable à la vente.</p>
+                            <p>Envisager la pose d’un <strong>défibrillateur peut sauver des vies </strong>et rassurer, tout en renforçant l’image responsable de votre entreprise. Un malaise pourrait se dérouler dans vos locaux. Celui-ci serait alors considéré par la loi comme un accident professionnel, non sans conséquences. Tout employeur a en effet pour <strong>obligation d’assurer la sécurité du personnel</strong> sur son lieu de travail. <br>
+                                Peu d’entreprises et de lieux publics sont aujourd’hui dotés d’un défibrillateur disponible ou fonctionnel. En France, le taux de survie sans défibrillation est ainsi parmi les plus bas en Europe : moins de 10% des victimes réchappent d’un accident cardiaque sans défibrillateur. L’arrêt cardiaque est pourtant fréquent chez les personnes de plus de 40 ans. Des appels au secours sont régulièrement émis. Les équipes ne peuvent cependant intervenir physiquement en moins de quatre minutes. Or, le premier choc électrique doit effectivement être délivré par un défibrillateur sans dépasser ce délai, afin de limiter le risque de décès. <br>
+                                Les statistiques révèlent que la présence d’un défibrillateur augmente les chances de survie jusqu’à 90%, contre les 10% précédemment cités. La pose d’un défibrillateur se révèle ainsi être la meilleure solution pour faire face au fléau d’accidents cardio-vasculaires.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <div class="faq__header">
+                            <h3>Quand se servir d’un défibrillateur ?</h3>
+                            <div class="faq__status--icon"></div>
+                        </div>
+                        <div class="faq__content">
+                            <p>Une personne est en <strong>état d’arrêt cardio-respiratoire</strong> lorsque son rythme cardiaque se dérègle, sa respiration devient irrégulière voire totalement coupée. Inanimée, la victime est totalement inconsciente et peut parfois subir des tremblements. <br>
+                                Pour confirmer ce <strong>diagnostic, </strong> avant de vous munir du <strong>défibrillateur, </strong> il est conseillé de stimuler la victime. Vous pouvez lui parler. Si elle ne parvient à effectuer aucun des gestes que vous lui suggérez, vérifier ensuite sa respiration. Il est possible de détecter une respiration, même minime, en approchant votre visage du sien ou en observant les mouvements de son ventre. <br>
+                                C’est à cet instant, très rapidement après ces vérifications, que doit être employé un défibrillateur. Le DAE aura pour fonction d’analyser l’état interne de la victime, ce que vous ne pouvez effectuer par vous-même. Il décidera ensuite si cet état de mort apparente nécessite un choc électrique, afin de rétablir un rythme cardiaque normal, ou s’il vous faut procéder par vous-même à une réanimation cardio-pulmonaire. </p>
                         </div>
                     </div>
                 </div>
@@ -525,7 +561,7 @@
                               </svg>
                         </div>
                         <div class="additionalInfo__line__bottom">
-                            <h2 class="">Notre Philosophie</h2>
+                            <h3 class="">Notre Philosophie</h3>
                         </div>
                         <div class="additionalInfo__line__bottom">
                             <p class="">Nous vous équipons pour, ensemble, sauver des vies !</p>
@@ -542,13 +578,13 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                 <path d="M26.5841 10.6667H27.9999C29.4727 10.6667 30.6666 11.8606 30.6666 13.3334V18.6667C30.6666 20.1395 29.4727 21.3334 27.9999 21.3334H26.5841C25.9279 26.5951 21.4394 30.6667 15.9999 30.6667V28C20.4182 28 23.9999 24.4183 23.9999 20V12C23.9999 7.58176 20.4182 4.00004 15.9999 4.00004C11.5816 4.00004 7.99992 7.58176 7.99992 12V21.3334H3.99992C2.52716 21.3334 1.33325 20.1395 1.33325 18.6667V13.3334C1.33325 11.8606 2.52716 10.6667 3.99992 10.6667H5.41577C6.07191 5.40496 10.5604 1.33337 15.9999 1.33337C21.4394 1.33337 25.9279 5.40496 26.5841 10.6667ZM3.99992 13.3334V18.6667H5.33325V13.3334H3.99992ZM26.6666 13.3334V18.6667H27.9999V13.3334H26.6666ZM10.3458 21.0466L11.7594 18.785C12.9887 19.555 14.4423 20 15.9999 20C17.5575 20 19.0111 19.555 20.2404 18.785L21.6541 21.0466C20.0149 22.0732 18.0767 22.6667 15.9999 22.6667C13.9231 22.6667 11.985 22.0732 10.3458 21.0466Z" fill="#0039C6"/>
                               </svg>
-                            <p class="">Une permanence technique téléphonique 7 jours/7 est  mise à votre disposition</p>
+                            <p class="">Une permanence technique téléphonique 7 jours/7 est mise à votre disposition</p>
                         </div>
                         <div class="additionalInfo__dop__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                 <path d="M7.10518 4.36206C8.7493 3.77756 10.6557 4.14328 11.9716 5.45924C13.4662 6.95378 13.7351 9.20984 12.7783 10.9784L27.0566 25.2582L25.171 27.1438L10.8924 12.865C9.12361 13.8225 6.86685 13.5538 5.37196 12.0589C4.05563 10.7426 3.69007 8.83549 4.27528 7.19105L7.25759 10.1733C8.03863 10.9543 9.30496 10.9543 10.086 10.1733C10.8671 9.39224 10.8671 8.1259 10.086 7.34486L7.10518 4.36206ZM20.9283 6.87345L25.171 4.51644L27.0566 6.40205L24.6995 10.6447L22.3426 11.1161L19.5141 13.9445L17.6285 12.0589L20.4569 9.23048L20.9283 6.87345ZM11.9716 17.7157L13.8573 19.6014L6.78618 26.6725C6.26548 27.1932 5.42125 27.1932 4.90056 26.6725C4.41705 26.1889 4.38252 25.4265 4.79695 24.9032L4.90056 24.7869L11.9716 17.7157Z" fill="#0039C6"/>
                               </svg>
-                            <p class="">Un service maintenance attentif  à vos besoins et une intervention en moins de 72h</p>
+                            <p class="">Un service maintenance attentif à vos besoins et une intervention en moins de 72h</p>
                         </div>
                         <div class="additionalInfo__dop__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -560,13 +596,13 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                 <path d="M6.66667 4V25.3333H28V28H4V4H6.66667ZM27.0572 8.39052L28.9428 10.2761L21.3333 17.8856L17.3333 13.8867L11.6095 19.6095L9.72385 17.7239L17.3333 10.1144L21.3333 14.1133L27.0572 8.39052Z" fill="#0039C6"/>
                               </svg>
-                            <p class="">Une veille permanente de l’évolution de la législation  relative aux défibrillateurs</p>
+                            <p class="">Une veille permanente de l'évolution de la législation relative aux défibrillateurs</p>
                         </div>
                         <div class="additionalInfo__dop__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                 <path d="M16.0065 29.3372C8.64264 29.3372 2.6731 23.3677 2.6731 16.0038C2.6731 8.64007 8.64264 2.67053 16.0065 2.67053C23.3702 2.67053 29.3398 8.64007 29.3398 16.0038C29.3398 23.3677 23.3702 29.3372 16.0065 29.3372ZM16.0065 26.6705C21.8975 26.6705 26.6731 21.8949 26.6731 16.0038C26.6731 10.1128 21.8975 5.3372 16.0065 5.3372C10.1154 5.3372 5.33976 10.1128 5.33976 16.0038C5.33976 21.8949 10.1154 26.6705 16.0065 26.6705ZM13.4065 14.6705H20.0065V17.3372H13.4065C13.7153 18.8586 15.0605 20.0038 16.6731 20.0038C17.4934 20.0038 18.2443 19.7076 18.825 19.2162L21.093 20.7282C19.9963 21.9222 18.4221 22.6705 16.6731 22.6705C13.5847 22.6705 11.0413 20.3372 10.7097 17.3372H9.33976V14.6705H10.7097C11.0413 11.6706 13.5847 9.3372 16.6731 9.3372C18.4221 9.3372 19.9963 10.0856 21.093 11.2795L18.8251 12.7915C18.2445 12.3002 17.4934 12.0039 16.6731 12.0039C15.0605 12.0039 13.7153 13.149 13.4065 14.6705Z" fill="#0039C6"/>
                               </svg>
-                            <p class="">Une offre qui s’adapte à votre situation (achat/ location)</p>
+                            <p class="">Une offre qui s'adapte à votre situation (achat/ location)</p>
                         </div>
                         <div class="additionalInfo__dop__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -577,7 +613,7 @@
                     </div>
                     <div class="additionalInfo__item__bottom">
                         <div class="additionalInfo__line">
-                            <h2 class="">Contactez nous !</h2>
+                            <h3 class="">Contactez nous !</h3>
                         </div>
                         <div class="additionalInfo__line">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">

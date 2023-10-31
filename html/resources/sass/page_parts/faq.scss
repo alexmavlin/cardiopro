@@ -33,7 +33,7 @@
         padding-right: 30px;
         position: relative;
         h3 {
-            @include nunito400;
+            @include nunito600;
             color: #0F135A;
             font-size: 18px;
             font-style: normal;
@@ -71,6 +71,9 @@
     &__content {
         padding-top: 10px;
         transition: opacity .2s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
         p {
             @include nunito400;
             color: #1E3557;
