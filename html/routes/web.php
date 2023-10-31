@@ -19,6 +19,13 @@ Route::group(['namespace' => 'Pages'], function() {
     Route::get('/legislation-defibrillateur', 'LaLegislationController')->name('legislation-defibrillateur');
     Route::get('/lexique-defibrillateur', 'LexiqueController')->name('lexique-defibrillateur');
     Route::get('/subventions-defibrillateur', 'LesSubventionsController')->name('subventions-defibrillateur');
+    /* Dynamicals */
+    Route::get('/defibrillateur-prix', 'DefibrillateurPrixController')->name('defibrillateur-prix');
+    Route::get('/difference-defibrillateur', 'DifferenceDefibrillateurController')->name('difference-defibrillateur');
+    Route::get('/accessoires-defibrillateurs', 'AccessoiresDefibrillateursController')->name('accessoires-defibrillateurs');
+    Route::get('/defibrillateur-single', 'DefibrillateurSingleController')->name('defibrillateur-single');
+    Route::get('/livraison-installation-defibrillateur', 'LivraisonInstallationDefibrillateurController')->name('livraison-installation-defibrillateur');
+    Route::get('/obligations', 'ObligationsController')->name('obligations');
 });
 
 Auth::routes();
