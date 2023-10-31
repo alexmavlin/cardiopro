@@ -3,8 +3,12 @@ import './faq'
 import './formule-location-achat-dae-dsa'
 import './contact'
 
-const buttons = document.querySelectorAll('.sale__slider button');
+let buttons = document.querySelectorAll('.sale__slider button');
 const frames = document.querySelectorAll('.sale__content');
+
+if (buttons.length === 0) {
+  buttons = document.querySelectorAll('.slider__group button');
+}
 
 
 if (buttons.length > 0) {
