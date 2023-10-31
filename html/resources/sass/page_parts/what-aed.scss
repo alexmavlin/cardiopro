@@ -1,6 +1,9 @@
 .whatAED {
     padding: 55px 0 100px;
 }
+.whatAED__sub {
+    padding: 55px 0;
+}
 .whatAED__inner {
     max-width: 1110px;
     margin: 0 auto;
@@ -35,20 +38,54 @@
 .whatAED__item {
     display: flex;
 }
+.whatAED__item__sub {
+    align-items: center;
+}
 .whatAED__item + .whatAED__item {
     margin-top: 35px;
 }
 .whatAED__content__p + .whatAED__content__p {
     margin-top: 17px;
 }
-.whatAED__img {
+.whatAED__img__green {
+    width: 100%;
+    max-width: 351px;
     margin-right: 52px;
     border-radius: 10px;
-    max-width: 422px;
+    background: #007861;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    padding: 23px 12px 28px 6px;
+    height: 100%;
+    min-width: 351px;
+
+    img {
+        max-width: 351px;
+        width: 100% !important;
+        height: unset !important;
+        aspect-ratio: 1 / 0.669;
+        object-fit: cover;
+    }
+}
+.whatAED__img__subventions {
+    margin-right: 52px;
+    max-width: 756px;
+    width: 100% !important;
+    height: unset !important;
+    aspect-ratio: 1 / 0.569;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    // min-width: 351px;
+}
+.whatAED__img {
+    margin-right: 52px;
+    max-width: 351px;
     width: 100% !important;
     // height: unset !important;
-    aspect-ratio: 1 / 0.682;
+    aspect-ratio: 1 / 0.578;
     object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
 }
 .whatAED__content__header {
         position: relative;
@@ -80,9 +117,27 @@
         text-decoration: underline;
     }
 }
+.whatAED__content__row {
+    margin-top: 16px;
+    position: relative;
+    p {
+        margin-left: 31px;
+    }
+    svg {
+        position: absolute;
+    }
+}
 @media (max-width: 900px) {
     .whatAED__img {
         max-width: 340px;
+    }
+    .whatAED__img__green {
+        img {
+            max-width: 340px;
+        }
+    }
+    .whatAED__img__subventions {
+            max-width: 340px;
     }
 }
 @media (max-width: 800px) {
@@ -90,6 +145,27 @@
         flex-direction: column;
     }
     .whatAED__img {
+        max-width: unset;
+        aspect-ratio: unset;
+        height: 288px !important;
+        margin-right: 0;
+    }
+    .whatAED__img__green {
+        max-width: unset;
+        margin-right: 0;
+        img {
+            max-width: unset;
+            aspect-ratio: unset;
+            height: 288px !important;
+        }
+    }
+    .whatAED__item__p {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .whatAED__img__subventions {
+        margin-right: 0;
+        max-width: unset;
         max-width: unset;
         aspect-ratio: unset;
         height: 288px !important;
@@ -103,8 +179,14 @@
     .whatAED {
         padding: 40px 0 30px;
     }
+    .whatAED__sub {
+        padding: 25px 0 55px;
+    }
     .whatAED {
         padding: 55px 0 100px;
+    }
+    .whatAED__sub {
+        padding: 35px 0;
     }
     .whatAED__header {
         margin-bottom: 16px;
