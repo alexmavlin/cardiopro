@@ -73,12 +73,12 @@
                                     </svg>
                                 </a>
                                 <div class="header__nav--dropdown">
-                                    <a href="https://cardiopro.fr/defibrillateur-prix" title="Un large choix de Defibrillateur" aria-label="Conseils Achat">Nos défibrillateurs</a>
-                                    <a href="https://cardiopro.fr/difference-defibrillateur" title="Defibrillateur automatique et semi automatique" aria-label="Contacter un Expert">DIFFERENCE DAE DSA</a>
-                                    <a href="https://cardiopro.fr/accessoires-defibrillateurs" title="Electrodes , batteries et boitiers pour Defibrillateur" aria-label="Contacter un Expert">Accessoires</a>
-                                    <a href="https://cardiopro.fr/livraison-installation-defibrillateur" title="Livraison Defibrillateur" aria-label="Contacter un Expert">Livraison et installation</a>
+                                    <a href="{{ route('defibrillateur-prix') }}" title="Un large choix de Defibrillateur" aria-label="Conseils Achat">Nos défibrillateurs</a>
+                                    <a href="{{ route('difference-defibrillateur') }}" title="Defibrillateur automatique et semi automatique" aria-label="Contacter un Expert">DIFFERENCE DAE DSA</a>
+                                    <a href="{{ route('accessoires-defibrillateurs') }}" title="Electrodes , batteries et boitiers pour Defibrillateur" aria-label="Contacter un Expert">Accessoires</a>
+                                    <a href="{{ route('livraison-installation-defibrillateur') }}" title="Livraison Defibrillateur" aria-label="Contacter un Expert">Livraison et installation</a>
                                     <a href="{{ route('faq') }}" title="FAQ Defibrillateur" aria-label="Contacter un Expert">FAQ</a>
-                                    <a href="https://cardiopro.fr/obligations" title="Reglementation Defibrillateur" aria-label="Contacter un Expert">obligations</a>
+                                    <a href="{{ route('obligations') }}" title="Reglementation Defibrillateur" aria-label="Contacter un Expert">obligations</a>
                                 </div>
                             </li>
                             <li class="header__nav--dropdown__li">
