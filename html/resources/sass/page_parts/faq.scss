@@ -33,7 +33,7 @@
         padding-right: 30px;
         position: relative;
         h3 {
-            @include nunito400;
+            @include nunito600;
             color: #0F135A;
             font-size: 18px;
             font-style: normal;
@@ -71,12 +71,24 @@
     &__content {
         padding-top: 10px;
         transition: opacity .2s ease-in-out;
-        p {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        p,
+        ul li {
             @include nunito400;
             color: #1E3557;
             font-size: 15px;
             font-style: normal;
             line-height: 125%; /* 18.75px */
+        }
+        ul li {
+            margin-left: 18px;
+            padding-left: 6px;
+            list-style-type: disc;
+            &.no_list_style {
+                list-style: none;
+            }
         }
     }
 

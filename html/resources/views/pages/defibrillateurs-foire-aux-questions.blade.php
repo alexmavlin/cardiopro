@@ -5,7 +5,7 @@
     <section class="mainScreen">
         <img    srcset="{{ asset('images/content/faq_main.webp') }} 1920w,
                         {{ asset('images/content/faq_main_600.webp') }} 700w,
-                        {{ asset('images/content/faq_main_400.webp') }} 500w"
+                        {{ asset('images/content/faq_main_mobile.webp') }} 500w"
                 src="{{ asset('images/content/faq_main.webp') }}"
                 width="1600"
                 height="580"
@@ -75,7 +75,10 @@
                                         <div class="faq__status--icon"></div>
                                     </div>
                                     <div class="faq__content">
-                                        <p>Le viager est une transaction immobilière entre un acheteur (débirentier) et un vendeur (crédirentier). Le débirentier verse un bouquet et une rente à vie au crédirentier en échange de la jouissance du bien. Ceci, soit en viager libre, l'acheteur peut occuper le bien immédiatement, soit en viager occupé, le vendeur conserve le droit d'usage et d'habitation.</p>
+                                        <p>Le <strong>défibrillateur</strong> est un appareil destiné à ramener le cœur de la victime vers son rythme normal lors d’un <strong>arrêt cardiaque. </strong> Son utilisation délivre un bref choc électrique lorsqu’est constaté un violent dysfonctionnement dans l’activité régulière de cet organe. </p>
+                                        <p>Ce geste d’assistance médicale, ou défibrillation, est effectué à l’aide de deux électrodes auto-adhésives disposées sur le thorax. Elles transmettent l’électricité que leur fournit le boîtier de commande. <strong>Le défibrillateur</strong> est aussi parfaitement mobile, grâce à une ou plusieurs batteries. </p>
+                                        <p>L’intensité et la durée de l’influx électrique sont ajustées par le<strong> défibrillateur </strong>selon les caractéristiques et les besoins de la victime. La taille et le format de l’appareil varient également, notamment pour les enfants. La nécessité d’avoir recours au défibrillateur peut être électroniquement indiquée par certains modèles.</p>
+                                        <p>Nos packs <a href="https://cardiopro.fr/defibrillateur-prix" title="Prix des défibrillateurs" style="color:#ca1d1f">défibrillateurs à prix attractifs</a> proposent deux versions : un défibrillateur semi-automatisé (DSA) ou un défibrillateur automatisé (DAE). Pour l’un comme pour l’autre, les électrodes enduites de gel conducteur sont à placer selon les instructions. Dans le cas d’un défibrillateur automatisé, aucune intervention humaine n’est ensuite nécessaire pour le démarrage. Pour un semi-automatisé, l’utilisateur devra cependant actionner un bouton marche/arrêt.</p>
                                     </div>
                                 </div>
                                 <div class="faq__item">
@@ -84,7 +87,11 @@
                                         <div class="faq__status--icon"></div>
                                     </div>
                                     <div class="faq__content">
-                                        <p>Acheter en viager peut s'avérer très avantageux pour différents profils d'investisseurs. C'est une opportunité d'acquérir un bien immobilier et de constituer progressivement un patrimoine sans recourir à un crédit et avec des frais bancaires réduits. De plus, cette transaction offre la possibilité d'offrir un soutien financier à un senior tout en bénéficiant d'avantages fiscaux intéressants.</p>
+                                        <p>Un recours immédiat au<strong> défibrillateur</strong> est le geste de réanimation à adopter pour aider toute personne en <strong>état d’arrêt cardiaque. </strong></p>
+                                        <p>A l’instant où les symptômes apparaissent, la victime subit en effet une fibrillation ventriculaire. Son malaise physique correspond plus précisément à un dérèglement électrique du cœur, forme la plus grave d’une arythmie cardiaque. Seul un choc électrique délivré sans délai par un défibrillateur peut lui épargner la mort subite.</p>
+                                        <p>Les statistiques démontrent qu’un <strong>défibrillateur</strong> doit être utilisé dans les <strong>quatre minutes</strong> après l’arrêt du flux sanguin. Si sept minutes s’écoulaient sans mesure d’urgence, la victime éprouverait déjà les premières séquelles irréversibles. Au-delà, son décès est inévitable. </p>
+                                        <p>Face à de telles données, une sensibilisation citoyenne aux troubles cardio-vasculaires et en faveur d’un usage étendu du défibrillateur est désormais incontournable. </p>
+                                        <p>Vous équiper d’un <strong>défibrillateur</strong> peut ainsi nettement améliorer la sécurité sanitaire des employés et/ou des citoyens mais aussi vous assurer une<strong> protection juridique efficace, en cas d’incident. </strong>Un défibrillateur (DAE ou DSA) devrait donc être disponible dans chaque lieu public et chaque entreprise. </p>
                                     </div>
                                 </div>
                                 <div class="faq__item">
@@ -93,7 +100,14 @@
                                         <div class="faq__status--icon"></div>
                                     </div>
                                     <div class="faq__content">
-                                        <p>Les pièges d'une vente en viager peuvent inclure une évaluation inappropriée du bouquet initial ou de la rente ainsi que des risques d'impayés de la rente. Pour éviter ces problèmes, il est crucial de bien comprendre les termes du contrat et de consulter des <b>experts en viager</b>.</p>
+                                        <p>L’utilisation d’un<strong> défibrillateur grand public</strong>, légalement autorisée pour tous depuis 2007, obéit à un déroulement précis qu’il convient de rappeler.<br> 
+                                            Vous faîtes face à une personne inconsciente, présentant <strong>des symptômes de l’arrêt cardiaque. </strong> Il vous faut en premier lieu contacter les secours grâce aux numéros d’urgence. Il vous sera demandé de vérifier son souffle en approchant votre visage du sien ou en observant les mouvements de son ventre. Dix secondes d’observation suffiront pour constater que la personne ne respire plus. <br>
+                                            Vous chargez alors un tiers de se munir du défibrillateur disponible le plus proche, alors que vous démarrez un massage cardiaque. Il est conseillé d’appuyer fortement et avec rapidité sur le milieu du thorax de la victime. <br>
+                                            Le <strong>défibrillateur</strong> est alors mis en marche soit par un bouton arrêt/marche (DSA) ou en soulevant le capot (DAE). Une assistance vocable est, étape par étape, prodiguée par l’appareil. La procédure est simultanément proposée sous forme de pictogrammes sur l’écran. Un<strong> kit comprenant une paire de ciseaux, un rasoir jetable, des gants en vinyle, un masque pour la ventilation </strong>et deux compresses stériles est joint au défibrillateur. <br>
+                                            Vous devez enlever les vêtements pour dégager le torse de la victime, à l’aide des ciseaux. Le rasoir jetable vous aidera à éliminer les poils avant de poser les électrodes. Assurez-vous également que la peau est sèche lors de la pose pour une adhérence maximale. Les électrodes que vous poserez selon le schéma disponible sur chacun d’entre eux sont pré-connectées au défibrillateur, dans la plupart des cas. Autrement, il vous suffit de les brancher à l’endroit indiqué. <br>
+                                            Une <strong>analyse du rythme cardiaque </strong>s’ensuit et sera renouvelée toutes les deux minutes. Le défibrillateur détermine si un choc électrique est requis. A partir de cet instant, vous ne devez plus vous approcher de la victime. <br>
+                                            En cas de défibrillateur automatique, le choc sera délivré et vous devez vous tenir à distance. En cas de défibrillateur semi-automatique, vous déclencher le choc en appuyant sur le bouton et vous reculez également. <br>
+                                            Après chaque choc, vous reprenez le massage cardiaque sans enlever les électrodes. Cette alternance entre défibrillation et massage cardiaque doit être continue jusqu’à l’arrivée des secours. </p>
                                     </div>
                                 </div>
                                 <div class="faq__item">
@@ -102,7 +116,10 @@
                                         <div class="faq__status--icon"></div>
                                     </div>
                                     <div class="faq__content">
-                                        <p>Il n'y a pas de limite d'âge spécifique, <b>vendre en viager à 70 ans</b>, 50 ans ou 85 ans est possible. Généralement, cela est plus courant chez les seniors qui cherchent à compléter leur retraite ou à bénéficier d'un capital immédiat. Toutefois, l'âge du crédirentier peut influencer le montant de la rente viagère, du bouquet et de la fiscalité applicable à la vente.</p>
+                                        <p>Envisager la pose d’un <strong>défibrillateur peut sauver des vies </strong>et rassurer, tout en renforçant l’image responsable de votre entreprise. Un malaise pourrait se dérouler dans vos locaux. Celui-ci serait alors considéré par la loi comme un accident professionnel, non sans conséquences. Tout employeur a en effet pour <strong>obligation d’assurer la sécurité du personnel</strong> sur son lieu de travail. <br>
+                                            Peu d’entreprises et de lieux publics sont aujourd’hui dotés d’un défibrillateur disponible ou fonctionnel. En France, le taux de survie sans défibrillation est ainsi parmi les plus bas en Europe : moins de 10% des victimes réchappent d’un accident cardiaque sans défibrillateur. L’arrêt cardiaque est pourtant fréquent chez les personnes de plus de 40 ans. Des appels au secours sont régulièrement émis. Les équipes ne peuvent cependant intervenir physiquement en moins de quatre minutes. Or, le premier choc électrique doit effectivement être délivré par un défibrillateur sans dépasser ce délai, afin de limiter le risque de décès. <br>
+                                            Les statistiques révèlent que la présence d’un défibrillateur augmente les chances de survie jusqu’à 90%, contre les 10% précédemment cités. La pose d’un défibrillateur se révèle ainsi être la meilleure solution pour faire face au fléau d’accidents cardio-vasculaires.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="faq__item">
@@ -111,7 +128,9 @@
                                         <div class="faq__status--icon"></div>
                                     </div>
                                     <div class="faq__content">
-                                        <p>Il n'y a pas de limite d'âge spécifique, <b>vendre en viager à 70 ans</b>, 50 ans ou 85 ans est possible. Généralement, cela est plus courant chez les seniors qui cherchent à compléter leur retraite ou à bénéficier d'un capital immédiat. Toutefois, l'âge du crédirentier peut influencer le montant de la rente viagère, du bouquet et de la fiscalité applicable à la vente.</p>
+                                        <p>Une personne est en <strong>état d’arrêt cardio-respiratoire</strong> lorsque son rythme cardiaque se dérègle, sa respiration devient irrégulière voire totalement coupée. Inanimée, la victime est totalement inconsciente et peut parfois subir des tremblements. <br>
+                                            Pour confirmer ce <strong>diagnostic, </strong> avant de vous munir du <strong>défibrillateur, </strong> il est conseillé de stimuler la victime. Vous pouvez lui parler. Si elle ne parvient à effectuer aucun des gestes que vous lui suggérez, vérifier ensuite sa respiration. Il est possible de détecter une respiration, même minime, en approchant votre visage du sien ou en observant les mouvements de son ventre. <br>
+                                            C’est à cet instant, très rapidement après ces vérifications, que doit être employé un défibrillateur. Le DAE aura pour fonction d’analyser l’état interne de la victime, ce que vous ne pouvez effectuer par vous-même. Il décidera ensuite si cet état de mort apparente nécessite un choc électrique, afin de rétablir un rythme cardiaque normal, ou s’il vous faut procéder par vous-même à une réanimation cardio-pulmonaire. </p>
                                     </div>
                                 </div>
                             </div>
@@ -146,7 +165,10 @@
                                         <div class="faq__status--icon"></div>
                                     </div>
                                     <div class="faq__content">
-                                        <p>Le viager est une transaction immobilière entre un acheteur (débirentier) et un vendeur (crédirentier). Le débirentier verse un bouquet et une rente à vie au crédirentier en échange de la jouissance du bien. Ceci, soit en viager libre, l'acheteur peut occuper le bien immédiatement, soit en viager occupé, le vendeur conserve le droit d'usage et d'habitation.</p>
+                                        <p>Une crise cardiaque ne prévient pas. Si l’efficacité du défibrillateur a largement été prouvée pour sauver une victime d’arrêt cardiaque ou de mort subite, encore faut-il en avoir un à portée de main dans une telle situation.
+                                            <strong><a href="https://cardiopro.fr/achat-defibrillateur" title="achat de défibrillateur" style="color:#ca1d1f">L’achat d’un défibrillateur </a></strong>permet d’équiper une zone de passage comme une entreprise et de pouvoir <strong>aider les services de secours à sauver des vies</strong>.
+                                            En effet, tout citoyen est en droit d’utiliser un défibrillateur pour sauver une victime d’arrêt cardiaque en attendant les secours. Avec son offre d’<strong>achat de défibrillateur</strong>, CardioPro a choisi de mettre en avant un appareil médical <strong>simple à prendre en main par chacun</strong>.
+                                            Rappelons également que l’employeur porte la responsabilité de la sécurité de ses employés. Avant tout accident, l’<strong>achat d’un défibrillateur</strong> en prévention est largement conseillé. En l’absence de ce type d’appareil, les chances de survie sont de 4 %. L’achat d’un défibrillateur et son installation au sein de votre entreprise assure <strong>90 % de chance de survie à la victime de la crise cardiaque</strong>.</p>
                                     </div>
                                 </div>
                                 <div class="faq__item">
@@ -155,7 +177,11 @@
                                         <div class="faq__status--icon"></div>
                                     </div>
                                     <div class="faq__content">
-                                        <p>Acheter en viager peut s'avérer très avantageux pour différents profils d'investisseurs. C'est une opportunité d'acquérir un bien immobilier et de constituer progressivement un patrimoine sans recourir à un crédit et avec des frais bancaires réduits. De plus, cette transaction offre la possibilité d'offrir un soutien financier à un senior tout en bénéficiant d'avantages fiscaux intéressants.</p>
+                                        <p>Spécialiste de la vente de défibrillateur cardiaque en France, CardioPro propose différentes solutions clés en main.
+                                            Choisir CardioPro pour l’<strong>achat de votre défibrillateur</strong>, c’est faire confiance à une équipe disponible et réactive. Selon votre besoin, différents packs pourront vous être proposé.
+                                            De plus, lors de l’<strong>achat du défibrillateur</strong> auprès de CardioPro, vous pouvez aussi profiter d’une formation à l’utilisation de l’appareil. <strong>Basée en France</strong>, notre équipe met à votre disposition des défibrillateurs dans tout le pays.
+                                            À la suite de l’achat du défibrillateur, nous nous occupons de son installation dans votre entreprise. Si vous le souhaitez, vous pouvez également nous confier la maintenance et l’entretien de votre défibrillateur.
+                                            Pour faciliter votre démarche d’acquisition d’un défibrillateur, notre enseigne a choisi de vous proposer ce service de suivi unique en France pour vous aider à répondre aux <a href="https://cardiopro.fr/obligations" title="Obligation installation défibrillateur" style="color:#ca1d1f">obligations légales</a> en termes d’équipement .</p>
                                     </div>
                                 </div>
                             </div>
@@ -190,7 +216,10 @@
                                         <div class="faq__status--icon"></div>
                                     </div>
                                     <div class="faq__content">
-                                        <p>Le viager est une transaction immobilière entre un acheteur (débirentier) et un vendeur (crédirentier). Le débirentier verse un bouquet et une rente à vie au crédirentier en échange de la jouissance du bien. Ceci, soit en viager libre, l'acheteur peut occuper le bien immédiatement, soit en viager occupé, le vendeur conserve le droit d'usage et d'habitation.</p>
+                                        <p>Tous les citoyens sont autorisés à utiliser un défibrillateur. Le décret de 2007 stipule, en effet, que même les non-médecins sont autorisés à utiliser ce type de matériel face à une victime d’un arrêt cardiaque.
+                                            La <strong> <a href="https://cardiopro.fr/location-defibrillateur" title="Location défibrillateur" style="color:#ca1d1f">location d’un défibrillateur</a></strong> présente de nombreux avantages pour les professionnels. Côté financier, un loyer permet de <strong>lisser les coûts sur le long terme</strong>. L’infrastructure peut ainsi conserver sa trésorerie et n’a pas besoin d’avancer la TVA. La location d’un défibrillateur fonctionne sous forme de loyer pendant toute la durée du contrat.
+                                            De plus, avec la <strong>location de votre défibrillateur</strong>, le matériel peut être remplacé avant la fin du contrat. Cela vous permet de profiter des évolutions technologiques en matière de défibrillateur.
+                                            La<strong> location du Défibrillateur</strong> assure également le transfert de la responsabilité de maintenance et d’<strong>entretien du matériel sur toute la durée du contrat</strong>. En effet, la maintenance du défibrillateur est une obligation prévue par la loi.</p>
                                     </div>
                                 </div>
                                 <div class="faq__item">
@@ -199,7 +228,14 @@
                                         <div class="faq__status--icon"></div>
                                     </div>
                                     <div class="faq__content">
-                                        <p>Acheter en viager peut s'avérer très avantageux pour différents profils d'investisseurs. C'est une opportunité d'acquérir un bien immobilier et de constituer progressivement un patrimoine sans recourir à un crédit et avec des frais bancaires réduits. De plus, cette transaction offre la possibilité d'offrir un soutien financier à un senior tout en bénéficiant d'avantages fiscaux intéressants.</p>
+                                        <p>Selon le type de contrat de <strong>location de défibrillateur </strong>envisagé, les prestations varient. Pour une location simple, seul le défibrillateur et ses composants (batterie et électrode) seront loués. Toutefois, CardioPro englobe également la formation à l’utilisation du défibrillateur, ainsi que la maintenance et l’entretien du matériel, dans ses formules de location les plus complètes.
+                                            Pour choisir votre contrat de location d’un défibrillateur avec CardioPro, 3 critères sont à prendre en compte :</p>
+                                        <ul>
+                                            <li>La durée souhaitée ;</li>
+                                            <li>Le besoin d’une formation à l’utilisation ;</li>
+                                            <li>La maintenance à distance.</li>
+                                            <li class="no_list_style">CardioPro propose la <strong>location de défibrillateur </strong>sur une période de 24, 36, 48 ou 60 mois. Profitez du <strong>remplacement illimité en cas de panne ou d’utilisation</strong>.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -211,6 +247,84 @@
     </section>
 
     <!-- FAQ Row #4 -->
+    <section class="faqRow">
+        <div class="container">
+            <div class="faqRow__inner">
+                <h2 class="global__heading">
+                    Comprendre les obligations liées au défibrillateur
+                </h2>
+                <div class="faqRow__row">
+                    <img    srcset="{{ asset('images/content/faq_page_03.webp') }} 1920w"
+                            src="{{ asset('images/content/faq_page_03.webp') }}" 
+                            alt=""
+                            width="496"
+                            height="373"
+                            class="faqRow__img">
+                    <h2 class="faqRow__h2--mobile">Comprendre les obligations liées au défibrillateur</h2>
+                    <div class="faq" id="faq">
+                        <div class="faq__inner">
+                            <div class="faq__wrapper">
+                                <div class="faq__item">
+                                    <div class="faq__header">
+                                        <h3>Avoir un défibrillateur est-il obligatoire ?</h3>
+                                        <div class="faq__status--icon"></div>
+                                    </div>
+                                    <div class="faq__content">
+                                        <p>Le <strong>défibrillateur obligatoire</strong> est très important sur les lieux de travail et dans les établissements recevant du public. Il s’agit non seulement d’un <strong>acte citoyen, mais aussi d’une démarche vous évitant toute conséquence judiciaire</strong>. En effet, l’installation du <strong>défibrillateur est obligatoire</strong> dans de nombreuses infrastructures en France. Il s’agit d’un enjeu de santé national majeure. De plus, si vous faites partie des <strong>établissements recevant du public</strong> concernés par cette loi, vous vous exposez à des possibilités de poursuites judiciaires en cas de non installation du défibrillateur obligatoire. En effet, toute personne, non-médecin, peut utiliser un défibrillateur pour porter secours à une victime d’un arrêt cardiaque. Si vous n’avez pas fait installer le défibrillateur obligatoire au sein de votre établissement recevant du public, les familles de la victime peuvent porter plainte en cas de décès. </p>
+                                    </div>
+                                </div>
+                                <div class="faq__item">
+                                    <div class="faq__header">
+                                        <h3>2007, l'utilisation des défibrillateurs se démocratisent</h3>
+                                        <div class="faq__status--icon"></div>
+                                    </div>
+                                    <div class="faq__content">
+                                        <p>Avant de devenir obligatoire, l’installation des défibrillateurs a commencé à se démocratiser en 2007 avec la publication du décret n° 2007-705 relatif à l’utilisation des défibrillateurs automatisés externes par des personnes non-médecins. Cette décision gouvernementale a permis d’autoriser tout témoin d’une victime d’arrêt cardiaque à agir au plus vite, sans nécessairement attendre l’arrivée des secours. Afin de renforcer cet enjeu de la santé publique, l’installation du défibrillateur est obligatoire dans de nombreuses infrastructures de nos jours. </p>
+                                    </div>
+                                </div>
+                                <div class="faq__item">
+                                    <div class="faq__header">
+                                        <h3>De 2020 à 2022, les défibrillateurs deviennent obligatoires</h3>
+                                        <div class="faq__status--icon"></div>
+                                    </div>
+                                    <div class="faq__content">
+                                        <p>
+                                            Pour démocratiser encore plus la présence des <strong>défibrillateurs</strong> sur le territoire Français, le gouvernement a rendu son installation <strong>obligatoire dans de nombreuses ERP</strong>. Afin de laisser le temps aux mairies, collectivités, résidences seniors, restaurants, hôtels et autres infrastructures concernées le temps de s’équiper, 3 échéances ont été mises en place :
+                                        </p>
+                                        <ul>
+                                            <li>Le 1er janvier 2020 pour les ERP de catégories 1 à 3 ;</li>
+                                            <li>Le 1er janvier 2021 pour les ERP de catégorie 4 ;</li>
+                                            <li>Le le 1er janvier 2022 pour certains ERP de catégorie 5.</li>
+                                       </ul>
+                                    </div>
+                                </div>
+                                <div class="faq__item">
+                                    <div class="faq__header">
+                                        <h3>Où le défibrillateur est-il obligatoire à partir du 01 janvier 2021</h3>
+                                        <div class="faq__status--icon"></div>
+                                    </div>
+                                    <div class="faq__content">
+                                        <p>Le <strong>défibrillateur est obligatoire</strong> depuis le 1er janvier 2021 dans les <strong>ERP</strong> de catégories 1, 2, 3 et 4. Si vous faites partie de cette catégorie d’ERP, depuis du 1er janvier 2021, vous êtes dans l’obligation de posséder un défibrillateur automatisé externe. En cas de non-respect de la loi et de décès aux suites d’une crise cardiaque dans votre structure, la famille pourra porter plainte. </p>
+                                    </div>
+                                </div>
+                                <div class="faq__item">
+                                    <div class="faq__header">
+                                        <h3>Où le défibrillateur est-il obligatoire à partir du 01 janvier 2022</h3>
+                                        <div class="faq__status--icon"></div>
+                                    </div>
+                                    <div class="faq__content">
+                                        <p>En 2022, un certain nombre d’<strong>ERP de catégorie 5</strong> devront également avoir installé le <strong>défibrillateur obligatoire</strong> au sein de leur structure. Il s’agit notamment des structures d’accueil pour personnes âgées, des structures d’accueil pour personnes handicapées, des établissements de soins, des gares, des hôtels et restaurants d’altitude, des refuges de montagne, des établissements sportifs et couverts et des salles polyvalentes sportives. Si vous faites partie de cette catégorie d’ERP, à compter du 1er janvier 2022, vous aurez pour obligation de posséder un défibrillateur automatisé externe.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Row #5 -->
     <section class="faqRow lastChild">
         <div class="container">
             <div class="faqRow__inner">
@@ -234,7 +348,7 @@
                                         <div class="faq__status--icon"></div>
                                     </div>
                                     <div class="faq__content">
-                                        <p>Le viager est une transaction immobilière entre un acheteur (débirentier) et un vendeur (crédirentier). Le débirentier verse un bouquet et une rente à vie au crédirentier en échange de la jouissance du bien. Ceci, soit en viager libre, l'acheteur peut occuper le bien immédiatement, soit en viager occupé, le vendeur conserve le droit d'usage et d'habitation.</p>
+                                        <p>Un ERP, ou établissement recevant du public, est un lieu où la fréquentation de personnes est assez importante. Il peut s’agir d’un bâtiment, d’un local ou une enceinte. Que l’infrastructure soit fixe ou provisoire, elle doit se conformer à certaines obligations, dont celle d’installer un défibrillateur pour les ERP. Dans ces établissements recevant du public, les personnes peuvent être admises librement et gratuitement, sur invitation, sur rendez-vous ou non. L’entrée peut également être payante. Ainsi, par exemple, une entreprise non ouverte au public n'est pas considérée comme un ERP. Cette infrastructure est seulement ouverte pour les salariés. Les établissements recevant du public sont classés en 5 catégories différentes. Selon la catégorie à laquelle votre ERP, la date d’installation obligatoire d’un défibrillateur peut varier. Mais, pour des raisons de sécurité et de protection de la santé, d’ici le 1er janvier 2022, les <strong>ERP</strong>, toutes catégories confondues, devront être équipées d’un <strong>défibrillateur</strong>. </p>
                                     </div>
                                 </div>
                                 <div class="faq__item">
@@ -243,7 +357,17 @@
                                         <div class="faq__status--icon"></div>
                                     </div>
                                     <div class="faq__content">
-                                        <p>Acheter en viager peut s'avérer très avantageux pour différents profils d'investisseurs. C'est une opportunité d'acquérir un bien immobilier et de constituer progressivement un patrimoine sans recourir à un crédit et avec des frais bancaires réduits. De plus, cette transaction offre la possibilité d'offrir un soutien financier à un senior tout en bénéficiant d'avantages fiscaux intéressants.</p>
+                                        <p>Selon la catégorie (1, 2, 3, 4 ou 5) à laquelle appartient votre ERP, vos <strong>obligations liées à l’installation d’un défibrillateur</strong> varient. CardioPro vous aide à comprendre à quelle catégorie votre infrastructure appartient et à quelle date votre ERP devra obligatoirement avoir installé un défibrillateur. Pour savoir à quelle catégorie d’ERP vous appartenez, c’est très simple. Tout dépend de la capacité d’accueil de votre infrastructure. Ainsi, un ERP de catégorie 1 est une infrastructure qui peut accueillir plus de 1500 personnes. Un établissement recevant du public de catégorie 2 accueille entre 701 et 1500 personnes. Enfin, un ERP de catégorie 3 a une capacité d’accueil de 301 à 700 personnes. Pour ces 3 premières catégories, l’installation d’un <strong>défibrillateur est obligatoire</strong> depuis le <strong>1er janvier 2020</strong>. Dans les ERP de plus petites tailles, pouvant accueillir moins de 300 personnes, l’installation du <strong>défibrillateur est obligatoire</strong> depuis le 1er janvier 2021. Seuls les ERP de <strong>catégorie 5</strong>ne sont pas concernés. Pour ces infrastructures, un délai supplémentaire a été prévu. Le défibrillateur devra être installé au 1er janvier 2022. Sont ainsi concernés par la catégorie 5 les ERP suivants : </p>
+                                        <ul> 
+                                            <li>Les structures d’accueil pour personnes âgées, </li> 
+                                            <li>Les structures d’accueil pour personnes handicapées, </li> 
+                                            <li>Les établissements de soins, </li> 
+                                            <li>Les gares, </li> 
+                                            <li>Les hôtels-restaurants d’altitude, </li> 
+                                            <li>Les refuges de montagne, </li> 
+                                            <li>Les établissements sportifs clos et couverts</li> 
+                                            <li>Ainsi que les salles polyvalentes sportives</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>

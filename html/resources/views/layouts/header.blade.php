@@ -44,10 +44,10 @@
         <div class="container">
             <div class="header__bottom--inner">
                 <a href="{{ route('index') }}" class="header__bar--logo">
-                    <img    src="{{ asset('images/content/logo_main.webp') }}" 
+                    <img    src="{{ asset('images/content/logo_page.png') }}" 
                             alt=""
                             title=""
-                            width="154"
+                            width="218"
                             height="46">
                 </a>
                 <div class="header__nav--wrapper" id="header__nav--wrapper">
@@ -61,8 +61,8 @@
                                     </svg>
                                 </a>
                                 <div class="header__nav--dropdown">
-                                    <a href="https://cardiopro.fr/specialiste-location-vente-defibrillateurs" title="Specialiste du Defibrillateur en France " aria-label="Conseils vente">Qui sommes-nous ?</a>
-                                    <a href="https://cardiopro.fr/nos-valeurs-entreprise-vente-defibrillateur-automatise-externe" title="Democratiser l'utilisation du Defibrillateur" aria-label="Contacter un Expert">Nos Valeurs</a>
+                                    <a href="{{ route('specialiste-location-vente-defibrillateurs') }}" title="Specialiste du Defibrillateur en France " aria-label="Conseils vente">Qui sommes-nous ?</a>
+                                    <a href="{{ route('nos-valeurs-entreprise-vente-defibrillateur-automatise-externe') }}" title="Democratiser l'utilisation du Defibrillateur" aria-label="Contacter un Expert">Nos Valeurs</a>
                                 </div>
                             </li>
                             <li class="header__nav--dropdown__li">
@@ -91,7 +91,7 @@
                                 <div class="header__nav--dropdown">
                                     <a href="https://cardiopro.fr/location-defibrillateur" title="Defibrillateur en Location" aria-label="Avantages">Location</a>
                                     <a href="https://cardiopro.fr/achat-defibrillateur" title="Acheter un Defibrillateur" aria-label="Fiscalité">Achat</a>
-                                    <a href="https://cardiopro.fr/formule-location-achat-dae-dsa" title="Choisir un Defibrillateur" aria-label="Vente Viager">Trouver votre formule</a>
+                                    <a href="{{ route('formule-dae-dsa') }}" title="Choisir un Defibrillateur" aria-label="Vente Viager">Trouver votre formule</a>
                                     <a href="https://cardiopro.fr/maintenance-defibrillateur" title="Maintenance Defibrillateur" aria-label="Simulation Viager">Maintenance / SAV</a>
                                 </div>
                             </li>
@@ -113,27 +113,27 @@
                             </li>
                             <li class="header__nav--dropdown__li">
                                 <a href="#" title="Conseils" aria-label="Conseils">
-                                    <span>Sauvons des</span>
+                                    <span>Sauvons des vies</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M2.76047 6.13544C3.0661 5.82985 3.56162 5.82985 3.86725 6.13544L8.53126 10.7995L13.1952 6.13544C13.5009 5.82985 13.9964 5.82985 14.3021 6.13544C14.6076 6.44107 14.6076 6.93662 14.3021 7.24226L9.08467 12.4597C8.77903 12.7652 8.28348 12.7652 7.97785 12.4597L2.76047 7.24226C2.45484 6.93662 2.45484 6.44107 2.76047 6.13544Z" fill="#021647"/>
                                     </svg>
                                 </a>
                                 <div class="header__nav--dropdown">
-                                    <a href="https://cardiopro.fr/d%C3%A9fibrillateur-cardiaque-cest-quoi" title="Decouvrir le Defibrillateur" aria-label="Avantages">Qu’est-ce qu’un défibrillateur?</a>
-                                    <a href="https://cardiopro.fr/reconnaitre-un-arret-cardiaque" title="Arret Cardiaque et Defibrillateur" aria-label="Fiscalité">L’arrêt cardiaque</a>
-                                    <a href="https://cardiopro.fr/chiffres-cles-arret-cardiaque" title="Les chiffres de l'arret cardiaque en France, democratisons le Defibrillateur" aria-label="Vente Viager">Les chiffres clé</a>
-                                    <a href="https://cardiopro.fr/legislation-defibrillateur" title="Legislation pour l'equipement en Defibrillateur" aria-label="Simulation Viager">La Législation</a>
-                                    <a href="https://cardiopro.fr/subventions-defibrillateur" title="Aides pour acheter un Defibrillateur" aria-label="Simulation Viager">Subvention</a>
-                                    <a href="https://cardiopro.fr/lexique-defibrillateur" title="Glossaire du Defibrillateur" aria-label="Simulation Viager">Lexique</a>
+                                    <a href="{{ route('defibrillateur-cardiaque-cest-quoi') }}" title="Decouvrir le Defibrillateur" aria-label="Avantages">Qu’est-ce qu’un défibrillateur?</a>
+                                    <a href="{{ route('reconnaitre-un-arret-cardiaque') }}" title="Arret Cardiaque et Defibrillateur" aria-label="Fiscalité">L’arrêt cardiaque</a>
+                                    <a href="{{ route('chiffres-cles-arret-cardiaque') }}" title="Les chiffres de l'arret cardiaque en France, democratisons le Defibrillateur" aria-label="Vente Viager">Les chiffres clé</a>
+                                    <a href="{{ route('legislation-defibrillateur') }}" title="Legislation pour l'equipement en Defibrillateur" aria-label="Simulation Viager">La Législation</a>
+                                    <a href="{{ route('subventions-defibrillateur') }}" title="Aides pour acheter un Defibrillateur" aria-label="Simulation Viager">Subvention</a>
+                                    <a href="{{ route('lexique-defibrillateur') }}" title="Glossaire du Defibrillateur" aria-label="Simulation Viager">Lexique</a>
                                 </div>
                             </li>
                             <li>
-                                <a href="https://cardiopro.fr/posts" class="header__link" title="" aria-label="">
+                                <a href="{{ route('posts') }}" class="header__link" title="" aria-label="">
                                     <span>Blog</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://cardiopro.fr/contact" class="header__link" title="" aria-label="">
+                                <a href="{{ route('contact') }}" class="header__link" title="" aria-label="">
                                     <span>Contact</span>
                                 </a>
                             </li>

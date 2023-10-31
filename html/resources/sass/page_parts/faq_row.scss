@@ -9,6 +9,7 @@
         flex-direction: column;
         align-items: center;
         .global__heading {
+            @include nunito800;
             margin-bottom: 25px;
         }
     }
@@ -51,7 +52,7 @@
     }
     .faqRow__h2--mobile {
         display: block;
-        @include nunito600;
+        @include nunito800;
         color: #021647;
         text-align: center;
         font-size: 29px;
