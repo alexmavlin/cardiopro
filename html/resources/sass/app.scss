@@ -23,6 +23,18 @@
 @import 'page_parts/what-aed.scss';
 @import 'page_parts/recognize-cardiac.scss';
 @import 'page_parts/acs-list.scss';
+@import 'page_parts/ideal-partner.scss';
+@import 'page_parts/cardio-table.scss';
+@import 'page_parts/right-def.scss';
+@import 'page_parts/def-reability.scss';
+@import 'page_parts/faq-blue.scss';
+@import 'page_parts/def-cabinet.scss';
+@import 'page_parts/def-explore.scss';
+@import 'page_parts/formule-slider-min.scss';
+@import 'page_parts/def-gallery.scss';
+@import 'page_parts/heartsine.scss';
+@import 'page_parts/def-description.scss';
+
 /* // Page Parts */
 
 /* Pages */
@@ -618,11 +630,29 @@
 }
 
 // additionalInfo
-
+.additionalInfo {
+    padding: 50px 0 60px;
+}
+.additionalInfo__difference {
+    padding: 116px 0 60px;
+}
 .additionalInfo__inner {
-    padding: 60px 0;
     max-width: 1107px;
     margin: 0 auto;
+
+    h2 {
+        color: #021647;
+        text-align: center;
+        line-height: 121%; /* 45.98px */
+        letter-spacing: -0.36px;
+        font-size: 36px;
+        max-width: 621px;
+        @include nunito800; 
+        margin: 0 auto 24px;
+    }
+}
+.additionalInfo__h2__mob {
+    display: none;
 }
 .additionalInfo__row {
     display: flex;
@@ -695,9 +725,24 @@
 }
 @media (max-width: 730px) {
     .additionalInfo__item__bottom {
-        h2 {
+        h3 {
             font-size: 24px;
         }
+    }
+    .additionalInfo__h2__desc {
+        display: none;
+    }
+    .additionalInfo__inner {
+        h2 {
+    
+            font-size: 34px;
+        }
+    }
+    .additionalInfo__h2__mob {
+        display: block;
+    }
+    .additionalInfo__row__first {
+        display: none;
     }
     .additionalInfo__row:first-child {
         display: none;
@@ -708,6 +753,9 @@
     .additionalInfo__dop {
         display:block;
         margin: 25px auto 0;
+    }
+    .additionalInfo__difference {
+        padding: 75px 0 50px;
     }
     .additionalInfo__dop__row {
         position: relative;
@@ -746,6 +794,14 @@
     .additionalInfo__item__bottom {
         padding: 19px;
     }
+    .additionalInfo__inner {
+        h2 {
+            font-size: 29px;
+        }
+    }
+    .additionalInfo {
+        padding: 50px 0;
+    }
 }
 
 // sale
@@ -754,7 +810,9 @@
 .sale__active__frame {
     display: block;
 }
-
+.sale__differenceSpace {
+    padding-top: 62px;
+}
 
 .sale__inner {
     padding: 52px 0;
@@ -765,13 +823,14 @@
     max-width: 696px;
     margin: 0 auto;
     text-align: center;
-    h2 {
+    h2, h3 {
         color: #021647;
         font-size: 38px;
         @include nunito800;
         line-height: 121%; 
         letter-spacing: -0.38px;
         margin-bottom: 14px;
+        text-transform: uppercase;
     }
     p {
         color: #021647;
@@ -788,7 +847,7 @@
     display: none;
     margin: 0 auto;
     text-align: center;
-    h3 {
+    h3, h2 {
         color: #021647;
         text-transform: uppercase;
         font-size: 38px;
@@ -855,7 +914,7 @@ button.sale__button__active {
     flex-grow: 1;
     max-width: 537px;
 
-    h3 {
+    h2, h3 {
         color: #021647;
         font-size: 32px;
         @include nunito800;
@@ -928,7 +987,7 @@ button.sale__button__active {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    h2 {
+    h2, h3 {
         color: #2B65F6;
         font-size: 74px;
         @include nunito800;
@@ -1004,7 +1063,7 @@ button.sale__button__active {
         max-width: 325px;
     }
     .sale__frame__content {
-        h2 {
+        h2, h3 {
             font-size: 30px;
         }
     } 
@@ -1025,7 +1084,7 @@ button.sale__button__active {
         }
     }
     .sale__frame__content {
-        h2 {
+        h2, h3 {
             display: none;
         }
     } 
@@ -1042,7 +1101,7 @@ button.sale__button__active {
     }
     .sale__hidden__header {
         display: block;
-        h2 {
+        h2, h3 {
             font-size: 30px;
         }
     }
@@ -1068,7 +1127,7 @@ button.sale__button__active {
         }
     }
     .sale__hidden__header {
-        h2 {
+        h2, h3 {
             font-size: 27px;
         }
     }
@@ -1078,7 +1137,7 @@ button.sale__button__active {
         }
     }
     .sale__item__header {
-        h2 {
+        h2, h3 {
            font-size: 62px; 
         }
         p {

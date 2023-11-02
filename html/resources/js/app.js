@@ -2,6 +2,8 @@ import './header'
 import './faq'
 import './formule-location-achat-dae-dsa'
 import './contact'
+import './gallery'
+import './description'
 
 let buttons = document.querySelectorAll('.sale__slider button');
 const frames = document.querySelectorAll('.sale__content');

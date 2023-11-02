@@ -1,5 +1,5 @@
 export function fadeIn(element, duration, callback) {
-    element.style.opacity = 0;
+    element.style.opacity = 0; // Не забыть для всех появляющихся элементов. Попробовать не менять
 
     let startTime = null;
 
