@@ -401,7 +401,7 @@
     max-width: 532px;
     width: 100%;
 
-    h2 {
+    .howItWorks__item__heading {
         color: #C22921;
         @include nunito900;
         line-height: 40px;
@@ -923,12 +923,15 @@ button.sale__button__active {
     max-width: 381px;
     margin: 46px auto;
     padding: 0 16px;
+    display: flex;
+    flex-direction: column;
 }
 .sale__item__price {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    h2 {
+    h2,
+    .sale__price__h2 {
         color: #2B65F6;
         font-size: 74px;
         @include nunito800;

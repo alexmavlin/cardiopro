@@ -107,7 +107,7 @@
         <div class="sale__content sale__active__frame">
             <div class="sale__frame ">
                 <div class="sale__hidden__header">
-                    <h2>défibrillateur automatique</h2>
+                    <h3>défibrillateur automatique</h3>
                 </div>
                 <img    
                         src="{{ asset('images/content/homepage_sale.webp') }}"
@@ -117,7 +117,7 @@
                         title="" 
                         class="sale__img">
                 <div class="sale__frame__content">
-                    <h2>défibrillateur automatique</h2>
+                    <h3>défibrillateur automatique</h3>
                     <div class="sale__frame__line">
                         <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                             <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
@@ -175,6 +175,12 @@
                               </svg>
                             <p class="">Support mural</p>
                         </div>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                              </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
+                        </div>
                         <div class="sale__buttons">
                             <a href="" class="sale__choisir">Choisir</a>
                             <a href="" class="sale__ensavoir">En savoir +</a>
@@ -213,13 +219,10 @@
                 </div>
             </div>
     </div>
-            
-
-{{-- ACHAT --}}
             <div class="sale__content">
                 <div class="sale__frame">
                     <div class="sale__hidden__header">
-                        <h2>défibrillateur automatique</h2>
+                        <h3>défibrillateur automatique</h3>
                     </div>
                     <img    
                             src="{{ asset('images/content/homepage_sale.webp') }}"
@@ -229,7 +232,7 @@
                             title="" 
                             class="sale__img">
                     <div class="sale__frame__content">
-                        <h2>défibrillateur automatique</h2>
+                        <h3>défibrillateur automatique</h3>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
@@ -270,7 +273,7 @@
                         </div>
                         <div class="sale__item__content">
                             <div class="sale__item__price">
-                                <h2 class="sale__price__h2">1190</h2>
+                                <p class="sale__price__h2">1190</p>
                                 <p class="sale__price__p">€</p>
                             </div>
                             <p class="sale_under__price__p">HT</p>
@@ -287,6 +290,12 @@
                                   </svg>
                                 <p class="">Support mural</p>
                             </div>
+                            <div class="sale__frame__line">
+                                <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                                  </svg>
+                                <p class="">Inclus tous les éléments ci-dessus</p>
+                            </div>
                             <div class="sale__buttons">
                                 <a href="" class="sale__choisir">Choisir</a>
                                 <a href="" class="sale__ensavoir">En savoir +</a>
@@ -300,7 +309,7 @@
                         </div>
                         <div class="sale__item__content">
                             <div class="sale__item__price">
-                                <h2 class="sale__price__h2">1490</h2>
+                                <p class="sale__price__h2">1490</p>
                                 <p class="sale__price__p">€</p>
                             </div>
                             <p class="sale_under__price__p">HT par mois</p>
