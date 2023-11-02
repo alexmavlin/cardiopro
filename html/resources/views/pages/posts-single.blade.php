@@ -40,7 +40,7 @@
             <div class="blogContent__inner">
                 <time class="blogContent__date" datetime="0">4/12/2022</time>
                 <article class="blogContent__article">
-                    <h1 class="blogContent__h1">Peut-on avoir un défibrillateur chez soi ? D'abord, combien ça coûte ?</h1>
+                    <h2 class="blogContent__h1">Peut-on avoir un défibrillateur chez soi ? D'abord, combien ça coûte ?</h2>
                     <p>Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est important de considérer aussi bien la praticité de l’achat que les commodités de location. Comme toute chose, chacun d’eux à ses avantages et ses inconvénients. Alors, comment savoir pour quelle option opter? Il suffit de faire un bilan de vos besoins médicaux.</p>
                     <p>Considérez la durée, la fréquence d’utilisation qui nécessiterait une vérification régulière de l’état de ses composants, mais également le budget que vous aurez alloué à cet équipement.</p>
                     <p>Dans votre bilan, prenez en compte que vous pourrez trouver un bon défibrillateur fonctionnel à partir de 990€ à l’achat, si cela revient à une valeur mensuelle de 30€ à la location. Donc, achat ou location ? Voyons ensemble les avantages et les inconvénients de ces deux options.</p>

@@ -4,8 +4,7 @@
 
     <section class="mainScreen">
         <img    srcset="{{ asset('images/content/nos_valeurs_main.webp') }} 1920w,
-                        {{ asset('images/content/nos_valeurs_main_600.webp') }} 700w,
-                        {{ asset('images/content/nos_valeurs_main_400.webp 500w') }} 500w"
+                        {{ asset('images/content/nos_valeurs_main_600.webp') }} 700w"
                 src="{{ asset('images/content/nos_valeurs_main.webp') }}"
                 width="1600"
                 height="580"
@@ -14,7 +13,7 @@
                 class="mainScreen__img">
         <div class="mainScreen__filter"></div>
 
-        <h1 class="mainScreen__h1">Spécialiste de la location et la vente de défibrillateurs</h1>
+        <h1 class="mainScreen__h1">Démocratisons l'accès aux Défibrillateur Automatisé Externe (DAE)</h1>
     </section>
 
     @if (isset($data['breadcrumbs']))
