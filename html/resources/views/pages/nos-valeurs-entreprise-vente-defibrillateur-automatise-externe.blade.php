@@ -45,8 +45,7 @@
                     alt=""
                     title="" 
                     class="options__img">
-                <p class="">Il existe deux options pour s’équiper d’un défibrillateur : soit par la location ou l’achat de DAE ou DSA. Ces deux moyens d’acquisition demande tout de même une maintenance prise en charge par un professionnel, une
-                     signalétique claire ainsi que de déclarer au Registre Nationales DAE et DSA.</p>
+                <p class="">Un défibrillateur automatisé externe augmente considérablement les chances de survie d’une victime de malaise cardiaque lorsque les gestes de premiers secours ne suffisent plus. CardioPro s’engage à faciliter l’accès aux DAE en simplifiant l’achat de défibrillateurs.</p>
             </div>
         </div>
     </section>
@@ -63,8 +62,8 @@
                             title="" 
                             class="neverLost__img">
                     <div class="neverLost__text">
-                        <p class=""><b>Spécialiste des matériels</b> professionnels de <b>défibrillation</b> depuis 2007, <b>CardioPro</b> a pour vocation de démocratiser l’accès aux <b>défibrillateurs auto et semi-auto</b> afin de combattre le fléau actuel que représente l’arrêt cardiaque.</p>
-                        <p class="">Entreprises, collectivités territoriales, centres sportifs et associatifs, nous sommes tous acteurs dans la prévention des risques cardiaques : <b>CardioPro</b> s’engage chaque jour à mettre en place des <a href="https://cardiopro.fr/defibrillateur-prix"><span>solutions abordables</span></a> aussi bien pour l<a href="https://cardiopro.fr/achat-defibrillateur"><span>'achat</span></a> que la <a href="https://cardiopro.fr/location-defibrillateur"><span>location de défibrillateur</span></a>, afin que plus jamais des vies humaines ne soit perdues par manque d’équipement.</p>
+                        <p class="">Investir dans l’<a href="https://cardiopro.fr/achat-defibrillateur"><span>acquisition d’un défibrillateur</span></a> est un acte citoyen qui aujourd’hui permet de sauver des milliers de vies par an .</p>
+                        <p class="">Chez CardioPro nous avons la volonté d’améliorer sans cesse l’accès aux soins de premiers secours, en accompagnant les entreprises et <a href="https://cardiopro.fr/obligations"><span>ERP ayant l'obligation d'installation de DAE</span></a>, ainsi que d'offrir le meilleur service grâce à nos valeurs fortes : Engagement, Réactivité et Qualité.</p>
                     </div>
                 </div>
             </div>

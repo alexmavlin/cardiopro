@@ -164,6 +164,12 @@
                         <p class="sale_under__price__p">HT par mois</p>
                         <p class="sale_comment__p">*Location de 60 mois - TVA à 20 %</p>
                         <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                              </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
+                        </div>
+                        <div class="sale__frame__line">
                             <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
                                 <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
                               </svg>
@@ -174,12 +180,6 @@
                                 <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
                               </svg>
                             <p class="">Support mural</p>
-                        </div>
-                        <div class="sale__frame__line">
-                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Inclus tous les éléments ci-dessus</p>
                         </div>
                         <div class="sale__buttons">
                             <a href="" class="sale__choisir">Choisir</a>
@@ -279,6 +279,12 @@
                         <p class="sale_under__price__p">HT</p>
                         <p class="sale_comment__p">*TVA à 20 %</p>
                         <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                            </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
+                        </div>
+                        <div class="sale__frame__line">
                             <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
                                 <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
                             </svg>
@@ -289,12 +295,6 @@
                                 <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
                             </svg>
                             <p class="">Support mural</p>
-                        </div>
-                        <div class="sale__frame__line">
-                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                            </svg>
-                            <p class="">Inclus tous les éléments ci-dessus</p>
                         </div>
                         <div class="sale__buttons">
                             <a href="" class="sale__choisir">Choisir</a>
@@ -336,6 +336,7 @@
         </div>
     </div>
 </section>
+
 <section class="additionalInfo">
     <div class="container">
         <div class="additionalInfo__inner">
