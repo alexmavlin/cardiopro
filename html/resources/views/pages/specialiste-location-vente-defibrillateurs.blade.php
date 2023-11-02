@@ -4,8 +4,7 @@
 
     <section class="mainScreen">
         <img    srcset="{{ asset('images/content/qui_sommes_nous.webp') }} 1920w,
-                        {{ asset('images/content/qui_sommes_nous_600.webp') }} 700w,
-                        {{ asset('images/content/qui_sommes_nous_400.webp 500w') }} 500w"
+                        {{ asset('images/content/qui_sommes_nous_600.webp') }} 700w"
                 src="{{ asset('images/content/qui_sommes_nous.webp') }}"
                 width="1600"
                 height="580"
