@@ -40,7 +40,7 @@
     <section class="mastHead">
         <div class="container">
             <div class="mastHead__inner">
-                <img    src="{{ asset('images/content/logo_page.webp') }}"
+                <img    src="{{ asset('images/content/logo_page.png') }}"
                     width="250"
                     height="75"
                     alt=""
