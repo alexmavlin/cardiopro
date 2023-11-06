@@ -11,7 +11,7 @@ itemElements.forEach((item, index) => {
         shadowElements[currentVisibleIndex].classList.remove('defGallery__shadow__none');
         
 
-        fadeOut(boxElements[currentVisibleIndex], 1000, () => {
+        fadeOut(boxElements[currentVisibleIndex], 500, () => {
             boxElements[currentVisibleIndex].classList.remove('defGallery__display');
 
             currentVisibleIndex = index;
@@ -20,7 +20,7 @@ itemElements.forEach((item, index) => {
 
             shadowElements[currentVisibleIndex].classList.add('defGallery__shadow__none');
 
-            fadeIn(boxElements[currentVisibleIndex], 1000, () => {
+            fadeIn(boxElements[currentVisibleIndex], 500, () => {
             });
         });
     });

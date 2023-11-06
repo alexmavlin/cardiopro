@@ -34,7 +34,11 @@
 @import 'page_parts/def-gallery.scss';
 @import 'page_parts/heartsine.scss';
 @import 'page_parts/def-description.scss';
-
+@import 'page_parts/services-benefits.scss';
+@import 'page_parts/install.scss';
+@import 'page_parts/in-short.scss';
+@import 'page_parts/regarding.scss';
+@import 'page_parts/livraison-slider.scss';
 /* // Page Parts */
 
 /* Pages */
@@ -842,7 +846,29 @@
         text-decoration-line: underline;
     }
 }
-
+.formuleSlider__livraison {
+    padding-bottom: 65px;
+}
+.formuleSlider__blue {
+    background: var(--blue-bg, #F5F8FE);
+}
+.formuleSlider__prix {
+    background: var(--blue-bg, #F5F8FE);
+    padding-bottom: 65px;
+}
+.slider__header {
+    padding: 50px 0 30px;
+    p {
+        max-width: 640px;
+        margin: 0 auto;
+        text-align: center;
+        color: #021647;
+        font-size: 36px;
+        @include nunito800;
+        line-height: 121%; 
+        letter-spacing: -0.36px;
+    }
+}
 .sale__hidden__header {
     display: none;
     margin: 0 auto;
@@ -1074,6 +1100,11 @@ button.sale__button__active {
             font-size: 34px;
         }
     }
+    .slider__header {
+        p {
+            font-size: 33px;
+        }
+    }
     .sale__frame {
         align-items: flex-start;
 
@@ -1117,6 +1148,20 @@ button.sale__button__active {
         }
         p {
             font-size: 17px;
+        }
+    }
+    .formuleSlider__livraison {
+        padding-bottom: 50px;
+    }
+    .formuleSlider__prix {
+        padding-bottom: 50px;
+    }
+    .slider__header {
+        padding: 40px 0 25px;
+        p {
+            font-size: 29px;
+            line-height: 113%; 
+            letter-spacing: -0.29px;
         }
     }
     .sale__slider {

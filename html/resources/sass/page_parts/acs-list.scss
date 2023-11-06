@@ -1,6 +1,36 @@
 .acsList {
     padding-bottom: 70px;
 }
+.acsList__obligations {
+    padding-bottom: 60px;
+
+    ul {
+        margin-bottom: 12px;
+        list-style: none;
+    }
+
+    ul li {
+        color: #021647;
+        font-size: 18px;
+        @include nunito600;
+        line-height: 140.4%; /* 25.272px */
+        b {
+            @include nunito800;
+        }
+        margin-left: 10px;
+        padding-left: 20px;
+        position: relative; 
+    }
+
+    ul li::before {
+        content: "\2022"; 
+        position: absolute;
+        left: 0; 
+    }
+}
+.acsList__red {
+    color: #C22921 !important;
+}
 .acsList__header {
     max-width: 689px;
     margin: 0 auto;
@@ -12,6 +42,17 @@
         @include nunito800;
         line-height: 121%; /* 45.98px */
         letter-spacing: -0.38px;
+    }
+    p {
+        max-width: 541px;
+        text-align: center;
+        margin: 13px auto 0;
+        color: #021647;
+        font-size: 18px;
+        @include nunito600;
+    }
+    b {
+        @include nunito800;
     }
 }
 .acsList__h2 {
@@ -31,14 +72,18 @@
     font-size: 18px;
     @include nunito600;
     line-height: 140.4%; /* 25.272px */
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     b {
         @include nunito800;
     }
+    a {
+        color:#C22921;
+        text-decoration: underline;
+    }
 }
-.acsList__p + .acsList__p {
-    margin-top: 19px;
-}
+// .acsList__p + .acsList__p {
+//     margin-top: 19px;
+// }
 .acsList__h2::before  {
     content: '';
     position: absolute;
@@ -47,6 +92,36 @@
     background-color: #D3DCF3;
     bottom: 0; 
     color: #D3DCF3;
+}
+.acsList__img__box {
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: center;
+}
+.acsList__img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    max-width: 1109px;
+    width: 100% !important;
+    height: unset !important;
+    aspect-ratio: 1 / 0.343;
+    object-fit: cover;
+}
+@media (max-width: 750px) {
+    .acsList__header {
+        h2 {
+            font-size: 33px;
+        }
+    }
+}
+@media (max-width: 600px) {
+    .acsList__img {
+        height: 212px !important;
+        aspect-ratio: unset;
+    }
+    .acsList__obligations {
+        padding-bottom: 0;
+    }
 }
 @media (max-width: 450px) {
     .acsList__header {

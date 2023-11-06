@@ -102,7 +102,7 @@
         </div>
     </div>
 </section>
-<section class="formuleSlider">
+<section class="formuleSlider formuleSlider__blue">
     <div class="container">
         <div class="sale__differenceSpace"></div>
         <div class="slider__inner">

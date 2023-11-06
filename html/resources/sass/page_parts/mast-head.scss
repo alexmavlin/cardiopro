@@ -46,6 +46,13 @@
     font-size: 18px;
     @include nunito600;
     text-align: center;
+    a {
+        text-decoration: underline;
+        color:#C22921; 
+    }
+    b {
+        @include nunito800;
+    }
 }
 
 @media (max-width: 450px) {

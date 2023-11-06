@@ -43,9 +43,12 @@
         </div>
     </div>
 </section>
-<section class="formuleSlider">
+<section class="formuleSlider formuleSlider__prix">
     <div class="container">
         <div class="slider__inner">
+            <div class="slider__header">
+                <p>Découvrez nos offres de location et de vente de défibrillateurs</p>
+            </div>
             <div class="slider__group">
                 <button class="sale__button__active">Location</button>
                 <button class="">Achat</button>
@@ -605,7 +608,7 @@
         </div>
     </div>
 </section>
-<section class="faq" id="faq">
+<section class="faq faq__prix" id="faq">
     <div class="container">
         <div class="faq__inner">
             <h2 class="global__heading">
