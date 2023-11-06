@@ -1,12 +1,8 @@
-.faq {
-    background: #F8FAFE;
-    padding: 55px 0px 60px 0px;
-    &__inner {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 24px;
-    }
+
+.faq_blue {
+    background: #0039C6;
+    padding: 40px 0px 65px 0px;
+
     &__wrapper {
         display: flex;
         max-width: 700px;
@@ -104,25 +100,24 @@
         }
     }
 }
-.faq__blue {
-    background: #0039C6;
-    padding: 25px 0px 66px 0px;
-}
-.faq__prix {
-    background: #F5F8FE;
-}
-.faq__livraison {
-    background: #F5F8FE;
-    padding: 45px 0px 65px 0px;
+.faq__blue__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    margin: 25px auto 0;
 }
 @media (max-width: 750px) {
-    .faq {
-        padding: 40px 0 50px;
+    .faq__blue {
+        padding: 34px 0 50px;
     }
     .faq__header h3 {
         font-size: 17px;
     }
     .faq__content p {
         font-size: 14px;
+    }
+    .faq__blue__inner {
+        margin: 20px auto 0;
     }
 }

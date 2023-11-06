@@ -23,6 +23,22 @@
 @import 'page_parts/what-aed.scss';
 @import 'page_parts/recognize-cardiac.scss';
 @import 'page_parts/acs-list.scss';
+@import 'page_parts/ideal-partner.scss';
+@import 'page_parts/cardio-table.scss';
+@import 'page_parts/right-def.scss';
+@import 'page_parts/def-reability.scss';
+@import 'page_parts/faq-blue.scss';
+@import 'page_parts/def-cabinet.scss';
+@import 'page_parts/def-explore.scss';
+@import 'page_parts/formule-slider-min.scss';
+@import 'page_parts/def-gallery.scss';
+@import 'page_parts/heartsine.scss';
+@import 'page_parts/def-description.scss';
+@import 'page_parts/services-benefits.scss';
+@import 'page_parts/install.scss';
+@import 'page_parts/in-short.scss';
+@import 'page_parts/regarding.scss';
+@import 'page_parts/livraison-slider.scss';
 /* // Page Parts */
 
 /* Pages */
@@ -618,11 +634,29 @@
 }
 
 // additionalInfo
-
+.additionalInfo {
+    padding: 50px 0 60px;
+}
+.additionalInfo__difference {
+    padding: 116px 0 60px;
+}
 .additionalInfo__inner {
-    padding: 60px 0;
     max-width: 1107px;
     margin: 0 auto;
+
+    h2 {
+        color: #021647;
+        text-align: center;
+        line-height: 121%; /* 45.98px */
+        letter-spacing: -0.36px;
+        font-size: 36px;
+        max-width: 621px;
+        @include nunito800; 
+        margin: 0 auto 24px;
+    }
+}
+.additionalInfo__h2__mob {
+    display: none;
 }
 .additionalInfo__row {
     display: flex;
@@ -695,9 +729,24 @@
 }
 @media (max-width: 730px) {
     .additionalInfo__item__bottom {
-        h2 {
+        h3 {
             font-size: 24px;
         }
+    }
+    .additionalInfo__h2__desc {
+        display: none;
+    }
+    .additionalInfo__inner {
+        h2 {
+    
+            font-size: 34px;
+        }
+    }
+    .additionalInfo__h2__mob {
+        display: block;
+    }
+    .additionalInfo__row__first {
+        display: none;
     }
     .additionalInfo__row:first-child {
         display: none;
@@ -708,6 +757,9 @@
     .additionalInfo__dop {
         display:block;
         margin: 25px auto 0;
+    }
+    .additionalInfo__difference {
+        padding: 75px 0 50px;
     }
     .additionalInfo__dop__row {
         position: relative;
@@ -746,6 +798,14 @@
     .additionalInfo__item__bottom {
         padding: 19px;
     }
+    .additionalInfo__inner {
+        h2 {
+            font-size: 29px;
+        }
+    }
+    .additionalInfo {
+        padding: 50px 0;
+    }
 }
 
 // sale
@@ -754,7 +814,9 @@
 .sale__active__frame {
     display: block;
 }
-
+.sale__differenceSpace {
+    padding-top: 62px;
+}
 
 .sale__inner {
     padding: 52px 0;
@@ -765,13 +827,14 @@
     max-width: 696px;
     margin: 0 auto;
     text-align: center;
-    h2 {
+    h2, h3 {
         color: #021647;
         font-size: 38px;
         @include nunito800;
         line-height: 121%; 
         letter-spacing: -0.38px;
         margin-bottom: 14px;
+        text-transform: uppercase;
     }
     p {
         color: #021647;
@@ -783,12 +846,34 @@
         text-decoration-line: underline;
     }
 }
-
+.formuleSlider__livraison {
+    padding-bottom: 65px;
+}
+.formuleSlider__blue {
+    background: var(--blue-bg, #F5F8FE);
+}
+.formuleSlider__prix {
+    background: var(--blue-bg, #F5F8FE);
+    padding-bottom: 65px;
+}
+.slider__header {
+    padding: 50px 0 30px;
+    p {
+        max-width: 640px;
+        margin: 0 auto;
+        text-align: center;
+        color: #021647;
+        font-size: 36px;
+        @include nunito800;
+        line-height: 121%; 
+        letter-spacing: -0.36px;
+    }
+}
 .sale__hidden__header {
     display: none;
     margin: 0 auto;
     text-align: center;
-    h3 {
+    h3, h2 {
         color: #021647;
         text-transform: uppercase;
         font-size: 38px;
@@ -855,7 +940,7 @@ button.sale__button__active {
     flex-grow: 1;
     max-width: 537px;
 
-    h3 {
+    h2, h3 {
         color: #021647;
         font-size: 32px;
         @include nunito800;
@@ -931,6 +1016,7 @@ button.sale__button__active {
     justify-content: center;
     align-items: flex-end;
     h2,
+    h3,
     .sale__price__h2 {
         color: #2B65F6;
         font-size: 74px;
@@ -1007,7 +1093,7 @@ button.sale__button__active {
         max-width: 325px;
     }
     .sale__frame__content {
-        h2 {
+        h2, h3 {
             font-size: 30px;
         }
     } 
@@ -1016,6 +1102,11 @@ button.sale__button__active {
     .sale__header {
         h2 {
             font-size: 34px;
+        }
+    }
+    .slider__header {
+        p {
+            font-size: 33px;
         }
     }
     .sale__frame {
@@ -1028,7 +1119,7 @@ button.sale__button__active {
         }
     }
     .sale__frame__content {
-        h2 {
+        h2, h3 {
             display: none;
         }
     } 
@@ -1045,7 +1136,7 @@ button.sale__button__active {
     }
     .sale__hidden__header {
         display: block;
-        h2 {
+        h2, h3 {
             font-size: 30px;
         }
     }
@@ -1063,6 +1154,20 @@ button.sale__button__active {
             font-size: 17px;
         }
     }
+    .formuleSlider__livraison {
+        padding-bottom: 50px;
+    }
+    .formuleSlider__prix {
+        padding-bottom: 50px;
+    }
+    .slider__header {
+        padding: 40px 0 25px;
+        p {
+            font-size: 29px;
+            line-height: 113%; 
+            letter-spacing: -0.29px;
+        }
+    }
     .sale__slider {
 
         width: 258px;
@@ -1071,7 +1176,7 @@ button.sale__button__active {
         }
     }
     .sale__hidden__header {
-        h2 {
+        h2, h3 {
             font-size: 27px;
         }
     }
@@ -1081,7 +1186,7 @@ button.sale__button__active {
         }
     }
     .sale__item__header {
-        h2 {
+        h2, h3 {
            font-size: 62px; 
         }
         p {

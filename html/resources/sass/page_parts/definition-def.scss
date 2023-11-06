@@ -1,5 +1,10 @@
-.definitionDef__inner {
+.definitionDef {
     padding: 60px 0;
+}
+.definitionDef__livraison {
+    padding: 45px 0 50px;
+}
+.definitionDef__inner {
     max-width: 1110px;
     margin: 0 auto;
     h2 {
@@ -84,7 +89,7 @@
     }
 }
 @media (max-width: 800px) {
-    .definitionDef__inner {
+    .definitionDef {
         padding: 45px 0;
     }
     .definitionDef__img {
@@ -103,6 +108,9 @@
         h2 {
             font-size: 34px;
         }
+    }
+    .definitionDef__livraison {
+        padding: 39px 0 35px;
     }
     .definitionDef__content {
         text-align: center;
@@ -128,8 +136,14 @@
             font-size: 17px;
         }
     }
-    .definitionDef__inner {
+    .definitionDef__content {
+        min-width: unset; 
+    }
+    .definitionDef {
         padding: 35px 0;
+    }
+    .definitionDef__livraison {
+        padding: 39px 0 23px;
     }
     .definitionDef__row + .definitionDef__row {
         margin-top: 25px;

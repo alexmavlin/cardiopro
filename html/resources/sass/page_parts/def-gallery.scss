@@ -1,0 +1,196 @@
+.defGallery {
+    margin-bottom: 65px;
+}
+.defGallery__inner {
+    display: flex;
+    max-width: 1122px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.defGallery__content {
+    display: flex;
+    max-width: 591px;
+    width: 100%;
+}
+.defGallery__content__col {
+    max-width: 139px;
+}
+.defGallery__content__item {
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid rgba(24, 64, 80, 0.08);
+    background: #FFF;
+
+    img {
+        z-index: 1;
+        max-width: 139px;
+        width: 100% !important;
+        height: unset !important;
+        aspect-ratio: 1 / 1;
+    }
+}
+.defGallery__content__item + .defGallery__content__item {
+    margin-top: 12px;
+}
+.defGallery__content__main {
+    margin-left: 12px;
+    width: 440px;
+    // width: 100%;
+    border-radius: 10px;
+    border: 0.6px solid rgba(24, 64, 80, 0.24);
+    background: var(--new-default-full-white, #FFF);
+    img {
+        max-width: 440px;
+        width: 100% !important;
+        height: unset !important;
+        aspect-ratio: 1 / 1;
+    }
+}
+.defGallery__content__box {
+    display: none;
+}
+.defGallery__display {
+    display: block;
+}
+.defGallery__item__shadow {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.defGallery__shadow__none {
+    display: none;
+}
+
+
+.defGallery__stat {
+    max-width: 422px;
+    margin-left: 20px;
+
+    h2 {
+        font-size: 26px;
+        color: #021647;
+        @include nunito800;
+        line-height: 124%; /* 32.24px */
+        letter-spacing: -0.26px;
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 18px;
+        color: #021647;
+        @include nunito800;
+        line-height: 113%; /* 20.34px */
+        margin-bottom: 11px;
+    }
+}
+.defGallery__stat__row {
+    position: relative;
+    max-width: 326px;
+}
+.defGallery__stat__row + .defGallery__stat__row {
+    margin-top: 18px;
+}
+.defGallery__stat__full {
+    height: 21px;
+    width: 100%;
+    border-radius: 4px;
+    opacity: 0.24;
+    background: #8CADFF;
+    z-index: 1;
+}
+.defGallery__stat__part {
+    position: absolute;
+    z-index: 2;
+    height: 21px;
+    border-radius: 4px;
+    background: var(--0039-c-6, #0039C6);
+    left: 0;
+    bottom: 0;
+}
+.defGallery__stat__1 {
+    width: 69%;
+}
+.defGallery__stat__2 {
+    width: 84%;
+}
+.defStat {
+    display: none;
+}
+@media (max-width: 1000px) {
+    .defGallery__content__main {
+        max-width: 335px;
+        height: 335px;
+    }
+    .defGallery__content__item img {
+        max-width: 97px;
+    }
+}
+@media (max-width: 750px) {
+    .defGallery__content {
+        flex-direction: column-reverse;
+        width: unset;
+    }
+    .defGallery__content__col  {
+        display: flex;
+        max-width: 323px;
+    }
+    .defGallery__content__main {
+        margin-left: 0;
+        max-width: 295px;
+        height: 295px;
+        margin-bottom: 10px;
+    }
+    .defGallery__content__item img {
+        max-width: 97px;
+    }
+    .defGallery__content__item + .defGallery__content__item {
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 650px) {
+    .defGallery {
+        margin-bottom: 30px;
+    }
+    .defGallery__stat__row {
+        max-width: unset;
+    }
+    .defGallery__stat__desc {
+        display: none;
+    }
+    .defStat {
+        display: block;
+        margin-top: 33px;
+        margin-bottom: 42px;
+    }
+    .defGallery__inner {
+        flex-direction: column;
+    }
+    .defGallery__content {
+        align-items: center;
+    }
+    .defGallery__stat {
+        max-width: unset;
+        margin-left: 0;
+    }
+    .defGallery__stat {
+        h2 {
+            margin: 45px auto 0;
+            text-align: center;
+            margin-bottom: 0;
+        }
+    }
+}
+@media (max-width: 450px) {
+    .defGallery {
+        margin-bottom: 23px;
+    }
+    .defGallery__stat {
+        h2 {
+            font-size: 21px;
+        }
+    }
+}
