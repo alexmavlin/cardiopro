@@ -39,14 +39,13 @@
     <section class="options">
         <div class="container">
             <div class="options__inner">
-                <img    src="{{ asset('images/content/formulepage_options.webp') }}"
+                <img    src="{{ asset('images/content/logo_page.png') }}"
                     width="250"
                     height="75"
                     alt=""
                     title="" 
                     class="options__img">
-                <p class="">Il existe deux options pour s’équiper d’un défibrillateur : soit par la location ou l’achat de DAE ou DSA. Ces deux moyens d’acquisition demande tout de même une maintenance prise en charge par un professionnel, une
-                     signalétique claire ainsi que de déclarer au Registre Nationales DAE et DSA.</p>
+                <p class="">Un défibrillateur automatisé externe augmente considérablement les chances de survie d’une victime de malaise cardiaque lorsque les gestes de premiers secours ne suffisent plus. CardioPro s’engage à faciliter l’accès aux DAE en simplifiant l’achat de défibrillateurs.</p>
             </div>
         </div>
     </section>
@@ -63,8 +62,8 @@
                             title="" 
                             class="neverLost__img">
                     <div class="neverLost__text">
-                        <p class=""><b>Spécialiste des matériels</b> professionnels de <b>défibrillation</b> depuis 2007, <b>CardioPro</b> a pour vocation de démocratiser l’accès aux <b>défibrillateurs auto et semi-auto</b> afin de combattre le fléau actuel que représente l’arrêt cardiaque.</p>
-                        <p class="">Entreprises, collectivités territoriales, centres sportifs et associatifs, nous sommes tous acteurs dans la prévention des risques cardiaques : <b>CardioPro</b> s’engage chaque jour à mettre en place des <a href="https://cardiopro.fr/defibrillateur-prix"><span>solutions abordables</span></a> aussi bien pour l<a href="https://cardiopro.fr/achat-defibrillateur"><span>'achat</span></a> que la <a href="https://cardiopro.fr/location-defibrillateur"><span>location de défibrillateur</span></a>, afin que plus jamais des vies humaines ne soit perdues par manque d’équipement.</p>
+                        <p class="">Investir dans l’<a href="https://cardiopro.fr/achat-defibrillateur"><span>acquisition d’un défibrillateur</span></a> est un acte citoyen qui aujourd’hui permet de sauver des milliers de vies par an .</p>
+                        <p class="">Chez CardioPro nous avons la volonté d’améliorer sans cesse l’accès aux soins de premiers secours, en accompagnant les entreprises et <a href="https://cardiopro.fr/obligations"><span>ERP ayant l'obligation d'installation de DAE</span></a>, ainsi que d'offrir le meilleur service grâce à nos valeurs fortes : Engagement, Réactivité et Qualité.</p>
                     </div>
                 </div>
             </div>
@@ -88,7 +87,7 @@
                         <path d="M26.9997 6.56235C25.5224 6.56235 25.5224 4.31567 26.9997 4.31567C38.2594 4.31567 47.7513 12.7678 49.0371 23.9354L50.736 22.2371C51.7801 21.1923 53.3683 22.7805 52.3241 23.8253L48.8655 27.2838C48.1713 27.9962 46.9375 27.5148 46.9375 26.5001C46.9375 15.4883 38.0115 6.56235 26.9997 6.56235ZM11.5578 25.3771H12.3397C13.8183 25.3771 13.8183 27.6231 12.3397 27.6231H11.5578C12.1068 35.279 18.2209 41.393 25.8767 41.942V41.1601C25.8767 39.6816 28.1228 39.6816 28.1228 41.1601V41.942C35.7792 41.393 41.8926 35.2796 42.4416 27.6231H41.6598C40.1812 27.6231 40.1812 25.3771 41.6598 25.3771H42.4416C41.8926 17.7206 35.7792 11.6072 28.1228 11.0582V11.8401C28.1228 13.3186 25.8767 13.3186 25.8767 11.8401V11.0582C18.2202 11.6072 12.1068 17.7206 11.5578 25.3771ZM25.8767 16.7397C25.8767 15.2611 28.1228 15.2611 28.1228 16.7397V25.3771H33.4055C34.8847 25.3771 34.8847 27.6231 33.4055 27.6231H26.9997C26.3794 27.6231 25.8767 27.1205 25.8767 26.5001V16.7397ZM26.9997 8.77146C36.7908 8.77146 44.7284 16.709 44.7284 26.5001C44.7284 36.2912 36.7908 44.2287 26.9997 44.2287C17.2086 44.2287 9.2711 36.2912 9.2711 26.5001C9.2711 16.709 17.2086 8.77146 26.9997 8.77146ZM26.9997 46.4379C28.4771 46.4379 28.4771 48.6845 26.9997 48.6845C15.7401 48.6845 6.2482 40.2324 4.96242 29.0648L3.26348 30.7631C2.21934 31.8079 0.631201 30.2197 1.67535 29.175L5.13394 25.7164C5.82816 25.004 7.06199 25.4854 7.06199 26.5001C7.06199 37.5119 15.988 46.4379 26.9997 46.4379Z" fill="#0039C6"/>
                     </svg>
                     <h3 class="commitmentPoints__h3">À vos côtés pour gérer simplement votre Défibrillateur</h3>
-                    <p class="commitmentPoints__p">CardioPro, c’est des équipes d’experts disponibles et toujours  à votre écoute, pour vous accompagner au quotidien et  vous épauler dans la gestion de  votre matériel.</p>
+                    <p class="commitmentPoints__p">CardioPro, c’est des équipes d’experts disponibles et toujours à votre écoute, pour vous accompagner au quotidien et vous épauler dans la gestion de votre matériel.</p>
                 </div>
                 <div class="commitmentPoints__block">
                     <svg xmlns="http://www.w3.org/2000/svg" width="54" height="53" viewBox="0 0 54 53" fill="none">
@@ -166,7 +165,7 @@
                               </svg>
                         </div>
                         <div class="additionalInfo__line__bottom">
-                            <h2 class="">Notre Philosophie</h2>
+                            <h3 class="">Notre Philosophie</h3>
                         </div>
                         <div class="additionalInfo__line__bottom">
                             <p class="">Nous vous équipons pour, ensemble, sauver des vies !</p>
@@ -183,13 +182,13 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                 <path d="M26.5841 10.6667H27.9999C29.4727 10.6667 30.6666 11.8606 30.6666 13.3334V18.6667C30.6666 20.1395 29.4727 21.3334 27.9999 21.3334H26.5841C25.9279 26.5951 21.4394 30.6667 15.9999 30.6667V28C20.4182 28 23.9999 24.4183 23.9999 20V12C23.9999 7.58176 20.4182 4.00004 15.9999 4.00004C11.5816 4.00004 7.99992 7.58176 7.99992 12V21.3334H3.99992C2.52716 21.3334 1.33325 20.1395 1.33325 18.6667V13.3334C1.33325 11.8606 2.52716 10.6667 3.99992 10.6667H5.41577C6.07191 5.40496 10.5604 1.33337 15.9999 1.33337C21.4394 1.33337 25.9279 5.40496 26.5841 10.6667ZM3.99992 13.3334V18.6667H5.33325V13.3334H3.99992ZM26.6666 13.3334V18.6667H27.9999V13.3334H26.6666ZM10.3458 21.0466L11.7594 18.785C12.9887 19.555 14.4423 20 15.9999 20C17.5575 20 19.0111 19.555 20.2404 18.785L21.6541 21.0466C20.0149 22.0732 18.0767 22.6667 15.9999 22.6667C13.9231 22.6667 11.985 22.0732 10.3458 21.0466Z" fill="#0039C6"/>
                               </svg>
-                            <p class="">Une permanence technique téléphonique 7 jours/7 est  mise à votre disposition</p>
+                            <p class="">Une permanence technique téléphonique 7 jours/7 est mise à votre disposition</p>
                         </div>
                         <div class="additionalInfo__dop__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                 <path d="M7.10518 4.36206C8.7493 3.77756 10.6557 4.14328 11.9716 5.45924C13.4662 6.95378 13.7351 9.20984 12.7783 10.9784L27.0566 25.2582L25.171 27.1438L10.8924 12.865C9.12361 13.8225 6.86685 13.5538 5.37196 12.0589C4.05563 10.7426 3.69007 8.83549 4.27528 7.19105L7.25759 10.1733C8.03863 10.9543 9.30496 10.9543 10.086 10.1733C10.8671 9.39224 10.8671 8.1259 10.086 7.34486L7.10518 4.36206ZM20.9283 6.87345L25.171 4.51644L27.0566 6.40205L24.6995 10.6447L22.3426 11.1161L19.5141 13.9445L17.6285 12.0589L20.4569 9.23048L20.9283 6.87345ZM11.9716 17.7157L13.8573 19.6014L6.78618 26.6725C6.26548 27.1932 5.42125 27.1932 4.90056 26.6725C4.41705 26.1889 4.38252 25.4265 4.79695 24.9032L4.90056 24.7869L11.9716 17.7157Z" fill="#0039C6"/>
                               </svg>
-                            <p class="">Un service maintenance attentif  à vos besoins et une intervention en moins de 72h</p>
+                            <p class="">Un service maintenance attentif à vos besoins et une intervention en moins de 72h</p>
                         </div>
                         <div class="additionalInfo__dop__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -201,7 +200,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                 <path d="M6.66667 4V25.3333H28V28H4V4H6.66667ZM27.0572 8.39052L28.9428 10.2761L21.3333 17.8856L17.3333 13.8867L11.6095 19.6095L9.72385 17.7239L17.3333 10.1144L21.3333 14.1133L27.0572 8.39052Z" fill="#0039C6"/>
                               </svg>
-                            <p class="">Une veille permanente de l’évolution de la législation  relative aux défibrillateurs</p>
+                            <p class="">Une veille permanente de l’évolution de la législation relative aux défibrillateurs</p>
                         </div>
                         <div class="additionalInfo__dop__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -218,7 +217,7 @@
                     </div>
                     <div class="additionalInfo__item__bottom">
                         <div class="additionalInfo__line">
-                            <h2 class="">Contactez nous !</h2>
+                            <h3 class="">Contactez nous !</h3>
                         </div>
                         <div class="additionalInfo__line">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">

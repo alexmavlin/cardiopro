@@ -39,7 +39,7 @@
     <section class="options">
         <div class="container">
             <div class="options__inner">
-                <img    src="{{ asset('images/content/formulepage_options.webp') }}"
+                <img    src="{{ asset('images/content/logo_page.png') }}"
                     width="250"
                     height="75"
                     alt=""
@@ -80,7 +80,7 @@
                             title="" 
                             class="neverLost__img">
                     <div class="neverLost__text">
-                        <p class="">Nous apportons un soin particulier à sélectionner des <b>produits de qualité</b> répondant aux <b>normes européennes</b> tout en vous accompagnant dans leur installation et en  vous faisant profiter de notre expertise pour une utilisation optimale.</p>
+                        <p class="">Nous apportons un soin particulier à sélectionner des <b>produits de qualité</b> répondant aux <b>normes européennes</b> tout en vous accompagnant dans leur installation et en vous faisant profiter de notre expertise pour une utilisation optimale.</p>
                         <p class="">Notre équipe de passionnés est disponible pour vous faire bénéficier des <b>meilleurs conseils et formations</b>, et veille à ce que votre établissement soit en phase avec l'<a href="https://cardiopro.fr/obligations"><span>obligation</span></a> de s'équiper en défibrillateur.</p>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                         <path d="M17.1428 34.7831L11.2413 40.6846C10.7399 41.1854 10.7399 41.9978 11.2413 42.4986C11.4917 42.7496 11.8201 42.8748 12.148 42.8748C12.476 42.8748 12.8044 42.7496 13.0553 42.4992L18.9569 36.5976C19.4582 36.0968 19.4582 35.2844 18.9569 34.7836C18.4555 34.2822 17.6436 34.2822 17.1428 34.7831Z" fill="#0039C6"/>
                         <path d="M6.68515 37.4106C7.01359 37.4106 7.34151 37.2854 7.59245 37.035L13.494 31.1335C13.9953 30.6326 13.9953 29.8202 13.494 29.3194C12.9926 28.818 12.1808 28.818 11.6799 29.3194L5.77837 35.2209C5.277 35.7218 5.277 36.5341 5.77837 37.035C6.0288 37.2849 6.35672 37.4106 6.68515 37.4106Z" fill="#0039C6"/>
                     </svg>
-                    <h2>Notre Mission : vous équiper  en défibrillateur</h2>
+                    <h2>Notre Mission : vous équiper en défibrillateur</h2>
                     <p>Vous apporter toute notre expertise pour vous permettre de vous équiper et de gérer vos équipements en toute simplicité !</p>
                 </div>
                 <div class="missionBlocks__block">
@@ -115,7 +115,7 @@
                         <path d="M39.3412 41.1171C39.4578 41.2338 39.5963 41.3263 39.7486 41.3894C39.901 41.4525 40.0643 41.4849 40.2293 41.4849C40.3942 41.4849 40.5575 41.4524 40.7099 41.3893C40.8622 41.3262 41.0007 41.2337 41.1173 41.117C41.2339 41.0004 41.3264 40.8619 41.3895 40.7096C41.4526 40.5572 41.4851 40.3939 41.4851 40.229C41.485 40.064 41.4525 39.9007 41.3894 39.7484C41.3263 39.596 41.2338 39.4575 41.1172 39.3409L38.0479 36.272C37.9315 36.1545 37.793 36.0613 37.6404 35.9975C37.4878 35.9337 37.3242 35.9007 37.1588 35.9004C36.9934 35.9001 36.8296 35.9324 36.6767 35.9955C36.5239 36.0587 36.385 36.1514 36.2681 36.2683C36.1512 36.3853 36.0585 36.5242 35.9954 36.6771C35.9323 36.8299 35.9 36.9938 35.9004 37.1591C35.9008 37.3245 35.9338 37.4882 35.9976 37.6408C36.0614 37.7933 36.1548 37.9318 36.2722 38.0482L39.3412 41.1171Z" fill="#0039C6"/>
                         <path d="M11.8406 13.0958C12.089 13.0958 12.3318 13.0221 12.5383 12.8841C12.7448 12.7461 12.9058 12.55 13.0008 12.3205C13.0959 12.091 13.1207 11.8385 13.0722 11.5949C13.0237 11.3512 12.9041 11.1275 12.7284 10.9519L9.6595 7.88291C9.42396 7.64741 9.10451 7.51511 8.77142 7.51514C8.43834 7.51516 8.11891 7.6475 7.8834 7.88304C7.64789 8.11858 7.5156 8.43803 7.51563 8.77111C7.51565 9.1042 7.64799 9.42363 7.88353 9.65913L10.9527 12.7281C11.0692 12.8448 11.2076 12.9374 11.36 13.0005C11.5124 13.0636 11.6757 13.096 11.8406 13.0958Z" fill="#0039C6"/>
                     </svg>
-                    <h2>Notre Vision : faciliter l'accès  aux défibrillateurs</h2>
+                    <h2>Notre Vision : faciliter l'accès aux défibrillateurs</h2>
                     <p>Démocratiser l’accès aux défibrillateurs pour que plus jamais des vies humaines ne soit perdues par manque d’équipement.</p>
                 </div>
             </div>
@@ -197,7 +197,7 @@
                               </svg>
                         </div>
                         <div class="additionalInfo__line__bottom">
-                            <h2 class="">Notre Philosophie</h2>
+                            <h3 class="">Notre Philosophie</h3>
                         </div>
                         <div class="additionalInfo__line__bottom">
                             <p class="">Nous vous équipons pour, ensemble, sauver des vies !</p>
@@ -214,13 +214,13 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                 <path d="M26.5841 10.6667H27.9999C29.4727 10.6667 30.6666 11.8606 30.6666 13.3334V18.6667C30.6666 20.1395 29.4727 21.3334 27.9999 21.3334H26.5841C25.9279 26.5951 21.4394 30.6667 15.9999 30.6667V28C20.4182 28 23.9999 24.4183 23.9999 20V12C23.9999 7.58176 20.4182 4.00004 15.9999 4.00004C11.5816 4.00004 7.99992 7.58176 7.99992 12V21.3334H3.99992C2.52716 21.3334 1.33325 20.1395 1.33325 18.6667V13.3334C1.33325 11.8606 2.52716 10.6667 3.99992 10.6667H5.41577C6.07191 5.40496 10.5604 1.33337 15.9999 1.33337C21.4394 1.33337 25.9279 5.40496 26.5841 10.6667ZM3.99992 13.3334V18.6667H5.33325V13.3334H3.99992ZM26.6666 13.3334V18.6667H27.9999V13.3334H26.6666ZM10.3458 21.0466L11.7594 18.785C12.9887 19.555 14.4423 20 15.9999 20C17.5575 20 19.0111 19.555 20.2404 18.785L21.6541 21.0466C20.0149 22.0732 18.0767 22.6667 15.9999 22.6667C13.9231 22.6667 11.985 22.0732 10.3458 21.0466Z" fill="#0039C6"/>
                               </svg>
-                            <p class="">Une permanence technique téléphonique 7 jours/7 est  mise à votre disposition</p>
+                            <p class="">Une permanence technique téléphonique 7 jours/7 est mise à votre disposition</p>
                         </div>
                         <div class="additionalInfo__dop__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                 <path d="M7.10518 4.36206C8.7493 3.77756 10.6557 4.14328 11.9716 5.45924C13.4662 6.95378 13.7351 9.20984 12.7783 10.9784L27.0566 25.2582L25.171 27.1438L10.8924 12.865C9.12361 13.8225 6.86685 13.5538 5.37196 12.0589C4.05563 10.7426 3.69007 8.83549 4.27528 7.19105L7.25759 10.1733C8.03863 10.9543 9.30496 10.9543 10.086 10.1733C10.8671 9.39224 10.8671 8.1259 10.086 7.34486L7.10518 4.36206ZM20.9283 6.87345L25.171 4.51644L27.0566 6.40205L24.6995 10.6447L22.3426 11.1161L19.5141 13.9445L17.6285 12.0589L20.4569 9.23048L20.9283 6.87345ZM11.9716 17.7157L13.8573 19.6014L6.78618 26.6725C6.26548 27.1932 5.42125 27.1932 4.90056 26.6725C4.41705 26.1889 4.38252 25.4265 4.79695 24.9032L4.90056 24.7869L11.9716 17.7157Z" fill="#0039C6"/>
                               </svg>
-                            <p class="">Un service maintenance attentif  à vos besoins et une intervention en moins de 72h</p>
+                            <p class="">Un service maintenance attentif à vos besoins et une intervention en moins de 72h</p>
                         </div>
                         <div class="additionalInfo__dop__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -232,7 +232,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                 <path d="M6.66667 4V25.3333H28V28H4V4H6.66667ZM27.0572 8.39052L28.9428 10.2761L21.3333 17.8856L17.3333 13.8867L11.6095 19.6095L9.72385 17.7239L17.3333 10.1144L21.3333 14.1133L27.0572 8.39052Z" fill="#0039C6"/>
                               </svg>
-                            <p class="">Une veille permanente de l’évolution de la législation  relative aux défibrillateurs</p>
+                            <p class="">Une veille permanente de l’évolution de la législation relative aux défibrillateurs</p>
                         </div>
                         <div class="additionalInfo__dop__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -249,7 +249,7 @@
                     </div>
                     <div class="additionalInfo__item__bottom">
                         <div class="additionalInfo__line">
-                            <h2 class="">Contactez nous !</h2>
+                            <h3 class="">Contactez nous !</h3>
                         </div>
                         <div class="additionalInfo__line">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
