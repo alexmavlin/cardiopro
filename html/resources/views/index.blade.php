@@ -97,24 +97,24 @@
                         <div class="howItWorks__item">
                             <p class="howItWorks__item__heading">50 000</p>
                             <p class="howItWorks__under__p">décès annuels</p>
-                            <p class="howItWorks__content__p">En France, il y a 50 000 décès prématurés  par an à cause d’un arrêt cardiaque.</p>
+                            <p class="howItWorks__content__p">En France, il y a 50 000 décès prématurés par an à cause d’un arrêt cardiaque.</p>
                         </div>
                         <div class="howItWorks__item">
                             <p class="howItWorks__item__heading">60</p>
                             <p class="howItWorks__under__p">ans d'âge moyen</p>
-                            <p class="howItWorks__content__p">L'âge moyen des victimes d'un arrêt  cardiaque est de seulement 60 ans.</p>
+                            <p class="howItWorks__content__p">L'âge moyen des victimes d'un arrêt cardiaque est de seulement 60 ans.</p>
                         </div>
                     </div>
                     <div class="howItWorks__row">
                         <div class="howItWorks__item">
                             <p class="howItWorks__item__heading">7%</p>
                             <p class="howItWorks__under__p">seulement de survivants</p>
-                            <p class="howItWorks__content__p">Aux États-Unis, ce chiffre monte à 60%,  car ils sont mieux équipés et mieux formés.</p>
+                            <p class="howItWorks__content__p">Aux États-Unis, ce chiffre monte à 60%, car ils sont mieux équipés et mieux formés.</p>
                         </div>
                         <div class="howItWorks__item">
                             <p class="howItWorks__item__heading">4</p>
                             <p class="howItWorks__under__p">minutes pour agir</p>
-                            <p class="howItWorks__content__p">Vous avez 4 minutes pour sauver une  vie. Les secours, eux, arrivent  en 15 minutes en moyenne.</p>
+                            <p class="howItWorks__content__p">Vous avez 4 minutes pour sauver une vie. Les secours, eux, arrivent en 15 minutes en moyenne.</p>
                         </div>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
                 <div class="sale__header">
                     <h2 class="">Vente et location de défibrillateurs : nos offres</h2>
                     <p class="">En tant que spécialistes de la location et la <a href="https://cardiopro.fr/achat-defibrillateur" class="">vente de défibrillateurs</a>, chez CardioPro, nous nous engageons à vous fournir des produits 
-                        de la plus haute qualité fabriqués en Irlande et aux États-Unis. Pour en savoir plus sur notre entreprise et nos engagements, consultez notre page dédiée à la  <a href="https://cardiopro.fr/specialiste-location-vente-defibrillateurs" class="">présentation de CardioPro.</a></p>
+                        de la plus haute qualité fabriqués en Irlande et aux États-Unis. Pour en savoir plus sur notre entreprise et nos engagements, consultez notre page dédiée à la <a href="https://cardiopro.fr/specialiste-location-vente-defibrillateurs" class="">présentation de CardioPro.</a></p>
                 </div>
                 <div class="sale__slider">
                     <button class="sale__button__active">Location</button>
@@ -229,6 +229,12 @@
                             </div>
                             <p class="sale_under__price__p">HT par mois</p>
                             <p class="sale_comment__p">*Location de 60 mois - TVA à 20 %</p>
+                            <div class="sale__frame__line">
+                                <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                                  </svg>
+                                <p class="">Inclus tous les éléments ci-dessus</p>
+                            </div>
                             <div class="sale__frame__line">
                                 <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
@@ -348,6 +354,12 @@
                                     <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                         <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
                                       </svg>
+                                    <p class="">Inclus tous les éléments ci-dessus</p>
+                                </div>
+                                <div class="sale__frame__line">
+                                    <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                                      </svg>
                                     <p class="">Assistant massage cardiaque</p>
                                 </div>
                                 <div class="sale__frame__line">
@@ -377,7 +389,7 @@
                     <h2 class="">Protéger des vies grâce à un défibrillateur</h2>
                     <p class="">Chez CardioPro, notre philosophie est claire : démocratiser l'accès au défibrillateur automatique pour sauver des vies. En effet, les défibrillateurs augmentent considérablement les chances de survie lorsqu'une personne 
                         souffre d'un malaise cardiaque. Ainsi, nous facilitons l'achat et la location 
-                        de défibrillateurs, car investir dans cet équipement est un acte citoyen qui sauve des milliers de vies chaque année. Nous garantissons également une  gestion continue de votre matériel.</p>
+                        de défibrillateurs, car investir dans cet équipement est un acte citoyen qui sauve des milliers de vies chaque année. Nous garantissons également une gestion continue de votre matériel.</p>
                 </div>
                 <div class="protect__content">
                     <div class="protect__item">
