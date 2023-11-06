@@ -40,7 +40,7 @@
             <div class="blogContent__inner">
                 <time class="blogContent__date" datetime="0">4/12/2022</time>
                 <article class="blogContent__article">
-                    <h1 class="blogContent__h1">Peut-on avoir un défibrillateur chez soi ? D'abord, combien ça coûte ?</h1>
+                    <h2 class="blogContent__h1">Peut-on avoir un défibrillateur chez soi ? D'abord, combien ça coûte ?</h2>
                     <p>Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est important de considérer aussi bien la praticité de l’achat que les commodités de location. Comme toute chose, chacun d’eux à ses avantages et ses inconvénients. Alors, comment savoir pour quelle option opter? Il suffit de faire un bilan de vos besoins médicaux.</p>
                     <p>Considérez la durée, la fréquence d’utilisation qui nécessiterait une vérification régulière de l’état de ses composants, mais également le budget que vous aurez alloué à cet équipement.</p>
                     <p>Dans votre bilan, prenez en compte que vous pourrez trouver un bon défibrillateur fonctionnel à partir de 990€ à l’achat, si cela revient à une valeur mensuelle de 30€ à la location. Donc, achat ou location ? Voyons ensemble les avantages et les inconvénients de ces deux options.</p>
@@ -186,7 +186,7 @@
                               </svg>
                         </div>
                         <div class="additionalInfo__line__bottom">
-                            <h2 class="">Notre Philosophie</h2>
+                            <h3 class="">Notre Philosophie</h3>
                         </div>
                         <div class="additionalInfo__line__bottom">
                             <p class="">Nous vous équipons pour, ensemble, sauver des vies !</p>
@@ -203,13 +203,13 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                 <path d="M26.5841 10.6667H27.9999C29.4727 10.6667 30.6666 11.8606 30.6666 13.3334V18.6667C30.6666 20.1395 29.4727 21.3334 27.9999 21.3334H26.5841C25.9279 26.5951 21.4394 30.6667 15.9999 30.6667V28C20.4182 28 23.9999 24.4183 23.9999 20V12C23.9999 7.58176 20.4182 4.00004 15.9999 4.00004C11.5816 4.00004 7.99992 7.58176 7.99992 12V21.3334H3.99992C2.52716 21.3334 1.33325 20.1395 1.33325 18.6667V13.3334C1.33325 11.8606 2.52716 10.6667 3.99992 10.6667H5.41577C6.07191 5.40496 10.5604 1.33337 15.9999 1.33337C21.4394 1.33337 25.9279 5.40496 26.5841 10.6667ZM3.99992 13.3334V18.6667H5.33325V13.3334H3.99992ZM26.6666 13.3334V18.6667H27.9999V13.3334H26.6666ZM10.3458 21.0466L11.7594 18.785C12.9887 19.555 14.4423 20 15.9999 20C17.5575 20 19.0111 19.555 20.2404 18.785L21.6541 21.0466C20.0149 22.0732 18.0767 22.6667 15.9999 22.6667C13.9231 22.6667 11.985 22.0732 10.3458 21.0466Z" fill="#0039C6"/>
                               </svg>
-                            <p class="">Une permanence technique téléphonique 7 jours/7 est  mise à votre disposition</p>
+                            <p class="">Une permanence technique téléphonique 7 jours/7 est mise à votre disposition</p>
                         </div>
                         <div class="additionalInfo__dop__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                 <path d="M7.10518 4.36206C8.7493 3.77756 10.6557 4.14328 11.9716 5.45924C13.4662 6.95378 13.7351 9.20984 12.7783 10.9784L27.0566 25.2582L25.171 27.1438L10.8924 12.865C9.12361 13.8225 6.86685 13.5538 5.37196 12.0589C4.05563 10.7426 3.69007 8.83549 4.27528 7.19105L7.25759 10.1733C8.03863 10.9543 9.30496 10.9543 10.086 10.1733C10.8671 9.39224 10.8671 8.1259 10.086 7.34486L7.10518 4.36206ZM20.9283 6.87345L25.171 4.51644L27.0566 6.40205L24.6995 10.6447L22.3426 11.1161L19.5141 13.9445L17.6285 12.0589L20.4569 9.23048L20.9283 6.87345ZM11.9716 17.7157L13.8573 19.6014L6.78618 26.6725C6.26548 27.1932 5.42125 27.1932 4.90056 26.6725C4.41705 26.1889 4.38252 25.4265 4.79695 24.9032L4.90056 24.7869L11.9716 17.7157Z" fill="#0039C6"/>
                               </svg>
-                            <p class="">Un service maintenance attentif  à vos besoins et une intervention en moins de 72h</p>
+                            <p class="">Un service maintenance attentif à vos besoins et une intervention en moins de 72h</p>
                         </div>
                         <div class="additionalInfo__dop__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -221,7 +221,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                 <path d="M6.66667 4V25.3333H28V28H4V4H6.66667ZM27.0572 8.39052L28.9428 10.2761L21.3333 17.8856L17.3333 13.8867L11.6095 19.6095L9.72385 17.7239L17.3333 10.1144L21.3333 14.1133L27.0572 8.39052Z" fill="#0039C6"/>
                               </svg>
-                            <p class="">Une veille permanente de l’évolution de la législation  relative aux défibrillateurs</p>
+                            <p class="">Une veille permanente de l’évolution de la législation relative aux défibrillateurs</p>
                         </div>
                         <div class="additionalInfo__dop__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -238,7 +238,7 @@
                     </div>
                     <div class="additionalInfo__item__bottom">
                         <div class="additionalInfo__line">
-                            <h2 class="">Contactez nous !</h2>
+                            <h3 class="">Contactez nous !</h3>
                         </div>
                         <div class="additionalInfo__line">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">

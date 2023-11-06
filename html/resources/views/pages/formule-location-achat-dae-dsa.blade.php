@@ -3,9 +3,7 @@
 @section('content')
 
     <section class="mainScreen">
-        <img    srcset="{{ asset('images/content/formulepage_formuleLocation.webp') }} 1920w,
-                        {{ asset('images/content/formulepage_formuleLocation_600.webp') }} 700w,
-                        {{ asset('images/content/formulepage_formuleLocation_400.webp 500w') }} 500w"
+        <img    srcset="{{ asset('images/content/formulepage_formuleLocation.webp') }} 1920w"
                 src="{{ asset('images/content/formulepage_formuleLocation.webp') }}"
                 width="1600"
                 height="580"
@@ -40,7 +38,7 @@
 <section class="options">
     <div class="container">
         <div class="options__inner">
-            <img    src="{{ asset('images/content/formulepage_options.webp') }}"
+            <img    src="{{ asset('images/content/logo_page.png') }}"
                 width="250"
                 height="75"
                 alt=""
@@ -92,8 +90,8 @@
                 <h2 class="">À vos côtés pour trouver le Pack Défibrillateur qui vous convient !</h2>
             </div>
             <p class="suitsYou__p">Un défibrillateur pour sauver des vies !Nous vous offrons la possibilité de louer ou d’acheter votre DAE et DSA. Pour éclaircir votre choix, CardioPro vous aide à trouver la formule adaptée à vos exigences et vos capacités de financement. Consultez toutes nos <a href="https://cardiopro.fr/defibrillateur-prix" class="">offres</a>
-                 détaillées de <a href="https://cardiopro.fr/location-defibrillateur" class="">location mensuelle</a> et d’ <a href="https://cardiopro.fr/achat-defibrillateur" class="">achat de DAE</a> ci-dessous pour lever vos hésitations. Affinez-les en optant pour un appareil <b class="">semi-automatisé (DSA) ou automatisé (DAE).</b> Comparez les avantages  d’un Achat DAE avec ceux en Location, garantissant le <b class="">remplacement illimité</b> en cas de dysfonctionnement 
-                et  après chaque utilisation, une offre parfaite pour les ERP  ayant <a href="https://cardiopro.fr/obligations" class="">l'obligation</a> de s'équiper de défibrillateur.</p>
+                 détaillées de <a href="https://cardiopro.fr/location-defibrillateur" class="">location mensuelle</a> et d’ <a href="https://cardiopro.fr/achat-defibrillateur" class="">achat de DAE</a> ci-dessous pour lever vos hésitations. Affinez-les en optant pour un appareil <b class="">semi-automatisé (DSA) ou automatisé (DAE).</b> Comparez les avantages d’un Achat DAE avec ceux en Location, garantissant le <b class="">remplacement illimité</b> en cas de dysfonctionnement 
+                et après chaque utilisation, une offre parfaite pour les ERP ayant <a href="https://cardiopro.fr/obligations" class="">l'obligation</a> de s'équiper de défibrillateur.</p>
         </div>
     </div>
 </section>
@@ -109,7 +107,7 @@
         <div class="sale__content sale__active__frame">
             <div class="sale__frame ">
                 <div class="sale__hidden__header">
-                    <h2>défibrillateur automatique</h2>
+                    <h3>défibrillateur automatique</h3>
                 </div>
                 <img    
                         src="{{ asset('images/content/homepage_sale.webp') }}"
@@ -119,12 +117,12 @@
                         title="" 
                         class="sale__img">
                 <div class="sale__frame__content">
-                    <h2>défibrillateur automatique</h2>
+                    <h3>défibrillateur automatique</h3>
                     <div class="sale__frame__line">
                         <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                             <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
                           </svg>
-                        <p class="">Garatie 8 ans</p>
+                        <p class="">Garantie 8 ans</p>
                     </div>
                     <div class="sale__frame__line">
                         <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -160,11 +158,17 @@
                     </div>
                     <div class="sale__item__content">
                         <div class="sale__item__price">
-                            <h2 class="sale__price__h2">39</h2>
+                            <p class="sale__price__h2">39</p>
                             <p class="sale__price__p">€</p>
                         </div>
                         <p class="sale_under__price__p">HT par mois</p>
                         <p class="sale_comment__p">*Location de 60 mois - TVA à 20 %</p>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                              </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
+                        </div>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
                                 <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
@@ -190,11 +194,17 @@
                     </div>
                     <div class="sale__item__content">
                         <div class="sale__item__price">
-                            <h2 class="sale__price__h2">49</h2>
+                            <p class="sale__price__h2">49</p>
                             <p class="sale__price__p">€</p>
                         </div>
                         <p class="sale_under__price__p">HT par mois</p>
                         <p class="sale_comment__p">*Location de 60 mois - TVA à 20 %</p>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                              </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
+                        </div>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
@@ -215,13 +225,10 @@
                 </div>
             </div>
     </div>
-            
-
-{{-- ACHAT --}}
             <div class="sale__content">
                 <div class="sale__frame">
                     <div class="sale__hidden__header">
-                        <h2>défibrillateur automatique</h2>
+                        <h3>défibrillateur automatique</h3>
                     </div>
                     <img    
                             src="{{ asset('images/content/homepage_sale.webp') }}"
@@ -231,12 +238,12 @@
                             title="" 
                             class="sale__img">
                     <div class="sale__frame__content">
-                        <h2>défibrillateur automatique</h2>
+                        <h3>défibrillateur automatique</h3>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
                               </svg>
-                            <p class="">Garatie 8 ans</p>
+                            <p class="">Garantie 8 ans</p>
                         </div>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -272,11 +279,17 @@
                         </div>
                         <div class="sale__item__content">
                             <div class="sale__item__price">
-                                <h2 class="sale__price__h2">1190</h2>
+                                <p class="sale__price__h2">1190</p>
                                 <p class="sale__price__p">€</p>
                             </div>
                             <p class="sale_under__price__p">HT</p>
                             <p class="sale_comment__p">*TVA à 20 %</p>
+                            <div class="sale__frame__line">
+                                <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                                  </svg>
+                                <p class="">Inclus tous les éléments ci-dessus</p>
+                            </div>
                             <div class="sale__frame__line">
                                 <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
                                     <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
@@ -302,11 +315,17 @@
                         </div>
                         <div class="sale__item__content">
                             <div class="sale__item__price">
-                                <h2 class="sale__price__h2">1490</h2>
+                                <p class="sale__price__h2">1490</p>
                                 <p class="sale__price__p">€</p>
                             </div>
                             <p class="sale_under__price__p">HT par mois</p>
                             <p class="sale_comment__p">*TVA à 20 %</p>
+                            <div class="sale__frame__line">
+                                <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                                  </svg>
+                                <p class="">Inclus tous les éléments ci-dessus</p>
+                            </div>
                             <div class="sale__frame__line">
                                 <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
@@ -366,7 +385,7 @@
                   </svg>
                 <h2 class="">Achat de DAE</h2>
                 <p class=""><a href="https://cardiopro.fr/location-defibrillateur" class="">Acheter un DAE</a> fait de vous ou votre entreprise le propriétaire du matériel vous permettant d’éviter un coût mensuel lié à la location de celui-ci. À noter que vous devrez souscrire à 
-                    un contrat de maintenance afin de s’assurer que votre matériel soit  opérationnel à chaque instant.</p>
+                    un contrat de maintenance afin de s’assurer que votre matériel soit opérationnel à chaque instant.</p>
             </div>
         </div>
     </div>
@@ -419,15 +438,15 @@
             <h2 class="">Vous avez acheté ou loué votre DAE ou votre DSA, quelle sont vos obligations ?</h2>
             <div class="obligation__row">
                 <div class="obligation__text">
-                    <p class="">La législation favorable à l’obligation d’installation des défibrillateurs est entrée en vigueur depuis le 1er  janvier 2020 :</p>
+                    <p class="">La législation favorable à l’obligation d’installation des défibrillateurs est entrée en vigueur depuis le 1er janvier 2020 :</p>
                     <p class=""><a href="https://cardiopro.fr/obligations#section4" class="">ERP 1, 2, 3 :</a> à partir du 1er janvier 2020, établissement recevant entre 301 à +1500 personnes</p>
                     <p class="https://cardiopro.fr/obligations#section5"><a href="" class="">ERP 4 :</a> à partir du 1er janvier 2021, établissement recevant moins 300 personnes</p>
-                    <p class="https://cardiopro.fr/obligations#section6"><a href="" class="">ERP 5 :</a> à partir du 1er janvier 2022 il est obligatoire pour les ERP 5 d’acheter un DAE ou de louer un DAE. Vous trouverez ci-dessous une liste non-exhaustive de ERP  5 entrant dans le cadre de l’obligation :</p>
+                    <p class="https://cardiopro.fr/obligations#section6"><a href="" class="">ERP 5 :</a> à partir du 1er janvier 2022 il est obligatoire pour les ERP 5 d’acheter un DAE ou de louer un DAE. Vous trouverez ci-dessous une liste non-exhaustive de ERP 5 entrant dans le cadre de l’obligation :</p>
                 </div>
                 <div class="obligation__img__box">
                     <img    srcset="{{ asset('images/content/formulepage_obligation.webp') }} 1920w,
-                                            img/content/formulepage_obligation.webp 700w,
-                                            img/content/formulepage_obligation_400.webp 500w"
+                                    {{ asset('images/content/formulepage_obligation.webp') }} 700w,
+                                    {{ asset('images/content/formulepage_obligation_400.webp') }} 500w"
                             src="{{ asset('images/content/formulepage_obligation.webp') }}"
                             width="578"
                             height="384"
@@ -550,7 +569,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" viewBox="0 0 40 50" fill="none">
                     <path d="M7.86063 5.87111L7.82355 5.87729L7.78992 5.8941L7.11152 6.23331L7.07523 6.25145L7.04654 6.28014C7.04423 6.28245 7.04183 6.28484 7.03935 6.28732C6.9297 6.39676 6.66005 6.66589 6.63586 7.07603C6.52072 7.33827 6.52047 7.60903 6.63511 7.8713C6.64745 8.22606 6.7761 8.52667 7.07016 8.69369L9.53016 11.2655L9.54165 11.2775L9.55464 11.2879C10.0445 11.6798 10.2523 12.2759 10.2523 12.9018C10.2523 13.5277 10.0445 14.1238 9.55464 14.5157L9.53295 14.533L9.5156 14.5547C9.1237 15.0446 8.52763 15.2523 7.90173 15.2523C7.27583 15.2523 6.67976 15.0446 6.28786 14.5547L6.27747 14.5417L6.26545 14.5302L3.69357 12.0702C3.52474 11.7735 3.21697 11.642 2.89273 11.5339L2.85424 11.5211H2.81367C2.80837 11.5211 2.80304 11.5211 2.79766 11.5211C2.59377 11.521 2.33732 11.5209 2.07595 11.6359C1.66582 11.6601 1.3967 11.9298 1.28726 12.0394C1.28478 12.0419 1.28239 12.0443 1.28008 12.0466L1.25139 12.0753L1.23325 12.1116L0.894042 12.79L0.877231 12.8236L0.871051 12.8607C0.638264 14.2574 0.755114 15.6509 1.10259 16.9249L1.10636 16.9387L1.11167 16.952C1.56941 18.0964 2.1501 19.2628 3.20223 20.3149C4.25777 21.3705 5.6577 22.0679 7.04962 22.4159C8.40017 22.7535 9.75244 22.7647 11.1031 22.4493L24.1395 35.4857C23.9381 36.6185 24.0573 37.742 24.2776 38.8434L24.2799 38.8549L24.2833 38.8662C24.6333 40.033 25.2188 41.0877 26.155 42.024C27.0901 42.959 28.1425 43.5434 29.1925 43.8934L29.1925 43.8936L29.1997 43.8957C30.3538 44.242 31.6306 44.3617 32.8031 44.132C33.1084 44.1235 33.3856 43.9663 33.6319 43.72C33.7129 43.6389 33.7828 43.5301 33.8418 43.427C33.9018 43.3219 33.9609 43.2036 34.0162 43.0931L34.0179 43.0897C34.1575 42.8105 34.1657 42.5203 34.0424 42.2398C34.0238 41.9485 33.8702 41.6834 33.6342 41.4466L31.488 39.1875L31.4736 39.1723L31.4568 39.1597C31.0902 38.8847 30.8784 38.2969 30.8784 37.7767C30.8784 37.2874 31.071 36.7854 31.3725 36.3725C31.7853 36.0711 32.2873 35.8785 32.7767 35.8785C33.2969 35.8785 33.8847 36.0902 34.1596 36.4569L34.1722 36.4736L34.1874 36.4881L36.4466 38.6343C36.6833 38.8703 36.9484 39.0239 37.2397 39.0425C37.5038 39.1585 37.7766 39.1581 38.0406 39.0411C38.2054 39.0239 38.3475 38.9425 38.4482 38.8706C38.5641 38.7878 38.6609 38.691 38.7169 38.6349L38.7199 38.6319C38.9662 38.3856 39.1234 38.1085 39.132 37.8031C39.3617 36.6307 39.2419 35.3539 38.8957 34.1998L38.8958 34.1998L38.8934 34.1926C38.5434 33.1425 37.959 32.0902 37.0239 31.1551C36.0876 30.2188 35.033 29.6334 33.8661 29.2833L33.8549 29.2799L33.8433 29.2776C32.7419 29.0574 31.6184 28.9382 30.4857 29.1396L17.4493 16.1032C17.7646 14.7525 17.7535 13.4002 17.4158 12.0497C17.0679 10.6578 16.3704 9.25783 15.3149 8.20229C14.2627 7.15016 13.0963 6.56947 11.952 6.11173L11.9387 6.10642L11.9249 6.10265C10.6508 5.75517 9.25735 5.63832 7.86063 5.87111ZM4.58476 18.9559L4.57928 18.9496L4.5734 18.9437C3.80814 18.1785 3.26416 17.307 2.93777 16.3278C2.66938 15.5226 2.62183 14.6338 2.67744 13.7811L4.90024 15.9072C5.74509 16.751 6.8289 17.1092 7.90173 17.1092C8.97539 17.1092 10.0601 16.7504 10.9052 15.9053C11.7503 15.0601 12.1091 13.9755 12.1091 12.9018C12.1091 11.829 11.7509 10.7451 10.9072 9.90029L8.78104 7.6775C9.63371 7.62189 10.5226 7.66944 11.3278 7.93783C12.307 8.26422 13.1784 8.80819 13.9437 9.57346L13.9496 9.57934L13.9558 9.58482C14.8116 10.3336 15.3539 11.4114 15.5713 12.4985L15.573 12.507L15.5753 12.5153C15.9027 13.7156 15.9009 14.906 15.4685 16.0953L15.4684 16.0953L15.4662 16.1017L15.3532 16.4409L15.3043 16.5875L15.4136 16.6967L15.7528 17.0359L29.5296 30.8127L29.742 31.1313L29.8397 31.2779L30.0106 31.2352L30.4597 31.1229C31.4429 30.9049 32.4197 30.9067 33.2814 31.1221C34.1309 31.3345 34.9983 31.8706 35.7726 32.533C36.4161 33.1788 36.8428 33.9283 37.0569 34.7845L37.0603 34.7984L37.0653 34.8117C37.3216 35.4951 37.3744 36.1834 37.328 36.8864L35.554 35.1125C34.8371 34.3955 33.8715 33.9086 32.7767 33.9086C31.813 33.9086 30.8416 34.2695 30.1119 35.112C29.2694 35.8417 28.9085 36.8131 28.9085 37.7767C28.9085 38.8716 29.3955 39.8371 30.1124 40.5541L31.8864 42.3281C31.1834 42.3745 30.495 42.3216 29.8116 42.0654L29.7983 42.0604L29.7845 42.0569C28.9282 41.8429 28.1788 41.4162 27.5329 40.7726C26.8706 39.9983 26.3345 39.131 26.1221 38.2814C25.9066 37.4197 25.9049 36.4429 26.1229 35.4598L26.2351 35.0107L26.2779 34.8398L26.1313 34.742L25.8127 34.5296L12.0359 20.7528L11.6967 20.4136L11.5874 20.3044L11.4408 20.3532L11.1083 20.4641C9.89348 20.7946 8.69988 20.8984 7.51523 20.5754L7.50693 20.5731L7.49848 20.5714C6.41129 20.354 5.33353 19.8116 4.58476 18.9559Z" fill="#0039C6" stroke="#0039C6" stroke-width="0.5"/>
                   </svg>
-                <h2 class="">Maintenance de votre DAE</h2>
+                <h3 class="">Maintenance de votre DAE</h3>
                 <p class="">L'entretien de votre défibrillateur est important car il peut sauver une vie. Vous devez vous assurer que tous les composants, y compris les batteries et les électrodes, sont à jour par rapport aux recommandations d'utilisation du fabricant. La maintenance de votre DAE ne consiste pas seulement à vérifier son état de marche, mais aussi à s'assurer que tout fonctionne correctement dans son intégralité, afin d'éviter tout danger ou dysfonctionnement potentiel qui pourrait survenir uniquement en raison de pratiques d'entretien négligentes, effectuées sans suivre les instructions de maintenance avec une grande attention.</p>
             </div>
             <div class="maintaining__item">
@@ -564,7 +583,7 @@
                       </clipPath>
                     </defs>
                   </svg>
-                <h2 class="">Signalétique DAE</h2>
+                <h3 class="">Signalétique DAE</h3>
                 <p class="">En tant que propriétaire ou gérant d'un établissement ouvert au public, vous devez disposer d'un défibrillateur. Il est de votre responsabilité - et de votre devoir - d'afficher des panneaux visibles indiquant son emplacement et de vous assurer qu'il est assez facile à trouver pour les clients / visiteurs / employés qui pourraient venir le chercher en cas d'urgence !</p>
             </div>
             <div class="maintaining__item">
@@ -580,7 +599,7 @@
                       </clipPath>
                     </defs>
                   </svg>
-                <h2 class="">Déclaration</h2>
+                <h3 class="">Déclaration</h3>
                 <p class="">Afin d'assurer la sécurité et l'accessibilité des défibrillateurs, les propriétaires de DAE doivent signaler leur emplacement dans une base de données nationale. Cela permettra aux agents médicaux et à tout citoyen cherchant des appareils de sauvetage à proximité d'y accéder facilement !</p>
             </div>
         </div>
@@ -646,7 +665,7 @@
                           </svg>
                     </div>
                     <div class="additionalInfo__line__bottom">
-                        <h2 class="">Notre Philosophie</h2>
+                        <h3 class="">Notre Philosophie</h3>
                     </div>
                     <div class="additionalInfo__line__bottom">
                         <p class="">Nous vous équipons pour, ensemble, sauver des vies !</p>
@@ -663,13 +682,13 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                             <path d="M26.5841 10.6667H27.9999C29.4727 10.6667 30.6666 11.8606 30.6666 13.3334V18.6667C30.6666 20.1395 29.4727 21.3334 27.9999 21.3334H26.5841C25.9279 26.5951 21.4394 30.6667 15.9999 30.6667V28C20.4182 28 23.9999 24.4183 23.9999 20V12C23.9999 7.58176 20.4182 4.00004 15.9999 4.00004C11.5816 4.00004 7.99992 7.58176 7.99992 12V21.3334H3.99992C2.52716 21.3334 1.33325 20.1395 1.33325 18.6667V13.3334C1.33325 11.8606 2.52716 10.6667 3.99992 10.6667H5.41577C6.07191 5.40496 10.5604 1.33337 15.9999 1.33337C21.4394 1.33337 25.9279 5.40496 26.5841 10.6667ZM3.99992 13.3334V18.6667H5.33325V13.3334H3.99992ZM26.6666 13.3334V18.6667H27.9999V13.3334H26.6666ZM10.3458 21.0466L11.7594 18.785C12.9887 19.555 14.4423 20 15.9999 20C17.5575 20 19.0111 19.555 20.2404 18.785L21.6541 21.0466C20.0149 22.0732 18.0767 22.6667 15.9999 22.6667C13.9231 22.6667 11.985 22.0732 10.3458 21.0466Z" fill="#0039C6"/>
                           </svg>
-                        <p class="">Une permanence technique téléphonique 7 jours/7 est  mise à votre disposition</p>
+                        <p class="">Une permanence technique téléphonique 7 jours/7 est mise à votre disposition</p>
                     </div>
                     <div class="additionalInfo__dop__row">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                             <path d="M7.10518 4.36206C8.7493 3.77756 10.6557 4.14328 11.9716 5.45924C13.4662 6.95378 13.7351 9.20984 12.7783 10.9784L27.0566 25.2582L25.171 27.1438L10.8924 12.865C9.12361 13.8225 6.86685 13.5538 5.37196 12.0589C4.05563 10.7426 3.69007 8.83549 4.27528 7.19105L7.25759 10.1733C8.03863 10.9543 9.30496 10.9543 10.086 10.1733C10.8671 9.39224 10.8671 8.1259 10.086 7.34486L7.10518 4.36206ZM20.9283 6.87345L25.171 4.51644L27.0566 6.40205L24.6995 10.6447L22.3426 11.1161L19.5141 13.9445L17.6285 12.0589L20.4569 9.23048L20.9283 6.87345ZM11.9716 17.7157L13.8573 19.6014L6.78618 26.6725C6.26548 27.1932 5.42125 27.1932 4.90056 26.6725C4.41705 26.1889 4.38252 25.4265 4.79695 24.9032L4.90056 24.7869L11.9716 17.7157Z" fill="#0039C6"/>
                           </svg>
-                        <p class="">Un service maintenance attentif  à vos besoins et une intervention en moins de 72h</p>
+                        <p class="">Un service maintenance attentif à vos besoins et une intervention en moins de 72h</p>
                     </div>
                     <div class="additionalInfo__dop__row">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -681,7 +700,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                             <path d="M6.66667 4V25.3333H28V28H4V4H6.66667ZM27.0572 8.39052L28.9428 10.2761L21.3333 17.8856L17.3333 13.8867L11.6095 19.6095L9.72385 17.7239L17.3333 10.1144L21.3333 14.1133L27.0572 8.39052Z" fill="#0039C6"/>
                           </svg>
-                        <p class="">Une veille permanente de l’évolution de la législation  relative aux défibrillateurs</p>
+                        <p class="">Une veille permanente de l’évolution de la législation relative aux défibrillateurs</p>
                     </div>
                     <div class="additionalInfo__dop__row">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
@@ -698,7 +717,7 @@
                 </div>
                 <div class="additionalInfo__item__bottom">
                     <div class="additionalInfo__line">
-                        <h2 class="">Contactez nous !</h2>
+                        <h3 class="">Contactez nous !</h3>
                     </div>
                     <div class="additionalInfo__line">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
