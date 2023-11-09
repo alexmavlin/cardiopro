@@ -115,3 +115,32 @@ function headerAbove1120px() {
     }
     /* // Dropdowns functionality */
 }
+
+let devisBtn = document.getElementById('devis_en_ligne_btn')
+if (devisBtn)
+{
+    if (window.scrollY != 0)
+    {
+        fadeIn(devisBtn, 300)
+        devisBtn.style.pointerEvents = "all"
+        devisBtn.classList.add('active')
+    }
+    window.addEventListener("scroll", function() {
+
+        let scrollTop = window.scrollY
+        
+        if (scrollTop === 0)
+        {
+            fadeOut(devisBtn, 300)
+            devisBtn.style.pointerEvents = "none"
+            devisBtn.classList.remove('active')
+        } else {
+            if (!devisBtn.classList.contains('active'))
+            {
+                fadeIn(devisBtn, 300)
+                devisBtn.style.pointerEvents = "all"
+                devisBtn.classList.add('active')
+            }
+        }
+    })
+}

@@ -38,7 +38,7 @@
 <section class="mastHead">
 <div class="container">
     <div class="mastHead__inner">
-        <img    src="{{ asset('images/content/logo_page.webp') }}"
+        <img    src="{{ asset('images/content/logo_page.png') }}"
             width="250"
             height="75"
             alt=""
@@ -49,7 +49,7 @@
 </div>
 </section>
 
-<section class="recognizeCardiac">
+<section class="recognizeCardiac bg-blue">
     <div class="container">
         <div class="recognizeCardiac__inner">
             <h2>Quels signes vous permettent de reconnaitre un arrêt cardiaque ?</h2>
@@ -72,7 +72,7 @@
 </section>
 
 
-<section class="whatAED">
+<section class="whatAED bg-blue">
     <div class="container">
         <div class="whatAED__inner">
             <div class="whatAED__content">
@@ -84,7 +84,7 @@
                             title="" 
                             class="whatAED__img"> 
                     <div class="whatAED__content">
-                        <p class="whatAED__content__header">Les signes avant-coureurs d'un infarctus peuvent être repérés en avance</p>
+                        <h3 class="whatAED__content__header">Les signes avant-coureurs d'un infarctus peuvent être repérés en avance</h3>
                         <p class="whatAED__content__p">Certaines fois, en cas <b>d’infarctus du myocarde</b>, des signes avant-coureurs permettent de repérer un potentiel <b>arrêt cardiaque</b>. En ce cas, le sujet peut présenter, dans les heures ou jours avant l’arrêt, <b>une douleur intense</b> et de longue durée dans le <b>thorax</b> qui peut atteindre les bras, 
                             ainsi qu’une <b>sensation d’oppression</b>, de <b>serrement</b> voire d’écrasement. En plus de <b>l’infarctus</b>, des <b>palpitations</b> ou un <b>malaise général</b> peuvent précéder un arrêt cardiaque - mais il peut aussi survenir brutalement.</p>
                     </div>
@@ -97,7 +97,7 @@
                             title="" 
                             class="whatAED__img"> 
                     <div class="whatAED__content">
-                        <p class="whatAED__content__header">Ralentissement du rythme cardiaque, comment un défibrillateur peut renverser la situation ?</p>
+                        <h3 class="whatAED__content__header">Ralentissement du rythme cardiaque, comment un défibrillateur peut renverser la situation ?</h3>
                         <p class="whatAED__content__p">Dans de nombreux cas <b>d'arrêt cardiaque</b>, le cœur bat toujours, mais le <b>rythme des battements est si anormal</b> que la contraction du cœur ne fonctionne pas et que le cœur <b>ne peut plus remplir sa fonction de pompage</b>: il s'agit d’une fibrillation. Le DAE peut être utilisé pour <b>analyser le rythme cardiaque</b> de la victime et <b>administrer le choc</b> nécessaire pour <b>rétablir un rythme normal des battements du cœur</b> (sinusal). Si la <b>réanimation cardio-pulmonaire</b> et la défibrillation sont effectuées dans les premières minutes suivant l'arrêt cardiaque, les <b>chances de survie augmentent grandement</b>.</p>
                         <p class="whatAED__content__p">Cardiopro contribue à l'effort national visant à abaisser le taux de mortalité suite à un arrêt cardiaque, en proposant aux ERP et Entreprises des packs de <a href="https://cardiopro.fr/location-defibrillateur">location de défibrillateurs tout</a> compris !</p>
                     </div>

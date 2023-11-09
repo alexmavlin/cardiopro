@@ -4,10 +4,14 @@ const scrollAmount = 358;
 const leftButton = document.querySelector('.livraisonSlider__button__left');
 const rightButton = document.querySelector('.livraisonSlider__button__right');
 
-leftButton.addEventListener('click', () => {
-    list.scrollLeft -= scrollAmount;
-});
 
-rightButton.addEventListener('click', () => {
-    list.scrollLeft += scrollAmount;
-});
+if (list) 
+{
+    leftButton.addEventListener('click', () => {
+        list.scrollLeft -= scrollAmount;
+    });
+    
+    rightButton.addEventListener('click', () => {
+        list.scrollLeft += scrollAmount;
+    });
+}

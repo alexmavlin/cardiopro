@@ -38,7 +38,7 @@
 <section class="mastHead">
     <div class="container">
         <div class="mastHead__inner">
-            <img    src="{{ asset('images/content/logo_page.webp') }}"
+            <img    src="{{ asset('images/content/logo_page.png') }}"
                 width="250"
                 height="75"
                 alt=""
@@ -50,7 +50,7 @@
 </section>
 
 
-<section class="whatAED">
+<section class="whatAED bg-blue">
     <div class="container">
         <div class="whatAED__inner">
             <div class="whatAED__content">
@@ -62,7 +62,7 @@
                             title="" 
                             class="whatAED__img"> 
                     <div class="whatAED__content">
-                        <p class="whatAED__content__header">2018, l'obligation d'installation de défibrillateur est voté</p>
+                        <h2 class="whatAED__content__header">2018, l'obligation d'installation de défibrillateur est voté</h2>
                         <p class="whatAED__content__p">Si 40 000 personnes meurent chaque année d’un <b>arrêt cardiaque</b> en France, c’est faute d’avoir pu bénéficier d’une bonne intervention alternant 
                             <b>gestes des premiers secours et choc(s) électrique(s)</b> (grâce à un <b>défibrillateur</b> !) en attendant que les équipes de secours et d’<b>aide médicale d’urgence</b> aient pu les prendre en charge.</p>
                         <p class="whatAED__content__p">Afin de prévenir la mort subite due à un arrêt cardiaque, le <b>ministère de la Santé</b> a commencé à prendre des mesures en 2007 pour <b>promouvoir l’installation</b>, dans les <b>ERP</b>, de dispositifs <b>DAE</b> dans tout le pays. 
@@ -81,7 +81,7 @@
                                 class="whatAED__img">
                     </div>
                     <div class="whatAED__content">
-                        <p class="whatAED__content__header">2020, la mise en application de la legislation en faveur des DAE entre en vigueur</p>
+                        <h2 class="whatAED__content__header">2020, la mise en application de la legislation en faveur des DAE entre en vigueur</h2>
                         <p class="whatAED__content__p"><b class="">Le décret n ° 2018-1186 du 19 décembre 2018, applicable à la loi n ° 2018-528 du 28 juin 2018, indique que les ERP soumis à l' <a href="https://cardiopro.fr/obligations">obligation de détenir des DAE</a> sont :</b></p>
                         <div class="whatAED__content__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
@@ -147,7 +147,7 @@
                             title="" 
                             class="whatAED__img"> 
                     <div class="whatAED__content">
-                        <p class="whatAED__content__header">La législation prévoie que le défibrillateur soit accessible en 5 min</p>
+                        <h2 class="whatAED__content__header">La législation prévoie que le défibrillateur soit accessible en 5 min</h2>
                         <p class="whatAED__content__p"><b>L’obligation de posséder un DAE</b> incombe aux <b>propriétaires des ERP.</b></p>
                         <p class="whatAED__content__p">Lorsque plusieurs ERP sont situés dans le même emplacement géographique, le <b>défibrillateur</b> peut être partagé. Par même emplacement géographique, il faut entendre que le <b>DAE</b> partagé soit accessible à tout moment dans un <b>délai de 5 minutes</b> depuis le lieu de l'urgence cardiaque. Selon l'<b>article R.123-21 de la loi sur la construction et le logement</b>, il est précisé qu'il est également possible de mutualiser un DAE pour les 
                             ERP placés sous la même direction et situés dans le même bâtiment.</p>

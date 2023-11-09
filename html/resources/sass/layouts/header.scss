@@ -166,6 +166,25 @@
     }
 }
 
+.devis_en_ligne_btn {
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    padding: 11px 30px;
+    font-size: 14px;
+    line-height: 25px;
+    height: auto;
+    background-color: #ca1d1f;
+    vertical-align: top;
+    text-decoration: none;
+    @include nunito600;
+    color: #fff;
+    border-radius: 25px;
+    z-index: 10;
+    opacity: 0;
+    pointer-events: none;
+}
+
 @media (max-width: 1120px) {
     .header__top {
         display: none;

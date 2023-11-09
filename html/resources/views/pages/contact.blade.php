@@ -36,7 +36,7 @@
     </section>
 @endif
 
-<section class="contactForm">
+<section class="contactForm bg-blue">
     <div class="container">
         <div class="contactForm__inner">
             <form action="" class="contactForm__form">
@@ -105,13 +105,12 @@
         </div>
     </div>
 </section>
-<section class="neverLost">
+<section class="neverLost bg-blue">
     <div class="container">
         <div class="neverLost__inner">
             <div class="neverLost__row">
-                <img    srcset="{{ asset('images/content/contact_neverLost.webp') }} 1920w,
-                                        img/content/contact_neverLost_600.webp 700w,
-                                        img/content/contact_neverLost_400.webp 500w"
+                <img    srcset="{{ asset('images/content/contact_neverLost.webp') }} 1920w
+                                {{ asset('images/content/contact_neverLost_400.webp') }} 500w"
                         src="{{ asset('images/content/contact_neverLost.webp') }}"
                         width="728"
                         height="407"
