@@ -2,10 +2,9 @@
 
 @section('content')
 <section class="mainScreen">
-    <img    srcset="{{ asset('images/content/livrasion_formuleLocation.webp') }} 1920w,
-                    {{ asset('images/content/livrasion_formuleLocation_600.webp') }} 700w,
-                    {{ asset('images/content/livrasion_formuleLocation_400.webp 500w') }} 500w"
-            src="{{ asset('images/content/livrasion_formuleLocation.webp') }}"
+    <img    srcset="{{ asset('images/content/obligations_main.webp') }} 1920w,
+                    {{ asset('images/content/obligations_main_600.webp') }} 700w"
+            src="{{ asset('images/content/obligations_main.webp') }}"
             width="1600"
             height="580"
             alt=""
@@ -98,22 +97,22 @@
                     title=""
                     class="acsList__img">
         </div>
-        <h2 class="acsList__h2">2022 : défibrillateurs obligatoires dans certains ERP de catégorie 5</h2>
+        <h3 class="acsList__h2">2022 : défibrillateurs obligatoires dans certains ERP de catégorie 5</h3>
         <p class="acsList__p">Depuis le 1er janvier 2022, la <b>nouvelle loi sur les défibrillateurs</b> impose leur installation dans certains ERP de catégorie 5. Des contrôles de conformité sont prévus par le biais d'inspections de sécurité et de prévention des risques. Cela marque la dernière étape pour rendre les défibrillateurs facilement accessibles dans tous les ERP en France.</p>
         <p class="acsList__p">Les ERP de catégorie 5 concernés englobent divers types d'établissements, notamment les <a href="https://cardiopro.fr/ehpad">structures pour personnes âgées</a> et handicapées, les salles de conférences, les centres commerciaux, les <a href="https://cardiopro.fr/hotel">hôtels</a>, les écoles, les musées et bien d'autres.</p>
         <p class="acsList__p">Cette loi vise à garantir la sécurité des salariés et des visiteurs en offrant un accès rapide aux défibrillateurs dans un large éventail d'établissements publics.</p>
-        <h2 class="acsList__h2">2021 : défibrillateurs obligatoires dans les ERP de catégorie 4</h2>
+        <h3 class="acsList__h2">2021 : défibrillateurs obligatoires dans les ERP de catégorie 4</h3>
         <p class="acsList__p">Depuis le 1er janvier 2021, la législation a rendu les <b>défibrillateurs automatiques obligatoires</b> dans les Établissements Recevant du Public (ERP) de catégorie 4. C’est-à-dire, les établissements pouvant accueillir jusqu'à 300 personnes, y compris les employés.</p>
         <p class="acsList__p">Cette mesure vise à accroître la disponibilité de ces dispositifs de sauvetage dans les zones potentiellement à risque, augmentant ainsi les chances de sauver des vies.</p>
         <p class="acsList__p">De plus, les ERP des catégories 1, 2, 3 et 4, sont soumis à des contrôles de sécurité et de prévention des risques depuis le début de cette même année.</p>
-        <h2 class="acsList__h2">2020 : défibrillateurs obligatoires dans les ERP des catégorie 1, 2 et 3</h2>
+        <h3 class="acsList__h2">2020 : défibrillateurs obligatoires dans les ERP des catégorie 1, 2 et 3</h3>
         <p class="acsList__p">Depuis le 1er janvier 2020, la <b>loi impose l'installation de défibrillateurs dans les établissements</b> publics accueillant plus de 300 personnes. Cette mesure vise à accroître les chances de survie en cas d'arrêt cardiaque en fournissant un accès facile aux défibrillateurs automatiques dans les zones à forte fréquentation. </p>
         <p class="acsList__p">Les établissements soumis à cette obligation appartiennent aux catégories 1, 2 et 3 des Établissements Recevant du Public (ERP), classés en fonction de leur capacité d'accueil : la catégorie 1 accueille plus de 1500 personnes, la catégorie 2 de 701 à 1 500 personnes et la catégorie 3 de 301 à 700 personnes.</p>
-        <h2 class="acsList__h2">2020 : création du statut du citoyen sauveteur</h2>
+        <h3 class="acsList__h2">2020 : création du statut du citoyen sauveteur</h3>
         <p class="acsList__p">En juillet 2020, un nouveau statut de « citoyen sauveteur » a été créé. Ce statut vise à encourager les gestes de premiers secours en protégeant les citoyens contre d'éventuelles poursuites judiciaires lorsqu'ils portent assistance à une personne en danger. Ce statut accorde également le droit d'être reconnu comme collaborateur occasionnel du service public.</p>
         <p class="acsList__p">Les critères pour être qualifié de citoyen sauveteur sont simples : il faut porter assistance <b>bénévolement</b> à une personne dans une <b>situation apparente de péril grave et imminent</b>.</p>
         <p class="acsList__p">En cas de préjudice lié à l'intervention, le citoyen sauveteur est exempté de responsabilité civile, sauf en cas de faute grave. </p>
-        <h2 class="acsList__h2">2020 : lancement de Géo’DAE, base de données nationale des DAE</h2>
+        <h3 class="acsList__h2">2020 : lancement de Géo’DAE, base de données nationale des DAE</h3>
         <p class="acsList__p">Lancée en février 2020, la base de données Géo’DAE, géolocalise les défibrillateurs automatiques externes (DAE). Gérée par le ministère des Solidarités et de la Santé, elle a quatre objectifs : </p>
         <ul>
             <li>rendre les données accessibles à tous pour faciliter l'intervention en cas d'arrêt cardiaque ;</li>
@@ -122,7 +121,7 @@
             <li>mobiliser des initiatives pour sauver des vies. </li>
         </ul>
         <p class="acsList__p">La marque d'État « Géo'DAE - Base nationale des défibrillateurs » encourage la collaboration pour faciliter l'accès aux défibrillateurs. Ainsi, tous les exploitants de DAE, propriétaires d’outils répertoriant les défibrillateurs (applications mobiles, etc.) ou organisateurs d'événements qui contribuent à enrichir la base de données peuvent l'utiliser. </p>
-        <h2 class="acsList__h2">2019 : Directives sur la signalisation des DAE dans les espaces publics</h2>
+        <h3 class="acsList__h2">2019 : Directives sur la signalisation des DAE dans les espaces publics</h3>
         <p class="acsList__p">L'arrêté du 29 octobre 2019 détaille les <b>règles de signalisation des défibrillateurs automatisés externes</b> (DAE) dans les lieux publics et établissements recevant du public. La signalétique doit suivre des modèles définis et respecter des dispositions graphiques précises. </p>
         <p class="acsList__p">De plus, les propriétaires des établissements et les exploitants de défibrillateurs sont tenus de : </p>
         <ul>
@@ -133,19 +132,18 @@
         <p class="acsList__p">En outre, selon l’article 3 de l’arrêté, les DAE doivent être facilement accessibles et ceux installés en extérieur doivent être protégés des intempéries.</p>
     </div>
 </section>
-<section class="formuleSlider formuleSlider__prix">
+
+<section class="formuleSlider bg-blue pt-50 pb-60">
     <div class="container">
-        <div class="sale__differenceSpace"></div>
         <div class="slider__inner">
             <div class="slider__group">
                 <button class="sale__button__active">Location</button>
                 <button class="">Achat</button>
             </div>
-{{-- ACHAT --}}
         <div class="sale__content sale__active__frame">
             <div class="sale__frame ">
                 <div class="sale__hidden__header">
-                    <h2>défibrillateur automatique</h2>
+                    <h3>défibrillateur automatique</h3>
                 </div>
                 <img    
                         src="{{ asset('images/content/homepage_sale.webp') }}"
@@ -155,12 +153,12 @@
                         title="" 
                         class="sale__img">
                 <div class="sale__frame__content">
-                    <h2>défibrillateur automatique</h2>
+                    <h3>défibrillateur automatique</h3>
                     <div class="sale__frame__line">
                         <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                             <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
                           </svg>
-                        <p class="">Garatie 8 ans</p>
+                        <p class="">Garantie 8 ans</p>
                     </div>
                     <div class="sale__frame__line">
                         <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -196,11 +194,17 @@
                     </div>
                     <div class="sale__item__content">
                         <div class="sale__item__price">
-                            <h2 class="sale__price__h2">39</h2>
+                            <p class="sale__price__h2">39</p>
                             <p class="sale__price__p">€</p>
                         </div>
                         <p class="sale_under__price__p">HT par mois</p>
                         <p class="sale_comment__p">*Location de 60 mois - TVA à 20 %</p>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                              </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
+                        </div>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
                                 <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
@@ -226,11 +230,17 @@
                     </div>
                     <div class="sale__item__content">
                         <div class="sale__item__price">
-                            <h2 class="sale__price__h2">49</h2>
+                            <p class="sale__price__h2">49</p>
                             <p class="sale__price__p">€</p>
                         </div>
                         <p class="sale_under__price__p">HT par mois</p>
                         <p class="sale_comment__p">*Location de 60 mois - TVA à 20 %</p>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                              </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
+                        </div>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
@@ -250,115 +260,123 @@
                     </div>
                 </div>
             </div>
-    </div>
-            
-
-{{-- ACHAT --}}
-            <div class="sale__content">
-                <div class="sale__frame">
-                    <div class="sale__hidden__header">
-                        <h2>défibrillateur automatique</h2>
+        </div>
+        <div class="sale__content">
+            <div class="sale__frame">
+                <div class="sale__hidden__header">
+                    <h3>défibrillateur automatique</h3>
+                </div>
+                <img    
+                        src="{{ asset('images/content/homepage_sale.webp') }}"
+                        width="387"
+                        height="387"
+                        alt=""
+                        title="" 
+                        class="sale__img">
+                <div class="sale__frame__content">
+                    <h3>défibrillateur automatique</h3>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Garantie 8 ans</p>
                     </div>
-                    <img    
-                            src="{{ asset('images/content/homepage_sale.webp') }}"
-                            width="387"
-                            height="387"
-                            alt=""
-                            title="" 
-                            class="sale__img">
-                    <div class="sale__frame__content">
-                        <h2>défibrillateur automatique</h2>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Livraison rapide et installation</p>
+                    </div>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Électrodes adultes et pédiatriques</p>
+                    </div>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Trousse de secours</p>
+                    </div>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Signalétique autocollante</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sale__price__row">
+                <div class="sale__item">
+                    <div class="sale__rectangle"></div>
+                    <div class="sale__item__header">
+                        <p class="">Pack access</p>
+                    </div>
+                    <div class="sale__item__content">
+                        <div class="sale__item__price">
+                            <p class="sale__price__h2">1190</p>
+                            <p class="sale__price__p">€</p>
+                        </div>
+                        <p class="sale_under__price__p">HT</p>
+                        <p class="sale_comment__p">*TVA à 20 %</p>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Garatie 8 ans</p>
+                            </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
                         </div>
                         <div class="sale__frame__line">
-                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Livraison rapide et installation</p>
+                            <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
+                            </svg>
+                            <p class="">Assistant massage cardiaque</p>
                         </div>
                         <div class="sale__frame__line">
-                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Électrodes adultes et pédiatriques</p>
+                            <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
+                            </svg>
+                            <p class="">Support mural</p>
                         </div>
-                        <div class="sale__frame__line">
-                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Trousse de secours</p>
-                        </div>
-                        <div class="sale__frame__line">
-                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Signalétique autocollante</p>
+                        <div class="sale__buttons">
+                            <a href="" class="sale__choisir">Choisir</a>
+                            <a href="" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
-                <div class="sale__price__row">
-                    <div class="sale__item">
-                        <div class="sale__rectangle"></div>
-                        <div class="sale__item__header">
-                            <p class="">Pack access</p>
-                        </div>
-                        <div class="sale__item__content">
-                            <div class="sale__item__price">
-                                <h2 class="sale__price__h2">1190</h2>
-                                <p class="sale__price__p">€</p>
-                            </div>
-                            <p class="sale_under__price__p">HT</p>
-                            <p class="sale_comment__p">*TVA à 20 %</p>
-                            <div class="sale__frame__line">
-                                <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-                                    <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
-                                  </svg>
-                                <p class="">Assistant massage cardiaque</p>
-                            </div>
-                            <div class="sale__frame__line">
-                                <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-                                    <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
-                                  </svg>
-                                <p class="">Support mural</p>
-                            </div>
-                            <div class="sale__buttons">
-                                <a href="" class="sale__choisir">Choisir</a>
-                                <a href="" class="sale__ensavoir">En savoir +</a>
-                            </div>
-                        </div>
+                <div class="sale__item">
+                    <div class="sale__rectangle"></div>
+                    <div class="sale__item__header">
+                        <p class="">Pack zen</p>
                     </div>
-                    <div class="sale__item">
-                        <div class="sale__rectangle"></div>
-                        <div class="sale__item__header">
-                            <p class="">Pack zen</p>
+                    <div class="sale__item__content">
+                        <div class="sale__item__price">
+                            <p class="sale__price__h2">1490</p>
+                            <p class="sale__price__p">€</p>
                         </div>
-                        <div class="sale__item__content">
-                            <div class="sale__item__price">
-                                <h2 class="sale__price__h2">1490</h2>
-                                <p class="sale__price__p">€</p>
-                            </div>
-                            <p class="sale_under__price__p">HT par mois</p>
-                            <p class="sale_comment__p">*TVA à 20 %</p>
-                            <div class="sale__frame__line">
-                                <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                                  </svg>
-                                <p class="">Assistant massage cardiaque</p>
-                            </div>
-                            <div class="sale__frame__line">
-                                <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                                  </svg>
-                                <p class="">Support mural</p>
-                            </div>
-                            <div class="sale__buttons">
-                                <a href="" class="sale__choisir">Choisir</a>
-                                <a href="" class="sale__ensavoir">En savoir +</a>
-                            </div>
+                        <p class="sale_under__price__p">HT par mois</p>
+                        <p class="sale_comment__p">*TVA à 20 %</p>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                              </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
+                        </div>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                            </svg>
+                            <p class="">Assistant massage cardiaque</p>
+                        </div>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                            </svg>
+                            <p class="">Support mural</p>
+                        </div>
+                        <div class="sale__buttons">
+                            <a href="" class="sale__choisir">Choisir</a>
+                            <a href="" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -366,6 +384,7 @@
         </div>
     </div>
 </section>
+
 <section class="acsList__obligations formuleSlider__blue">
     <div class="container">
         <div class="acsList__header">
@@ -383,7 +402,7 @@
                     title=""
                     class="acsList__img">
         </div>
-        <h2 class="acsList__h2">Que dit la loi concernant l’installation de défibrillateur en entreprise ?</h2>
+        <h3 class="acsList__h2">Que dit la loi concernant l’installation de défibrillateur en entreprise ?</h3>
         <p class="acsList__p">Des changements législatifs récents ont établi l'<b>obligation d'installer des défibrillateurs</b> dans certains établissements et entreprises, conformément au Code de la construction et de l'habitation (articles R123-57) et à un décret du 19 décembre 2018. </p>
         <p class="acsList__p">Cette obligation s'applique aux Établissements Recevant du Public (ERP), répartis en cinq catégories en fonction de leur capacité d'accueil :</p>
         <ul>
@@ -394,7 +413,7 @@
             <li class="acsList__red">Catégorie ERP 5 : ne dépassant pas la limite établie par les règlements de sécurité</li>
         </ul>
         <p class="acsList__p">Toutes les entreprises ne sont pas concernées par cette réglementation. Toutefois, il faut rester vigilant car en vertu du Code du travail, l'employeur peut être tenu responsable en cas d'urgence cardiaque sur le lieu de travail.</p>
-        <h2 class="acsList__h2">Selon le Code du travail</h2>
+        <h3 class="acsList__h2">Selon le Code du travail</h3>
         <p class="acsList__p">En vertu du Code du travail, l'employeur a la responsabilité de garantir la santé et la sécurité de ses employés, ce qui inclut des dispositions pour les premiers secours, que l'entreprise soit classée comme ERP ou non. Une de ces obligations consiste à mettre à disposition un "matériel de premiers secours adapté aux risques naturels".</p>
         <p class="acsList__p">Avant d'<a href="">acquérir un défibrillateur</a>, les entreprises doivent évaluer les risques avec la médecine du travail et les représentants des salariés. </p>
         <p class="acsList__p">Les facteurs de risque courants qui justifient l'acquisition d'un DAE incluent :</p>
@@ -416,7 +435,7 @@
                     <div class="regarding__item">
                         <h3>Que dit la loi en matière de maintenance de défibrillateur ?</h3>
                         <p>Selon le Code de la construction et de l'habitation, le propriétaire d'un <b>défibrillateur a l’obligation légale</b> de veiller à la maintenance de l’appareil, y compris celle de ses accessoires, ainsi qu'à la réalisation de contrôles de qualité en accord avec les normes des dispositifs médicaux qu'il exploite. </p>
-                        <p>Cela implique donc de s’assurer du bon fonctionnement du défibrillateur mais également de veiller à ce que ses composants, tels que les piles et les électrodes, soient maintenus à jour conformément aux recommandations  du fabricant.</p>
+                        <p>Cela implique donc de s’assurer du bon fonctionnement du défibrillateur mais également de veiller à ce que ses composants, tels que les piles et les électrodes, soient maintenus à jour conformément aux recommandations du fabricant.</p>
                         <p>Assurer l'entretien adéquat de ces dispositifs est essentiel pour garantir leur efficacité en cas d'urgence médicale.</p>
                     </div>
                     <div class="regarding__item">
@@ -437,7 +456,7 @@
                         </ul>
                     </div>
                     <div class="regarding__item">
-                        <h3>Est-il obligatoire de déclarer son  défibrillateur ?</h3>
+                        <h3>Est-il obligatoire de déclarer son défibrillateur ?</h3>
                         <p>La <b>déclaration des défibrillateurs externes automatisés (DEA) est effectivement obligatoire</b> pour garantir la sécurité de tous les citoyens. Les propriétaires de DEA doivent signaler leur emplacement dans la base de données nationale Géo’DAE.</p>
                         <p>Cette mesure vise à assurer l'accessibilité des DEA en cas d'urgence, permettant leur localisation rapide afin de maximiser les chances de survie d'une <a href="https://cardiopro.fr/reconnaitre-un-arret-cardiaque">victime d'arrêt cardiaque</a>.</p>
                         <p>En contribuant à cette base de données, vous participez activement à sauver des vies.</p>

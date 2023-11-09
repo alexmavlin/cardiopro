@@ -359,6 +359,7 @@
         </div>
     </div>
 </section>
+
 <section class="additionalInfo">
     <div class="container">
         <div class="additionalInfo__inner">
