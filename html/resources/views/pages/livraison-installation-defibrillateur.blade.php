@@ -39,7 +39,7 @@
     <div class="container">
         <div class="mastHead__inner">
             <h2 class="mastHead__h2">CardioPro : le service clé en main avec livraison et installation incluses pour votre défibrillateur</h2>
-            <p class="mastHead__p">L'<b>installation du défibrillateur</b> est comprise dans notre service de location et d'achat de DAE. Lors de cette étape, nous optimisons son accessibilité, procédons à sa mise en service et effectuons une vérification minutieuse de son bon fonctionnement. Cela garantit la conformité  des procédures et assure sa disponibilité en cas de besoin.</p>
+            <p class="mastHead__p">L'<b>installation du défibrillateur</b> est comprise dans notre service de location et d'achat de DAE. Lors de cette étape, nous optimisons son accessibilité, procédons à sa mise en service et effectuons une vérification minutieuse de son bon fonctionnement. Cela garantit la conformité des procédures et assure sa disponibilité en cas de besoin.</p>
         </div>
     </div>
 </section>
@@ -82,21 +82,18 @@
         </div>
     </div>
 </section>
-<section class="formuleSlider formuleSlider__livraison">
+
+<section class="formuleSlider pt-50 pb-60">
     <div class="container">
         <div class="slider__inner">
-            <div class="slider__header">
-                <p>Découvrez nos offres de location et de vente de défibrillateurs</p>
-            </div>
             <div class="slider__group">
                 <button class="sale__button__active">Location</button>
                 <button class="">Achat</button>
             </div>
-{{-- ACHAT --}}
         <div class="sale__content sale__active__frame">
             <div class="sale__frame ">
                 <div class="sale__hidden__header">
-                    <h2>défibrillateur automatique</h2>
+                    <h3>défibrillateur automatique</h3>
                 </div>
                 <img    
                         src="{{ asset('images/content/homepage_sale.webp') }}"
@@ -106,12 +103,12 @@
                         title="" 
                         class="sale__img">
                 <div class="sale__frame__content">
-                    <h2>défibrillateur automatique</h2>
+                    <h3>défibrillateur automatique</h3>
                     <div class="sale__frame__line">
                         <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                             <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
                           </svg>
-                        <p class="">Garatie 8 ans</p>
+                        <p class="">Garantie 8 ans</p>
                     </div>
                     <div class="sale__frame__line">
                         <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -147,11 +144,17 @@
                     </div>
                     <div class="sale__item__content">
                         <div class="sale__item__price">
-                            <h2 class="sale__price__h2">39</h2>
+                            <p class="sale__price__h2">39</p>
                             <p class="sale__price__p">€</p>
                         </div>
                         <p class="sale_under__price__p">HT par mois</p>
                         <p class="sale_comment__p">*Location de 60 mois - TVA à 20 %</p>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                              </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
+                        </div>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
                                 <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
@@ -177,11 +180,17 @@
                     </div>
                     <div class="sale__item__content">
                         <div class="sale__item__price">
-                            <h2 class="sale__price__h2">49</h2>
+                            <p class="sale__price__h2">49</p>
                             <p class="sale__price__p">€</p>
                         </div>
                         <p class="sale_under__price__p">HT par mois</p>
                         <p class="sale_comment__p">*Location de 60 mois - TVA à 20 %</p>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                              </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
+                        </div>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
@@ -201,115 +210,123 @@
                     </div>
                 </div>
             </div>
-    </div>
-            
-
-{{-- ACHAT --}}
-            <div class="sale__content">
-                <div class="sale__frame">
-                    <div class="sale__hidden__header">
-                        <h2>défibrillateur automatique</h2>
+        </div>
+        <div class="sale__content">
+            <div class="sale__frame">
+                <div class="sale__hidden__header">
+                    <h3>défibrillateur automatique</h3>
+                </div>
+                <img    
+                        src="{{ asset('images/content/homepage_sale.webp') }}"
+                        width="387"
+                        height="387"
+                        alt=""
+                        title="" 
+                        class="sale__img">
+                <div class="sale__frame__content">
+                    <h3>défibrillateur automatique</h3>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Garantie 8 ans</p>
                     </div>
-                    <img    
-                            src="{{ asset('images/content/homepage_sale.webp') }}"
-                            width="387"
-                            height="387"
-                            alt=""
-                            title="" 
-                            class="sale__img">
-                    <div class="sale__frame__content">
-                        <h2>défibrillateur automatique</h2>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Livraison rapide et installation</p>
+                    </div>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Électrodes adultes et pédiatriques</p>
+                    </div>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Trousse de secours</p>
+                    </div>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Signalétique autocollante</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sale__price__row">
+                <div class="sale__item">
+                    <div class="sale__rectangle"></div>
+                    <div class="sale__item__header">
+                        <p class="">Pack access</p>
+                    </div>
+                    <div class="sale__item__content">
+                        <div class="sale__item__price">
+                            <p class="sale__price__h2">1190</p>
+                            <p class="sale__price__p">€</p>
+                        </div>
+                        <p class="sale_under__price__p">HT</p>
+                        <p class="sale_comment__p">*TVA à 20 %</p>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Garatie 8 ans</p>
+                            </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
                         </div>
                         <div class="sale__frame__line">
-                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Livraison rapide et installation</p>
+                            <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
+                            </svg>
+                            <p class="">Assistant massage cardiaque</p>
                         </div>
                         <div class="sale__frame__line">
-                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Électrodes adultes et pédiatriques</p>
+                            <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
+                            </svg>
+                            <p class="">Support mural</p>
                         </div>
-                        <div class="sale__frame__line">
-                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Trousse de secours</p>
-                        </div>
-                        <div class="sale__frame__line">
-                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Signalétique autocollante</p>
+                        <div class="sale__buttons">
+                            <a href="" class="sale__choisir">Choisir</a>
+                            <a href="" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
-                <div class="sale__price__row">
-                    <div class="sale__item">
-                        <div class="sale__rectangle"></div>
-                        <div class="sale__item__header">
-                            <p class="">Pack access</p>
-                        </div>
-                        <div class="sale__item__content">
-                            <div class="sale__item__price">
-                                <h2 class="sale__price__h2">1190</h2>
-                                <p class="sale__price__p">€</p>
-                            </div>
-                            <p class="sale_under__price__p">HT</p>
-                            <p class="sale_comment__p">*TVA à 20 %</p>
-                            <div class="sale__frame__line">
-                                <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-                                    <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
-                                  </svg>
-                                <p class="">Assistant massage cardiaque</p>
-                            </div>
-                            <div class="sale__frame__line">
-                                <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-                                    <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
-                                  </svg>
-                                <p class="">Support mural</p>
-                            </div>
-                            <div class="sale__buttons">
-                                <a href="" class="sale__choisir">Choisir</a>
-                                <a href="" class="sale__ensavoir">En savoir +</a>
-                            </div>
-                        </div>
+                <div class="sale__item">
+                    <div class="sale__rectangle"></div>
+                    <div class="sale__item__header">
+                        <p class="">Pack zen</p>
                     </div>
-                    <div class="sale__item">
-                        <div class="sale__rectangle"></div>
-                        <div class="sale__item__header">
-                            <p class="">Pack zen</p>
+                    <div class="sale__item__content">
+                        <div class="sale__item__price">
+                            <p class="sale__price__h2">1490</p>
+                            <p class="sale__price__p">€</p>
                         </div>
-                        <div class="sale__item__content">
-                            <div class="sale__item__price">
-                                <h2 class="sale__price__h2">1490</h2>
-                                <p class="sale__price__p">€</p>
-                            </div>
-                            <p class="sale_under__price__p">HT par mois</p>
-                            <p class="sale_comment__p">*TVA à 20 %</p>
-                            <div class="sale__frame__line">
-                                <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                                  </svg>
-                                <p class="">Assistant massage cardiaque</p>
-                            </div>
-                            <div class="sale__frame__line">
-                                <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                                  </svg>
-                                <p class="">Support mural</p>
-                            </div>
-                            <div class="sale__buttons">
-                                <a href="" class="sale__choisir">Choisir</a>
-                                <a href="" class="sale__ensavoir">En savoir +</a>
-                            </div>
+                        <p class="sale_under__price__p">HT par mois</p>
+                        <p class="sale_comment__p">*TVA à 20 %</p>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                              </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
+                        </div>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                            </svg>
+                            <p class="">Assistant massage cardiaque</p>
+                        </div>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                            </svg>
+                            <p class="">Support mural</p>
+                        </div>
+                        <div class="sale__buttons">
+                            <a href="" class="sale__choisir">Choisir</a>
+                            <a href="" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -346,8 +363,8 @@
                             alt=""
                             title=""
                             class="livraisonSlider__img">
-                        <p class="livraisonSlider__title">CardioPro dans la région sud-ouest</p>
-                        <p class="livraisonSlider__text">CardioPro étend ses <b>services d'installation de défibrillateurs</b> dans le Sud-Ouest de la France. Nous sommes présents dans plusieurs villes de la région, notamment Limoges, Bordeaux, Agen, Toulouse, Pau et Tarbes. Grâce à notre expertise, nous garantissons une installation professionnelle conforme à la réglementation pour renforcer la sécurité de votre établissement en  cas d'urgence cardiaque.</p>
+                        <h3 class="livraisonSlider__title">CardioPro dans la région sud-ouest</h3>
+                        <p class="livraisonSlider__text">CardioPro étend ses <b>services d'installation de défibrillateurs</b> dans le Sud-Ouest de la France. Nous sommes présents dans plusieurs villes de la région, notamment Limoges, Bordeaux, Agen, Toulouse, Pau et Tarbes. Grâce à notre expertise, nous garantissons une installation professionnelle conforme à la réglementation pour renforcer la sécurité de votre établissement en cas d'urgence cardiaque.</p>
                     </div>
                     <div class="livraisonSlider__item">
                         <img    src="{{ asset('images/content/livraison_livraisonSlider_2.webp') }}"
@@ -356,7 +373,7 @@
                             alt=""
                             title=""
                             class="livraisonSlider__img">
-                        <p class="livraisonSlider__title">CardioPro dans la région sud-est</p>
+                        <h3 class="livraisonSlider__title">CardioPro dans la région sud-est</h3>
                         <p class="livraisonSlider__text">CardioPro propose également ses services dans la région Sud-Est de la France. Nous sommes présents dans plusieurs villes de cette zone, notamment Lyon, Grenoble, Saint-Étienne, Valence, Montpellier et Marseille. Grâce à notre savoir-faire, nous assurons une <b>installation professionnelle de votre défibrillateur</b>, conformément aux réglementations en vigueur et garantissons son bon fonctionnement.</p>
                     </div>
                     <div class="livraisonSlider__item">
@@ -366,8 +383,8 @@
                             alt=""
                             title=""
                             class="livraisonSlider__img">
-                        <p class="livraisonSlider__title">CardioPro dans la région nord-ouest</p>
-                        <p class="livraisonSlider__text">Également présents dans la région nord-ouest, nous assurons la livraison  et l’<b>installation de défibrillateurs dans plusieurs villes</b>, notamment Paris, Nantes, Rennes, Brest et Tours. Assurez la sécurité de votre établissement en choisissant notre expertise dans le domaine des défibrillateurs. Faites appel à CardioPro pour une installation professionnelle, fiable et rapide.</p>
+                        <h3 class="livraisonSlider__title">CardioPro dans la région nord-ouest</h3>
+                        <p class="livraisonSlider__text">Également présents dans la région nord-ouest, nous assurons la livraison et l’<b>installation de défibrillateurs dans plusieurs villes</b>, notamment Paris, Nantes, Rennes, Brest et Tours. Assurez la sécurité de votre établissement en choisissant notre expertise dans le domaine des défibrillateurs. Faites appel à CardioPro pour une installation professionnelle, fiable et rapide.</p>
                     </div>
                     <div class="livraisonSlider__item">
                         <img    src="{{ asset('images/content/livraison_livraisonSlider_4.webp') }}"
@@ -376,8 +393,8 @@
                             alt=""
                             title=""
                             class="livraisonSlider__img">
-                        <p class="livraisonSlider__title">CardioPro dans la région nord-est</p>
-                        <p class="livraisonSlider__text">Nos <b>installateurs de défibrillateurs</b> sont à votre disposition dans toute la région Nord-Est de la France. De Strasbourg à Belfort, en passant par Nancy, Metz, Mulhouse et Besançon, nous couvrons l'ensemble de cette zone et garantissons une installation rapide et irréprochable. Faites confiance à CardioPro pour un  service de qualité.</p>
+                        <h3 class="livraisonSlider__title">CardioPro dans la région nord-est</h3>
+                        <p class="livraisonSlider__text">Nos <b>installateurs de défibrillateurs</b> sont à votre disposition dans toute la région Nord-Est de la France. De Strasbourg à Belfort, en passant par Nancy, Metz, Mulhouse et Besançon, nous couvrons l'ensemble de cette zone et garantissons une installation rapide et irréprochable. Faites confiance à CardioPro pour un service de qualité.</p>
                     </div>
                 </div>
             </div>
@@ -399,7 +416,7 @@
                         class="definitionDef__img">
                 <h2 class="definitionDef__header__mobile">Définition de défibrillateur</h2>
                 <div class="definitionDef__content">
-                    <p>En tant que <a href="https://cardiopro.fr/">spécialistes des défibrillateurs</a>, chez CardioPro, nous nous engageons à fournir des services complets et de haute qualité. Nous assurons la <b>livraison, l'installation et la mise en service de votre défibrillateur</b>, garantissant ainsi  son bon fonctionnement. </p>
+                    <p>En tant que <a href="https://cardiopro.fr/">spécialistes des défibrillateurs</a>, chez CardioPro, nous nous engageons à fournir des services complets et de haute qualité. Nous assurons la <b>livraison, l'installation et la mise en service de votre défibrillateur</b>, garantissant ainsi son bon fonctionnement. </p>
                     <p>Avant l’installation, nous vous conseillons sur l'emplacement idéal, veillant à ce que le dispositif soit à la fois protégé des éléments, visible par tous et facilement accessible. Nous vérifions également le support et ses options. À la fin de notre intervention, un rapport détaillé des contrôles effectués vous est remis pour vos éventuels besoins futurs.  </p>
                     <p>Dans certains cas, des accessoires peuvent s'avérer nécessaires. Pour répondre à ces besoins spécifiques, nous proposons divers <a href="https://cardiopro.fr/accessoires-defibrillateurs">accessoires pour défibrillateurs</a> tels que des boîtiers chauffants ou des modèles avec alarme intégrée.</p>
                 </div>
@@ -417,7 +434,7 @@
                         alt=""
                         title="" 
                         class="install__img">
-                <h2>Où installer son défibrillateur ?</h2>
+                <h3>Où installer son défibrillateur ?</h3>
                 <p>L’usage et la mise en place d’un <b>défibrillateur</b> doivent être grandement facilités par son emplacement au sein du site du gérant du lieu ; en étant placé dans un <b>endroit ouvert et accessible</b>, et avec beaucoup de passage.</p>
             </div>
             <div class="install__item">
@@ -427,7 +444,7 @@
                         alt=""
                         title="" 
                         class="install__img">
-                <h2>Quel boitier pour  son DAE ?</h2>
+                <h3>Quel boitier pour son DAE ?</h3>
                 <p>La mise en place finale du <b>DAE</b> dépend du lieu où il sera finalement affecté (et au boîtier qui le contiendra) ; s’il s’agit d’un <b>boîtier mural interne</b>, il suffit en général de percer le mur et d’y fixer le boitier, tout simplement. S’il s’agit d’un <b>boîtier mural externe</b>, en revanche, il faudra l’aide d’un technicien électricien pour qu’il raccorde le boîtier au secteur électrique.</p>
             </div>
             <div class="install__item">
@@ -437,8 +454,8 @@
                         alt=""
                         title="" 
                         class="install__img">
-                <h2>Mise en service du défibrillateur</h2>
-                <p>Afin de bien mettre en service le  DAE, il faut au préalable introduire la batterie dans l’appareil et faire les premiers branchements des électrodes (afin qu’au moment de secourir la victime il n’y ait plus qu’à allumer le DAE et les poser sur la poitrine de la victime).</p>
+                <h3>Mise en service du défibrillateur</h3>
+                <p>Afin de bien mettre en service le DAE, il faut au préalable introduire la batterie dans l’appareil et faire les premiers branchements des électrodes (afin qu’au moment de secourir la victime il n’y ait plus qu’à allumer le DAE et les poser sur la poitrine de la victime).</p>
             </div>
         </div>
     </div>

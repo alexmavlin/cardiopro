@@ -23,15 +23,30 @@
     letter-spacing: -0.38px;
 }
 
+/* Utilitare Classes */
 .bg-white {
     background-color: #FFF !important;
 }
 .bg-blue {
     background-color: #F2F5FE !important;
 }
+.pt-50 {
+    padding-top: 50px;
+}
+.pb-60 {
+    padding-bottom: 60px;
+}
+/* // Utilitare Classes */
 
 @media (max-width: 750px) {
     .global__heading {
         font-size: 29px;
+    }
+
+    .pt-50 {
+        padding-top: 35px;
+    }
+    .pb-60 {
+        padding-bottom: 50px;
     }
 }

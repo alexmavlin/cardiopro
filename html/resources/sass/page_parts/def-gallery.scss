@@ -70,7 +70,8 @@
     max-width: 422px;
     margin-left: 20px;
 
-    h2 {
+    h2,
+    h3 {
         font-size: 26px;
         color: #021647;
         @include nunito800;

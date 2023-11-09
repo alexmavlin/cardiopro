@@ -2,10 +2,9 @@
 
 @section('content')
 <section class="mainScreen">
-    <img    srcset="{{ asset('images/content/prix_formuleLocation.webp') }} 1920w,
-                    {{ asset('images/content/prix_formuleLocation_600.webp') }} 700w,
-                    {{ asset('images/content/prix_formuleLocation_400.webp 500w') }} 500w"
-            src="{{ asset('images/content/prix_formuleLocation.webp') }}"
+    <img    srcset="{{ asset('images/content/difference_defibrillateur_main.webp') }} 1920w,
+                    {{ asset('images/content/difference_defibrillateur_main_600.webp') }} 700w"
+            src="{{ asset('images/content/difference_defibrillateur_main.webp') }}"
             width="1600"
             height="580"
             alt=""
@@ -42,14 +41,14 @@
         </div>
     </div>
 </section>
-<section class="defCabinet">
+<section class="defCabinet bg-blue">
     <div class="container">
         <div class="defCabinet__inner">
-            <h2>DAE et DSA : une (simple) histoire de formation…</h2>
+            <h2>DAE et DSA : une (simple) histoire de <br>formation…</h2>
             <div class="defCabinet__row">
-               <img    src="{{ asset('images/content/prix_defCabinet.webp') }}"
-                    width="366"
-                    height="366"
+               <img    src="{{ asset('images/content/difference_defibrillateur_page_01.webp') }}"
+                    width="544"
+                    height="363"
                     alt=""
                     title=""
                     class="defCabinet__img"> 
@@ -102,19 +101,18 @@
         </div>
     </div>
 </section>
-<section class="formuleSlider formuleSlider__blue">
+
+<section class="formuleSlider bg-blue pt-50 pb-60">
     <div class="container">
-        <div class="sale__differenceSpace"></div>
         <div class="slider__inner">
             <div class="slider__group">
                 <button class="sale__button__active">Location</button>
                 <button class="">Achat</button>
             </div>
-{{-- ACHAT --}}
         <div class="sale__content sale__active__frame">
             <div class="sale__frame ">
                 <div class="sale__hidden__header">
-                    <h2>défibrillateur automatique</h2>
+                    <h3>défibrillateur automatique</h3>
                 </div>
                 <img    
                         src="{{ asset('images/content/homepage_sale.webp') }}"
@@ -124,12 +122,12 @@
                         title="" 
                         class="sale__img">
                 <div class="sale__frame__content">
-                    <h2>défibrillateur automatique</h2>
+                    <h3>défibrillateur automatique</h3>
                     <div class="sale__frame__line">
                         <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                             <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
                           </svg>
-                        <p class="">Garatie 8 ans</p>
+                        <p class="">Garantie 8 ans</p>
                     </div>
                     <div class="sale__frame__line">
                         <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -165,11 +163,17 @@
                     </div>
                     <div class="sale__item__content">
                         <div class="sale__item__price">
-                            <h2 class="sale__price__h2">39</h2>
+                            <p class="sale__price__h2">39</p>
                             <p class="sale__price__p">€</p>
                         </div>
                         <p class="sale_under__price__p">HT par mois</p>
                         <p class="sale_comment__p">*Location de 60 mois - TVA à 20 %</p>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                              </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
+                        </div>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
                                 <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
@@ -195,11 +199,17 @@
                     </div>
                     <div class="sale__item__content">
                         <div class="sale__item__price">
-                            <h2 class="sale__price__h2">49</h2>
+                            <p class="sale__price__h2">49</p>
                             <p class="sale__price__p">€</p>
                         </div>
                         <p class="sale_under__price__p">HT par mois</p>
                         <p class="sale_comment__p">*Location de 60 mois - TVA à 20 %</p>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                              </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
+                        </div>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
@@ -219,115 +229,123 @@
                     </div>
                 </div>
             </div>
-    </div>
-            
-
-{{-- ACHAT --}}
-            <div class="sale__content">
-                <div class="sale__frame">
-                    <div class="sale__hidden__header">
-                        <h2>défibrillateur automatique</h2>
+        </div>
+        <div class="sale__content">
+            <div class="sale__frame">
+                <div class="sale__hidden__header">
+                    <h3>défibrillateur automatique</h3>
+                </div>
+                <img    
+                        src="{{ asset('images/content/homepage_sale.webp') }}"
+                        width="387"
+                        height="387"
+                        alt=""
+                        title="" 
+                        class="sale__img">
+                <div class="sale__frame__content">
+                    <h3>défibrillateur automatique</h3>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Garantie 8 ans</p>
                     </div>
-                    <img    
-                            src="{{ asset('images/content/homepage_sale.webp') }}"
-                            width="387"
-                            height="387"
-                            alt=""
-                            title="" 
-                            class="sale__img">
-                    <div class="sale__frame__content">
-                        <h2>défibrillateur automatique</h2>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Livraison rapide et installation</p>
+                    </div>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Électrodes adultes et pédiatriques</p>
+                    </div>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Trousse de secours</p>
+                    </div>
+                    <div class="sale__frame__line">
+                        <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                        </svg>
+                        <p class="">Signalétique autocollante</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sale__price__row">
+                <div class="sale__item">
+                    <div class="sale__rectangle"></div>
+                    <div class="sale__item__header">
+                        <p class="">Pack access</p>
+                    </div>
+                    <div class="sale__item__content">
+                        <div class="sale__item__price">
+                            <p class="sale__price__h2">1190</p>
+                            <p class="sale__price__p">€</p>
+                        </div>
+                        <p class="sale_under__price__p">HT</p>
+                        <p class="sale_comment__p">*TVA à 20 %</p>
                         <div class="sale__frame__line">
                             <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Garatie 8 ans</p>
+                            </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
                         </div>
                         <div class="sale__frame__line">
-                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Livraison rapide et installation</p>
+                            <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
+                            </svg>
+                            <p class="">Assistant massage cardiaque</p>
                         </div>
                         <div class="sale__frame__line">
-                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Électrodes adultes et pédiatriques</p>
+                            <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
+                            </svg>
+                            <p class="">Support mural</p>
                         </div>
-                        <div class="sale__frame__line">
-                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Trousse de secours</p>
-                        </div>
-                        <div class="sale__frame__line">
-                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                              </svg>
-                            <p class="">Signalétique autocollante</p>
+                        <div class="sale__buttons">
+                            <a href="" class="sale__choisir">Choisir</a>
+                            <a href="" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
-                <div class="sale__price__row">
-                    <div class="sale__item">
-                        <div class="sale__rectangle"></div>
-                        <div class="sale__item__header">
-                            <p class="">Pack access</p>
-                        </div>
-                        <div class="sale__item__content">
-                            <div class="sale__item__price">
-                                <h2 class="sale__price__h2">1190</h2>
-                                <p class="sale__price__p">€</p>
-                            </div>
-                            <p class="sale_under__price__p">HT</p>
-                            <p class="sale_comment__p">*TVA à 20 %</p>
-                            <div class="sale__frame__line">
-                                <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-                                    <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
-                                  </svg>
-                                <p class="">Assistant massage cardiaque</p>
-                            </div>
-                            <div class="sale__frame__line">
-                                <svg class="sale__frame__red" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
-                                    <path d="M5 5.5L10 10.5M15 15.5L10 10.5M10 10.5L15 5.5L5 15.5" stroke="white" stroke-width="1.5"/>
-                                  </svg>
-                                <p class="">Support mural</p>
-                            </div>
-                            <div class="sale__buttons">
-                                <a href="" class="sale__choisir">Choisir</a>
-                                <a href="" class="sale__ensavoir">En savoir +</a>
-                            </div>
-                        </div>
+                <div class="sale__item">
+                    <div class="sale__rectangle"></div>
+                    <div class="sale__item__header">
+                        <p class="">Pack zen</p>
                     </div>
-                    <div class="sale__item">
-                        <div class="sale__rectangle"></div>
-                        <div class="sale__item__header">
-                            <p class="">Pack zen</p>
+                    <div class="sale__item__content">
+                        <div class="sale__item__price">
+                            <p class="sale__price__h2">1490</p>
+                            <p class="sale__price__p">€</p>
                         </div>
-                        <div class="sale__item__content">
-                            <div class="sale__item__price">
-                                <h2 class="sale__price__h2">1490</h2>
-                                <p class="sale__price__p">€</p>
-                            </div>
-                            <p class="sale_under__price__p">HT par mois</p>
-                            <p class="sale_comment__p">*TVA à 20 %</p>
-                            <div class="sale__frame__line">
-                                <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                                  </svg>
-                                <p class="">Assistant massage cardiaque</p>
-                            </div>
-                            <div class="sale__frame__line">
-                                <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                    <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
-                                  </svg>
-                                <p class="">Support mural</p>
-                            </div>
-                            <div class="sale__buttons">
-                                <a href="" class="sale__choisir">Choisir</a>
-                                <a href="" class="sale__ensavoir">En savoir +</a>
-                            </div>
+                        <p class="sale_under__price__p">HT par mois</p>
+                        <p class="sale_comment__p">*TVA à 20 %</p>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                              </svg>
+                            <p class="">Inclus tous les éléments ci-dessus</p>
+                        </div>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                            </svg>
+                            <p class="">Assistant massage cardiaque</p>
+                        </div>
+                        <div class="sale__frame__line">
+                            <svg class="sale__frame__blue" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M8.3339 12.6425L15.9942 4.98218L17.1727 6.16069L8.3339 14.9995L3.03058 9.69624L4.20909 8.51774L8.3339 12.6425Z" fill="white"/>
+                            </svg>
+                            <p class="">Support mural</p>
+                        </div>
+                        <div class="sale__buttons">
+                            <a href="" class="sale__choisir">Choisir</a>
+                            <a href="" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -335,6 +353,7 @@
         </div>
     </div>
 </section>
+
 <section class="additionalInfo__difference">
     <div class="container">
         <div class="additionalInfo__inner">

@@ -39,7 +39,7 @@
     <div class="container">
         <div class="mastHead__inner">
             <h2 class="mastHead__h2">Chez CardioPro, vous trouverez tout ce dont vous avez besoin pour votre défibrillateur</h2>
-            <img    src="{{ asset('images/content/logo_page.webp') }}"
+            <img    src="{{ asset('images/content/logo_page.png') }}"
                     width="250"
                     height="75"
                     alt=""
@@ -48,7 +48,7 @@
         </div>
     </div>
 </section>
-<section class="defExplore">
+<section class="defExplore bg-blue">
     <div class="container">
         <div class="defExplore__inner">
             <h2>Accessoire pour défibrillateurs : explorez notre gamme complète de produits</h2>
@@ -129,7 +129,7 @@
                             alt=""
                             title="" 
                             class="defExplore__img">
-                    <p class="defExplore__name">Boitier Mural intérieur avec  alarme: Aivia 100</p>
+                    <p class="defExplore__name">Boitier Mural intérieur avec alarme: Aivia 100</p>
                     <div class="defExplore__price__row">
                         <p class="defExplore__price">190</p>
                         <p class="defExplore__euro">€</p>
