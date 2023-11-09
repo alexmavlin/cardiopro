@@ -71,8 +71,11 @@
 
 .neverLost {
     background-color: #f8fafe;
-    max-width: 1102px;
-    margin: 0 auto;
+    padding-bottom: 60px;
+    &__inner {
+        max-width: 1102px;
+        margin: 0 auto;
+    }
 }
 .neverLost__row {
     display: flex;

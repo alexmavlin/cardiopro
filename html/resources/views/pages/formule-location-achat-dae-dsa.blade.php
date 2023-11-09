@@ -50,7 +50,7 @@
     </div>
 </section>
 
-<section class="suitsYou">
+<section class="suitsYou bg-blue">
     <div class="container">
         <div class="suitsYou__header">
             <h2 class="">À vos côtés pour trouver le Pack Défibrillateur qui vous convient !</h2>
@@ -96,7 +96,7 @@
     </div>
 </section>
 
-<section class="formuleSlider">
+<section class="formuleSlider bg-blue">
     <div class="container">
         <div class="slider__inner">
             <div class="slider__group">
@@ -349,7 +349,7 @@
         </div>
     </div>
 </section>
-<section class="designResponses">
+<section class="designResponses bg-blue">
     <div class="container">
         <h2 class="">CardioPro se donne pour objectif de concevoir des réponses concrètes pour que l’absence d’équipements ne soit plus la principale cause de décès lors d’un arrêt cardiaque. 
             Nous vous assistons à chaque étape dans votre projet de <b class="">préserver des vies à l’aide d’un DAE</b>. Nos services clé en main, perfectionnés depuis 2007, vous proposent pour cela une assistance complète pour satisfaire vos exigences. 
@@ -432,7 +432,7 @@
     </div>
 </section>
 
-<section class="obligation">
+<section class="obligation bg-white">
     <div class="container">
         <div class="obligation__inner">
             <h2 class="">Vous avez acheté ou loué votre DAE ou votre DSA, quelle sont vos obligations ?</h2>

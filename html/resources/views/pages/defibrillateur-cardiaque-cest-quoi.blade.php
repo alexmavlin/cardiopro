@@ -13,7 +13,7 @@
                 class="mainScreen__img">
         <div class="mainScreen__filter"></div>
 
-        <h1 class="mainScreen__h1">Formule location et achat DAE</h1>
+        <h1 class="mainScreen__h1">C'est quoi un défibrillateur cardiaque ?</h1>
     </section>
 
     @if (isset($data['breadcrumbs']))
@@ -38,7 +38,7 @@
 <section class="mastHead">
     <div class="container">
         <div class="mastHead__inner">
-            <img    src="{{ asset('images/content/logo_page.webp') }}"
+            <img    src="{{ asset('images/content/logo_page.png') }}"
                 width="250"
                 height="75"
                 alt=""
@@ -49,7 +49,7 @@
     </div>
 </section>
 
-<section class="definitionDef">
+<section class="definitionDef bg-blue">
     <div class="container">
         <div class="definitionDef__inner">
             <h2 class="definitionDef__header">Définition de défibrillateur</h2>
@@ -76,7 +76,7 @@
                                 title="" 
                                 class="definitionDef__row__img">
                     <div class="definitionDef__item__content">
-                        <p class=""><span>DEA (Défibrillateur cardiaque Entièrement Automatique): </span></p>
+                        <h3>DEA (Défibrillateur cardiaque Entièrement Automatique):</h3>
                         <p class="">Sans appuyer sur aucun bouton, l'appareil demandera au secouriste d'arrêter le massage cardiaque externe et de rester à l'écart de la victime pour ne pas recevoir une partie du choc, puis il donnera automatiquement un choc électrique à la victime.</p>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                                 title="" 
                                 class="definitionDef__row__img"> 
                     <div class="definitionDef__item__content">
-                        <h3 class=""><span>DSA (Défibrillateur cardiaque Semi-Automatique): </span></h3>
+                        <h3 class="">DSA (Défibrillateur cardiaque Semi-Automatique):</h3>
                         <p class="">L'équipement invite le secouriste à appuyer sur un bouton particulier pour administrer un choc électrique.</p>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                             title="" 
                             class="whatAED__img"> 
                     <div class="whatAED__content">
-                        <p class="whatAED__content__header">Qu'est-ce qu'un DSA</p>
+                        <h3 class="whatAED__content__header">Qu'est-ce qu'un DSA ?</h3>
                         <p class="whatAED__content__p">Lorsqu'un <b>DSA est utilisé</b>, le choc électrique est déclenché par l'utilisateur qui doit <b>appuyer sur un bouton</b> (lorsque le défibrillateur cardiaque, après analyse, avertit le secouriste par un message 
                             vocal comme “choc recommandé”) et s'assurer que personne ne touche plus la victime <b>avant que le choc ne soit délivré</b> ; de fait, si un témoin est en contact physique avec la victime, cette personne recevra une partie du choc -assez fort donc plutôt désagréable, mais surtout, la victime ne recevra pas toute la puissance du choc. Il est à savoir que la grande majorité des professionnels utilisent ce type d’appareil. Nous suggérons donc ce type de défibrillateur cardiaque pour des professionnels ou des associations de premiers 
                             secours (pompiers, Samu, Croix-Rouge, maîtres-nageurs, etc.) ou des entreprises "à risques" (raffineries, explosifs, etc.) dont la grande majorité du personnel est formée.</p>
@@ -127,7 +127,7 @@
                             title="" 
                             class="whatAED__img"> 
                     <div class="whatAED__content">
-                        <p class="whatAED__content__header">Qu'est-ce qu'un DAE</p>
+                        <h3 class="whatAED__content__header">Qu'est-ce qu'un DAE ?</h3>
                         <p class="whatAED__content__p">Avec un <b>DEA</b>, le <b>défibrillateur cardiaque enverra le choc</b> sans aucune intervention après avoir informé le témoin secouriste de l'immédiateté du choc (en l’avertissant avec un message vocal comme “choc en 3, 2, 1”). Le <b>défibrillateur cardiaque entièrement automatique</b> est grandement indiqué pour la majorité des 
                             commerces et <a href="https://cardiopro.fr/obligations">obligatoire pour les ERP</a>, lorsque moins de 30% de la population environnante -et donc susceptible d'intervenir- est formée à l'utilisation du défibrillateur cardiaque.</p>
                     </div>

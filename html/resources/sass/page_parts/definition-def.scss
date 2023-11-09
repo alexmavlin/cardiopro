@@ -15,6 +15,13 @@
         font-size: 38px;
         @include nunito800;  
     }
+    h3 {
+        @include nunito800;
+        color: #C22921;
+        font-size: 18px;
+        line-height: normal;
+        margin-bottom: 9px;
+    }
     p {
         color: var(--text, #021647);
         font-size: 18px;
@@ -53,7 +60,6 @@
 .definitionDef__row {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .definitionDef__row + .definitionDef__row  {
     margin-top: 55px;

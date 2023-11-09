@@ -38,7 +38,7 @@
 <section class="mastHead">
     <div class="container">
         <div class="mastHead__inner">
-            <img    src="{{ asset('images/content/logo_page.webp') }}"
+            <img    src="{{ asset('images/content/logo_page.png') }}"
                 width="250"
                 height="75"
                 alt=""
@@ -50,7 +50,7 @@
 </section>
 
 
-<section class="whatAED">
+<section class="whatAED bg-blue">
     <div class="container">
         <div class="whatAED__inner">
             <div class="whatAED__content">
@@ -62,7 +62,7 @@
                             title="" 
                             class="whatAED__img"> 
                     <div class="whatAED__content">
-                        <p class="whatAED__content__header">Le fléau que représente l'arrêt cardiaque en France</p>
+                        <h2 class="whatAED__content__header">Le fléau que représente l'arrêt cardiaque en France</h2>
                         <p class="whatAED__content__p">Si les <b>défibrillateurs</b> sont <a href="https://cardiopro.fr/obligations">obligatoires dans certains ERP</a>, c’est qu’ils sont réellement indispensables… En effet, <b>40 000 personnes en France meurent chaque année</b> d'un arrêt cardiaque ; et 25% de ces arrêts cardiaques ont lieu dans les lieux publics (5 % dans les établissements de santé). 
                             Or en France, une personne <b>victime d’un arrêt cardiaque</b> a seulement <b>7% de chances</b> de s’en sortir, c’est pourquoi ils représentent 8 à 9% des décès en France chaque année.</p>
                     </div>
@@ -75,7 +75,7 @@
                             title="" 
                             class="whatAED__img"> 
                     <div class="whatAED__content">
-                        <p class="whatAED__content__header">Le défibrillateur représente la meilleur alternative pour combattre efficacement les malaises cardiques</p>
+                        <h2 class="whatAED__content__header">Le défibrillateur représente la meilleur alternative pour combattre efficacement les malaises cardiques</h2>
                         <p class="whatAED__content__p">Face à cela, l’utilisation d'un <b>défibrillateur est cruciale</b>, pouvant faire atteindre à la victime, un <b>taux de survie multiplié par 5 !</b> 
                             À l’inverse, pour chaque minute suivant un ACS sans utilisation de défibrillateur ou administration de soins de premiers secours, les chances de survie de la victime diminuent de 10 à 12%. Heureusement, 40% des témoins d'arrêt cardiaque prennent des mesures vitales.</p>
                         <p class="whatAED__content__p">Cardiopro contribue à l'effort national visant à abaisser le taux de mortalité suite à un arrêt cardiaque, en proposant aux ERP et Entreprises des packs pour <a href="https://cardiopro.fr/achat-defibrillateur">l'achat de défibrillateurs</a> tout inclus !</p>
