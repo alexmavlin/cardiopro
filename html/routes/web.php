@@ -19,6 +19,7 @@ Route::group(['namespace' => 'Pages'], function() {
     Route::get('/legislation-defibrillateur', 'LaLegislationController')->name('legislation-defibrillateur');
     Route::get('/lexique-defibrillateur', 'LexiqueController')->name('lexique-defibrillateur');
     Route::get('/subventions-defibrillateur', 'LesSubventionsController')->name('subventions-defibrillateur');
+    
     /* Dynamicals */
     Route::get('/defibrillateur-prix', 'DefibrillateurPrixController')->name('defibrillateur-prix');
     Route::get('/difference-defibrillateur', 'DifferenceDefibrillateurController')->name('difference-defibrillateur');
@@ -26,6 +27,18 @@ Route::group(['namespace' => 'Pages'], function() {
     Route::get('/defibrillateur-single', 'DefibrillateurSingleController')->name('defibrillateur-single');
     Route::get('/livraison-installation-defibrillateur', 'LivraisonInstallationDefibrillateurController')->name('livraison-installation-defibrillateur');
     Route::get('/obligations', 'ObligationsController')->name('obligations');
+
+    /* Nos Offers */
+    Route::get('/location-defibrillateur', 'LocationDefibrillateurController')->name('location-defibrillateur');
+    Route::get('/achat-defibrillateur', 'AchatDefibrillateurController')->name('achat-defibrillateur');
+    Route::get('/maintenance-defibrillateur', 'MaintenanceDefibrillateurController')->name('maintenance-defibrillateur');
+
+    Route::get('/entreprise', 'EntrepriseController')->name('entreprise');
+    Route::get('/hotel', 'HotelController')->name('hotel');
+    Route::get('/mairie', 'MairieController')->name('mairie');
+    Route::get('/erp', 'ErpController')->name('erp');
+    Route::get('/ehpad', 'EhpadController')->name('ehpad');
+    Route::get('/medical', 'MedicalController')->name('medical');
 });
 
 Auth::routes();
