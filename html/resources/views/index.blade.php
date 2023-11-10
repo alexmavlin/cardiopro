@@ -122,7 +122,7 @@
         </div>
     </section>
     
-    <section class="sale">
+    <section class="sale bg-blue">
         <div class="container">
             <div class="sale__inner">
                 <div class="sale__header">

@@ -3,8 +3,7 @@
 @section('content')
 <section class="mainScreen">
     <img    srcset="{{ asset('images/content/subventions_formuleLocation.webp') }} 1920w,
-                    {{ asset('images/content/subventions_formuleLocation_600.webp') }} 700w,
-                    {{ asset('images/content/subventions_formuleLocation_400.webp 500w') }} 500w"
+                    {{ asset('images/content/subventions_formuleLocation_600.webp') }} 700w"
             src="{{ asset('images/content/subventions_formuleLocation.webp') }}"
             width="1600"
             height="580"
@@ -38,7 +37,7 @@
 <section class="mastHead">
     <div class="container">
         <div class="mastHead__inner">
-            <img    src="{{ asset('images/content/logo_page.webp') }}"
+            <img    src="{{ asset('images/content/logo_page.png') }}"
                 width="250"
                 height="75"
                 alt=""
@@ -48,7 +47,7 @@
         </div>
     </div>
 </section>
-<section class="whatAED__sub">
+<section class="whatAED__sub bg-blue">
     <div class="container">
         <div class="whatAED__inner">
             <div class="whatAED__content">
@@ -69,31 +68,32 @@
         </div>
     </div>
 </section>
-<section class="acsList">
+<section class="acsList bg-blue">
     <div class="container">
         <div class="acsList__header">
             <h2>Quels subventions sont disponibles pour s'équiper de DAE ?</h2>
         </div>
-        <h2 class="acsList__h2">Subventions pour les entreprises (de moins de 50 salariés)</h2>
-        <p class="acsList__p">Les Caisses d’Assurance Retraite et de la Santé au Travail (CARSAT) sont habilitées à dispenser des subventions aux petites entreprises pour l’<b>achat d’un DAE</b>. La CARSAT peut en effet financer généralement 40% du <a href="https://cardiopro.fr/defibrillateur-prix">prix d’achat du défibrillateur</a> (plafonné à 1200€), voire 70% si l’entreprise compte 20% de secouristes formés. Pour en bénéficier, il faut d’abord prévenir le conseil d’entreprise, syndicat ou tout autre organisme représentatif du personnel de sa démarche (et s’il n’y en a pas, donner un constat de carence ou indiquer qu’il y a
-             moins de 11 employés). Il faut ensuite fournir un document unique d’évaluation des risques (DUER) mis à jour, avoir réglé ses cotisations URSSAF et avoir souscrit à un service de santé au travail.</p>
-        <h2 class="acsList__h2">Subventions pour les activités agricoles</h2>
-        <p class="acsList__p">La <b>Mutuelle de Santé Agricole (MSA)</b> est habilitée à dispenser une aide financière simplifiée agricole (AFSA) aux très <b>petites entreprises agricoles</b>. Cette subvention peut couvrir jusqu’à 50% du <a href="https://cardiopro.fr/location-defibrillateur">prix de location</a> ou d’<b>achat du DAE</b>, qui est plafonné à 3000 euros.</p>
-        <h2 class="acsList__h2">Subventions pour les mairies et administrations</h2>
-        <p class="acsList__p">Les <b>mairies et les administrations publiques</b> peuvent également bénéficier de subventions publiques pour l'<b>achat d'un défibrillateur</b>, en se tournant vers le Conseil Général et Régional auquel elles sont rattachées.</p>
-        <h2 class="acsList__h2">Dotation d’Équipement des Territoires Ruraux (DETR)</h2>
-        <p class="acsList__p">La <b>DETR</b> a été créée par de la <b>loi n° 2010-1657</b> de finances pour 2011 et résulte de la fusion de la <b>Dotation Globale d’Équipement (DGE)</b> des communes et de la Dotation de Développement Rural (DDR). La DETR est ainsi particulièrement habilitée à 
-            financer des équipements de santé comme <b>les défibrillateurs</b> pour les communes qui répondent aux conditions démographiques et de richesse fiscale exigées par la DETR. Sont éligibles, d’abord les communes comprenant moins de 2000 habitants dans les départements de métropole et 3 500 dans les départements d’outre-mer, et ensuite, les communes comprenant plus de 2 000 habitants dans les départements de métropole (3 500 habitants dans les départements d’outre-mer) mais n’excédant pas 20 000 habitants dans les départements de métropole (35 000 habitants dans les départements d’outre-mer) et dont le potentiel financier par habitant est inférieur à 1,3 fois le potentiel financier par habitant moyen de l’ensemble des communes des
-             départements de métropole et d’outre-mer dont la population est supérieure à 2 000 habitants et n’excède pas 20 000 habitants (3 500 et 35 000 en outre-mer). Pour bénéficier de la DETR, les communes peuvent se <b>rapprocher de leur préfecture.</b></p>
-        <h2 class="acsList__h2">Subventions pour associations sportives</h2>
-        <p class="acsList__p">Les <b>clubs et associations sportives</b> sont des lieux privilégiés pour la pose d’<b>un défibrillateur</b>, qui peut s’avérer vital en cas de problème cardiaque rencontré par un sportif - et c’est pourquoi le ministère de la Jeunesse et des Sports a mis en place un système de <b>subventions</b> pour ces clubs et associations sportives, subventions qui peuvent aller jusqu’à 
-            45% du prix d’achat. Le maximum de la subvention pour chaque <b>défibrillateur</b> est de 700 euros. Pour en savoir plus, les clubs et associations sportives doivent contacter la Direction Départementale ou Régionale de la Jeunesse et des Sports dont ils dépendent.</p>
-        <h2 class="acsList__h2">Autres sources de financement</h2>
-        <p class="acsList__p">D’autres subventions sont disponibles pour aider à l’<b>achat d’un défibrillateur</b>. D’abord, la réserve parlementaire (ou subvention à l'action parlementaire) a déjà pu servir à des associations ou des collectivités territoriales pour <b>financer leur DAE</b>.</p>
-        <p class="acsList__p">Les associations doivent remplir une <b>demande de subvention</b> avec le <b>formulaire CERFA 12156*04</b> où doit être indiqué qu’il s’agit d’une demande de « financement d’actions spécifiques ». L’action spécifique (c’est-à-dire le projet de l’association) doit avoir lieu l’année suivant la demande de l’association, elle ne peut pas avoir déjà eu lieu au moment de la demande de la subvention (en effet, la réserve parlementaire n’est pas rétroactive dans ce cas précis).</p>
-        <p class="acsList__p">Les collectivités territoriales peuvent également bénéficier de la réserve parlementaire. Elle leur propose en effet des <b>subventions</b> notamment pour les <b>projets d’équipements</b> (ce qui <b>comprend les DAE</b>), quand ils sont inscrits comme tels dans la partie « Investissement » de leur budget. Encore une fois, il doit s’agit d’un projet, l’équipement ne doit pas avoir déjà été acheté par la collectivité territoriale avant que le ministère de l’Intérieur n’ait reçu le dossier de demande complet. Ce dossier doit contenir une lettre décrivant le projet d’équipement, une notice du maître d’ouvrage qui explique la nature de l’opération et sa réalisation, un devis avec tous les montants HT, un échéancier de financement faisant apparaître les subventions obtenues ou espérées, et un certificat de non-commencement des travaux daté et signé du maire ou du président de la collectivité territoriale concernée.</p>
-        <p class="acsList__p">Et si vous ne pouvez pas projeter une aide pour votre projet d’équipement de <b>DAE</b> parmi les <b>subventions susmentionnées</b>, n’hésitez pas à parler de votre projet autour de vous, aux entreprises environnantes, supermarchés locaux… Une myriade de partenariats informels sont possibles (en mettant en avant l’entreprise qui vous a aidé à <b>financer le DAE</b>, par exemple).</p>
-
+        <div class="acsList__inner">
+            <h3 class="acsList__h2">Subventions pour les entreprises (de moins de 50 salariés)</h3>
+            <p class="acsList__p">Les Caisses d’Assurance Retraite et de la Santé au Travail (CARSAT) sont habilitées à dispenser des subventions aux petites entreprises pour l’<b>achat d’un DAE</b>. La CARSAT peut en effet financer généralement 40% du <a href="https://cardiopro.fr/defibrillateur-prix">prix d’achat du défibrillateur</a> (plafonné à 1200€), voire 70% si l’entreprise compte 20% de secouristes formés. Pour en bénéficier, il faut d’abord prévenir le conseil d’entreprise, syndicat ou tout autre organisme représentatif du personnel de sa démarche (et s’il n’y en a pas, donner un constat de carence ou indiquer qu’il y a
+                 moins de 11 employés). Il faut ensuite fournir un document unique d’évaluation des risques (DUER) mis à jour, avoir réglé ses cotisations URSSAF et avoir souscrit à un service de santé au travail.</p>
+            <h3 class="acsList__h2">Subventions pour les activités agricoles</h3>
+            <p class="acsList__p">La <b>Mutuelle de Santé Agricole (MSA)</b> est habilitée à dispenser une aide financière simplifiée agricole (AFSA) aux très <b>petites entreprises agricoles</b>. Cette subvention peut couvrir jusqu’à 50% du <a href="https://cardiopro.fr/location-defibrillateur">prix de location</a> ou d’<b>achat du DAE</b>, qui est plafonné à 3000 euros.</p>
+            <h3 class="acsList__h2">Subventions pour les mairies et administrations</h3>
+            <p class="acsList__p">Les <b>mairies et les administrations publiques</b> peuvent également bénéficier de subventions publiques pour l'<b>achat d'un défibrillateur</b>, en se tournant vers le Conseil Général et Régional auquel elles sont rattachées.</p>
+            <h3 class="acsList__h2">Dotation d’Équipement des Territoires Ruraux (DETR)</h3>
+            <p class="acsList__p">La <b>DETR</b> a été créée par de la <b>loi n° 2010-1657</b> de finances pour 2011 et résulte de la fusion de la <b>Dotation Globale d’Équipement (DGE)</b> des communes et de la Dotation de Développement Rural (DDR). La DETR est ainsi particulièrement habilitée à 
+                financer des équipements de santé comme <b>les défibrillateurs</b> pour les communes qui répondent aux conditions démographiques et de richesse fiscale exigées par la DETR. Sont éligibles, d’abord les communes comprenant moins de 2000 habitants dans les départements de métropole et 3 500 dans les départements d’outre-mer, et ensuite, les communes comprenant plus de 2 000 habitants dans les départements de métropole (3 500 habitants dans les départements d’outre-mer) mais n’excédant pas 20 000 habitants dans les départements de métropole (35 000 habitants dans les départements d’outre-mer) et dont le potentiel financier par habitant est inférieur à 1,3 fois le potentiel financier par habitant moyen de l’ensemble des communes des
+                 départements de métropole et d’outre-mer dont la population est supérieure à 2 000 habitants et n’excède pas 20 000 habitants (3 500 et 35 000 en outre-mer). Pour bénéficier de la DETR, les communes peuvent se <b>rapprocher de leur préfecture.</b></p>
+            <h3 class="acsList__h2">Subventions pour associations sportives</h3>
+            <p class="acsList__p">Les <b>clubs et associations sportives</b> sont des lieux privilégiés pour la pose d’<b>un défibrillateur</b>, qui peut s’avérer vital en cas de problème cardiaque rencontré par un sportif - et c’est pourquoi le ministère de la Jeunesse et des Sports a mis en place un système de <b>subventions</b> pour ces clubs et associations sportives, subventions qui peuvent aller jusqu’à 
+                45% du prix d’achat. Le maximum de la subvention pour chaque <b>défibrillateur</b> est de 700 euros. Pour en savoir plus, les clubs et associations sportives doivent contacter la Direction Départementale ou Régionale de la Jeunesse et des Sports dont ils dépendent.</p>
+            <h3 class="acsList__h2">Autres sources de financement</h3>
+            <p class="acsList__p">D’autres subventions sont disponibles pour aider à l’<b>achat d’un défibrillateur</b>. D’abord, la réserve parlementaire (ou subvention à l'action parlementaire) a déjà pu servir à des associations ou des collectivités territoriales pour <b>financer leur DAE</b>.</p>
+            <p class="acsList__p">Les associations doivent remplir une <b>demande de subvention</b> avec le <b>formulaire CERFA 12156*04</b> où doit être indiqué qu’il s’agit d’une demande de « financement d’actions spécifiques ». L’action spécifique (c’est-à-dire le projet de l’association) doit avoir lieu l’année suivant la demande de l’association, elle ne peut pas avoir déjà eu lieu au moment de la demande de la subvention (en effet, la réserve parlementaire n’est pas rétroactive dans ce cas précis).</p>
+            <p class="acsList__p">Les collectivités territoriales peuvent également bénéficier de la réserve parlementaire. Elle leur propose en effet des <b>subventions</b> notamment pour les <b>projets d’équipements</b> (ce qui <b>comprend les DAE</b>), quand ils sont inscrits comme tels dans la partie « Investissement » de leur budget. Encore une fois, il doit s’agit d’un projet, l’équipement ne doit pas avoir déjà été acheté par la collectivité territoriale avant que le ministère de l’Intérieur n’ait reçu le dossier de demande complet. Ce dossier doit contenir une lettre décrivant le projet d’équipement, une notice du maître d’ouvrage qui explique la nature de l’opération et sa réalisation, un devis avec tous les montants HT, un échéancier de financement faisant apparaître les subventions obtenues ou espérées, et un certificat de non-commencement des travaux daté et signé du maire ou du président de la collectivité territoriale concernée.</p>
+            <p class="acsList__p">Et si vous ne pouvez pas projeter une aide pour votre projet d’équipement de <b>DAE</b> parmi les <b>subventions susmentionnées</b>, n’hésitez pas à parler de votre projet autour de vous, aux entreprises environnantes, supermarchés locaux… Une myriade de partenariats informels sont possibles (en mettant en avant l’entreprise qui vous a aidé à <b>financer le DAE</b>, par exemple).</p>
+        </div>
     </div>
 </section>
 
