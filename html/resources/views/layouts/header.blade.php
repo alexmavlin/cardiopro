@@ -89,10 +89,10 @@
                                     </svg>
                                 </a>
                                 <div class="header__nav--dropdown">
-                                    <a href="https://cardiopro.fr/location-defibrillateur" title="Defibrillateur en Location" aria-label="Avantages">Location</a>
-                                    <a href="https://cardiopro.fr/achat-defibrillateur" title="Acheter un Defibrillateur" aria-label="Fiscalité">Achat</a>
+                                    <a href="{{ route('location-defibrillateur') }}" title="Defibrillateur en Location" aria-label="Avantages">Location</a>
+                                    <a href="{{ route('achat-defibrillateur') }}" title="Acheter un Defibrillateur" aria-label="Fiscalité">Achat</a>
                                     <a href="{{ route('formule-dae-dsa') }}" title="Choisir un Defibrillateur" aria-label="Vente Viager">Trouver votre formule</a>
-                                    <a href="https://cardiopro.fr/maintenance-defibrillateur" title="Maintenance Defibrillateur" aria-label="Simulation Viager">Maintenance / SAV</a>
+                                    <a href="{{ route('maintenance-defibrillateur') }}" title="Maintenance Defibrillateur" aria-label="Simulation Viager">Maintenance / SAV</a>
                                 </div>
                             </li>
                             <li class="header__nav--dropdown__li">
@@ -103,12 +103,12 @@
                                     </svg>
                                 </a>
                                 <div class="header__nav--dropdown">
-                                    <a href="https://cardiopro.fr/mairie" title="Solutions Defibrillateur pour Mairie" aria-label="Avantages">Mairie</a>
-                                    <a href="https://cardiopro.fr/hotel" title="Solutions Defibrillateur pour les Hotels" aria-label="Fiscalité">Hotel et Restaurant</a>
-                                    <a href="https://cardiopro.fr/medical" title="Solutions Defibrillateur pour les Cabinets medicaux" aria-label="Vente Viager">Centre de soins</a>
-                                    <a href="https://cardiopro.fr/entreprise" title="Solutions Defibrillateur pour les entreprises" aria-label="Simulation Viager">Entreprise</a>
-                                    <a href="https://cardiopro.fr/erp" title="" aria-label="Simulation Viager">Erp</a>
-                                    <a href="https://cardiopro.fr/ehpad" title="Solutions Defibrillateur pour les EHPAD" aria-label="Simulation Viager">Ehpad</a>
+                                    <a href="{{ route('mairie') }}" title="Solutions Defibrillateur pour Mairie" aria-label="Avantages">Mairie</a>
+                                    <a href="{{ route('hotel') }}" title="Solutions Defibrillateur pour les Hotels" aria-label="Fiscalité">Hotel et Restaurant</a>
+                                    <a href="{{ route('medical') }}" title="Solutions Defibrillateur pour les Cabinets medicaux" aria-label="Vente Viager">Centre de soins</a>
+                                    <a href="{{ route('entreprise') }}" title="Solutions Defibrillateur pour les entreprises" aria-label="Simulation Viager">Entreprise</a>
+                                    <a href="{{ route('erp') }}" title="" aria-label="Simulation Viager">Erp</a>
+                                    <a href="{{ route('ehpad') }}" title="Solutions Defibrillateur pour les EHPAD" aria-label="Simulation Viager">Ehpad</a>
                                 </div>
                             </li>
                             <li class="header__nav--dropdown__li">
