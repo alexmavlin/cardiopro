@@ -979,9 +979,10 @@ button.sale__button__active {
     margin: 0 auto;
     border-radius: 16px;
     box-shadow: 0px 7px 17px 0px #D8DBE3;
+    background-color: #FFF;
 }
 .sale__rectangle {
-    z-index: -1;
+    z-index: 1;
     position: absolute;
     width: 662.106px;
     height: 686.448px;
@@ -1011,6 +1012,8 @@ button.sale__button__active {
     padding: 0 16px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    z-index: 2;
 }
 .sale__item__price {
     display: flex;
@@ -1086,7 +1089,6 @@ button.sale__button__active {
     padding: 16px 32px;
     border-radius: 85px;
     border: 1.5px solid var(--c-22921, #C22921);
-    background: var(--c-22921, #fff);
 }
 @media (max-width: 950px) {
     .sale__frame img {

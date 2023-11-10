@@ -454,7 +454,7 @@
         margin: 22px auto 0;
         color: #021647;
         font-size: 18px;
-        @include nunito800;
+        @include nunito700;
         text-align: center;
     }
     b {
@@ -573,7 +573,7 @@
         max-width: 490px;
         color: #021647;
         font-size: 18px;
-        @include nunito800;
+        @include nunito700;
         text-align: center;
     }
     p + p {
@@ -587,6 +587,7 @@
     a {
         color: #C22921;
         text-decoration: underline;
+        @include nunito800;
     }
 }
 .obligation__img__box {
@@ -636,7 +637,7 @@
         max-width: 525px;
         color: #021647;
         font-size: 18px;
-        @include nunito800;
+        @include nunito700;
         text-align: center;
     }
     b {

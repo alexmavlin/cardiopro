@@ -50,32 +50,34 @@
 </section>
 <section class="acsList bg-blue">
     <div class="container">
-        <h2 class="acsList__h2">Arrêt cardiaque soudain (ACS)</h2>
-        <p class="acsList__p">On parle d'arrêt cardiaque soudain lorsque les cavités inférieures du cœur (les ventricules) se mettent à présenter un rythme cardiaque rapide et irrégulier (fibrillation ventriculaire) et que des palpitations empêchent les ventricules de pomper le sang vers le corps. En l'espace de quelques secondes, la victime ne présente plus de pouls et perd conscience. En l'absence de traitement immédiat, la victime décède pratiquement dans tous les cas. L'arrêt cardiaque soudain n'est pas une crise cardiaque.</p>
-        <h2 class="acsList__h2">Arythmie et Asystolie</h2>
-        <p class="acsList__p">Arythmie: Troubles du rythme du coeur caractérisés par une irrégularité et une inégalité des contractions. Asystolie : État dans lequel le coeur ne bat plus.</p>
-        <h2 class="acsList__h2">Chaîne de survie</h2>
-        <p class="acsList__p">La chaîne de survie résume les actions successives à mener pour prévenir ou traiter une mort subite par arrêt cardiorespiratoire. Elle comporte l’alerte précoce des secours médicaux, la réanimation cardio-pulmonaire précoce, la défibrillation précoce, la prise en charge médicalisée.</p>
-        <h2 class="acsList__h2">Choquer un patient</h2>
-        <p class="acsList__p">Cette action consiste à délivrer une décharge électrique afin de re-synchroniser les contractions cardiaques.</p>
-        <h2 class="acsList__h2">Défibrillation externe</h2>
-        <p class="acsList__p">Choc électrique administré au cœur à l'aide d'électrodes placées sur la poitrine afin de relancer le système de conduction électrique cardiaque. La défibrillation externe peut s'effectuer à l'aide d'un défibrillateur automatisé externe (DAE).</p>
-        <h2 class="acsList__h2">Défibrillateur externe automatique ou semi-automatique (DEA/DSA)</h2>
-        <p class="acsList__p">Appareil portatif permettant d'administrer un choc électrique externe à un cœur en état de fibrillation. Il est constitué d'un boîtier, d'une pile au lithium longue durée et d'une paire d'électrodes à coller sur le thorax de la victime.</p>
-        <h2 class="acsList__h2">Défibrillateur Automatisé Externe (DAE)</h2>
-        <p class="acsList__p">Le Défibrillateur Automatisé Externe - terminologie utilisée par le décret du 4 mai 2007 - comprends les Défibrillateurs externes semi-automatiques et les défibrillateurs externes entièrement automatiques. Toute personne, même non médecin, est habilitée à utiliser un défibrillateur automatisé externe.</p>
-        <h2 class="acsList__h2">Défibrillation précoce</h2>
-        <p class="acsList__p">Le seul traitement efficace d'un arrêt cardiorespiratoire cardiaque subit (ACR) est l'application d'un choc électrique à l'aide d'un défibrillateur externe. Le défibrillateur applique un courant électrique au cœur par l'intermédiaire d'électrodes ou de palettes placées sur le thorax. L'impulsion de courant stoppe l'activité anarchique du cœur, lui donnant une chance de recommencer à battre à un rythme normal. L'application d'un choc électrique qui rétablit le rythme cardiaque normal est appelée défibrillation.Plus la défibrillation externe est effectuée précocement avec un défibrillateur externe automatique ou un défibrillateur manuel, plus les chances de survie de la victime sont grandes. Les chances de survie d'une personne en arrêt cardiaque diminuent de 10% à chaque minute écoulée sans défibrillation. Au bout de 10 minutes, les chances de survie sont inférieures à 10%.</p>
-        <h2 class="acsList__h2">Électrocardiogramme (ECG)</h2>
-        <p class="acsList__p">Il s'agit du tracé de l'activité électrique du coeur obtenue sur l'électrocardiographe.</p>
-        <h2 class="acsList__h2">Fibrillation ventriculaire (FV)</h2>
-        <p class="acsList__p">Trouble du rythme cardiaque trouvant son origine dans les ventricules qui se traduit par un rythme cardiaque anormalement rapide, mais également très instable et irrégulier. En cas de fibrillation ventriculaire, les signaux électriques se propagent à travers le cœur de façon anarchique, ce qui empêche le cœur de battre correctement et entraîne souvent une perte de connaissance. Si cette condition n'est pas traitée, elle peut provoquer un arrêt cardiaque.</p>
-        <h2 class="acsList__h2">Mort subite</h2>
-        <p class="acsList__p">Mort par arrêt cardiorespiratoire dû à un dérèglement de l'activité électrique du cœur qui s'emballe et n'assure plus sa fonction de pompage du sang. L'existence d'une maladie cardiaque préalable peut ou non avoir été connue.</p>
-        <h2 class="acsList__h2">Réanimation cardio-pulmonaire (RCP)</h2>
-        <p class="acsList__p">La RCP consiste en un massage du cœur (les mains comprimant la cage thoracique) et une ventilation par insufflation orale (bouche à bouche) selon un certain rythme. Ces actions maintiennent la circulation du sang et de l'oxygène dans l'organisme. La RCP est souvent utilisée en première urgence jusqu'à ce qu'un défibrillateur externe puisse être appliqué pour rétablir le rythme cardiaque.</p>
-        <h2 class="acsList__h2">Tachycardie ventriculaire (TV)</h2>
-        <p class="acsList__p">Arythmie rapide trouvant son origine dans les ventricules. La tachycardie ventriculaire peut provoquer une sensation de malaise ou de vertige chez le patient qui peut même perdre connaissance. En cas de tachycardie ventriculaire, le cœur ne peut pas se remplir convenablement entre chaque battement et il pompe le sang avec moins d'efficacité que lorsque son rythme est normal. La tachycardie ventriculaire est dangereuse et peut même s'avérer mortelle si elle ne fait pas l'objet d'un traitement approprié.</p>
+        <div class="acsList__inner">
+            <h2 class="acsList__h2">Arrêt cardiaque soudain (ACS)</h2>
+            <p class="acsList__p">On parle d'arrêt cardiaque soudain lorsque les cavités inférieures du cœur (les ventricules) se mettent à présenter un rythme cardiaque rapide et irrégulier (fibrillation ventriculaire) et que des palpitations empêchent les ventricules de pomper le sang vers le corps. En l'espace de quelques secondes, la victime ne présente plus de pouls et perd conscience. En l'absence de traitement immédiat, la victime décède pratiquement dans tous les cas. L'arrêt cardiaque soudain n'est pas une crise cardiaque.</p>
+            <h2 class="acsList__h2">Arythmie et Asystolie</h2>
+            <p class="acsList__p">Arythmie: Troubles du rythme du coeur caractérisés par une irrégularité et une inégalité des contractions. Asystolie : État dans lequel le coeur ne bat plus.</p>
+            <h2 class="acsList__h2">Chaîne de survie</h2>
+            <p class="acsList__p">La chaîne de survie résume les actions successives à mener pour prévenir ou traiter une mort subite par arrêt cardiorespiratoire. Elle comporte l’alerte précoce des secours médicaux, la réanimation cardio-pulmonaire précoce, la défibrillation précoce, la prise en charge médicalisée.</p>
+            <h2 class="acsList__h2">Choquer un patient</h2>
+            <p class="acsList__p">Cette action consiste à délivrer une décharge électrique afin de re-synchroniser les contractions cardiaques.</p>
+            <h2 class="acsList__h2">Défibrillation externe</h2>
+            <p class="acsList__p">Choc électrique administré au cœur à l'aide d'électrodes placées sur la poitrine afin de relancer le système de conduction électrique cardiaque. La défibrillation externe peut s'effectuer à l'aide d'un défibrillateur automatisé externe (DAE).</p>
+            <h2 class="acsList__h2">Défibrillateur externe automatique ou semi-automatique (DEA/DSA)</h2>
+            <p class="acsList__p">Appareil portatif permettant d'administrer un choc électrique externe à un cœur en état de fibrillation. Il est constitué d'un boîtier, d'une pile au lithium longue durée et d'une paire d'électrodes à coller sur le thorax de la victime.</p>
+            <h2 class="acsList__h2">Défibrillateur Automatisé Externe (DAE)</h2>
+            <p class="acsList__p">Le Défibrillateur Automatisé Externe - terminologie utilisée par le décret du 4 mai 2007 - comprends les Défibrillateurs externes semi-automatiques et les défibrillateurs externes entièrement automatiques. Toute personne, même non médecin, est habilitée à utiliser un défibrillateur automatisé externe.</p>
+            <h2 class="acsList__h2">Défibrillation précoce</h2>
+            <p class="acsList__p">Le seul traitement efficace d'un arrêt cardiorespiratoire cardiaque subit (ACR) est l'application d'un choc électrique à l'aide d'un défibrillateur externe. Le défibrillateur applique un courant électrique au cœur par l'intermédiaire d'électrodes ou de palettes placées sur le thorax. L'impulsion de courant stoppe l'activité anarchique du cœur, lui donnant une chance de recommencer à battre à un rythme normal. L'application d'un choc électrique qui rétablit le rythme cardiaque normal est appelée défibrillation.Plus la défibrillation externe est effectuée précocement avec un défibrillateur externe automatique ou un défibrillateur manuel, plus les chances de survie de la victime sont grandes. Les chances de survie d'une personne en arrêt cardiaque diminuent de 10% à chaque minute écoulée sans défibrillation. Au bout de 10 minutes, les chances de survie sont inférieures à 10%.</p>
+            <h2 class="acsList__h2">Électrocardiogramme (ECG)</h2>
+            <p class="acsList__p">Il s'agit du tracé de l'activité électrique du coeur obtenue sur l'électrocardiographe.</p>
+            <h2 class="acsList__h2">Fibrillation ventriculaire (FV)</h2>
+            <p class="acsList__p">Trouble du rythme cardiaque trouvant son origine dans les ventricules qui se traduit par un rythme cardiaque anormalement rapide, mais également très instable et irrégulier. En cas de fibrillation ventriculaire, les signaux électriques se propagent à travers le cœur de façon anarchique, ce qui empêche le cœur de battre correctement et entraîne souvent une perte de connaissance. Si cette condition n'est pas traitée, elle peut provoquer un arrêt cardiaque.</p>
+            <h2 class="acsList__h2">Mort subite</h2>
+            <p class="acsList__p">Mort par arrêt cardiorespiratoire dû à un dérèglement de l'activité électrique du cœur qui s'emballe et n'assure plus sa fonction de pompage du sang. L'existence d'une maladie cardiaque préalable peut ou non avoir été connue.</p>
+            <h2 class="acsList__h2">Réanimation cardio-pulmonaire (RCP)</h2>
+            <p class="acsList__p">La RCP consiste en un massage du cœur (les mains comprimant la cage thoracique) et une ventilation par insufflation orale (bouche à bouche) selon un certain rythme. Ces actions maintiennent la circulation du sang et de l'oxygène dans l'organisme. La RCP est souvent utilisée en première urgence jusqu'à ce qu'un défibrillateur externe puisse être appliqué pour rétablir le rythme cardiaque.</p>
+            <h2 class="acsList__h2">Tachycardie ventriculaire (TV)</h2>
+            <p class="acsList__p">Arythmie rapide trouvant son origine dans les ventricules. La tachycardie ventriculaire peut provoquer une sensation de malaise ou de vertige chez le patient qui peut même perdre connaissance. En cas de tachycardie ventriculaire, le cœur ne peut pas se remplir convenablement entre chaque battement et il pompe le sang avec moins d'efficacité que lorsque son rythme est normal. La tachycardie ventriculaire est dangereuse et peut même s'avérer mortelle si elle ne fait pas l'objet d'un traitement approprié.</p>
+        </div>
     </div>
 </section>
 
