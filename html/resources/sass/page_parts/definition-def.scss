@@ -74,6 +74,16 @@
     aspect-ratio: 1 / 0.799;
     object-fit: cover;
 }
+.definitionDef__achat__img {
+    margin-right: 52px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    max-width: 544px;
+    width: 100% !important;
+    height: unset !important;
+    aspect-ratio: 1 / 0.661;
+    object-fit: cover;
+}
 .definitionDef__item {
     display: flex;
 }
@@ -98,7 +108,7 @@
     .definitionDef {
         padding: 45px 0;
     }
-    .definitionDef__img {
+    .definitionDef__img, .definitionDef__achat__img {
         max-width: unset;
         aspect-ratio: unset;
         height: 212px !important;
@@ -120,6 +130,7 @@
     }
     .definitionDef__content {
         text-align: center;
+        max-width: unset;
     }
     .definitionDef__item + .definitionDef__item {
         margin-left: 0;

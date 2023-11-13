@@ -1,0 +1,101 @@
+.choose__rent__inner {
+    max-width: 1110px;
+    margin: 0 auto;
+    h2 {
+        max-width: 668px;
+        margin: 0 auto 11px;
+        text-align: center;
+        color: #021647;
+        font-size: 36px;
+        @include nunito800;
+        line-height: 121%; /* 43.56px */
+        letter-spacing: -0.36px;
+    }
+    h3 {
+        max-width: 273px;
+        margin: 20px auto 8px;
+        text-align: center;
+        color: #021647;
+        font-size: 20px;
+        @include nunito800;
+        text-transform: uppercase;
+    }
+    p {
+        max-width: 519px;
+        margin: 0 auto;
+        text-align: center;
+        color: #021647;
+        font-size: 18px;
+        @include nunito600;
+    }
+    a {
+        color: #C22921;
+        text-decoration: underline;
+    }
+    img {
+        max-width: 332px;
+        width: 100% !important;
+        height: unset !important;
+        aspect-ratio: 1 / 0.683;
+    }
+}
+.choose__rent__header {
+    margin-bottom: 23px;
+}
+.choose__rent__row {
+    display: flex;
+}
+.choose__rent__row + .choose__rent__row {
+    margin-top: 18px;
+}
+.choose__rent__item {
+    width: 100%;
+    max-width: 358px;
+    padding: 18px 13px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.07);
+}
+.choose__rent__item + .choose__rent__item {
+    margin-left: 18px;
+}
+@media (max-width: 800px) {
+    .choose__rent__inner {
+        img {
+            max-width: unset;
+            height: 226px;
+            aspect-ratio: unset;
+        }
+    }
+    .choose__rent__row {
+        align-items: center;
+        flex-direction: column;
+    }
+    .choose__rent__item {
+        max-width: 500px;
+    }
+    .choose__rent__item + .choose__rent__item {
+        margin-left: 0px;
+        margin-top: 18px;
+    }
+}
+@media (max-width: 750px) {
+    .choose__rent__inner {
+        h2 {
+            font-size: 33px;
+        }
+    }
+}
+@media (max-width: 450px) {
+    .choose__rent__inner {
+        h2 {
+            font-size: 33px;
+        }
+    }
+    .choose__rent__row + .choose__rent__row {
+        margin-top: 15px;
+    }
+    .choose__rent__item + .choose__rent__item {
+        margin-top: 15px;
+    }
+}
