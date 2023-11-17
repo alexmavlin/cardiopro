@@ -1,0 +1,97 @@
+.installer__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+}
+.installer {
+    h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #021647;
+        @include nunito800;
+        font-size: 36px;
+        line-height: 121%; /* 43.56px */
+        letter-spacing: -0.36px;
+    }
+}
+.installer__item {
+    width: 100%;
+    border-radius: 10px;
+    padding: 23px;
+    border: 1px solid var(--c-22921, #C22921);
+    background: #FFF7F7;
+    h2 {
+        margin: 13px 0;
+        color: #C22921;
+        @include nunito800;
+        font-size: 20px;
+        line-height: 133.9%; /* 26.78px */
+        text-transform: uppercase;
+    }
+    p {
+        color: #021647;
+        @include nunito600;
+        font-size: 17px;
+    }
+    p + p {
+        margin-top: 12px;
+    }
+    a {
+        color: #C22921;
+        text-decoration: underline;
+    }
+    b {
+        @include nunito800;  
+    }
+    ul {
+        margin-top: 12px;
+    }
+    ul li {
+        color: #021647;
+        font-size: 17px;
+        @include nunito600;
+        b {
+            @include nunito800;
+        }
+        margin-left: 10px;
+        padding-left: 20px;
+        position: relative; 
+    }
+
+    ul li::before {
+        content: "\2022"; 
+        position: absolute;
+        left: 0; 
+    }
+}
+.installer__item + .installer__item {
+    margin-left: 16px;
+}
+@media (max-width: 800px) {
+    .installer__inner {
+        flex-direction: column;
+    }
+    .installer {
+        h2 {
+            font-size: 33px;
+        }
+    }
+    .installer__item {
+        h2 {
+            font-size: 19px;
+        }
+    }
+    .installer__item + .installer__item {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+}
+@media (max-width: 450px) {
+    .installer {
+        h2 {
+            font-size: 29px;
+            line-height: 113%; /* 32.77px */
+            letter-spacing: -0.29px;
+        }
+    }
+}

@@ -113,7 +113,7 @@
 <section class="defCabinet bg-blue">
     <div class="container">
         <div class="defCabinet__inner">
-            <h2>Que doit-on faire après une utilisation médicale du DAE ?</h2>
+            <h2 class="defCabinet__desc">Que doit-on faire après une utilisation médicale du DAE ?</h2>
             <div class="defCabinet__row">
                <img    src="{{ asset('images/content/maintenance_02.webp') }}"
                     width="528"
@@ -122,6 +122,7 @@
                     title=""
                     class="defCabinet__img__maintenance__2"> 
                 <div class="defCabinet__text">
+                    <h2 class="defCabinet__mobile">Que doit-on faire après une utilisation médicale du DAE ?</h2>
                     <p>Après avoir utilisé un DAE à des fins médicales, certaines étapes cruciales doivent être suivies pour assurer son efficacité continue. </p>
                     <p>Tout d'abord, il est vivement recommandé de faire inspecter l'appareil par un technicien agréé afin de récupérer les données médicales importantes.</p>
                     <p>Il est ensuite impératif de remplacer les électrodes et de vérifier l'état de la batterie. Dans certains cas, il peut être nécessaire de la remplacer.</p>
