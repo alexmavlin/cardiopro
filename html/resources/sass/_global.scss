@@ -30,11 +30,20 @@
 .bg-blue {
     background-color: #F2F5FE !important;
 }
+.pt-60 {
+    padding-top: 60px;
+}
 .pt-50 {
     padding-top: 50px;
 }
+.pt-45 {
+    padding-top: 45px;
+}
 .pb-60 {
     padding-bottom: 60px;
+}
+.pb-55 {
+    padding-bottom: 55px;
 }
 /* // Utilitare Classes */
 
@@ -42,11 +51,19 @@
     .global__heading {
         font-size: 29px;
     }
-
+    .pt-60 {
+        padding-top: 50px;
+    }
     .pt-50 {
         padding-top: 35px;
     }
+    .pt-50 {
+        padding-top: 30px;
+    }
     .pb-60 {
         padding-bottom: 50px;
+    }
+    .pb-55 {
+        padding-bottom: 45px;
     }
 }

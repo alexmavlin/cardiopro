@@ -39,6 +39,9 @@
 @import 'page_parts/in-short.scss';
 @import 'page_parts/regarding.scss';
 @import 'page_parts/livraison-slider.scss';
+@import 'page_parts/choose-rent.scss';
+@import 'page_parts/entrust.scss';
+@import 'page_parts/installer.scss';
 /* // Page Parts */
 
 /* Pages */
@@ -847,6 +850,28 @@
         text-decoration-line: underline;
     }
 }
+.sale__small__header {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    h2, h3 {
+        color: #021647;
+        font-size: 36px;
+        @include nunito800;
+        line-height: 121%; /* 43.56px */
+        letter-spacing: -0.36px;
+        margin-bottom: 30px;
+    }
+    p {
+        color: #021647;
+        font-size: 19px;
+        @include nunito600;
+    }
+    a {
+        color: #C22921;
+        text-decoration-line: underline;
+    }
+}
 .formuleSlider__livraison {
     padding-bottom: 65px;
 }
@@ -1107,6 +1132,11 @@ button.sale__button__active {
             font-size: 34px;
         }
     }
+    .sale__small__header {
+        h2 {
+            font-size: 33px;
+        }
+    }
     .slider__header {
         p {
             font-size: 33px;
@@ -1155,6 +1185,12 @@ button.sale__button__active {
         }
         p {
             font-size: 17px;
+        }
+    }
+    .sale__small__header {
+        h2 {
+            font-size: 29px;
+            margin-bottom: 25px;
         }
     }
     .formuleSlider__livraison {

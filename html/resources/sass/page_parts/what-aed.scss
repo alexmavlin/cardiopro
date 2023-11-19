@@ -32,12 +32,43 @@
         text-decoration: underline;
     }
 }
+.whatAED__content__header__achat {
+    max-width: 535px;
+    color: var(--text, #021647);
+    line-height: 121%; /* 45.98px */
+    letter-spacing: -0.38px;
+    font-size: 33px;
+    @include nunito800; 
+    margin-bottom: 15px; 
+}
 .whatAED__content {
     max-width: 1110px;
     margin: 0 auto;
+    ul {
+        margin: 5px 0;
+    }
+    ul li {
+        color: var(--text, #021647);
+        font-size: 18px;
+        @include nunito600; 
+        list-style-type: none; 
+        a {
+            color: #C22921;
+            text-decoration: underline;
+        }
+    }
+    li::before {
+        content: '\2022'; 
+        color: #021647; 
+        display: inline-block;
+        width: 1em; 
+        margin-left: 0.5em; 
+    }
 }
+
 .whatAED__item {
     display: flex;
+    align-items: center;
 }
 .whatAED__item__sub {
     align-items: center;
@@ -78,12 +109,61 @@
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
     // min-width: 351px;
 }
+.entreprise__box {
+    display: flex;
+    min-width: 360px;
+    justify-content: center;
+    align-items: center;
+    max-width: 532px;
+    margin-right: 52px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid var(--e-4-ebfd, #E4EBFD);
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+    height: 100%;
+}
+.whatAED__content__entreprise {
+    max-width: 520px;
+}
+.whatAED__img__entreprise {
+    max-width: 532px;
+    width: 100% !important;
+    height: unset !important;
+    aspect-ratio: 1 / 0.672;
+    object-fit: cover;
+}
+.whatAED__img__entreprise__green {
+    max-width: 327px;
+    width: 100% !important;
+    height: unset !important;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+.whatAED__img__entreprise__logo {
+    margin: 115px 0;
+    max-width: 293px;
+    width: 100% !important;
+    height: unset !important;
+    aspect-ratio: 1 / 0.3;
+    object-fit: cover;
+}
 .whatAED__img {
     margin-right: 52px;
     max-width: 351px;
     width: 100% !important;
     // height: unset !important;
     aspect-ratio: 1 / 0.578;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+}
+.whatAED__img__achat {
+    margin-right: 52px;
+    max-width: 524px;
+    width: 100% !important;
+    // height: unset !important;
+    aspect-ratio: 1 / 1.022;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
@@ -128,8 +208,14 @@
         position: absolute;
     }
 }
+.whatAED__mobile {
+    display: none;
+}
 @media (max-width: 900px) {
     .whatAED__img {
+        max-width: 340px;
+    }
+    .whatAED__img__achat {
         max-width: 340px;
     }
     .whatAED__img__green {
@@ -151,6 +237,44 @@
         height: 288px !important;
         margin-right: 0;
     }
+    .whatAED__header__entreprise {
+        h2 {
+           text-align: left !important; 
+        }
+    }
+    .entreprise__box {
+        max-width: unset;
+        min-width: unset;
+        margin-right: 0;
+        margin-bottom: 11px;
+    }
+    .whatAED__img__entreprise__green {
+        max-width: 243px;
+    }
+    .whatAED__img__entreprise__logo {
+        max-width: 253px;
+        margin: 71px 0;
+    }
+    .whatAED__img__entreprise {
+        min-width: unset;
+        max-width: unset;
+        aspect-ratio: unset;
+        height: 218px !important;
+    }
+    .whatAED__img__achat {
+        max-width: unset;
+        aspect-ratio: unset;
+        height: 288px !important;
+        margin-right: 0;
+    }
+    .whatAED__content__header__achat {
+        margin-top: 25px;
+    }
+    .whatAED__content {
+        ul li {
+            font-size: 17px;
+        }
+    }
     .whatAED__img__green {
         max-width: unset;
         margin-right: 0;
@@ -159,6 +283,9 @@
             aspect-ratio: unset;
             height: 288px !important;
         }
+    }
+    .whatAED__content__p {
+        font-size: 17px;
     }
     .whatAED__item__p {
         margin-top: 20px;
@@ -200,11 +327,20 @@
             display: none;
         }
     }
+    .whatAED__desc {
+        display: none;
+    }
+    .whatAED__mobile {
+        display: block;
+    }
 }
-@media (max-width: 800px) {
+@media (max-width: 450px) {
     .whatAED__header {
         h2 {
             font-size: 28px;
         }
+    }
+    .whatAED__content__header__achat {
+        font-size: 28px;
     }
 }
