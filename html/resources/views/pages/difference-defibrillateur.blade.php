@@ -53,10 +53,10 @@
                     title=""
                     class="defCabinet__img"> 
                 <div class="defCabinet__text">
-                    <p>Pour votre entreprise ou établissement, vous pouvez choisir entre un DAE (défibrillateur automatique externe) et un DSA (défibrillateur semi-automatique). Le choix peut se faire en fonction du niveau de formation des potentiels utilisateurs. </p>
+                    <p>Pour votre entreprise ou établissement, vous pouvez choisir entre un DAE <strong>(défibrillateur automatique externe)</strong> et un DSA <strong>(défibrillateur semi-automatique)</strong>. Le choix peut se faire en fonction du niveau de formation des potentiels utilisateurs. </p>
                     <p>Le DAE, étant totalement automatique, ne nécessite que peu d’efforts. Il peut donc être utilisé par le plus grand nombre. </p>
-                    <p>Le DSA, quant à lui, exige que l’utilisateur presse un bouton pour délivrer le choc électrique. Bien qu’aucune formation ne soit obligatoire pour utiliser un défibrillateur semi-automatique, il est recommandé d’au moins suivre une formation au défibrillateur.</p>
-                    <p>Chez CardioPro, nous vous guidons dans votre choix. Nous proposons plusieurs formules autant pour l'achat que pour la location de défibrillateur.</p>
+                    <p>Le DSA, quant à lui, exige que l’utilisateur presse un bouton pour délivrer le choc électrique. Bien qu’<strong>aucune formation ne soit obligatoire</strong> pour utiliser un défibrillateur semi-automatique, il est recommandé d’au moins suivre une formation au défibrillateur.</p>
+                    <p>Chez CardioPro, nous vous guidons dans votre choix. Nous proposons plusieurs formules autant pour l'<a href="{{ route('achat-defibrillateur') }}"><span>achat</span></a> que pour la <a href="{{ route('location-defibrillateur') }}"><span>location de défibrillateur</span></a>.</p>
                 </div>
             </div>       
         </div>

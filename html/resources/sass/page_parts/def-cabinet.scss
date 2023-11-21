@@ -60,7 +60,8 @@
     aspect-ratio: 1 / 0.669;
 }
 .defCabinet__text {
-    max-width: 470px;
+    max-width: 532px;
+    width: 100%;
     margin-left: 20px;
     min-width: 322px;
     p {
@@ -68,6 +69,12 @@
         font-size: 18px;
         @include nunito600;
         line-height: 140.4%; /* 25.272px */
+        a {
+            span {
+                color: #C22921;
+                text-decoration: underline;
+            }
+        }
     }
     p + p {
         margin-top: 18px;

@@ -75,7 +75,8 @@
         flex-direction: column;
         gap: 12px;
         p,
-        ul li {
+        ul li,
+        ol li {
             @include nunito400;
             color: #1E3557;
             font-size: 15px;
@@ -93,6 +94,11 @@
             &.no_list_style {
                 list-style: none;
             }
+        }
+        ol li {
+            margin-left: 18px;
+            padding-left: 6px;
+            list-style: decimal;
         }
     }
 
