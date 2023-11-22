@@ -3,8 +3,7 @@
 @section('content')
 <section class="mainScreen">
     <img    srcset="{{ asset('images/content/location_formuleLocation.webp') }} 1920w,
-                    {{ asset('images/content/location_formuleLocation_600.webp') }} 700w,
-                    {{ asset('images/content/location_formuleLocation_400.webp 500w') }} 500w"
+                    {{ asset('images/content/location_formuleLocation_600.webp') }} 700w"
             src="{{ asset('images/content/location_formuleLocation.webp') }}"
             width="1600"
             height="580"
