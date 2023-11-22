@@ -254,7 +254,7 @@
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
                 <div class="sale__content">
                     <div class="sale__frame">
                         <div class="sale__hidden__header">

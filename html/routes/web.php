@@ -32,6 +32,7 @@ Route::group(['namespace' => 'Pages'], function() {
     Route::get('/location-defibrillateur', 'LocationDefibrillateurController')->name('location-defibrillateur');
     Route::get('/achat-defibrillateur', 'AchatDefibrillateurController')->name('achat-defibrillateur');
     Route::get('/maintenance-defibrillateur', 'MaintenanceDefibrillateurController')->name('maintenance-defibrillateur');
+    Route::get('/form', 'FormController')->name('form');
 
     Route::get('/entreprise', 'EntrepriseController')->name('entreprise');
     Route::get('/hotel', 'HotelController')->name('hotel');
