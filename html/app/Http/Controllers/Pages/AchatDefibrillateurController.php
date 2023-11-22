@@ -27,7 +27,7 @@ class AchatDefibrillateurController extends Controller
                     'link' => route('index'),
                 ],
                 [
-                    'name' => 'Nos Offers',
+                    'name' => 'Nos Offres',
                     'link' => '#',
                 ],
                 [
