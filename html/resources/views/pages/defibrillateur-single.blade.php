@@ -23,7 +23,7 @@
 <section class="mastHead">
     <div class="container">
         <div class="mastHead__inner">
-            <h2 class="mastHead__h2__blue">Défibrillateur automatique : léger, compact et efficace</h2>
+            <h1 class="mastHead__h2__blue">Défibrillateur automatique : léger, compact et efficace</h1>
             <p class="mastHead__h3">Le DSA prêt à sauver des vies, partout et en tout temps !</p>
         </div>
     </div>
@@ -341,7 +341,7 @@
 <section class="heartsine">
     <div class="container">
         <div class="heartsine__inner">
-            <h2>Le défibrillateur cautomatique tout-terrain</h2>
+            <h2>Le défibrillateur automatique tout-terrain</h2>
             <p>Le <b>Heartsine Samaritan PAD 360P</b> est bien plus qu'un défibrillateur, c'est votre garantie de sécurité en cas d'urgence cardiaque. Avec son degré de protection IP56, il résiste aux environnements les plus exigeants, que ce soit dans les espaces publics, les clubs sportifs ou les parcs aquatiques. </p>
             <p>Sa simplicité d'utilisation, ses instructions claires et sa technologie SCOPE qui s'adapte automatiquement aux variations de l'impédance cardiaque en font l'allié idéal même pour les non-initiés. </p>
             <p>Le <b>défibrillateur Heartsine 360p</b> dispose du marquage CE et de la certification FDA, gages de sa fiabilité et de sa qualité. De plus, il est garanti pendant 8 ans, assurant votre tranquillité d'esprit à long terme.</p>
