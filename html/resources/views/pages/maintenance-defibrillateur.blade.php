@@ -3,8 +3,7 @@
 @section('content')
 <section class="mainScreen">
     <img    srcset="{{ asset('images/content/maintenance_formuleLocation.webp') }} 1920w,
-                    {{ asset('images/content/maintenance_formuleLocation_600.webp') }} 700w,
-                    {{ asset('images/content/maintenance_formuleLocation_400.webp 500w') }} 500w"
+                    {{ asset('images/content/maintenance_formuleLocation_600.webp') }} 700w"
             src="{{ asset('images/content/maintenance_formuleLocation.webp') }}"
             width="1600"
             height="580"
@@ -13,7 +12,7 @@
             class="mainScreen__img">
     <div class="mainScreen__filter"></div>
 
-    <h1 class="mainScreen__h1">Maintenance de défibrillateur :  une obligation légale</h1>
+    <h1 class="mainScreen__h1">Maintenance de défibrillateur : une obligation légale</h1>
 </section>
 
 @if (isset($data['breadcrumbs']))
@@ -45,7 +44,7 @@
 </section>
 <section class="defCabinet bg-blue">
     <div class="container">
-        <div class="defCabinet__inner">
+        <div class="defCabinet__inner mw-unset">
             <h2>Qu’est-ce que l’obligation de maintenance du défibrillateur ?</h2>
             <div class="defCabinet__row">
                <img    src="{{ asset('images/content/maintenance_01.webp') }}"
@@ -141,66 +140,42 @@
             <div class="faq__wrapper">
                 <div class="faq__item expanded">
                     <div class="faq__header">
-                        <h3>Qu’est-ce qu’un défibrillateur ?</h3>
+                        <h3>Comment entretenir un défibrillateur ?</h3>
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>Le <strong>défibrillateur</strong> est un appareil destiné à ramener le cœur de la victime vers son rythme normal lors d’un <strong>arrêt cardiaque. </strong> Son utilisation délivre un bref choc électrique lorsqu’est constaté un violent dysfonctionnement dans l’activité régulière de cet organe.</p>
-                        <p>Ce geste d’assistance médicale, ou défibrillation, est effectué à l’aide de deux électrodes auto-adhésives disposées sur le thorax. Elles transmettent l’électricité que leur fournit le boîtier de commande. <strong>Le défibrillateur</strong> est aussi parfaitement mobile, grâce à une ou plusieurs batteries. </p>
-                        <p>L’intensité et la durée de l’influx électrique sont ajustées par le<strong> défibrillateur </strong>selon les caractéristiques et les besoins de la victime. La taille et le format de l’appareil varient également, notamment pour les enfants. La nécessité d’avoir recours au défibrillateur peut être électroniquement indiquée par certains modèles.</p>
-                        <p>Nos kits proposent deux versions : un défibrillateur semi-automatisé (DSA) ou un défibrillateur automatisé (DAE). Pour l’un comme pour l’autre, les électrodes enduites de gel conducteur sont à placer selon les instructions. Dans le cas d’un défibrillateur automatisé, aucune intervention humaine n’est ensuite nécessaire pour le démarrage. Pour un semi-automatisé, l’utilisateur devra cependant actionner un bouton marche/arrêt.</p>
+                        <p>L'<strong>entretien d'un défibrillateur</strong> varie en fonction de la marque et des recommandations du fabricant. Il est essentiel de se conformer aux directives fournies dans le carnet livré avec l'appareil.</p>
+                        <p>Toutefois, il est généralement recommandé de vérifier la durée de vie des batteries, qui peut varier de 1 à 5 ans, ainsi que leur bon fonctionnement. Il est également essentiel de surveiller l'état des électrodes, qui peuvent se dessécher et qui périment généralement au bout de 2 à 7 ans.</p>
                     </div>
                 </div>
                 <div class="faq__item">
                     <div class="faq__header">
-                        <h3>A quoi sert un défibrillateur ?</h3>
+                        <h3>Quand changer les électrodes d'un défibrillateur ?</h3>
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>Un recours immédiat au<strong> défibrillateur</strong> est le geste de réanimation à adopter pour aider toute personne en <strong>état d’arrêt cardiaque. </strong></p>
-                        <p>A l’instant où les symptômes apparaissent, la victime subit en effet une fibrillation ventriculaire. Son malaise physique correspond plus précisément à un dérèglement électrique du cœur, forme la plus grave d’une arythmie cardiaque. Seul un choc électrique délivré sans délai par un défibrillateur peut lui épargner la mort subite.</p>
-                        <p>Les statistiques démontrent qu’un <strong>défibrillateur</strong> doit être utilisé dans les <strong>quatre minutes</strong> après l’arrêt du flux sanguin. Si sept minutes s’écoulaient sans mesure d’urgence, la victime éprouverait déjà les premières séquelles irréversibles. Au-delà, son décès est inévitable. </p>
-                        <p>Face à de telles données, une sensibilisation citoyenne aux troubles cardio-vasculaires et en faveur d’un usage étendu du défibrillateur est désormais incontournable. </p>
-                        <p>Vous équiper d’un <strong>défibrillateur</strong> peut ainsi nettement améliorer la sécurité sanitaire des employés et/ou des citoyens mais aussi vous assurer une<strong> protection juridique efficace, en cas d’incident. </strong>Un défibrillateur (DAE ou DSA) devrait donc être disponible dans chaque lieu public et chaque entreprise. </p>
+                        <p>Les <strong>électrodes d'un défibrillateur doivent être changées</strong> après utilisation et avant leur date de péremption, qui varie généralement de 2 à 7 ans. Le gel qui les recouvre, essentiel pour une adhérence optimale à la peau de la victime, a une durée de vie limitée.</p>
+                        <p>Même si les électrodes restent scellées, le gel peut se dessécher avec le temps affectant le bon fonctionnement du défibrillateur en compromettant l'analyse de l'état cardiaque.</p>
                     </div>
                 </div>
                 <div class="faq__item">
                     <div class="faq__header">
-                        <h3>Comment se servir d’un défibrillateur ?</h3>
+                        <h3>Pourquoi mon défibrillateur clignote rouge ?</h3>
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>L’utilisation d’un<strong> défibrillateur grand public</strong>, légalement autorisée pour tous depuis 2007, obéit à un déroulement précis qu’il convient de rappeler.<br> 
-                            Vous faîtes face à une personne inconsciente, présentant <strong>des symptômes de l’arrêt cardiaque. </strong> Il vous faut en premier lieu contacter les secours grâce aux numéros d’urgence. Il vous sera demandé de vérifier son souffle en approchant votre visage du sien ou en observant les mouvements de son ventre. Dix secondes d’observation suffiront pour constater que la personne ne respire plus. <br>
-                            Vous chargez alors un tiers de se munir du défibrillateur disponible le plus proche, alors que vous démarrez un massage cardiaque. Il est conseillé d’appuyer fortement et avec rapidité sur le milieu du thorax de la victime. <br>
-                            Le <strong>défibrillateur</strong> est alors mis en marche soit par un bouton arrêt/marche (DSA) ou en soulevant le capot (DAE). Une assistance vocable est, étape par étape, prodiguée par l’appareil. La procédure est simultanément proposée sous forme de pictogrammes sur l’écran. Un<strong> kit comprenant une paire de ciseaux, un rasoir jetable, des gants en vinyle, un masque pour la ventilation </strong>et deux compresses stériles est joint au défibrillateur. <br>
-                            Vous devez enlever les vêtements pour dégager le torse de la victime, à l’aide des ciseaux. Le rasoir jetable vous aidera à éliminer les poils avant de poser les électrodes. Assurez-vous également que la peau est sèche lors de la pose pour une adhérence maximale. Les électrodes que vous poserez selon le schéma disponible sur chacun d’entre eux sont pré-connectées au défibrillateur, dans la plupart des cas. Autrement, il vous suffit de les brancher à l’endroit indiqué. <br>
-                            Une <strong>analyse du rythme cardiaque </strong>s’ensuit et sera renouvelée toutes les deux minutes. Le défibrillateur détermine si un choc électrique est requis. A partir de cet instant, vous ne devez plus vous approcher de la victime. <br>
-                            En cas de défibrillateur automatique, le choc sera délivré et vous devez vous tenir à distance. En cas de défibrillateur semi-automatique, vous déclencher le choc en appuyant sur le bouton et vous reculez également. <br>
-                            Après chaque choc, vous reprenez le massage cardiaque sans enlever les électrodes. Cette alternance entre défibrillation et massage cardiaque doit être continue jusqu’à l’arrivée des secours. </p>
+                        <p>Le voyant rouge clignotant sur votre défibrillateur peut signaler la <strong>nécessité d'un entretien</strong>. Les raisons spécifiques varient selon le modèle et la marque, mais le manuel d'utilisation fourni avec l'appareil peut vous renseigner sur les causes de ce clignotement.</p>
+                        <p>Vous pouvez commencer par vérifier la date de péremption des électrodes et de la batterie. En cas de doute, n'hésitez pas à contacter le fabricant ou votre fournisseur.</p>
                     </div>
                 </div>
                 <div class="faq__item">
                     <div class="faq__header">
-                        <h3>Pourquoi installer un défibrillateur ?</h3>
+                        <h3>Quand changer la pile / la batterie du défibrillateur ?</h3>
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>Envisager la pose d’un <strong>défibrillateur peut sauver des vies </strong>et rassurer, tout en renforçant l’image responsable de votre entreprise. Un malaise pourrait se dérouler dans vos locaux. Celui-ci serait alors considéré par la loi comme un accident professionnel, non sans conséquences. Tout employeur a en effet pour <strong>obligation d’assurer la sécurité du personnel</strong> sur son lieu de travail. <br>
-                            Peu d’entreprises et de lieux publics sont aujourd’hui dotés d’un défibrillateur disponible ou fonctionnel. En France, le taux de survie sans défibrillation est ainsi parmi les plus bas en Europe : moins de 10% des victimes réchappent d’un accident cardiaque sans défibrillateur. L’arrêt cardiaque est pourtant fréquent chez les personnes de plus de 40 ans. Des appels au secours sont régulièrement émis. Les équipes ne peuvent cependant intervenir physiquement en moins de quatre minutes. Or, le premier choc électrique doit effectivement être délivré par un défibrillateur sans dépasser ce délai, afin de limiter le risque de décès. <br>
-                            Les statistiques révèlent que la présence d’un défibrillateur augmente les chances de survie jusqu’à 90%, contre les 10% précédemment cités. La pose d’un défibrillateur se révèle ainsi être la meilleure solution pour faire face au fléau d’accidents cardio-vasculaires.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq__item">
-                    <div class="faq__header">
-                        <h3>Quand se servir d’un défibrillateur ?</h3>
-                        <div class="faq__status--icon"></div>
-                    </div>
-                    <div class="faq__content">
-                        <p>Une personne est en <strong>état d’arrêt cardio-respiratoire</strong> lorsque son rythme cardiaque se dérègle, sa respiration devient irrégulière voire totalement coupée. Inanimée, la victime est totalement inconsciente et peut parfois subir des tremblements. <br>
-                            Pour confirmer ce <strong>diagnostic, </strong> avant de vous munir du <strong>défibrillateur, </strong> il est conseillé de stimuler la victime. Vous pouvez lui parler. Si elle ne parvient à effectuer aucun des gestes que vous lui suggérez, vérifier ensuite sa respiration. Il est possible de détecter une respiration, même minime, en approchant votre visage du sien ou en observant les mouvements de son ventre. <br>
-                            C’est à cet instant, très rapidement après ces vérifications, que doit être employé un défibrillateur. Le DAE aura pour fonction d’analyser l’état interne de la victime, ce que vous ne pouvez effectuer par vous-même. Il décidera ensuite si cet état de mort apparente nécessite un choc électrique, afin de rétablir un rythme cardiaque normal, ou s’il vous faut procéder par vous-même à une réanimation cardio-pulmonaire. </p>
+                        <p>La pile ou batterie doit être remplacée périodiquement, avec une durée de vie de 1 à 5 ans selon le type, l'utilisation et le fabricant.</p>
+                        <p>Pour <strong>garantir le bon fonctionnement de votre DAE</strong>, suivez la durée de vie recommandée par le fabricant pour la pile et notez sa date de mise en service dans le <strong>registre de maintenance</strong> lors de l'installation. Nous vous recommandons de la remplacer légèrement avant la date limite.</p>
                     </div>
                 </div>
             </div>

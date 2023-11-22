@@ -3,8 +3,7 @@
 @section('content')
 <section class="mainScreen">
     <img    srcset="{{ asset('images/content/medical_formuleLocation.webp') }} 1920w,
-                    {{ asset('images/content/medical_formuleLocation_600.webp') }} 700w,
-                    {{ asset('images/content/medical_formuleLocation_400.webp 500w') }} 500w"
+                    {{ asset('images/content/medical_formuleLocation_600.webp') }} 700w"
             src="{{ asset('images/content/medical_formuleLocation.webp') }}"
             width="1600"
             height="580"
@@ -61,7 +60,7 @@
                 </div>
                 <div class="whatAED__item">
                     <div class="entreprise__box">
-                        <img    src="{{ asset('images/content/hotel_whatAED_3.webp') }}"
+                        <img    src="{{ asset('images/content/logo_page.png') }}"
                                 width="532"
                                 height="358"
                                 alt=""

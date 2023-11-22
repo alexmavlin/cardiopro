@@ -477,66 +477,43 @@
             <div class="faq__wrapper">
                 <div class="faq__item expanded">
                     <div class="faq__header">
-                        <h3>Qu’est-ce qu’un défibrillateur ?</h3>
+                        <h3>Quel défibrillateur externe pour votre entreprise. Un DAE ou DSA ?</h3>
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>Le <strong>défibrillateur</strong> est un appareil destiné à ramener le cœur de la victime vers son rythme normal lors d’un <strong>arrêt cardiaque. </strong> Son utilisation délivre un bref choc électrique lorsqu’est constaté un violent dysfonctionnement dans l’activité régulière de cet organe.</p>
-                        <p>Ce geste d’assistance médicale, ou défibrillation, est effectué à l’aide de deux électrodes auto-adhésives disposées sur le thorax. Elles transmettent l’électricité que leur fournit le boîtier de commande. <strong>Le défibrillateur</strong> est aussi parfaitement mobile, grâce à une ou plusieurs batteries. </p>
-                        <p>L’intensité et la durée de l’influx électrique sont ajustées par le<strong> défibrillateur </strong>selon les caractéristiques et les besoins de la victime. La taille et le format de l’appareil varient également, notamment pour les enfants. La nécessité d’avoir recours au défibrillateur peut être électroniquement indiquée par certains modèles.</p>
-                        <p>Nos kits proposent deux versions : un défibrillateur semi-automatisé (DSA) ou un défibrillateur automatisé (DAE). Pour l’un comme pour l’autre, les électrodes enduites de gel conducteur sont à placer selon les instructions. Dans le cas d’un défibrillateur automatisé, aucune intervention humaine n’est ensuite nécessaire pour le démarrage. Pour un semi-automatisé, l’utilisateur devra cependant actionner un bouton marche/arrêt.</p>
+                        <p>Au sein de votre entreprise nous vous conseillons d’acheter un défibrillateur automatique (DAE) si votre personnel n’est pas formé et un défibrillateur semi-automatique (DSA) si vos employés sont formés à l’utilisation de cet appareil de sauvetage.</p>
+                        <p>Dans les deux avoir un défibrillateur au sein de son entreprise est indispensable pour sauver une victime d’arrêt cardiaque.</p>
                     </div>
                 </div>
                 <div class="faq__item">
                     <div class="faq__header">
-                        <h3>A quoi sert un défibrillateur ?</h3>
+                        <h3>Où installer un défibrillateur dans votre entreprise ?</h3>
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>Un recours immédiat au<strong> défibrillateur</strong> est le geste de réanimation à adopter pour aider toute personne en <strong>état d’arrêt cardiaque. </strong></p>
-                        <p>A l’instant où les symptômes apparaissent, la victime subit en effet une fibrillation ventriculaire. Son malaise physique correspond plus précisément à un dérèglement électrique du cœur, forme la plus grave d’une arythmie cardiaque. Seul un choc électrique délivré sans délai par un défibrillateur peut lui épargner la mort subite.</p>
-                        <p>Les statistiques démontrent qu’un <strong>défibrillateur</strong> doit être utilisé dans les <strong>quatre minutes</strong> après l’arrêt du flux sanguin. Si sept minutes s’écoulaient sans mesure d’urgence, la victime éprouverait déjà les premières séquelles irréversibles. Au-delà, son décès est inévitable. </p>
-                        <p>Face à de telles données, une sensibilisation citoyenne aux troubles cardio-vasculaires et en faveur d’un usage étendu du défibrillateur est désormais incontournable. </p>
-                        <p>Vous équiper d’un <strong>défibrillateur</strong> peut ainsi nettement améliorer la sécurité sanitaire des employés et/ou des citoyens mais aussi vous assurer une<strong> protection juridique efficace, en cas d’incident. </strong>Un défibrillateur (DAE ou DSA) devrait donc être disponible dans chaque lieu public et chaque entreprise. </p>
+                        <p>Dans votre entreprise le défibrillateur doit être accessible et visible à tous. Nous vous conseillons d’installer votre DAE dans un lieu ouvert à tous les employés au sein de votre entreprise et de disposer aux endroits stratégiques des panneaux de signalisation permettant de retrouver l’appareil de sauvetage très rapidement en cas d’urgence.</p>
                     </div>
                 </div>
                 <div class="faq__item">
                     <div class="faq__header">
-                        <h3>Comment se servir d’un défibrillateur ?</h3>
+                        <h3>Comment effectuer l’entretien de mon défibrillateur ?</h3>
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>L’utilisation d’un<strong> défibrillateur grand public</strong>, légalement autorisée pour tous depuis 2007, obéit à un déroulement précis qu’il convient de rappeler.<br> 
-                            Vous faîtes face à une personne inconsciente, présentant <strong>des symptômes de l’arrêt cardiaque. </strong> Il vous faut en premier lieu contacter les secours grâce aux numéros d’urgence. Il vous sera demandé de vérifier son souffle en approchant votre visage du sien ou en observant les mouvements de son ventre. Dix secondes d’observation suffiront pour constater que la personne ne respire plus. <br>
-                            Vous chargez alors un tiers de se munir du défibrillateur disponible le plus proche, alors que vous démarrez un massage cardiaque. Il est conseillé d’appuyer fortement et avec rapidité sur le milieu du thorax de la victime. <br>
-                            Le <strong>défibrillateur</strong> est alors mis en marche soit par un bouton arrêt/marche (DSA) ou en soulevant le capot (DAE). Une assistance vocable est, étape par étape, prodiguée par l’appareil. La procédure est simultanément proposée sous forme de pictogrammes sur l’écran. Un<strong> kit comprenant une paire de ciseaux, un rasoir jetable, des gants en vinyle, un masque pour la ventilation </strong>et deux compresses stériles est joint au défibrillateur. <br>
-                            Vous devez enlever les vêtements pour dégager le torse de la victime, à l’aide des ciseaux. Le rasoir jetable vous aidera à éliminer les poils avant de poser les électrodes. Assurez-vous également que la peau est sèche lors de la pose pour une adhérence maximale. Les électrodes que vous poserez selon le schéma disponible sur chacun d’entre eux sont pré-connectées au défibrillateur, dans la plupart des cas. Autrement, il vous suffit de les brancher à l’endroit indiqué. <br>
-                            Une <strong>analyse du rythme cardiaque </strong>s’ensuit et sera renouvelée toutes les deux minutes. Le défibrillateur détermine si un choc électrique est requis. A partir de cet instant, vous ne devez plus vous approcher de la victime. <br>
-                            En cas de défibrillateur automatique, le choc sera délivré et vous devez vous tenir à distance. En cas de défibrillateur semi-automatique, vous déclencher le choc en appuyant sur le bouton et vous reculez également. <br>
-                            Après chaque choc, vous reprenez le massage cardiaque sans enlever les électrodes. Cette alternance entre défibrillation et massage cardiaque doit être continue jusqu’à l’arrivée des secours. </p>
+                        <p>L'<a href="https://cardiopro.fr/post/defibrillateur-mode-d-emploi"><span>utilisation d'un Défibrillateur Automatique Externe</span></a> est souvent simplifiée pour qu'elle soit à la portée de tous sans nécessiter de formation médicale préalable. En général, une assistance vocale guide l'utilisateur à chaque étape du processus, de l'application des électrodes à la réalisation d’un massage cardiaque.</p>
+                        <p>Cependant, bien que la formation ne soit pas obligatoire, elle est fortement recommandée. Elle permet de mieux <a href="{{ route('defibrillateur-cardiaque-cest-quoi') }}"><span>comprendre le fonctionnement du défibrillateur</span></a>, d'acquérir de l'assurance et de réagir de manière plus efficace en cas d'urgence.</p>
                     </div>
                 </div>
                 <div class="faq__item">
                     <div class="faq__header">
-                        <h3>Pourquoi installer un défibrillateur ?</h3>
+                        <h3>Quel est le coût d'un défibrillateur pour les entreprises ?</h3>
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>Envisager la pose d’un <strong>défibrillateur peut sauver des vies </strong>et rassurer, tout en renforçant l’image responsable de votre entreprise. Un malaise pourrait se dérouler dans vos locaux. Celui-ci serait alors considéré par la loi comme un accident professionnel, non sans conséquences. Tout employeur a en effet pour <strong>obligation d’assurer la sécurité du personnel</strong> sur son lieu de travail. <br>
-                            Peu d’entreprises et de lieux publics sont aujourd’hui dotés d’un défibrillateur disponible ou fonctionnel. En France, le taux de survie sans défibrillation est ainsi parmi les plus bas en Europe : moins de 10% des victimes réchappent d’un accident cardiaque sans défibrillateur. L’arrêt cardiaque est pourtant fréquent chez les personnes de plus de 40 ans. Des appels au secours sont régulièrement émis. Les équipes ne peuvent cependant intervenir physiquement en moins de quatre minutes. Or, le premier choc électrique doit effectivement être délivré par un défibrillateur sans dépasser ce délai, afin de limiter le risque de décès. <br>
-                            Les statistiques révèlent que la présence d’un défibrillateur augmente les chances de survie jusqu’à 90%, contre les 10% précédemment cités. La pose d’un défibrillateur se révèle ainsi être la meilleure solution pour faire face au fléau d’accidents cardio-vasculaires.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq__item">
-                    <div class="faq__header">
-                        <h3>Quand se servir d’un défibrillateur ?</h3>
-                        <div class="faq__status--icon"></div>
-                    </div>
-                    <div class="faq__content">
-                        <p>Une personne est en <strong>état d’arrêt cardio-respiratoire</strong> lorsque son rythme cardiaque se dérègle, sa respiration devient irrégulière voire totalement coupée. Inanimée, la victime est totalement inconsciente et peut parfois subir des tremblements. <br>
-                            Pour confirmer ce <strong>diagnostic, </strong> avant de vous munir du <strong>défibrillateur, </strong> il est conseillé de stimuler la victime. Vous pouvez lui parler. Si elle ne parvient à effectuer aucun des gestes que vous lui suggérez, vérifier ensuite sa respiration. Il est possible de détecter une respiration, même minime, en approchant votre visage du sien ou en observant les mouvements de son ventre. <br>
-                            C’est à cet instant, très rapidement après ces vérifications, que doit être employé un défibrillateur. Le DAE aura pour fonction d’analyser l’état interne de la victime, ce que vous ne pouvez effectuer par vous-même. Il décidera ensuite si cet état de mort apparente nécessite un choc électrique, afin de rétablir un rythme cardiaque normal, ou s’il vous faut procéder par vous-même à une réanimation cardio-pulmonaire. </p>
+                        <p>Le <strong>coût d'un défibrillateur pour les entreprises</strong> varie en fonction du modèle, des fonctionnalités, de la méthode d'acquisition (achat ou location) et des services associés.</p>
+                        <p><a href="{{ route('achat-defibrillateur') }}"><span>Acheter un défibrillateur de qualité</span></a> coûte en moyenne entre 1000 et 2000 €. Mais ce n'est que l'investissement initial. En effet, il faut également considérer les coûts d'entretien et des consommables.</p>
+                        <p>Opter pour la location, à environ 50 € par mois avec remplacement illimité du matériel en cas d'utilisation, peut être une option économique.</p>
+                        <p>N'oubliez pas que sauver une vie n'a pas de prix et qu’un défibrillateur bien entretenu offre une tranquillité d'esprit inestimable.</p>
                     </div>
                 </div>
             </div>
