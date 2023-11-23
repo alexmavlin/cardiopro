@@ -34,6 +34,18 @@ Route::group(['namespace' => 'Pages'], function() {
     Route::get('/maintenance-defibrillateur', 'MaintenanceDefibrillateurController')->name('maintenance-defibrillateur');
     Route::get('/form', 'FormController')->name('form');
 
+    Route::group(['namespace' => 'Accessories', 'prefix' => 'accessoire'], function() {
+        Route::get('/accessoire-defibrillateur-boitier-Aivia-100', 'accessoireDefibrillateurBoitierAivia100Controller')->name('accessoire-defibrillateur-boitier-Aivia-100');
+        Route::get('/accessoire-defibrillateur-trousse-de-secours', 'accessoireDefibrillateurTrousseDeSecoursController')->name('accessoire-defibrillateur-trousse-de-secours');
+        Route::get('/accessoire-defibrillateur-boitier-DAC-350', 'accessoireDefibrillateurBoitierDAC350Controller')->name('accessoire-defibrillateur-boitier-DAC-350');
+        Route::get('/accessoire-defibrillateur-pack-trainer', 'accessoireDefibrillateurPackTrainerController')->name('accessoire-defibrillateur-pack-trainer');
+        Route::get('/accessoire-defibrillateur-padpak-adulte', 'accessoireDefibrillateurPadpakAdulteController')->name('accessoire-defibrillateur-padpak-adulte');
+        Route::get('/accessoire-defibrillateur-padpak-pédiatrique', 'accessoireDfibrillateurPadpakPediatriqueController')->name('accessoire-defibrillateur-padpak-pédiatrique');
+        Route::get('/accessoire-defibrillateur-Samaritan-PAD-Trainer', 'accessoireDefibrillateurSamaritanPADTrainerController')->name('accessoire-defibrillateur-Samaritan-PAD-Trainer');
+        Route::get('/accessoire-defibrillateur-signaletique-autocollante', 'accessoireDefibrillateurSignaletiqueAutocollanteController')->name('accessoire-defibrillateur-signaletique-autocollante');
+        Route::get('/accessoire-defibrillateur-support-mural-plexiglass', 'accessoireDefibrillateurSupportMuralPlexiglassController')->name('accessoire-defibrillateur-support-mural-plexiglass');
+    });
+
     Route::get('/entreprise', 'EntrepriseController')->name('entreprise');
     Route::get('/hotel', 'HotelController')->name('hotel');
     Route::get('/mairie', 'MairieController')->name('mairie');
