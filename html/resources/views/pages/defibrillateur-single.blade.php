@@ -23,7 +23,7 @@
 <section class="mastHead">
     <div class="container">
         <div class="mastHead__inner">
-            <h2 class="mastHead__h2__blue">Défibrillateur Heartsine 360p : léger, compact et efficace</h2>
+            <h1 class="mastHead__h2__blue">Défibrillateur automatique : léger, compact et efficace</h1>
             <p class="mastHead__h3">Le DSA prêt à sauver des vies, partout et en tout temps !</p>
         </div>
     </div>
@@ -89,7 +89,7 @@
                 </div>
             </div>
             <div class="defGallery__stat">
-                <h3>Heartsine Samaritan PAD 360P</h3>
+                <h3>Défibrillateur automatique</h3>
                 <div class="defGallery__stat__row defGallery__stat__desc">
                     <p class="defGallery__stat__p">Prise en main</p>
                     <div class="defGallery__stat__part defGallery__stat__1"></div>
@@ -125,7 +125,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="#0039C6">
                             <path d="M8.33359 12.6427L15.9939 4.98242L17.1724 6.16093L8.33359 14.9997L3.03027 9.69649L4.20878 8.51799L8.33359 12.6427Z" fill="white"/>
                           </svg>
-                        <p>Garatie 8 ans</p>
+                        <p>Garantie 8 ans</p>
                     </div>
                     <div class="formuleSlider__min__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="#0039C6">
@@ -166,7 +166,7 @@
                     </div>
                     <div class="sale__item__content">
                         <div class="sale__item__price">
-                            <h2 class="sale__price__h2">39</h2>
+                            <p class="sale__price__h2">39</p>
                             <p class="sale__price__p">€</p>
                         </div>
                         <p class="sale_under__price__p">HT par mois</p>
@@ -202,7 +202,7 @@
                     </div>
                     <div class="sale__item__content">
                         <div class="sale__item__price">
-                            <h2 class="sale__price__h2">49</h2>
+                            <p class="sale__price__h2">49</p>
                             <p class="sale__price__p">€</p>
                         </div>
                         <p class="sale_under__price__p">HT par mois</p>
@@ -245,7 +245,7 @@
                         </div>
                         <div class="sale__item__content">
                             <div class="sale__item__price">
-                                <h2 class="sale__price__h2">1190</h2>
+                                <p class="sale__price__h2">1190</p>
                                 <p class="sale__price__p">€</p>
                             </div>
                             <p class="sale_under__price__p">HT</p>
@@ -281,7 +281,7 @@
                         </div>
                         <div class="sale__item__content">
                             <div class="sale__item__price">
-                                <h2 class="sale__price__h2">1490</h2>
+                                <p class="sale__price__h2">1490</p>
                                 <p class="sale__price__p">€</p>
                             </div>
                             <p class="sale_under__price__p">HT par mois</p>
@@ -341,7 +341,7 @@
 <section class="heartsine">
     <div class="container">
         <div class="heartsine__inner">
-            <h2>Heartsine Samaritan PAD 360p : le défibrillateur cautomatique tout-terrain</h2>
+            <h2>Le défibrillateur automatique tout-terrain</h2>
             <p>Le <b>Heartsine Samaritan PAD 360P</b> est bien plus qu'un défibrillateur, c'est votre garantie de sécurité en cas d'urgence cardiaque. Avec son degré de protection IP56, il résiste aux environnements les plus exigeants, que ce soit dans les espaces publics, les clubs sportifs ou les parcs aquatiques. </p>
             <p>Sa simplicité d'utilisation, ses instructions claires et sa technologie SCOPE qui s'adapte automatiquement aux variations de l'impédance cardiaque en font l'allié idéal même pour les non-initiés. </p>
             <p>Le <b>défibrillateur Heartsine 360p</b> dispose du marquage CE et de la certification FDA, gages de sa fiabilité et de sa qualité. De plus, il est garanti pendant 8 ans, assurant votre tranquillité d'esprit à long terme.</p>
@@ -368,13 +368,22 @@
                         réunit la batterie et les électrodes en un seul module, le PadPak 2-en-1, qui se périme une fois tous les quatre ans et peut être facilement inséré dans le défibrillateur.</p>
                 </div>
                 <div class="defDescription__item ">
-                    <p>2</p>
+                    <p><a href="https://cardiopro.fr/obligations" title="Obligation installation défibrillateur" style="color:#ca1d1f">Obligatoires dans tous les établissements recevant du public</a>, les <strong>DAE</strong> peuvent représenter un investissement coûteux. C’est pourquoi des <strong>subventions</strong> sont proposées pour <strong>financer</strong> tout ou partie de l’appareil.</p>
+                    <p>Les petites entreprises peuvent obtenir des <strong>subventions allant de 40% à 70% du prix du DAE (plafonné à 1200€)</strong> et les <strong>très petites entreprises agricoles peuvent obtenir une subvention de 50% (plafonnée à 3000€)</strong>. Les <strong>associations sportives</strong>, en faisant appel à leur direction régionale de la Jeunesse et des Sports, peuvent obtenir une <strong>aide financière de 45%</strong> du <a href="https://cardiopro.fr/defibrillateur-prix" title="Prix des défibrillateurs" style="color:#ca1d1f">prix d’achat du DAE</a> (plafonnée à 700€). Certaines collectivités (dont les DETR) et associations peuvent aussi bénéficier de subventions, notamment de la réserve parlementaire.</p>
+                    <p>Plus d’informations dans notre article <a href="/subventions-defibrillateur" title="subvention defibrillateur">« Tout savoir sur les subventions ».</a></p>
+                    <p>Les tarifs pour les défibrillateurs que nous avons sélectionnés :</p>
+                    <ul class="marker-list">
+						<li>HeartSine 350P et le HeartSine 360P sont à <a href="https://cardiopro.fr/achat-defibrillateur" title="achat de défibrillateur" style="color:#ca1d1f">1190€ à l'achat</a>, et sont mensuellement à <a href="https://cardiopro.fr/location-defibrillateur" title="Location défibrillateur" style="color:#ca1d1f">39€ en location</a> financière de 60 mois</li>
+						<li>Physio Control CR2 est vendu 1890€, et est loué mensuellement 69€ (location financière de 60 mois)</li>
+					</ul>
                 </div>
                 <div class="defDescription__item ">
-                    <p>3</p>
+                    <p>Un défibrillateur est un matériel médical qui doit impérativement être en bon état de marche. C’est pourquoi ses piles/sa batterie doit être changées à date de péremption ou si une usure constatée (si en avance de la date indiquée), et que tous ses éléments électriques (électrodes, voyant) doivent être souvent vérifiés.</p>
+                    <p>Plus d’informations dans notre article <a href="/defibrillateur-utilisation" title="Maintenance defibrillateur semi-automatique">« Utilisation et Maintenance ».</a></p>
                 </div>
                 <div class="defDescription__item ">
-                    <p>4</p>
+                    <p>CardioPro vous assure une livraison de vos <a href="/accessoires-defibrillateurs" title="accessoires pour défibrillateur" style="color:#CA1D1F">accesoires pour défibrillateur</a> sous 48h ouvrées en France (sous réserve d’une commande avant midi). Nous mettons tout en oeuvre afin que votre expérience soit un véritable succès et nous vous efforçons de garantir une livraison sécurisée, selon le mode de livraison que vous choisirez.</p>
+                    <p>Plus d’informations dans notre article <a href="/livraison-installation-defibrillateur" title="Livraison et Installation defibrillateur semi-automatique">« Livraison et Installation ».</a></p>
                 </div>
             </div>
         </div>

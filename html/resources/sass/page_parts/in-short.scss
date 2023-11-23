@@ -27,6 +27,13 @@
         font-size: 17px;
         @include nunito600;
         margin-top: 6px;
+        margin-top: auto;
+    }
+    p:nth-child(1) {
+        color: #C22921;
+        font-size: 22px;
+        @include nunito800;
+        margin-top: unset;
     }
 }
 .inShort__box {
@@ -51,6 +58,7 @@
     border-radius: 16px;
     border: 1px solid rgba(194, 41, 33, 0.14);
     background: var(--ffffff, #FFF);
+    height: 100%;
 }
 @media (max-width: 700px) {
     .inShort__inner {
@@ -63,7 +71,7 @@
     }
 }
 @media (max-width: 600px) {
-    .inShort__item {
+    .inShort__list a {
         max-width: unset;
         width: 44%;
     }

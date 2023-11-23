@@ -5,6 +5,7 @@ import './contact'
 import './gallery'
 import './description'
 import './livraison'
+import './form-page'
 
 
 let buttons = document.querySelectorAll('.sale__slider button');

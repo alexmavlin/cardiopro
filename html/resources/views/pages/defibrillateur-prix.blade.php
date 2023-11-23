@@ -371,56 +371,56 @@
                     <th class="cardioTable__th">LOCATION PACK </th>
                 </tr>
                 <tr>
-                    <td class="cardioTable__gr">PRIX</td>
+                    <td class="cardioTable__gr" style="text-transform:uppercase;">PRIX</td>
                     <td class="cardioTable__gr">1190€</td>
                     <td class="cardioTable__gr">1490€</td>
                     <td class="cardioTable__gr">39€</td>
                     <td class="cardioTable__gr">49€</td>
                 </tr>
                 <tr>
-                    <td class="cardioTable__wh">LIVRAISON </td>
+                    <td class="cardioTable__wh" style="text-transform:uppercase;">LIVRAISON </td>
                     <td class="cardioTable__wh">0€</td>
                     <td class="cardioTable__wh">0€</td>
                     <td class="cardioTable__wh">0€</td>
                     <td class="cardioTable__wh">0€</td>
                 </tr>
                 <tr>
-                    <td class="cardioTable__gr">GARANTIE </td>
+                    <td class="cardioTable__gr" style="text-transform:uppercase;">GARANTIE </td>
                     <td class="cardioTable__gr">8 ans</td>
                     <td class="cardioTable__gr">8 ans</td>
                     <td class="cardioTable__gr">8 ans</td>
                     <td class="cardioTable__gr">8 ans</td>
                 </tr>
                 <tr>
-                    <td class="cardioTable__wh">ELECTRODE</td>
+                    <td class="cardioTable__wh" style="text-transform:uppercase;">ELECTRODE</td>
                     <td class="cardioTable__wh">oui</td>
                     <td class="cardioTable__wh">oui</td>
                     <td class="cardioTable__wh">oui</td>
                     <td class="cardioTable__wh">oui</td>
                 </tr>
                 <tr>
-                    <td class="cardioTable__gr">Assistant massage Cardiaque </td>
+                    <td class="cardioTable__gr" style="text-transform:uppercase;">Assistant massage Cardiaque </td>
                     <td class="cardioTable__gr">non</td>
                     <td class="cardioTable__gr">oui</td>
                     <td class="cardioTable__gr">non</td>
                     <td class="cardioTable__gr">oui</td>
                 </tr>
                 <tr>
-                    <td class="cardioTable__wh">Trousse de Secours </td>
+                    <td class="cardioTable__wh" style="text-transform:uppercase;">Trousse de Secours </td>
                     <td class="cardioTable__wh">oui</td>
                     <td class="cardioTable__wh">oui</td>
                     <td class="cardioTable__wh">oui</td>
                     <td class="cardioTable__wh">oui</td>
                 </tr>
                 <tr>
-                    <td class="cardioTable__gr">Support Mural </td>
+                    <td class="cardioTable__gr" style="text-transform:uppercase;">Support Mural </td>
                     <td class="cardioTable__gr">non</td>
                     <td class="cardioTable__gr">oui</td>
                     <td class="cardioTable__gr">non</td>
                     <td class="cardioTable__gr">oui</td>
                 </tr>
                 <tr>
-                    <td class="cardioTable__wh">kit signalétique </td>
+                    <td class="cardioTable__wh" style="text-transform:uppercase;">kit signalétique </td>
                     <td class="cardioTable__wh">oui</td>
                     <td class="cardioTable__wh">oui</td>
                     <td class="cardioTable__wh">oui</td>
@@ -695,6 +695,56 @@
                         <p>Une personne est en <strong>état d’arrêt cardio-respiratoire</strong> lorsque son rythme cardiaque se dérègle, sa respiration devient irrégulière voire totalement coupée. Inanimée, la victime est totalement inconsciente et peut parfois subir des tremblements. <br>
                             Pour confirmer ce <strong>diagnostic, </strong> avant de vous munir du <strong>défibrillateur, </strong> il est conseillé de stimuler la victime. Vous pouvez lui parler. Si elle ne parvient à effectuer aucun des gestes que vous lui suggérez, vérifier ensuite sa respiration. Il est possible de détecter une respiration, même minime, en approchant votre visage du sien ou en observant les mouvements de son ventre. <br>
                             C’est à cet instant, très rapidement après ces vérifications, que doit être employé un défibrillateur. Le DAE aura pour fonction d’analyser l’état interne de la victime, ce que vous ne pouvez effectuer par vous-même. Il décidera ensuite si cet état de mort apparente nécessite un choc électrique, afin de rétablir un rythme cardiaque normal, ou s’il vous faut procéder par vous-même à une réanimation cardio-pulmonaire. </p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__header">
+                        <h3>Qui peut acheter un défibrillateur ?</h3>
+                        <div class="faq__status--icon"></div>
+                    </div>
+                    <div class="faq__content">
+                        <p>Toute personne ou organisation a la possibilité d'acheter un défibrillateur automatique externe (DAE).</p>
+                        <p>De plus, il est nécessaire de préciser que depuis l’instauration du décret N°2007-705 du 4 mai 2007, un défibrillateur automatisé externe peut être utilisé par toute personne, même sans formation médicale, afin de maximiser les chances de survie d’une victime d’arrêt cardiaque.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__header">
+                        <h3>Est-il obligatoire d'avoir un défibrillateur dans un magasin ?</h3>
+                        <div class="faq__status--icon"></div>
+                    </div>
+                    <div class="faq__content">
+                        <p>Depuis le 1er janvier 2021, les commerces et magasins recevant moins de 300 personnes sont dans l’obligation de s’équiper d’un défibrillateur.</p>
+                        <p>Toutefois, les magasins se situant à l’intérieur d’un centre commercial n’ont pas d’obligation à installer un défibrillateur si celui du centre se trouve à moins de 4 minutes aller-retour.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__header">
+                        <h3>La location d’un défibrillateur pour particulier est-elle possible ?</h3>
+                        <div class="faq__status--icon"></div>
+                    </div>
+                    <div class="faq__content">
+                        <p>Il est tout à fait possible pour les particuliers de louer un défibrillateur. Cette option leur permet de disposer d'un défibrillateur à leur domicile pour assurer la sécurité de leur famille et de leurs proches.</p>
+                        <p>La location offre la flexibilité de ne pas engager un investissement en achat, tout en ayant un accès rapide à un défibrillateur de qualité. Cependant, il est essentiel de bien se renseigner sur les modalités de location et la maintenance.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__header">
+                        <h3>Achat ou location de défibrillateur : qu’est-ce qui est le plus intéressant ?</h3>
+                        <div class="faq__status--icon"></div>
+                    </div>
+                    <div class="faq__content">
+                        <p>Le choix entre l'achat et la <a href="{{ route('location-defibrillateur') }}"><span>location d'un défibrillateur</span></a> dépend de vos besoins spécifiques. L'achat peut être avantageux si vous prévoyez une utilisation à long terme et que vous souhaitez avoir un dispositif en permanence.</p>
+                        <p>Quant à la location, elle offre plus de flexibilité avec un coût mensuel, idéale si vous avez un budget limité ou si vous avez besoin d'un défibrillateur pour une durée déterminée.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__header">
+                        <h3>Quel entretien pour un défibrillateur ?</h3>
+                        <div class="faq__status--icon"></div>
+                    </div>
+                    <div class="faq__content">
+                        <p>L'entretien d'un défibrillateur est essentiel pour assurer son bon fonctionnement en cas d'urgence. Cela comprend le remplacement régulier des électrodes et de la batterie conformément aux recommandations du fabricant.</p>
+                        <p>De plus, une maintenance périodique est nécessaire pour garantir la performance du défibrillateur. Un contrat de maintenance peut être souscrit pour simplifier ce processus.</p>
                     </div>
                 </div>
             </div>

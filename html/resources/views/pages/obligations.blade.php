@@ -48,34 +48,42 @@
             <h2>En clair : les obligations liées aux défibrillateurs</h2>
             <div class="inShort__box">
                 <div class="inShort__list">
-                    <div class="inShort__item">
-                        <h3>2022 :</h3>
-                        <p>Quels établissements (ERP) sont concernés par l'obligation d'installation de DAE ?</p>
-                    </div>
-                    <div class="inShort__item">
-                        <h3>2021 :</h3>
-                        <p>Quels ERP doivent obligatoirement installer un défibrillateur automatique externe ?</p>
-                    </div>
-                    <div class="inShort__item">
-                        <h3>2020 :</h3>
-                        <p>Quelles types d'entreprises et établissements publics ont pour obligation d'installer un défibrillateur ?</p>
-                    </div>
-                    <div class="inShort__item">
-                        <h3>Entreprises :</h3>
-                        <p>L'installation de défibrillateur est-il obligatoire au sein de votre entreprise ?</p>
-                    </div>
-                    <div class="inShort__item">
-                        <h3>Maintenance :</h3>
-                        <p>Quels sont les obligations liées à l'entretien et la maintenance de votre DAE ?</p>
-                    </div>
-                    <div class="inShort__item">
-                        <h3>Signalétique :</h3>
-                        <p>Comment signaler l'emplacement d'un DAE et être en phase avec la loi ?</p>
-                    </div>
-                    <div class="inShort__item">
-                        <h3>Déclaration :</h3>
-                        <p>Comment déclarer la présence de votre Défibrillateur au sein de votre entreprise ?</p>
-                    </div>
+                    <a href="#2022">
+                        <div class="inShort__item">
+                            <p>2022 :</p>
+                            <p>défibrillateurs obligatoires dans certains ERP de catégorie 5</p>
+                        </div>
+                    </a>
+                    <a href="#2021">
+                        <div class="inShort__item">
+                            <p>2021 :</p>
+                            <p>défibrillateurs obligatoires dans les ERP de catégorie 4</p>
+                        </div>
+                    </a>
+                    <a href="#2020-1">
+                        <div class="inShort__item">
+                            <p>2020 :</p>
+                            <p>défibrillateurs obligatoires dans les ERP des catégorie 1, 2 et 3</p>
+                        </div>
+                    </a>
+                    <a href="#2020-2">
+                        <div class="inShort__item">
+                            <p>2020 :</p>
+                            <p>création du statut du citoyen sauveteur</p>
+                        </div>
+                    </a>
+                    <a href="#2020-3">
+                        <div class="inShort__item">
+                            <p>2020 :</p>
+                            <p>lancement de Géo’DAE, base de données nationale des DAE</p>
+                        </div>
+                    </a>
+                    <a href="#2019">
+                        <div class="inShort__item">
+                            <p>2019 :</p>
+                            <p>Directives sur la signalisation des DAE dans les espaces publics</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -84,12 +92,11 @@
 <section class="acsList__obligations">
     <div class="container">
         <div class="acsList__header">
-            <h2>Quels subventions sont disponibles pour s'équiper de DAE ?</h2>
+            <h2>Evolution de la réglementation en matière de DAE</h2>
         </div>
         <div class="acsList__img__box">
             <img    srcset="{{ asset('images/content/obligations__acsList_2.webp') }} 1920w,
-                        {{ asset('images/content/obligations__acsList_2_600.webp') }} 700w,
-                        {{ asset('images/content/obligations__acsList_2_400.webp 500w') }} 500w"
+                        {{ asset('images/content/obligations__acsList_2_600.webp') }} 700w"
                     src="{{ asset('images/content/obligations__acsList_2.webp') }}"
                     width="1100"
                     height="740"
@@ -97,39 +104,41 @@
                     title=""
                     class="acsList__img">
         </div>
-        <h3 class="acsList__h2">2022 : défibrillateurs obligatoires dans certains ERP de catégorie 5</h3>
-        <p class="acsList__p">Depuis le 1er janvier 2022, la <b>nouvelle loi sur les défibrillateurs</b> impose leur installation dans certains ERP de catégorie 5. Des contrôles de conformité sont prévus par le biais d'inspections de sécurité et de prévention des risques. Cela marque la dernière étape pour rendre les défibrillateurs facilement accessibles dans tous les ERP en France.</p>
-        <p class="acsList__p">Les ERP de catégorie 5 concernés englobent divers types d'établissements, notamment les <a href="https://cardiopro.fr/ehpad">structures pour personnes âgées</a> et handicapées, les salles de conférences, les centres commerciaux, les <a href="https://cardiopro.fr/hotel">hôtels</a>, les écoles, les musées et bien d'autres.</p>
-        <p class="acsList__p">Cette loi vise à garantir la sécurité des salariés et des visiteurs en offrant un accès rapide aux défibrillateurs dans un large éventail d'établissements publics.</p>
-        <h3 class="acsList__h2">2021 : défibrillateurs obligatoires dans les ERP de catégorie 4</h3>
-        <p class="acsList__p">Depuis le 1er janvier 2021, la législation a rendu les <b>défibrillateurs automatiques obligatoires</b> dans les Établissements Recevant du Public (ERP) de catégorie 4. C’est-à-dire, les établissements pouvant accueillir jusqu'à 300 personnes, y compris les employés.</p>
-        <p class="acsList__p">Cette mesure vise à accroître la disponibilité de ces dispositifs de sauvetage dans les zones potentiellement à risque, augmentant ainsi les chances de sauver des vies.</p>
-        <p class="acsList__p">De plus, les ERP des catégories 1, 2, 3 et 4, sont soumis à des contrôles de sécurité et de prévention des risques depuis le début de cette même année.</p>
-        <h3 class="acsList__h2">2020 : défibrillateurs obligatoires dans les ERP des catégorie 1, 2 et 3</h3>
-        <p class="acsList__p">Depuis le 1er janvier 2020, la <b>loi impose l'installation de défibrillateurs dans les établissements</b> publics accueillant plus de 300 personnes. Cette mesure vise à accroître les chances de survie en cas d'arrêt cardiaque en fournissant un accès facile aux défibrillateurs automatiques dans les zones à forte fréquentation. </p>
-        <p class="acsList__p">Les établissements soumis à cette obligation appartiennent aux catégories 1, 2 et 3 des Établissements Recevant du Public (ERP), classés en fonction de leur capacité d'accueil : la catégorie 1 accueille plus de 1500 personnes, la catégorie 2 de 701 à 1 500 personnes et la catégorie 3 de 301 à 700 personnes.</p>
-        <h3 class="acsList__h2">2020 : création du statut du citoyen sauveteur</h3>
-        <p class="acsList__p">En juillet 2020, un nouveau statut de « citoyen sauveteur » a été créé. Ce statut vise à encourager les gestes de premiers secours en protégeant les citoyens contre d'éventuelles poursuites judiciaires lorsqu'ils portent assistance à une personne en danger. Ce statut accorde également le droit d'être reconnu comme collaborateur occasionnel du service public.</p>
-        <p class="acsList__p">Les critères pour être qualifié de citoyen sauveteur sont simples : il faut porter assistance <b>bénévolement</b> à une personne dans une <b>situation apparente de péril grave et imminent</b>.</p>
-        <p class="acsList__p">En cas de préjudice lié à l'intervention, le citoyen sauveteur est exempté de responsabilité civile, sauf en cas de faute grave. </p>
-        <h3 class="acsList__h2">2020 : lancement de Géo’DAE, base de données nationale des DAE</h3>
-        <p class="acsList__p">Lancée en février 2020, la base de données Géo’DAE, géolocalise les défibrillateurs automatiques externes (DAE). Gérée par le ministère des Solidarités et de la Santé, elle a quatre objectifs : </p>
-        <ul>
-            <li>rendre les données accessibles à tous pour faciliter l'intervention en cas d'arrêt cardiaque ;</li>
-            <li>garantir des données de qualité ;</li>
-            <li>aider les exploitants à respecter l'<b>obligation légale de déclaration des DAE ;</b></li>
-            <li>mobiliser des initiatives pour sauver des vies. </li>
-        </ul>
-        <p class="acsList__p">La marque d'État « Géo'DAE - Base nationale des défibrillateurs » encourage la collaboration pour faciliter l'accès aux défibrillateurs. Ainsi, tous les exploitants de DAE, propriétaires d’outils répertoriant les défibrillateurs (applications mobiles, etc.) ou organisateurs d'événements qui contribuent à enrichir la base de données peuvent l'utiliser. </p>
-        <h3 class="acsList__h2">2019 : Directives sur la signalisation des DAE dans les espaces publics</h3>
-        <p class="acsList__p">L'arrêté du 29 octobre 2019 détaille les <b>règles de signalisation des défibrillateurs automatisés externes</b> (DAE) dans les lieux publics et établissements recevant du public. La signalétique doit suivre des modèles définis et respecter des dispositions graphiques précises. </p>
-        <p class="acsList__p">De plus, les propriétaires des établissements et les exploitants de défibrillateurs sont tenus de : </p>
-        <ul>
-            <li>afficher une signalisation à l'entrée ;</li>
-            <li>indiquer l'emplacement du DAE avec des affiches conformes ; </li>
-            <li>apposer une étiquette sur le boîtier ou à proximité, visible et lisible de l'extérieur et contenant des informations à jour. </li>
-        </ul>
-        <p class="acsList__p">En outre, selon l’article 3 de l’arrêté, les DAE doivent être facilement accessibles et ceux installés en extérieur doivent être protégés des intempéries.</p>
+        <div class="acsList__content">
+            <h3 class="acsList__h2" id="2022">2022 : défibrillateurs obligatoires dans certains ERP de catégorie 5</h3>
+            <p class="acsList__p">Depuis le 1er janvier 2022, la <b>nouvelle loi sur les défibrillateurs</b> impose leur installation dans certains ERP de catégorie 5. Des contrôles de conformité sont prévus par le biais d'inspections de sécurité et de prévention des risques. Cela marque la dernière étape pour rendre les défibrillateurs facilement accessibles dans tous les ERP en France.</p>
+            <p class="acsList__p">Les ERP de catégorie 5 concernés englobent divers types d'établissements, notamment les <a href="https://cardiopro.fr/ehpad">structures pour personnes âgées</a> et handicapées, les salles de conférences, les centres commerciaux, les <a href="https://cardiopro.fr/hotel">hôtels</a>, les écoles, les musées et bien d'autres.</p>
+            <p class="acsList__p">Cette loi vise à garantir la sécurité des salariés et des visiteurs en offrant un accès rapide aux défibrillateurs dans un large éventail d'établissements publics.</p>
+            <h3 class="acsList__h2" id="2021">2021 : défibrillateurs obligatoires dans les ERP de catégorie 4</h3>
+            <p class="acsList__p">Depuis le 1er janvier 2021, la législation a rendu les <b>défibrillateurs automatiques obligatoires</b> dans les Établissements Recevant du Public (ERP) de catégorie 4. C’est-à-dire, les établissements pouvant accueillir jusqu'à 300 personnes, y compris les employés.</p>
+            <p class="acsList__p">Cette mesure vise à accroître la disponibilité de ces dispositifs de sauvetage dans les zones potentiellement à risque, augmentant ainsi les chances de sauver des vies.</p>
+            <p class="acsList__p">De plus, les ERP des catégories 1, 2, 3 et 4, sont soumis à des contrôles de sécurité et de prévention des risques depuis le début de cette même année.</p>
+            <h3 class="acsList__h2" id="2020-1">2020 : défibrillateurs obligatoires dans les ERP des catégorie 1, 2 et 3</h3>
+            <p class="acsList__p">Depuis le 1er janvier 2020, la <b>loi impose l'installation de défibrillateurs dans les établissements</b> publics accueillant plus de 300 personnes. Cette mesure vise à accroître les chances de survie en cas d'arrêt cardiaque en fournissant un accès facile aux défibrillateurs automatiques dans les zones à forte fréquentation. </p>
+            <p class="acsList__p">Les établissements soumis à cette obligation appartiennent aux catégories 1, 2 et 3 des Établissements Recevant du Public (ERP), classés en fonction de leur capacité d'accueil : la catégorie 1 accueille plus de 1500 personnes, la catégorie 2 de 701 à 1 500 personnes et la catégorie 3 de 301 à 700 personnes.</p>
+            <h3 class="acsList__h2" id="2020-2">2020 : création du statut du citoyen sauveteur</h3>
+            <p class="acsList__p">En juillet 2020, un nouveau statut de « citoyen sauveteur » a été créé. Ce statut vise à encourager les gestes de premiers secours en protégeant les citoyens contre d'éventuelles poursuites judiciaires lorsqu'ils portent assistance à une personne en danger. Ce statut accorde également le droit d'être reconnu comme collaborateur occasionnel du service public.</p>
+            <p class="acsList__p">Les critères pour être qualifié de citoyen sauveteur sont simples : il faut porter assistance <b>bénévolement</b> à une personne dans une <b>situation apparente de péril grave et imminent</b>.</p>
+            <p class="acsList__p">En cas de préjudice lié à l'intervention, le citoyen sauveteur est exempté de responsabilité civile, sauf en cas de faute grave. </p>
+            <h3 class="acsList__h2" id="2020-3">2020 : lancement de Géo’DAE, base de données nationale des DAE</h3>
+            <p class="acsList__p">Lancée en février 2020, la base de données Géo’DAE, géolocalise les défibrillateurs automatiques externes (DAE). Gérée par le ministère des Solidarités et de la Santé, elle a quatre objectifs : </p>
+            <ul>
+                <li>rendre les données accessibles à tous pour faciliter l'intervention en cas d'arrêt cardiaque ;</li>
+                <li>garantir des données de qualité ;</li>
+                <li>aider les exploitants à respecter l'<b>obligation légale de déclaration des DAE ;</b></li>
+                <li>mobiliser des initiatives pour sauver des vies. </li>
+            </ul>
+            <p class="acsList__p">La marque d'État « Géo'DAE - Base nationale des défibrillateurs » encourage la collaboration pour faciliter l'accès aux défibrillateurs. Ainsi, tous les exploitants de DAE, propriétaires d’outils répertoriant les défibrillateurs (applications mobiles, etc.) ou organisateurs d'événements qui contribuent à enrichir la base de données peuvent l'utiliser. </p>
+            <h3 class="acsList__h2" id="2019">2019 : Directives sur la signalisation des DAE dans les espaces publics</h3>
+            <p class="acsList__p">L'arrêté du 29 octobre 2019 détaille les <b>règles de signalisation des défibrillateurs automatisés externes</b> (DAE) dans les lieux publics et établissements recevant du public. La signalétique doit suivre des modèles définis et respecter des dispositions graphiques précises. </p>
+            <p class="acsList__p">De plus, les propriétaires des établissements et les exploitants de défibrillateurs sont tenus de : </p>
+            <ul>
+                <li>afficher une signalisation à l'entrée ;</li>
+                <li>indiquer l'emplacement du DAE avec des affiches conformes ; </li>
+                <li>apposer une étiquette sur le boîtier ou à proximité, visible et lisible de l'extérieur et contenant des informations à jour. </li>
+            </ul>
+            <p class="acsList__p">En outre, selon l’article 3 de l’arrêté, les DAE doivent être facilement accessibles et ceux installés en extérieur doivent être protégés des intempéries.</p>
+        </div>
     </div>
 </section>
 
@@ -393,8 +402,7 @@
         </div>
         <div class="acsList__img__box">
             <img    srcset="{{ asset('images/content/obligations__acsList_1.webp') }} 1920w,
-                        {{ asset('images/content/obligations__acsList_1_600.webp') }} 700w,
-                        {{ asset('images/content/obligations__acsList_1_400.webp 500w') }} 500w"
+                        {{ asset('images/content/obligations__acsList_1_600.webp') }} 700w"
                     src="{{ asset('images/content/obligations__acsList_1.webp') }}"
                     width="1100"
                     height="740"
@@ -402,28 +410,30 @@
                     title=""
                     class="acsList__img">
         </div>
-        <h3 class="acsList__h2">Que dit la loi concernant l’installation de défibrillateur en entreprise ?</h3>
-        <p class="acsList__p">Des changements législatifs récents ont établi l'<b>obligation d'installer des défibrillateurs</b> dans certains établissements et entreprises, conformément au Code de la construction et de l'habitation (articles R123-57) et à un décret du 19 décembre 2018. </p>
-        <p class="acsList__p">Cette obligation s'applique aux Établissements Recevant du Public (ERP), répartis en cinq catégories en fonction de leur capacité d'accueil :</p>
-        <ul>
-            <li class="acsList__red">Catégorie ERP 1 : de plus de 1 500 personnes</li>
-            <li class="acsList__red">Catégorie ERP 2 : de 701 à 1 500 personnes</li>
-            <li class="acsList__red">Catégorie ERP 3 : de 301 à 700 personnes</li>
-            <li class="acsList__red">Catégorie ERP 4 : jusqu'à 300 personnes</li>
-            <li class="acsList__red">Catégorie ERP 5 : ne dépassant pas la limite établie par les règlements de sécurité</li>
-        </ul>
-        <p class="acsList__p">Toutes les entreprises ne sont pas concernées par cette réglementation. Toutefois, il faut rester vigilant car en vertu du Code du travail, l'employeur peut être tenu responsable en cas d'urgence cardiaque sur le lieu de travail.</p>
-        <h3 class="acsList__h2">Selon le Code du travail</h3>
-        <p class="acsList__p">En vertu du Code du travail, l'employeur a la responsabilité de garantir la santé et la sécurité de ses employés, ce qui inclut des dispositions pour les premiers secours, que l'entreprise soit classée comme ERP ou non. Une de ces obligations consiste à mettre à disposition un "matériel de premiers secours adapté aux risques naturels".</p>
-        <p class="acsList__p">Avant d'<a href="">acquérir un défibrillateur</a>, les entreprises doivent évaluer les risques avec la médecine du travail et les représentants des salariés. </p>
-        <p class="acsList__p">Les facteurs de risque courants qui justifient l'acquisition d'un DAE incluent :</p>
-        <ul>
-            <li>la présence régulière de personnes âgées de plus de 50 ans ;</li>
-            <li>un effectif important d'employés et de visiteurs ;</li>
-            <li>des délais d'intervention des secours trop longs ;</li>
-            <li>la réalisation par les employés de tâches physiques ;</li>
-            <li>des risques spécifiques liés à l'activité professionnelle comme l'électricité ou la noyade. </li>
-        </ul>
+        <div class="acsList__content">
+            <h3 class="acsList__h2">Que dit la loi concernant l’installation de défibrillateur en entreprise ?</h3>
+            <p class="acsList__p">Des changements législatifs récents ont établi l'<b>obligation d'installer des défibrillateurs</b> dans certains établissements et entreprises, conformément au Code de la construction et de l'habitation (articles R123-57) et à un décret du 19 décembre 2018. </p>
+            <p class="acsList__p">Cette obligation s'applique aux Établissements Recevant du Public (ERP), répartis en cinq catégories en fonction de leur capacité d'accueil :</p>
+            <ul>
+                <li class="acsList__red">Catégorie ERP 1 : de plus de 1 500 personnes</li>
+                <li class="acsList__red">Catégorie ERP 2 : de 701 à 1 500 personnes</li>
+                <li class="acsList__red">Catégorie ERP 3 : de 301 à 700 personnes</li>
+                <li class="acsList__red">Catégorie ERP 4 : jusqu'à 300 personnes</li>
+                <li class="acsList__red">Catégorie ERP 5 : ne dépassant pas la limite établie par les règlements de sécurité</li>
+            </ul>
+            <p class="acsList__p">Toutes les entreprises ne sont pas concernées par cette réglementation. Toutefois, il faut rester vigilant car en vertu du Code du travail, l'employeur peut être tenu responsable en cas d'urgence cardiaque sur le lieu de travail.</p>
+            <h3 class="acsList__h2">Selon le Code du travail</h3>
+            <p class="acsList__p">En vertu du Code du travail, l'employeur a la responsabilité de garantir la santé et la sécurité de ses employés, ce qui inclut des dispositions pour les premiers secours, que l'entreprise soit classée comme ERP ou non. Une de ces obligations consiste à mettre à disposition un "matériel de premiers secours adapté aux risques naturels".</p>
+            <p class="acsList__p">Avant d'<a href="">acquérir un défibrillateur</a>, les entreprises doivent évaluer les risques avec la médecine du travail et les représentants des salariés. </p>
+            <p class="acsList__p">Les facteurs de risque courants qui justifient l'acquisition d'un DAE incluent :</p>
+            <ul>
+                <li>la présence régulière de personnes âgées de plus de 50 ans ;</li>
+                <li>un effectif important d'employés et de visiteurs ;</li>
+                <li>des délais d'intervention des secours trop longs ;</li>
+                <li>la réalisation par les employés de tâches physiques ;</li>
+                <li>des risques spécifiques liés à l'activité professionnelle comme l'électricité ou la noyade. </li>
+            </ul>
+        </div>
     </div>
 </section>
 <section class="regarding">
@@ -475,66 +485,55 @@
             <div class="faq__wrapper">
                 <div class="faq__item expanded">
                     <div class="faq__header">
-                        <h3>Qu’est-ce qu’un défibrillateur ?</h3>
+                        <h3>Qui doit avoir un DAE ?</h3>
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>Le <strong>défibrillateur</strong> est un appareil destiné à ramener le cœur de la victime vers son rythme normal lors d’un <strong>arrêt cardiaque. </strong> Son utilisation délivre un bref choc électrique lorsqu’est constaté un violent dysfonctionnement dans l’activité régulière de cet organe.</p>
-                        <p>Ce geste d’assistance médicale, ou défibrillation, est effectué à l’aide de deux électrodes auto-adhésives disposées sur le thorax. Elles transmettent l’électricité que leur fournit le boîtier de commande. <strong>Le défibrillateur</strong> est aussi parfaitement mobile, grâce à une ou plusieurs batteries. </p>
-                        <p>L’intensité et la durée de l’influx électrique sont ajustées par le<strong> défibrillateur </strong>selon les caractéristiques et les besoins de la victime. La taille et le format de l’appareil varient également, notamment pour les enfants. La nécessité d’avoir recours au défibrillateur peut être électroniquement indiquée par certains modèles.</p>
-                        <p>Nos kits proposent deux versions : un défibrillateur semi-automatisé (DSA) ou un défibrillateur automatisé (DAE). Pour l’un comme pour l’autre, les électrodes enduites de gel conducteur sont à placer selon les instructions. Dans le cas d’un défibrillateur automatisé, aucune intervention humaine n’est ensuite nécessaire pour le démarrage. Pour un semi-automatisé, l’utilisateur devra cependant actionner un bouton marche/arrêt.</p>
+                        <p>Selon la législation, les établissements recevant du public (ERP) de catégorie 1 à 4 et certains de la catégorie 5, sont tenus d'installer un ou plusieurs défibrillateurs automatiques externes (DAE).</p>
+                        <p>Les entreprises avec des facteurs de risque spécifiques ou des employés exposés aux risques cardiaques devraient également envisager d'en avoir un pour renforcer la sécurité sanitaire.</p>
                     </div>
                 </div>
                 <div class="faq__item">
                     <div class="faq__header">
-                        <h3>A quoi sert un défibrillateur ?</h3>
+                        <h3>Est-ce obligatoire d'avoir un défibrillateur dans une entreprise ?</h3>
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>Un recours immédiat au<strong> défibrillateur</strong> est le geste de réanimation à adopter pour aider toute personne en <strong>état d’arrêt cardiaque. </strong></p>
-                        <p>A l’instant où les symptômes apparaissent, la victime subit en effet une fibrillation ventriculaire. Son malaise physique correspond plus précisément à un dérèglement électrique du cœur, forme la plus grave d’une arythmie cardiaque. Seul un choc électrique délivré sans délai par un défibrillateur peut lui épargner la mort subite.</p>
-                        <p>Les statistiques démontrent qu’un <strong>défibrillateur</strong> doit être utilisé dans les <strong>quatre minutes</strong> après l’arrêt du flux sanguin. Si sept minutes s’écoulaient sans mesure d’urgence, la victime éprouverait déjà les premières séquelles irréversibles. Au-delà, son décès est inévitable. </p>
-                        <p>Face à de telles données, une sensibilisation citoyenne aux troubles cardio-vasculaires et en faveur d’un usage étendu du défibrillateur est désormais incontournable. </p>
-                        <p>Vous équiper d’un <strong>défibrillateur</strong> peut ainsi nettement améliorer la sécurité sanitaire des employés et/ou des citoyens mais aussi vous assurer une<strong> protection juridique efficace, en cas d’incident. </strong>Un défibrillateur (DAE ou DSA) devrait donc être disponible dans chaque lieu public et chaque entreprise. </p>
+                        <p>L'<a href="{{ route('entreprise') }}"><span>obligation de posséder un défibrillateur en entreprise</span></a> varie en fonction de plusieurs critères. Pour les Établissements Recevant du Public (ERP) de catégorie 1 à 5, la réglementation l'impose.</p>
+                        <p>Toutefois, pour les autres types d'entreprises, il est vivement recommandé d'en installer un, car le Code du travail requiert que l'employeur assure la santé et la sécurité de ses employés, notamment en matière de premiers secours.</p>
                     </div>
                 </div>
                 <div class="faq__item">
                     <div class="faq__header">
-                        <h3>Comment se servir d’un défibrillateur ?</h3>
+                        <h3>Comment déclarer un DAE ?</h3>
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>L’utilisation d’un<strong> défibrillateur grand public</strong>, légalement autorisée pour tous depuis 2007, obéit à un déroulement précis qu’il convient de rappeler.<br> 
-                            Vous faîtes face à une personne inconsciente, présentant <strong>des symptômes de l’arrêt cardiaque. </strong> Il vous faut en premier lieu contacter les secours grâce aux numéros d’urgence. Il vous sera demandé de vérifier son souffle en approchant votre visage du sien ou en observant les mouvements de son ventre. Dix secondes d’observation suffiront pour constater que la personne ne respire plus. <br>
-                            Vous chargez alors un tiers de se munir du défibrillateur disponible le plus proche, alors que vous démarrez un massage cardiaque. Il est conseillé d’appuyer fortement et avec rapidité sur le milieu du thorax de la victime. <br>
-                            Le <strong>défibrillateur</strong> est alors mis en marche soit par un bouton arrêt/marche (DSA) ou en soulevant le capot (DAE). Une assistance vocable est, étape par étape, prodiguée par l’appareil. La procédure est simultanément proposée sous forme de pictogrammes sur l’écran. Un<strong> kit comprenant une paire de ciseaux, un rasoir jetable, des gants en vinyle, un masque pour la ventilation </strong>et deux compresses stériles est joint au défibrillateur. <br>
-                            Vous devez enlever les vêtements pour dégager le torse de la victime, à l’aide des ciseaux. Le rasoir jetable vous aidera à éliminer les poils avant de poser les électrodes. Assurez-vous également que la peau est sèche lors de la pose pour une adhérence maximale. Les électrodes que vous poserez selon le schéma disponible sur chacun d’entre eux sont pré-connectées au défibrillateur, dans la plupart des cas. Autrement, il vous suffit de les brancher à l’endroit indiqué. <br>
-                            Une <strong>analyse du rythme cardiaque </strong>s’ensuit et sera renouvelée toutes les deux minutes. Le défibrillateur détermine si un choc électrique est requis. A partir de cet instant, vous ne devez plus vous approcher de la victime. <br>
-                            En cas de défibrillateur automatique, le choc sera délivré et vous devez vous tenir à distance. En cas de défibrillateur semi-automatique, vous déclencher le choc en appuyant sur le bouton et vous reculez également. <br>
-                            Après chaque choc, vous reprenez le massage cardiaque sans enlever les électrodes. Cette alternance entre défibrillation et massage cardiaque doit être continue jusqu’à l’arrivée des secours. </p>
+                        <p>Trois méthodes sont proposées pour déclarer un DAE conformément au standard de l'arrêté du 29 octobre 2019 :</p>
+                        <ol>
+                            <li>Via un formulaire sur le portail de déclaration Géo’DAE : <a href="https://geodae.atlasante.fr"><span>https://geodae.atlasante.fr</span></a></li>
+                            <li>En déposant un fichier sur ce même portail.</li>
+                            <li>Par interface technique entre le système d'information de l'exploitant et la base de données nationale.</li>
+                        </ol>
                     </div>
                 </div>
                 <div class="faq__item">
                     <div class="faq__header">
-                        <h3>Pourquoi installer un défibrillateur ?</h3>
+                        <h3>Faut-il être formé pour utiliser un DAE ?</h3>
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>Envisager la pose d’un <strong>défibrillateur peut sauver des vies </strong>et rassurer, tout en renforçant l’image responsable de votre entreprise. Un malaise pourrait se dérouler dans vos locaux. Celui-ci serait alors considéré par la loi comme un accident professionnel, non sans conséquences. Tout employeur a en effet pour <strong>obligation d’assurer la sécurité du personnel</strong> sur son lieu de travail. <br>
-                            Peu d’entreprises et de lieux publics sont aujourd’hui dotés d’un défibrillateur disponible ou fonctionnel. En France, le taux de survie sans défibrillation est ainsi parmi les plus bas en Europe : moins de 10% des victimes réchappent d’un accident cardiaque sans défibrillateur. L’arrêt cardiaque est pourtant fréquent chez les personnes de plus de 40 ans. Des appels au secours sont régulièrement émis. Les équipes ne peuvent cependant intervenir physiquement en moins de quatre minutes. Or, le premier choc électrique doit effectivement être délivré par un défibrillateur sans dépasser ce délai, afin de limiter le risque de décès. <br>
-                            Les statistiques révèlent que la présence d’un défibrillateur augmente les chances de survie jusqu’à 90%, contre les 10% précédemment cités. La pose d’un défibrillateur se révèle ainsi être la meilleure solution pour faire face au fléau d’accidents cardio-vasculaires.
-                        </p>
+                        <p>Une formation n'est <strong>pas obligatoire pour utiliser un DAE</strong> (Défibrillateur Automatisé Externe). Ces appareils sont conçus pour pouvoir être utilisés par tout le monde en situation d'urgence. Les instructions vocales et visuelles fournies par le DAE guident l'utilisateur à travers le processus de défibrillation.</p>
+                        <p>Cependant, une formation de base en premiers secours et en RCP (Réanimation Cardio-Pulmonaire) peut être bénéfique pour une intervention plus efficace en cas d'arrêt cardiaque.</p>
                     </div>
                 </div>
                 <div class="faq__item">
                     <div class="faq__header">
-                        <h3>Quand se servir d’un défibrillateur ?</h3>
+                        <h3>Qui installe le défibrillateur ?</h3>
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>Une personne est en <strong>état d’arrêt cardio-respiratoire</strong> lorsque son rythme cardiaque se dérègle, sa respiration devient irrégulière voire totalement coupée. Inanimée, la victime est totalement inconsciente et peut parfois subir des tremblements. <br>
-                            Pour confirmer ce <strong>diagnostic, </strong> avant de vous munir du <strong>défibrillateur, </strong> il est conseillé de stimuler la victime. Vous pouvez lui parler. Si elle ne parvient à effectuer aucun des gestes que vous lui suggérez, vérifier ensuite sa respiration. Il est possible de détecter une respiration, même minime, en approchant votre visage du sien ou en observant les mouvements de son ventre. <br>
-                            C’est à cet instant, très rapidement après ces vérifications, que doit être employé un défibrillateur. Le DAE aura pour fonction d’analyser l’état interne de la victime, ce que vous ne pouvez effectuer par vous-même. Il décidera ensuite si cet état de mort apparente nécessite un choc électrique, afin de rétablir un rythme cardiaque normal, ou s’il vous faut procéder par vous-même à une réanimation cardio-pulmonaire. </p>
+                        <p>L'<a href="{{ route('livraison-installation-defibrillateur') }}"><span>installation d'un défibrillateur</span></a> varie en fonction de ses caractéristiques. Si le boîtier nécessite un raccordement électrique, un électricien doit s'en charger. Dans le cas contraire, tout individu peut procéder à l'installation.</p>
                     </div>
                 </div>
             </div>

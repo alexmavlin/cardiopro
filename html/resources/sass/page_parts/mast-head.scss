@@ -14,7 +14,7 @@
         height: unset !important;
         object-fit: cover;
     }
-    h2 {
+    h1, h2 {
         text-align: center;
         font-size: 36px;
         @include nunito800;
@@ -67,6 +67,7 @@
         }
         h2 {
             font-size: 29px;
+            max-width: 350px;
         }
     }
     .mastHead__h3 {

@@ -150,8 +150,9 @@
 }
 @media (max-width: 800px) {
     .defExplore__item {
-        width: 44%;
+        width: 49%;
         max-width: unset;
+        flex-grow: unset;
     }
     .defExplore__buttons {
         flex-direction: column;
