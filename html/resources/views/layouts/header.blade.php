@@ -173,5 +173,22 @@
             </div>
         </div>
     </div>
+    @if ($errors->any())
+    <div class="form_error_widget" id="form_error_widget" data-form-id="{{ session('form_id') }}">
+        <ul>
+            @foreach ($errors->all() as $error)
+            <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+        <div class="form_error_widget_progress"></div>
+    </div>
+    @endif
+    
+    @if (session('email_message') == 'success')
+    <div class="form_success_widget" id="form_success_widget">
+        <span>Merci pour votre message ! Nous vous répondrons rapidement.</span>
+        <div class="form_success_widget_progress"></div>
+    </div>
+    @endif
 </header>
 <a href="https://cardiopro.fr/form" class="devis_en_ligne_btn" id="devis_en_ligne_btn">Devis En Ligne</a>

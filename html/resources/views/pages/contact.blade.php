@@ -39,33 +39,71 @@
 <section class="contactForm bg-blue">
     <div class="container">
         <div class="contactForm__inner">
-            <form action="" class="contactForm__form">
+            <form action="{{ route('send-main-contact') }}" class="contactForm__form" method="post">
+                @csrf
                 <h2 class="">Envoyez-nous un message</h2>
                 <div class="contactForm__group">
-                    <label class="contactForm__label" for="">Entreprise</label>
-                    <input class="contactForm__input" type="text" placeholder="">
+                    <label class="contactForm__label" for="enterprise">Entreprise</label>
+                    @error('company')
+                        <p class="text__danger">{{ $message }}</p>
+                    @enderror
+                    <input  name="company" 
+                            class="contactForm__input" 
+                            id="enterprise" 
+                            type="text" 
+                            placeholder=""
+                            value="{{ old('company') ?: '' }}">
                 </div>
                 <div class="contactForm__group">
-                    <label class="contactForm__label" for="">Votre nom<b class="">*</b></label>
-                    <input class="contactForm__input" type="text" placeholder="">
+                    <label class="contactForm__label" for="name">Votre nom<b class="">*</b></label>
+                    @error('name')
+                        <p class="text__danger">{{ $message }}</p>
+                    @enderror
+                    <input  class="contactForm__input" 
+                            id="name" 
+                            name="name" 
+                            type="text" 
+                            placeholder=""
+                            value="{{ old('name') ?: '' }}">
                 </div>
                 <div class="contactForm__group">
-                    <label class="contactForm__label" for="">Téléphone<b class="">*</b></label>
-                    <input class="contactForm__input" type="text" placeholder="">
+                    <label class="contactForm__label" for="phone">Téléphone<b class="">*</b></label>
+                    @error('phone')
+                        <p class="text__danger">{{ $message }}</p>
+                    @enderror
+                    <input  class="contactForm__input" 
+                            id="phone" 
+                            name="phone" 
+                            type="number" 
+                            placeholder=""
+                            value="{{ old('phone') ?: '' }}">
                 </div>
                 <div class="contactForm__group">
-                    <label class="contactForm__label" for="">Email<b class="">*</b></label>
-                    <input class="contactForm__input" type="text" placeholder="">
+                    <label class="contactForm__label" for="email">Email<b class="">*</b></label>
+                    @error('email')
+                        <p class="text__danger">{{ $message }}</p>
+                    @enderror
+                    <input  class="contactForm__input" 
+                            id="email" 
+                            name="email" 
+                            type="email" 
+                            placeholder=""
+                            value="{{ old('email') ?: '' }}">
                 </div>
                 <div class="contactForm__group">
-                    <label class="contactForm__label" for="">Message</label>
-                    <textarea class="contactForm__textarea" id="message" name="message" rows="4" placeholder=""></textarea>
+                    <label class="contactForm__label" for="message">Message</label>
+                    @error('message')
+                        <p class="text__danger">{{ $message }}</p>
+                    @enderror
+                    <textarea class="contactForm__textarea" id="message" name="message" rows="4" placeholder="">{{ old('message') ?: '' }}</textarea>
                 </div>
-                <div class="contactForm__group">
-                    <label class="contactForm__label" for="">Captcha</label>
-                    
-                </div>
-                <button class="">Envoyez votre message</button>
+                <!--
+                    <div class="contactForm__group">
+                        <label class="contactForm__label" for="">Captcha</label>
+                    </div>
+                -->
+                
+                <button type="submit" class="">Envoyez votre message</button>
             </form>
             <div class="contactForm__info">
                 <h2 class="">Nos bureaux</h2>

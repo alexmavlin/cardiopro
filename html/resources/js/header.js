@@ -144,3 +144,55 @@ if (devisBtn)
         }
     })
 }
+
+/* Error widget functionality */
+let errorWidget = document.getElementById('form_error_widget')
+
+if (errorWidget)
+{
+    setTimeout(function() {
+        fadeOut(errorWidget, 300)
+        errorWidget.style.pointerEvents = "none"
+    }, 5000)
+
+    if (errorWidget.getAttribute('data-form-id') != 'default') {
+    
+        let formId = errorWidget.getAttribute('data-form-id')
+        let popup = document.getElementById('contact__popup')
+        let body = document.querySelector('body')
+
+        let form = document.getElementById(formId)
+        let forms = form.parentElement.querySelectorAll('form')
+
+        if (form)
+        {
+            let tab = document.getElementById(form.getAttribute('data-tab'))
+            let tabs = tab.parentElement.querySelectorAll('a')
+
+            fadeIn(popup, 300)
+            popup.style.pointerEvents = "all"
+            body.style.overflow = "hidden"
+
+            tabs.forEach(function(element) {
+                element.classList.remove('active')
+            })
+            tab.classList.add('active')
+
+            forms.forEach(function(element) {
+                element.classList.remove('active')
+            })
+            form.classList.add('active')
+        }
+    }
+}
+/* // Error widget functionality */
+
+/* Success Widget functionality */
+let successWidget = document.getElementById('form_success_widget')
+if (successWidget)
+{
+    setTimeout(function() {
+        fadeOut(successWidget, 300)
+    }, 5000)
+}
+/* // Success Widget functionality */

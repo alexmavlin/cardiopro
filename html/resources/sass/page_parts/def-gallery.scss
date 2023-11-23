@@ -72,6 +72,7 @@
 
     h2,
     h3 {
+        text-align: center;
         font-size: 26px;
         color: #021647;
         @include nunito800;
@@ -178,7 +179,8 @@
         margin-left: 0;
     }
     .defGallery__stat {
-        h2 {
+        h2,
+        h3 {
             margin: 45px auto 0;
             text-align: center;
             margin-bottom: 0;
