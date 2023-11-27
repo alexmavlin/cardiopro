@@ -1,0 +1,205 @@
+.boiter {
+    padding: 55px 0px 65px;
+}
+
+.boiter_inner {
+    h2 {
+        color: #0039C6;
+        @include nunito800;
+        font-size: 36px;
+        text-align: center;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+        line-height: 121%; /* 43.56px */
+        letter-spacing: -0.36px;
+        margin-bottom: 56px;
+    }
+}
+.boiter__list {
+    display: flex;
+}
+.boiter__box  {
+    width: 565px;
+    height: 565px;
+    border-radius: 10px;
+    border: 0.6px solid rgba(24, 64, 80, 0.24);
+    background: var(--new-default-full-white, #FFF);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    img {
+        position: relative;
+        transform: translateY(-50%);
+        top: 47%;
+        max-width: 523px;
+        width: 100% !important;
+        height: unset !important;
+        aspect-ratio: 1 / 1.206;
+        object-fit: cover;
+    }
+}
+.boiter__content {
+    max-width: 442px;
+    width: 100%;
+    margin-left: 90px;
+}
+.boiter__content > p  {
+    color: #021647;
+    @include nunito800;
+    font-size: 26px;
+    line-height: 124%; /* 32.24px */
+    letter-spacing: -0.26px;
+    margin-bottom: 31px;
+    max-width: 442px;
+}
+.boiter__item {
+    position: relative;
+    overflow: hidden;
+    max-width: 442px;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0px 7px 17px 0px #D8DBE3;
+    background-color: #FFF;
+}
+.boiter__rectangle {
+    z-index: 1;
+    position: absolute;
+    width: 662.106px;
+    height: 686.448px;
+    right: -561px;
+    bottom: -410.448px;
+    border-radius: 686.448px;
+    background: #F2F5FE;
+}
+.boiter__item__header {
+    padding: 18px 16px;
+    background-color: #0039C6;
+
+    p {
+        color: #fff;
+        font-size: 21px;
+        @include nunito800;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+.boiter__item__content {
+    max-width: 410px;
+    margin: 47px 0 41px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+.boiter__item__price {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    .boiter__price__h2 {
+        color: #2B65F6;
+        font-size: 55px;
+        @include nunito800;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 4px;
+    }
+    p {
+        color: #2B65F6;
+        font-size: 26px;
+        @include nunito800;
+        text-align: center;
+        line-height: 22px;
+    }
+}
+.boiter_under__price__p {
+    color: #2B65F6;
+    font-size: 14px;
+    @include nunito600;
+    text-align: center;
+    margin-top: 8px;
+}
+.boiter_comment__p {
+    margin-top: 18px;
+    color: #595959;
+    font-size: 14px;
+    @include nunito600;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.boiter__choisir {
+    display: flex;
+    margin: 0 auto;
+    max-width: 224px;
+    width: 100%;
+    @include nunito600;
+    justify-content: center;
+    font-size: 17px;
+    color: #FFF;
+    padding: 16px 32px;
+    border-radius: 85px;
+    background: var(--c-22921, #C22921);
+}
+@media (max-width:1000px) {
+    .boiter__box {
+        height: 430px;
+    }
+    .boiter__content {
+        margin-left: 40px;
+    }
+}
+@media (max-width:700px) {
+    .boiter_inner {
+        h2 {
+            font-size: 33px;
+            margin-bottom: 27px;
+        }
+    }
+    .boiter__list {
+        flex-direction: column;
+    }
+    .boiter__box {
+        width: 100%;
+        height: 321px;
+        img {
+            max-width: unset;
+            height: 318px !important;
+            aspect-ratio: unset;
+        }
+    }
+    .boiter__content {
+        margin-left: 0px;
+        margin-top: 29px;
+        max-width: unset;
+    }
+    .boiter__item__content {
+        max-width: unset;
+    }
+    .boiter__content > p  {
+        font-size: 23px;
+        line-height: 113%; /* 32.24px */
+        letter-spacing: -0.21px;
+        margin: 0 auto 23px;
+    }
+    .boiter__item {
+    }
+}
+@media (max-width:450px) {
+    .boiter {
+        padding: 25px 0px 42px;
+    }
+    .boiter_inner {
+        h2 {
+            font-size: 29px;
+            line-height: 113%; /* 32.77px */
+            letter-spacing: -0.29px;
+        }
+    }
+    .boiter__content > p  {
+        font-size: 21px;
+    }
+    .boiter__item__content {
+        margin: 25px 0;
+    }
+}
