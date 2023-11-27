@@ -144,3 +144,39 @@ if (devisBtn)
         }
     })
 }
+
+/* Error widget functionality */
+let errorWidget = document.getElementById('form_error_widget')
+
+if (errorWidget)
+{
+    setTimeout(function() {
+        fadeOut(errorWidget, 300)
+        errorWidget.style.pointerEvents = "none"
+    }, 5000)
+
+    let formId = errorWidget.getAttribute('data-form-id')
+
+    if (formId != 'default') {
+    
+
+        let form = document.getElementById(formId)
+        console.log(form)
+
+        if (form)
+        {
+            
+        }
+    }
+}
+/* // Error widget functionality */
+
+/* Success Widget functionality */
+let successWidget = document.getElementById('form_success_widget')
+if (successWidget)
+{
+    setTimeout(function() {
+        fadeOut(successWidget, 300)
+    }, 5000)
+}
+/* // Success Widget functionality */

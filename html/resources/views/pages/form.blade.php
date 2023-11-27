@@ -86,6 +86,7 @@
             </div>
             <div class="formPage__content" id="formPage__content">
                 <div class="formPage__content--block" id="location-form">
+                    <h2 class="formPage__h2">2. Je choisis mon pack</h2>
                     <div class="sale__content sale__active__frame">
                         <div class="sale__frame ">
                             <div class="sale__hidden__header">
@@ -209,6 +210,7 @@
                     </div>
                 </div>
                 <div class="formPage__content--block" id="achat-form">
+                    <h2 class="formPage__h2">2. Je choisis mon pack</h2>
                     <div class="sale__content sale__active__frame">
                         <div class="sale__frame">
                             <div class="sale__hidden__header">
@@ -331,7 +333,44 @@
                         </div>
                     </div>
                 </div>
-                <div class="formPage__content--block" id="single-form">3</div>
+                <div class="formPage__content--block" id="single-form">
+                    <form action="{{ route('send-form-3') }}" method="POST" class="formPage__content--form">
+                        @csrf
+                        <div class="formPage__form--row">
+                            <div class="formPage__form--group">
+                                <label for="name3">Votre nom<span>*</span></label>
+                                @error('name3')
+                                    <p class="text__danger">{{ $message }}</p>
+                                @enderror
+                                <input type="text" id="name3" name="name3" value="{{ old('name3') ?: '' }}">
+                            </div>
+                            <div class="formPage__form--group">
+                                <label for="email3">Email<span>*</span></label>
+                                @error('email3')
+                                    <p class="text__danger">{{ $message }}</p>
+                                @enderror
+                                <input type="text" id="email3" name="email3" value="{{ old('email3') ?: '' }}">
+                            </div>
+                        </div>
+                        <div class="formPage__form--row">
+                            <div class="formPage__form--group">
+                                <label for="phone3">Téléphone<span>*</span></label>
+                                @error('phone3')
+                                    <p class="text__danger">{{ $messgae }}</p>
+                                @enderror
+                                <input type="text" id="phone3" name="phone3" value="{{ old('phone3') ?: '' }}">
+                            </div>
+                            <div class="formPage__form--group">
+                                <label for="company3">Société (optionnel)</label>
+                                @error('company3')
+                                    <p class="text__danger">{{ $message }}</p>
+                                @enderror
+                                <input type="text" name="company3" id="company3" value="{{ old('company3') ?: '' }}">
+                            </div>
+                        </div>
+                        <button type="submit">Recevoir mon devis</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

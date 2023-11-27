@@ -5,6 +5,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'IndexController')->name('index');
 
+Route::group(['namespace' => 'Mailer', 'prefix' => 'email'], function() {
+    Route::post('/send', 'SendContactController@sendContactPage')->name('send-main-contact');
+    Route::post('/send-form-3', 'SendContactController@sendForm3')->name('send-form-3');
+});
+
 Route::group(['namespace' => 'Pages'], function() {
     Route::get('/defibrillateurs-foire-aux-questions', 'DefibrillateursFoireAuxQuestionsController')->name('faq');
     Route::get('/contact', 'ContactController')->name('contact');

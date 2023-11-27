@@ -1,6 +1,7 @@
 .formPage {
     padding-top: 52px;
     padding-bottom: 90px;
+    overflow: hidden;
     &__h2 {
         @include nunito800;
         color: var(--text, #021647);
@@ -15,6 +16,7 @@
         display: flex;
         justify-content: center;
         gap: 34px;
+        margin-bottom: 90px;
     }
     &__button {
         display: flex;
@@ -68,11 +70,71 @@
     }
     &__content {
         position: relative;
-        overflow: hidden;
+        max-width: 1110px;
+        width: 100%;
+        margin: 0 auto;
     }
     &__content--block {
         position: absolute;
         opacity: 0;
         pointer-events: none;
+    }
+    &__content--form {
+        max-width: 1110px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        button {
+            display: flex;
+            width: 314px;
+            height: 56px;
+            padding: 16px 32px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            flex-shrink: 0;
+            border-radius: 85px;
+            border: 1px solid var(--c-22921, #C22921);
+            background: var(--c-22921, #C22921);
+            @include nunito800;
+            color: #FFF;
+            text-align: center;
+            font-size: 17px;
+            line-height: normal;
+            cursor: pointer;
+        }
+    }
+    &__form--row {
+        display: flex;
+        gap: 38px;
+    }
+    &__form--group {
+        flex-grow: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        label {
+            @include nunito400;
+            color: #595959;
+            font-size: 17px;
+            line-height: 125%; /* 21.25px */
+            span {
+                color: #C22921;
+            }
+        }
+        input {
+            display: flex;
+            height: 56px;
+            padding: 19px 20px;
+            align-items: center;
+            gap: 8px;
+            align-self: stretch;
+            border-radius: 14px;
+            border: 1px solid #D8E3FF;
+            background: #FFF;
+        }
     }
 }
