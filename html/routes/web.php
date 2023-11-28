@@ -8,6 +8,7 @@ Route::get('/', 'IndexController')->name('index');
 Route::group(['namespace' => 'Mailer', 'prefix' => 'email'], function() {
     Route::post('/send', 'SendContactController@sendContactPage')->name('send-main-contact');
     Route::post('/send-form-3', 'SendContactController@sendForm3')->name('send-form-3');
+    Route::post('/send-form-2', 'SendContactController@sendForm2')->name('send-form-2');
 });
 
 Route::group(['namespace' => 'Pages'], function() {

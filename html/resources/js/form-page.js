@@ -66,4 +66,47 @@ if (formPageButtonsRow)
             }
         })
     })
+
+    /* Append form functionality */
+    let saleButtons = document.querySelectorAll('.sale__button--dynamic')
+
+    if (saleButtons.length > 0)
+    {
+        saleButtons.forEach(function(element) {
+            element.addEventListener("click", function(e) {
+                e.preventDefault()
+                let formToShow = document.getElementById(this.getAttribute('data-form-id'))
+                let formPrice = this.getAttribute('data-form-price')
+                let formType = this.getAttribute('data-form-type')
+
+                if (!formToShow.classList.contains('active'))
+                {
+                    startHeight = contentBlock.offsetHeight
+                    targetHeight = formToShow.offsetHeight + startHeight
+
+                    animateHeight(contentBlock, 200, startHeight, targetHeight, function() {
+                        fadeIn(formToShow, 200)
+                        formToShow.style.position = "unset"
+                        formToShow.style.pointerEvents = "all"
+                    })
+
+                    formToShow.classList.add('active')
+                }
+
+                if (this.getAttribute('data-form-id') == 'content-achat-form')
+                {
+                    let priceSpan = document.getElementById('price2')
+                    let priceInput = document.getElementById('price2-input')
+                    let typeInput = document.getElementById('type2-input')
+                    fadeOut(priceSpan, 150, function() {
+                        priceSpan.innerText = formPrice
+                        fadeIn(priceSpan, 150)
+                    })
+                    priceInput.setAttribute('value', formPrice)
+                    typeInput.setAttribute('value', formType)
+                    
+                }
+            })
+        })
+    }
 }

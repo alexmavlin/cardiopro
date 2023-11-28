@@ -161,11 +161,31 @@ if (errorWidget)
     
 
         let form = document.getElementById(formId)
-        console.log(form)
+        let btn = document.querySelector('[data-link-id="' + formId + '"]')
 
-        if (form)
+        let startHeight
+        let targetHeight
+
+        console.log(btn)
+
+        btn.classList.add('active')
+        form.style.position = "unset"
+        form.style.pointerEvents = "all"
+        form.style.opacity = 1
+        form.classList.add('active')
+
+        if (formId == 'achat-form')
         {
-            
+            let achatForm = form.querySelector('#content-achat-form')
+
+            startHeight = form.offsetHeight
+            targetHeight = startHeight + achatForm.offsetHeight
+            animateHeight(form, 150, startHeight, targetHeight, function() {
+                fadeIn(achatForm, 150, function() {
+                    let formPrice = form.querySelector('price2-input').getAttribute('value')
+                    console.log(formPrice)
+                })
+            })
         }
     }
 }

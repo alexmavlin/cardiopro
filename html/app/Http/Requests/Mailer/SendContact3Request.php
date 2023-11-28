@@ -24,10 +24,23 @@ class SendContact3Request extends FormRequest
     public function rules()
     {
         return [
-            'company' => 'nullable|string',
-            'name' => 'required|string',
-            'phone' => 'required|numeric',
-            'email' => 'required|email',
+            'company3' => 'nullable|string',
+            'name3' => 'required|string',
+            'phone3' => 'required|numeric',
+            'email3' => 'required|email',
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+            'company3.string' => 'Field company should be a string',
+            'name3.required' => 'Field name is required',
+            'name3.string' => 'Field name should be a string',
+            'phone3.required' => 'Field phone is required',
+            'phone3.numeric' => 'Field phone should consist of numbers',
+            'email3.required' => 'Field email is required',
+            'email3.email' => 'Field email should be a valid email address',
         ];
     }
 

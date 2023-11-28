@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Mailer;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Mailer\SendContact2Request;
 use App\Http\Requests\Mailer\SendContact3Request;
 use App\Http\Requests\Mailer\SendContactRequest;
 use Illuminate\Http\Request;
@@ -53,6 +54,47 @@ class SendContactController extends Controller
         return redirect()->back()->with(['email_message' => 'success']);
     }
 
+    public function sendForm2(SendContact2Request $sendContactRequest)
+    {
+        $this->validated_data = $sendContactRequest;
+
+        $this->email_data = [
+            'form' => 'Form Page - Achat',
+            'comapny' => [
+                'field' => 'Enterprise: ',
+                'value' => isset($this->validated_data['company2']) ? $this->validated_data['company'] : '',
+            ],
+            'nom_et_prenom' => [
+                'field' => 'Nom et Pronom: ',
+                'value' => isset($this->validated_data['name2']) ? $this->validated_data['name'] : '',
+            ],
+            'email' => [
+                'field' => 'Email: ',
+                'value' => isset($this->validated_data['email2']) ? $this->validated_data['email'] : '',
+            ],
+            'telephone' => [
+                'field' => 'Téléphone: ',
+                'value' => isset($this->validated_data['phone2']) ? $this->validated_data['phone'] : '',
+            ],
+            'price' => [
+                'field' => 'Price: ',
+                'value' => isset($this->validated_data['price2']) ? $this->validated_data['price2'] : '',
+            ],
+            'type' => [
+                'field' => 'Type: ',
+                'value' => isset($this->validated_data['type2']) ? $this->validated_data['type2'] : '',
+            ],
+        ];
+
+        $result = $this->sendFormMail($this->email_data);
+
+        if (!$result) {
+            return redirect()->back()->with(['email_message' => 'error']);
+        }
+
+        return redirect()->back()->with(['email_message' => 'success']);
+    }
+
     public function sendForm3(SendContact3Request $sendContactRequest)
     {
         $this->validated_data = $sendContactRequest->validated();
@@ -61,19 +103,19 @@ class SendContactController extends Controller
             'form' => 'Form Page - Je ne sais pas',
             'comapny' => [
                 'field' => 'Enterprise: ',
-                'value' => isset($this->validated_data['company']) ? $this->validated_data['company'] : '',
+                'value' => isset($this->validated_data['company3']) ? $this->validated_data['company'] : '',
             ],
             'nom_et_prenom' => [
                 'field' => 'Nom et Pronom: ',
-                'value' => isset($this->validated_data['name']) ? $this->validated_data['name'] : '',
+                'value' => isset($this->validated_data['name3']) ? $this->validated_data['name'] : '',
             ],
             'email' => [
                 'field' => 'Email: ',
-                'value' => isset($this->validated_data['email']) ? $this->validated_data['email'] : '',
+                'value' => isset($this->validated_data['email3']) ? $this->validated_data['email'] : '',
             ],
             'telephone' => [
                 'field' => 'Téléphone: ',
-                'value' => isset($this->validated_data['phone']) ? $this->validated_data['phone'] : '',
+                'value' => isset($this->validated_data['phone3']) ? $this->validated_data['phone'] : '',
             ],
         ];
 
