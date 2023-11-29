@@ -177,14 +177,38 @@ if (errorWidget)
         if (formId == 'achat-form')
         {
             let achatForm = form.querySelector('#content-achat-form')
+            let priceSpan = form.querySelector('#price2')
 
             startHeight = form.offsetHeight
             targetHeight = startHeight + achatForm.offsetHeight
             animateHeight(form, 150, startHeight, targetHeight, function() {
                 fadeIn(achatForm, 150, function() {
-                    let formPrice = form.querySelector('price2-input').getAttribute('value')
+                    let formPrice = form.querySelector('#price2-input').getAttribute('value')
+                    priceSpan.innerText = formPrice
                     console.log(formPrice)
                 })
+                achatForm.style.pointerEvents = "all"
+                achatForm.style.position = "unset"
+                achatForm.classList.add('active')
+            })
+        }
+        console.log(formId)
+        if (formId == 'location-form')
+        {
+            let locationForm = form.querySelector('#content-location-form')
+            let priceSpan = form.querySelector('#price1')
+
+            startHeight = form.offsetHeight
+            targetHeight = startHeight + locationForm.offsetHeight
+            animateHeight(form, 150, startHeight, targetHeight, function() {
+                fadeIn(locationForm, 150, function() {
+                    let formPrice = form.querySelector('#price1-input').getAttribute('value')
+                    priceSpan.innerText = formPrice
+                    console.log(formPrice)
+                })
+                locationForm.style.pointerEvents = "all"
+                locationForm.style.position = "unset"
+                locationForm.classList.add('active')
             })
         }
     }

@@ -203,3 +203,19 @@
         line-height: normal;
     }
 }
+
+@media (max-width: 600px) {
+    .formPage__h2 {
+        font-size: 29px;
+    }
+    .formPage__buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .formPage__button > p {
+        font-size: 20px;
+    }
+    .formPage__form--row {
+        flex-direction: column;
+    }
+}

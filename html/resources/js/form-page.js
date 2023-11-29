@@ -7,6 +7,7 @@ if (formPageButtonsRow)
     let contentBlockWrappers
     let contentToShow
     let contentToHide
+    let formToHide
     let startHeight
     let targetHeight
 
@@ -31,12 +32,19 @@ if (formPageButtonsRow)
             this.classList.add('active')
 
             contentToShow = document.getElementById(this.getAttribute('data-link-id'))
+            formToHide = contentToShow.parentElement.querySelector('.formPage__content--form__block')
+            console.log(formToHide, 'form to hide')
 
             startHeight = 0
             targetHeight = contentToShow.offsetHeight
 
             if (contentToHide)
             {
+                if (formToHide) {
+                    formToHide.style.pointerEvents = "none"
+                    formToHide.style.position = "absolute"
+                    formToHide.classList.remove('active')
+                }
                 if (!contentToShow.classList.contains('active'))
                 {
                     startHeight = contentToHide.offsetHeight
@@ -91,6 +99,19 @@ if (formPageButtonsRow)
                     })
 
                     formToShow.classList.add('active')
+                }
+                if (this.getAttribute('data-form-id') == 'content-location-form')
+                {
+                    console.log(formPrice)
+                    let priceSpan = document.getElementById('price1')
+                    let priceInput = document.getElementById('price1-input')
+                    let typeInput = document.getElementById('type1-input')
+                    fadeOut(priceSpan, 150, function() {
+                        priceSpan.innerText = formPrice
+                        fadeIn(priceSpan, 150)
+                    })
+                    priceInput.setAttribute('value', formPrice)
+                    typeInput.setAttribute('value', formType)
                 }
 
                 if (this.getAttribute('data-form-id') == 'content-achat-form')

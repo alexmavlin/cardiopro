@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Mailer;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Mailer\SendContact1Request;
 use App\Http\Requests\Mailer\SendContact2Request;
 use App\Http\Requests\Mailer\SendContact3Request;
 use App\Http\Requests\Mailer\SendContactRequest;
@@ -44,6 +45,47 @@ class SendContactController extends Controller
         ];
 
         // dd($this->email_data);
+
+        $result = $this->sendFormMail($this->email_data);
+
+        if (!$result) {
+            return redirect()->back()->with(['email_message' => 'error']);
+        }
+
+        return redirect()->back()->with(['email_message' => 'success']);
+    }
+
+    public function sendForm1 (SendContact1Request $sendContactRequest)
+    {
+        $this->validated_data = $sendContactRequest;
+
+        $this->email_data = [
+            'form' => 'Form Page - Achat',
+            'comapny' => [
+                'field' => 'Enterprise: ',
+                'value' => isset($this->validated_data['company2']) ? $this->validated_data['company'] : '',
+            ],
+            'nom_et_prenom' => [
+                'field' => 'Nom et Pronom: ',
+                'value' => isset($this->validated_data['name2']) ? $this->validated_data['name'] : '',
+            ],
+            'email' => [
+                'field' => 'Email: ',
+                'value' => isset($this->validated_data['email2']) ? $this->validated_data['email'] : '',
+            ],
+            'telephone' => [
+                'field' => 'Téléphone: ',
+                'value' => isset($this->validated_data['phone2']) ? $this->validated_data['phone'] : '',
+            ],
+            'price' => [
+                'field' => 'Price: ',
+                'value' => isset($this->validated_data['price2']) ? $this->validated_data['price2'] : '',
+            ],
+            'type' => [
+                'field' => 'Type: ',
+                'value' => isset($this->validated_data['type2']) ? $this->validated_data['type2'] : '',
+            ],
+        ];
 
         $result = $this->sendFormMail($this->email_data);
 
