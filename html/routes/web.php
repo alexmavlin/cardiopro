@@ -11,6 +11,7 @@ Route::group(['namespace' => 'Mailer', 'prefix' => 'email'], function() {
     Route::post('/send-form-2', 'SendContactController@sendForm2')->name('send-form-2');
     Route::post('/send-form-1', 'SendContactController@sendForm1')->name('send-form-1');
     Route::post('/send-choisir', 'SendContactController@sendChoisir')->name('send-choisir');
+    Route::post('/send-def-explore', 'SendContactController@sendDefExplore')->name('send-def-explore');
 });
 
 Route::group(['namespace' => 'Pages'], function() {

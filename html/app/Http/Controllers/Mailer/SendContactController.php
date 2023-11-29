@@ -8,6 +8,7 @@ use App\Http\Requests\Mailer\SendContact1Request;
 use App\Http\Requests\Mailer\SendContact2Request;
 use App\Http\Requests\Mailer\SendContact3Request;
 use App\Http\Requests\Mailer\SendContactRequest;
+use App\Http\Requests\Mailer\SendDefExploreRequest;
 use Illuminate\Http\Request;
 
 class SendContactController extends Controller
@@ -46,6 +47,43 @@ class SendContactController extends Controller
         ];
 
         // dd($this->email_data);
+
+        $result = $this->sendFormMail($this->email_data);
+
+        if (!$result) {
+            return redirect()->back()->with(['email_message' => 'error']);
+        }
+
+        return redirect()->back()->with(['email_message' => 'success']);
+    }
+
+    public function sendDefExplore(SendDefExploreRequest $sendContactRequest)
+    {
+        $this->validated_data = $sendContactRequest;
+
+        $this->email_data = [
+            'form' => 'Pop up - Choisir Defebrillateur Pack',
+            'pack' => [
+                'field' => 'Pack: ',
+                'value' => isset($this->validated_data['pack']) ? $this->validated_data['pack'] : '',
+            ],
+            'comapny' => [
+                'field' => 'Enterprise: ',
+                'value' => isset($this->validated_data['company']) ? $this->validated_data['company'] : '',
+            ],
+            'nom_et_prenom' => [
+                'field' => 'Nom et Pronom: ',
+                'value' => isset($this->validated_data['name']) ? $this->validated_data['name'] : '',
+            ],
+            'email' => [
+                'field' => 'Email: ',
+                'value' => isset($this->validated_data['email']) ? $this->validated_data['email'] : '',
+            ],
+            'telephone' => [
+                'field' => 'Téléphone: ',
+                'value' => isset($this->validated_data['phone']) ? $this->validated_data['phone'] : '',
+            ],
+        ];
 
         $result = $this->sendFormMail($this->email_data);
 
@@ -101,27 +139,27 @@ class SendContactController extends Controller
             'form' => 'Form Page - Achat',
             'comapny' => [
                 'field' => 'Enterprise: ',
-                'value' => isset($this->validated_data['company2']) ? $this->validated_data['company'] : '',
+                'value' => isset($this->validated_data['company1']) ? $this->validated_data['company1'] : '',
             ],
             'nom_et_prenom' => [
                 'field' => 'Nom et Pronom: ',
-                'value' => isset($this->validated_data['name2']) ? $this->validated_data['name'] : '',
+                'value' => isset($this->validated_data['name1']) ? $this->validated_data['name1'] : '',
             ],
             'email' => [
                 'field' => 'Email: ',
-                'value' => isset($this->validated_data['email2']) ? $this->validated_data['email'] : '',
+                'value' => isset($this->validated_data['email1']) ? $this->validated_data['email1'] : '',
             ],
             'telephone' => [
                 'field' => 'Téléphone: ',
-                'value' => isset($this->validated_data['phone2']) ? $this->validated_data['phone'] : '',
+                'value' => isset($this->validated_data['phone1']) ? $this->validated_data['phone1'] : '',
             ],
             'price' => [
                 'field' => 'Price: ',
-                'value' => isset($this->validated_data['price2']) ? $this->validated_data['price2'] : '',
+                'value' => isset($this->validated_data['price1']) ? $this->validated_data['price1'] : '',
             ],
             'type' => [
                 'field' => 'Type: ',
-                'value' => isset($this->validated_data['type2']) ? $this->validated_data['type2'] : '',
+                'value' => isset($this->validated_data['type1']) ? $this->validated_data['type1'] : '',
             ],
         ];
 
@@ -142,19 +180,19 @@ class SendContactController extends Controller
             'form' => 'Form Page - Achat',
             'comapny' => [
                 'field' => 'Enterprise: ',
-                'value' => isset($this->validated_data['company2']) ? $this->validated_data['company'] : '',
+                'value' => isset($this->validated_data['company2']) ? $this->validated_data['company2'] : '',
             ],
             'nom_et_prenom' => [
                 'field' => 'Nom et Pronom: ',
-                'value' => isset($this->validated_data['name2']) ? $this->validated_data['name'] : '',
+                'value' => isset($this->validated_data['name2']) ? $this->validated_data['name2'] : '',
             ],
             'email' => [
                 'field' => 'Email: ',
-                'value' => isset($this->validated_data['email2']) ? $this->validated_data['email'] : '',
+                'value' => isset($this->validated_data['email2']) ? $this->validated_data['email2'] : '',
             ],
             'telephone' => [
                 'field' => 'Téléphone: ',
-                'value' => isset($this->validated_data['phone2']) ? $this->validated_data['phone'] : '',
+                'value' => isset($this->validated_data['phone2']) ? $this->validated_data['phone2'] : '',
             ],
             'price' => [
                 'field' => 'Price: ',
@@ -183,19 +221,19 @@ class SendContactController extends Controller
             'form' => 'Form Page - Je ne sais pas',
             'comapny' => [
                 'field' => 'Enterprise: ',
-                'value' => isset($this->validated_data['company3']) ? $this->validated_data['company'] : '',
+                'value' => isset($this->validated_data['company3']) ? $this->validated_data['company3'] : '',
             ],
             'nom_et_prenom' => [
                 'field' => 'Nom et Pronom: ',
-                'value' => isset($this->validated_data['name3']) ? $this->validated_data['name'] : '',
+                'value' => isset($this->validated_data['name3']) ? $this->validated_data['name3'] : '',
             ],
             'email' => [
                 'field' => 'Email: ',
-                'value' => isset($this->validated_data['email3']) ? $this->validated_data['email'] : '',
+                'value' => isset($this->validated_data['email3']) ? $this->validated_data['email3'] : '',
             ],
             'telephone' => [
                 'field' => 'Téléphone: ',
-                'value' => isset($this->validated_data['phone3']) ? $this->validated_data['phone'] : '',
+                'value' => isset($this->validated_data['phone3']) ? $this->validated_data['phone3'] : '',
             ],
         ];
 

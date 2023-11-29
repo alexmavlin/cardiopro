@@ -259,7 +259,38 @@ if (errorWidget)
                     }
                 }
             })
+        }
 
+        if (formId == 'defExplorePopUp')
+        {
+            let choisirPopup = document.querySelector('#defExplorePopUp')
+            let body = document.querySelector('body')
+            let closeBtn
+
+            choisirPopup.style.display = "flex"
+            body.style.overflow = "hidden"
+
+            closeBtn = document.getElementById('defExplorePopUp__close')
+
+            fadeIn(choisirPopup, 200, function() {
+                choisirPopup.style.pointerEvents = "all"
+                choisirPopup.classList.add('active')
+            })
+
+            closeBtn.addEventListener("click", function() {
+                if (choisirPopup)
+                {
+                    if (choisirPopup.classList.contains('active'))
+                    {
+                        fadeOut(choisirPopup, 300, function() {
+                            choisirPopup.style.pointerEvents = "none"
+                            choisirPopup.style.display = "none"
+                            choisirPopup.classList.remove('active')
+                            body.style.overflow = "auto"
+                        })
+                    }
+                }
+            })
         }
     }
 }
