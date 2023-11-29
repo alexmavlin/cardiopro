@@ -1,5 +1,5 @@
 <div class="saleChoisirPopUp" id="saleChoisirPopUp">
-    <form action="" class="saleChoisirPopUp__form">
+    <form action="{{ route('send-choisir') }}" method="POST" class="saleChoisirPopUp__form">
         @csrf
         <div class="saleChoisirPopUp__close" id="saleChoisirPopUp__close" role="button" aria-label="Close Choisir Pop Up">×</div>
         <img    src="{{ asset('images/content/logo_page.png') }}" 

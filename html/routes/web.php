@@ -10,6 +10,7 @@ Route::group(['namespace' => 'Mailer', 'prefix' => 'email'], function() {
     Route::post('/send-form-3', 'SendContactController@sendForm3')->name('send-form-3');
     Route::post('/send-form-2', 'SendContactController@sendForm2')->name('send-form-2');
     Route::post('/send-form-1', 'SendContactController@sendForm1')->name('send-form-1');
+    Route::post('/send-choisir', 'SendContactController@sendChoisir')->name('send-choisir');
 });
 
 Route::group(['namespace' => 'Pages'], function() {

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Mailer;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Mailer\SendChoisirRequest;
 use App\Http\Requests\Mailer\SendContact1Request;
 use App\Http\Requests\Mailer\SendContact2Request;
 use App\Http\Requests\Mailer\SendContact3Request;
@@ -45,6 +46,43 @@ class SendContactController extends Controller
         ];
 
         // dd($this->email_data);
+
+        $result = $this->sendFormMail($this->email_data);
+
+        if (!$result) {
+            return redirect()->back()->with(['email_message' => 'error']);
+        }
+
+        return redirect()->back()->with(['email_message' => 'success']);
+    }
+
+    public function sendChoisir(SendChoisirRequest $sendContactRequest) 
+    {
+        $this->validated_data = $sendContactRequest;
+
+        $this->email_data = [
+            'form' => 'Pop up - Choisir Defebrillateur Pack',
+            'pack' => [
+                'field' => 'Pack: ',
+                'value' => isset($this->validated_data['pack']) ? $this->validated_data['pack'] : '',
+            ],
+            'comapny' => [
+                'field' => 'Enterprise: ',
+                'value' => isset($this->validated_data['company']) ? $this->validated_data['company'] : '',
+            ],
+            'nom_et_prenom' => [
+                'field' => 'Nom et Pronom: ',
+                'value' => isset($this->validated_data['name']) ? $this->validated_data['name'] : '',
+            ],
+            'email' => [
+                'field' => 'Email: ',
+                'value' => isset($this->validated_data['email']) ? $this->validated_data['email'] : '',
+            ],
+            'telephone' => [
+                'field' => 'Téléphone: ',
+                'value' => isset($this->validated_data['phone']) ? $this->validated_data['phone'] : '',
+            ],
+        ];
 
         $result = $this->sendFormMail($this->email_data);
 
