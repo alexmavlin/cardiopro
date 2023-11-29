@@ -1,0 +1,115 @@
+.saleChoisirPopUp {
+    display: none;
+    pointer-events: none;
+    opacity: 0;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: brightness(0.2);
+    z-index: 600;
+    justify-content: center;
+    align-items: center;
+    &__form {
+        background-color: #fff;
+        border-radius: 6px;
+        box-shadow: 0 5px 15px rgba(0,0,0,.5);
+        padding: 16px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        max-width: 600px;
+        width: 100%;
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 23px;
+            padding: 16px 32px;
+            max-width: 314px;
+            width: 100%;
+            border-radius: 85px;
+            border: 1px solid var(--c-22921, #C22921);
+            background: var(--c-22921, #C22921);
+            color: #fff;
+            font-size: 17px;
+            @include nunito800;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+    &__close {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        cursor: pointer;
+    }
+    &__text {
+        @include nunito600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #595959;
+    }
+    &__form--row {
+        width: 100%;
+        display: flex;
+        gap: 12px;
+    }
+    &__form--group {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        gap: 3px;
+        label {
+            display: block;
+            padding-bottom: 8px;
+            color: #595959;
+            font-size: 17px;
+            line-height: 125%;
+            @include nunito600;
+            span {
+                color: #C22921;
+            }
+        }
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 14px;
+            border: 1px solid var(--e-4-ebfd, #E4EBFD);
+            background: #FFF;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 140%; /* 28px */
+            color: #242424;
+            font-size: 17px;
+            line-height: 125%;
+            @include nunito600;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .saleChoisirPopUp {
+        padding-top: 90px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        overflow: auto;
+    }
+    .saleChoisirPopUp__form--row {
+        flex-direction: column;
+    }
+    .saleChoisirPopUp__form--group input, .saleChoisirPopUp__form--group select {
+        font-size: 14px;
+    }
+    .saleChoisirPopUp__form--group label {
+        font-size: 14px;
+    }
+}
