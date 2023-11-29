@@ -37,7 +37,7 @@
 <section class="mastHead">
     <div class="container">
         <div class="mastHead__inner">
-            <h2 class="mastHead__h2">Les mairies doivent équiper leurs structures  de défibrillateurs</h2>
+            <h2 class="mastHead__h2">Les mairies doivent équiper leurs structures de défibrillateurs</h2>
             <p class="mastHead__p">Chaque mairie est tenue d’équiper ses locaux et les structures placées sous sa tutelle en défibrillateurs. En 2022, la législation concernant l'installation de <a href="https://cardiopro.fr/erp">défibrillateurs dans les ERP</a> de catégorie 1, 2, 3 et 4 a été renforcée. Elle prévoit désormais des sanctions plus sévères, incluant des peines pouvant aller jusqu'à 5 ans d'emprisonnement en cas d'un non-respect du décret.</p>
         </div>
     </div>
@@ -177,8 +177,8 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="" class="sale__choisir">Choisir</a>
-                            <a href="" class="sale__ensavoir">En savoir +</a>
+                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -213,8 +213,8 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="" class="sale__choisir">Choisir</a>
-                            <a href="" class="sale__ensavoir">En savoir +</a>
+                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -298,8 +298,8 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="" class="sale__choisir">Choisir</a>
-                            <a href="" class="sale__ensavoir">En savoir +</a>
+                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -334,8 +334,8 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="" class="sale__choisir">Choisir</a>
-                            <a href="" class="sale__ensavoir">En savoir +</a>
+                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -385,7 +385,7 @@
                     <path d="M27.2687 13.9062C22.7172 13.9062 20.6835 17.0536 20.2477 20.0073C20.1993 20.2494 20.2961 20.5399 20.4898 20.7336C20.6835 20.9273 20.9256 21.0726 21.2161 21.0726H22.9108C23.3466 21.0726 23.734 20.7336 23.8308 20.2978C24.073 19.0389 24.8477 17.4894 27.3172 17.4894C29.254 17.4894 30.0287 18.5063 30.3677 19.1357C30.8035 20.0557 30.7551 21.0726 30.174 21.8473C29.6414 22.5736 29.1087 22.961 28.5277 23.3484C27.1235 24.3168 26.0098 25.3336 25.8161 28.1905C25.8161 28.4326 25.8645 28.7231 26.0582 28.9168C26.2519 29.1105 26.494 29.2073 26.7361 29.2073H28.3824C28.8666 29.2073 29.3024 28.8199 29.3024 28.3357C29.3993 27.0284 29.7382 26.7863 30.513 26.2536C31.1909 25.7694 32.0624 25.1399 32.9824 23.9294C34.3382 22.0894 34.5319 19.6199 33.4666 17.4894C32.3045 15.262 29.9803 13.9062 27.2687 13.9062Z" fill="#C22921"/>
                     <path d="M27.4631 35.1626C28.6665 35.1626 29.6421 34.187 29.6421 32.9836C29.6421 31.7802 28.6665 30.8047 27.4631 30.8047C26.2597 30.8047 25.2842 31.7802 25.2842 32.9836C25.2842 34.187 26.2597 35.1626 27.4631 35.1626Z" fill="#C22921"/>
                   </svg>
-                <h2>Où installer le défibrillateur dans  votre entreprise ?</h2>
+                <h2>Où installer le défibrillateur dans votre entreprise ?</h2>
                 <p>Pour placer un défibrillateur, il est essentiel de choisir un endroit ouvert, aisément accessible et avec beaucoup de passage. Un tel emplacement assure que le défibrillateur sera rapidement repéré et utilisé en <a href="https://cardiopro.fr/reconnaitre-un-arret-cardiaque">cas d'urgence cardiaque</a>, ce qui peut avoir un impact déterminant sur la survie de la victime. </p>
             </div>
             <div class="installer__item">
@@ -438,7 +438,7 @@
             <p class="acsList__p">CardioPro vous aide à choisir l’emplacement optimal pour votre défibrillateur tout en assurant une signalétique en conformité avec les règles. </p>
             <p class="acsList__p">Il est à noter que si plusieurs ERP sont dans une même zone, il est envisageable d’installer un défibrillateur externe en commun.</p>
             <h3 class="acsList__h2">Formation et suivi</h3>
-            <p class="acsList__p">Après l'installation du défibrillateur, l'équipe de CardioPro assure une formation rapide à son utilisation. De plus, un suivi du matériel est possible  sur le court, moyen et long terme.</p>
+            <p class="acsList__p">Après l'installation du défibrillateur, l'équipe de CardioPro assure une formation rapide à son utilisation. De plus, un suivi du matériel est possible sur le court, moyen et long terme.</p>
         </div>
     </div>
 </section>

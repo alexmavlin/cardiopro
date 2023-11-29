@@ -72,7 +72,7 @@
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
                         <a href="" class="defExplore__choisir">Choisir</a>
-                        <a href="" class="defExplore__ensavoir">En savoir +</a>
+                        <a href="{{ route('accessoire-defibrillateur-padpak-adulte') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
                 <div class="defExplore__item">
@@ -94,7 +94,7 @@
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
                         <a href="" class="defExplore__choisir">Choisir</a>
-                        <a href="" class="defExplore__ensavoir">En savoir +</a>
+                        <a href="{{ route('accessoire-defibrillateur-padpak-pédiatrique') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
                 <div class="defExplore__item">
@@ -116,7 +116,7 @@
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
                         <a href="" class="defExplore__choisir">Choisir</a>
-                        <a href="" class="defExplore__ensavoir">En savoir +</a>
+                        <a href="{{ route('accessoire-defibrillateur-trousse-de-secours') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
                 <div class="defExplore__item">
@@ -138,7 +138,7 @@
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
                         <a href="" class="defExplore__choisir">Choisir</a>
-                        <a href="" class="defExplore__ensavoir">En savoir +</a>
+                        <a href="{{ route('accessoire-defibrillateur-boitier-Aivia-100') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
                 <div class="defExplore__item">
@@ -160,7 +160,7 @@
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
                         <a href="" class="defExplore__choisir">Choisir</a>
-                        <a href="" class="defExplore__ensavoir">En savoir +</a>
+                        <a href="{{ route('accessoire-defibrillateur-boitier-DAC-350') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
                 <div class="defExplore__item">
@@ -182,7 +182,7 @@
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
                         <a href="" class="defExplore__choisir">Choisir</a>
-                        <a href="" class="defExplore__ensavoir">En savoir +</a>
+                        <a href="{{ route('accessoire-defibrillateur-pack-trainer') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
                 <div class="defExplore__item">
@@ -204,7 +204,7 @@
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
                         <a href="" class="defExplore__choisir">Choisir</a>
-                        <a href="" class="defExplore__ensavoir">En savoir +</a>
+                        <a href="{{ route('accessoire-defibrillateur-Samaritan-PAD-Trainer') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
                 <div class="defExplore__item">
@@ -226,7 +226,7 @@
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
                         <a href="" class="defExplore__choisir">Choisir</a>
-                        <a href="" class="defExplore__ensavoir">En savoir +</a>
+                        <a href="{{ route('accessoire-defibrillateur-signaletique-autocollante') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
                 <div class="defExplore__item">
@@ -248,7 +248,7 @@
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
                         <a href="" class="defExplore__choisir">Choisir</a>
-                        <a href="" class="defExplore__ensavoir">En savoir +</a>
+                        <a href="{{ route('accessoire-defibrillateur-support-mural-plexiglass') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
             </div>

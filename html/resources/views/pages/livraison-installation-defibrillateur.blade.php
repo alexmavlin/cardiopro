@@ -168,8 +168,8 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="" class="sale__choisir">Choisir</a>
-                            <a href="" class="sale__ensavoir">En savoir +</a>
+                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -204,8 +204,8 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="" class="sale__choisir">Choisir</a>
-                            <a href="" class="sale__ensavoir">En savoir +</a>
+                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -289,8 +289,8 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="" class="sale__choisir">Choisir</a>
-                            <a href="" class="sale__ensavoir">En savoir +</a>
+                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -325,8 +325,8 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="" class="sale__choisir">Choisir</a>
-                            <a href="" class="sale__ensavoir">En savoir +</a>
+                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>

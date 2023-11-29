@@ -6,6 +6,7 @@ import './gallery'
 import './description'
 import './livraison'
 import './form-page'
+import './sale-choisir-pop-up'
 
 
 let buttons = document.querySelectorAll('.sale__slider button');

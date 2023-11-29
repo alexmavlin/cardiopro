@@ -73,7 +73,7 @@
                                 class="whatAED__img__entreprise">
                     </div>
                     <div class="whatAED__content whatAED__content__entreprise">
-                        <p class="whatAED__content__p">Ainsi, bien que vous ne soyez <b>pas obligé d'installer un défibrillateur</b>, il vous est fortement recommandé de le faire.  Il est dans votre intérêt de garantir que ce dispositif vital soit facilement accessible en cas de besoin.</p>
+                        <p class="whatAED__content__p">Ainsi, bien que vous ne soyez <b>pas obligé d'installer un défibrillateur</b>, il vous est fortement recommandé de le faire. Il est dans votre intérêt de garantir que ce dispositif vital soit facilement accessible en cas de besoin.</p>
                         <p class="whatAED__content__p">Votre entreprise fait peut-être partie de celles qui accueillent quotidiennement un grand nombre de personnes, qu'il s'agisse de collaborateurs ou de visiteurs. Ainsi, en y installant un défibrillateur vous pouvez contribuer à instaurer un sentiment de sérénité et de sécurité en son au sein. </p>
                         <p class="whatAED__content__p">En somme, même si l'installation d'un défibrillateur <b>ne soit pas obligatoire en entreprise</b>, elle est vivement recommandée afin de vous assurer que des mesures appropriées ont été prises pour faire face à une éventuelle situation d'urgence cardiaque.</p>
                     </div>
@@ -171,8 +171,8 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="" class="sale__choisir">Choisir</a>
-                            <a href="" class="sale__ensavoir">En savoir +</a>
+                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -207,8 +207,8 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="" class="sale__choisir">Choisir</a>
-                            <a href="" class="sale__ensavoir">En savoir +</a>
+                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -292,8 +292,8 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="" class="sale__choisir">Choisir</a>
-                            <a href="" class="sale__ensavoir">En savoir +</a>
+                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -328,8 +328,8 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="" class="sale__choisir">Choisir</a>
-                            <a href="" class="sale__ensavoir">En savoir +</a>
+                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -383,7 +383,7 @@
             <p class="acsList__p">Selon l’article R143-2 du code de la construction et de l'habitation, la notion de public englobe toutes les personnes admises dans l’établissement, en plus du personnel. Cette disposition s'applique principalement aux Établissements Recevant du Public (ERP). </p>
             <p class="acsList__p">Cependant, pour les entreprises qui ne relèvent pas de cette catégorie, la loi du travail précise que le lieu de travail doit être équipé d'un dispositif de premiers secours adapté à la nature des risques et facilement accessible. L'employeur doit, en outre, consulter un médecin du travail pour prendre les mesures nécessaires afin de fournir les premiers soins aux blessés et malades.</p>
             <p class="acsList__p">Dans le cadre des mesures visant à garantir la santé des salariés, <b>équiper l’entreprise d'un défibrillateur automatique</b> est une option à considérer.</p>
-            <p class="acsList__p">Il est important de souligner que l'installation d’un <b>défibrillateur au sein de l’entreprise</b> ne dispense pas de se conformer aux obligations légales en matière de sécurité, notamment, en ce  qui concerne les mesures de prévention des risques.</p>
+            <p class="acsList__p">Il est important de souligner que l'installation d’un <b>défibrillateur au sein de l’entreprise</b> ne dispense pas de se conformer aux obligations légales en matière de sécurité, notamment, en ce qui concerne les mesures de prévention des risques.</p>
             <h3 class="acsList__h2">Pourquoi investir dans un défibrillateur si je n’en ai pas l’obligation légale ?</h3>
             <p class="acsList__p">L'<b>installation d'un défibrillateur dans le lieu de travail</b> présente de nombreux avantages tant pour vous, en tant qu'employeur, que pour votre entreprise dans son ensemble. En qualité de chef d'entreprise, vous avez la responsabilité de garantir la sécurité de vos collaborateurs. La <b>mise en place d'un défibrillateur dans votre entreprise</b> est donc une mesure judicieuse pour répondre à cette responsabilité légale tout en améliorant la sécurité de votre personnel.</p>
             <p class="acsList__p">Dans de nombreux pays comme le Danemark, des lois sur la santé et la sécurité au travail exigent la présence de défibrillateurs automatiques externes sur les chantiers de construction. Ces dispositifs ont déjà fait leurs preuves en sauvant des vies au sein des entreprises depuis leur introduction.</p>
@@ -444,8 +444,8 @@
                     <path d="M27.2687 13.9062C22.7172 13.9062 20.6835 17.0536 20.2477 20.0073C20.1993 20.2494 20.2961 20.5399 20.4898 20.7336C20.6835 20.9273 20.9256 21.0726 21.2161 21.0726H22.9108C23.3466 21.0726 23.734 20.7336 23.8308 20.2978C24.073 19.0389 24.8477 17.4894 27.3172 17.4894C29.254 17.4894 30.0287 18.5063 30.3677 19.1357C30.8035 20.0557 30.7551 21.0726 30.174 21.8473C29.6414 22.5736 29.1087 22.961 28.5277 23.3484C27.1235 24.3168 26.0098 25.3336 25.8161 28.1905C25.8161 28.4326 25.8645 28.7231 26.0582 28.9168C26.2519 29.1105 26.494 29.2073 26.7361 29.2073H28.3824C28.8666 29.2073 29.3024 28.8199 29.3024 28.3357C29.3993 27.0284 29.7382 26.7863 30.513 26.2536C31.1909 25.7694 32.0624 25.1399 32.9824 23.9294C34.3382 22.0894 34.5319 19.6199 33.4666 17.4894C32.3045 15.262 29.9803 13.9062 27.2687 13.9062Z" fill="#C22921"/>
                     <path d="M27.4631 35.1626C28.6665 35.1626 29.6421 34.187 29.6421 32.9836C29.6421 31.7802 28.6665 30.8047 27.4631 30.8047C26.2597 30.8047 25.2842 31.7802 25.2842 32.9836C25.2842 34.187 26.2597 35.1626 27.4631 35.1626Z" fill="#C22921"/>
                   </svg>
-                <h2>Où installer le défibrillateur dans  votre entreprise ?</h2>
-                <p>Pour placer un défibrillateur, il est essentiel de choisir un endroit ouvert, aisément accessible et avec beaucoup  de passage. Un tel emplacement assure que le défibrillateur sera rapidement repéré et utilisé en <a href="https://cardiopro.fr/reconnaitre-un-arret-cardiaque">cas d'urgence cardiaque</a>, ce qui peut avoir un impact déterminant sur la survie de la victime. </p>
+                <h2>Où installer le défibrillateur dans votre entreprise ?</h2>
+                <p>Pour placer un défibrillateur, il est essentiel de choisir un endroit ouvert, aisément accessible et avec beaucoup de passage. Un tel emplacement assure que le défibrillateur sera rapidement repéré et utilisé en <a href="https://cardiopro.fr/reconnaitre-un-arret-cardiaque">cas d'urgence cardiaque</a>, ce qui peut avoir un impact déterminant sur la survie de la victime. </p>
             </div>
             <div class="installer__item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
