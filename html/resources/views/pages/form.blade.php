@@ -165,8 +165,11 @@
                                         <p class="">Support mural</p>
                                     </div>
                                     <div class="sale__buttons">
-                                        <a href="" class="sale__choisir">Choisir</a>
-                                        <a href="" class="sale__ensavoir">En savoir +</a>
+                                        <a  href="" 
+                                            class="sale__choisir sale__button--dynamic" 
+                                            data-form-id="content-location-form"
+                                            data-form-price="39"
+                                            data-form-type="Location - Pack access">Choisir</a>
                                     </div>
                                 </div>
                             </div>
@@ -201,12 +204,65 @@
                                         <p class="">Support mural</p>
                                     </div>
                                     <div class="sale__buttons">
-                                        <a href="" class="sale__choisir">Choisir</a>
-                                        <a href="" class="sale__ensavoir">En savoir +</a>
+                                        <a  href="" 
+                                            class="sale__choisir sale__button--dynamic" 
+                                            data-form-id="content-location-form"
+                                            data-form-price="49"
+                                            data-form-type="Location - Pack Zen">Choisir</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="formPage__content--form__block" id="content-location-form">
+                        <h2 class="formPage__h2">3. Je saisis mes coordonnées</h2>
+                        <div class="formPage__content--form__header">
+                            <p class="formPage__content--form__header--top">Mon devis</p>
+                            <p class="formPage__content--form__header--price">
+                                <span class="formPage__content--form__header--price__span" id="price1"></span>
+                                <span>€</span></p>
+                            <p class="formPage__content--form__header--descRed">HT par mois</p>
+                            <p class="formPage__content--form__header--descBlue">* Offre soumise a conditions</p>
+                        </div>
+                        <form action="{{ route('send-form-1') }}" method="POST" class="formPage__content--form">
+                            @csrf
+                            <input type="hidden" id="price1-input" name="price1" value="{{ old('price1') ?: '' }}">
+                            <input type="hidden" id="type1-input" name="type1" value="{{ old('type1') ?: '' }}">
+                            <div class="formPage__form--row">
+                                <div class="formPage__form--group">
+                                    <label for="name1">Votre nom<span>*</span></label>
+                                    @error('name1')
+                                        <p class="text__danger">{{ $message }}</p>
+                                    @enderror
+                                    <input type="text" id="name1" name="name1" value="{{ old('name1') ?: '' }}">
+                                </div>
+                                <div class="formPage__form--group">
+                                    <label for="email1">Email<span>*</span></label>
+                                    @error('email1')
+                                        <p class="text__danger">{{ $message }}</p>
+                                    @enderror
+                                    <input type="text" id="email1" name="email1" value="{{ old('email1') ?: '' }}">
+                                </div>
+                            </div>
+                            <div class="formPage__form--row">
+                                <div class="formPage__form--group">
+                                    <label for="phone1">Téléphone<span>*</span></label>
+                                    @error('phone1')
+                                        <p class="text__danger">{{ $message }}</p>
+                                    @enderror
+                                    <input type="text" id="phone1" name="phone1" value="{{ old('phone1') ?: '' }}">
+                                </div>
+                                <div class="formPage__form--group">
+                                    <label for="company1">Société (optionnel)</label>
+                                    @error('company1')
+                                        <p class="text__danger">{{ $message }}</p>
+                                    @enderror
+                                    <input type="text" name="company1" id="company1" value="{{ old('company1') ?: '' }}">
+                                </div>
+                            </div>
+                            <button type="submit">Recevoir mon devis</button>
+                        </form>
                     </div>
                 </div>
                 <div class="formPage__content--block" id="achat-form">
