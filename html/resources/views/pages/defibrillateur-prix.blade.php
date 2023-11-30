@@ -365,10 +365,10 @@
             <table class="cardioTable__table">
                 <tr>
                     <th class="cardioTable__th__fr"></th>
-                    <th class="cardioTable__th">ACHAT</th>
-                    <th class="cardioTable__th">ACHAT PACK </th>
-                    <th class="cardioTable__th">LOCATION</th>
-                    <th class="cardioTable__th">LOCATION PACK </th>
+                    <th class="cardioTable__th">ACHAT PACK ACCESS</th>
+                    <th class="cardioTable__th">ACHAT PACK ZEN</th>
+                    <th class="cardioTable__th">LOCATION PACK ACCESS</th>
+                    <th class="cardioTable__th">LOCATION PACK ZEN</th>
                 </tr>
                 <tr>
                     <td class="cardioTable__gr" style="text-transform:uppercase;">PRIX</td>

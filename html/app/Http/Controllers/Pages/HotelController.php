@@ -27,11 +27,11 @@ class HotelController extends Controller
                     'link' => route('index'),
                 ],
                 [
-                    'name' => 'Nos Offres',
+                    'name' => 'Nos Solutions',
                     'link' => '#',
                 ],
                 [
-                    'name' => 'Location de défibrillateur',
+                    'name' => 'Hotel',
                     'link' => route('hotel'),
                 ],
             ],

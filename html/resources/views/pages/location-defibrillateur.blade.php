@@ -47,7 +47,7 @@
     <div class="container">
         <div class="slider__inner">
             <div class="sale__small__header">
-                <h2>Découvrez nos offres de location et de vente de défibrillateurs</h2>
+                <h2>Découvrez nos offres de location de défibrillateurs</h2>
             </div>
         <div class="sale__content sale__active__frame">
             <div class="sale__frame ">

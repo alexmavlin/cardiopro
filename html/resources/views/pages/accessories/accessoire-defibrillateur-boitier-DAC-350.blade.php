@@ -24,7 +24,7 @@
 <section class="boiter">
     <div class="container">
         <div class="boiter_inner">
-            <h2>Un boîtier pour défibrillateur résistant  aux intempéries</h2>
+            <h1>Un boîtier pour défibrillateur résistant aux intempéries</h1>
             <div class="boiter__list">
                 <div class="boiter__box">
                     <img    srcset="{{ asset('images/content/boiter_350.webp') }} 1920w,
@@ -38,7 +38,7 @@
                             class="boiter__img">
                 </div>
                 <div class="boiter__content">
-                    <p>Boitier Mural extérieur avec alarme : DAC 350</p>
+                    <h2>Boitier Mural extérieur avec alarme : DAC 350</h2>
                     <div class="boiter__item">
                         <div class="boiter__rectangle"></div>
                         <div class="boiter__item__header">
@@ -52,7 +52,7 @@
                             <p class="boiter_under__price__p">HT</p>
                             <p class="boiter_comment__p">*TVA à 20 %</p>
                             <div class="boiter__buttons">
-                                <a href="" class="boiter__choisir">Choisir</a>
+                                <a href="#" data-queue-btn="5" class="boiter__choisir">Choisir</a>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
 <section class="boiter-text bg-blue">
     <div class="container">
         <div class="boiter-text__inner">
-            <h2>Boîtier pour défibrillateur : protection  extérieure optimale</h2>
+            <h2>Boîtier pour défibrillateur : protection extérieure optimale</h2>
             <p>Protégez efficacement votre défibrillateur avec un <b>boîtier pour défibrillateur</b>. Conçu et testé pour être installé en extérieur, ce boîtier fabriqué en acier inoxydable est résistant aux intempéries et offre une protection fiable contre les éléments.</p>
             <p><b>Compatible avec tous les modèles de défibrillateurs</b>, il dispose d’une large fenêtre en plexiglas qui facilite la vérification visuelle du matériel. En outre, son installation est simple et il est <b>équipé d'une alarme</b> qui avertit immédiatement les personnes aux alentours en cas d'utilisation.</p>
         </div>
@@ -75,8 +75,8 @@
         <div class="defDescription__inner">
             <div class="defDescription__list">
                 <div class="defDescription__row">
-                    <button class="defDescription__button defDescription__active__button">Description</button>
-                    <button class="defDescription__button">Livraison</button>
+                    <h3 class="defDescription__button defDescription__active__button">Description</h3>
+                    <h3 class="defDescription__button">Livraison</h3>
                 </div>
             </div>
             <div class="defDescription__box ">
@@ -84,7 +84,8 @@
                     <p>Le <b>boitier mural DAC-350</b> a été développé et testé pour être posé en <b>extérieur</b> et résister aux intempéries. Permettant d'accueillir tous les défibrillateurs, il est fabriqué en acier inoxydable et dispose d'une large fenêtre en plexiglas pour faciliter la vérification visuelle du défibrillateur. Facile à installer, il dispose d’une alarme pour prévenir l’entourage de son usage.</p>
                 </div>
                 <div class="defDescription__item ">
-                    <P>2</P>
+                    <p>CardioPro vous assure une livraison de vos <a href="{{route('accessoires-defibrillateurs')}}" title="accessoires pour défibrillateur" style="color:#CA1D1F">accesoires pour défibrillateur</a> sous 48h ouvrées en France (sous réserve d’une commande avant midi). Nous mettons tout en oeuvre afin que votre expérience soit un véritable succès et nous vous efforçons de garantir une livraison sécurisée, selon le mode de livraison que vous choisirez.</p>
+                    <p>Plus d’informations dans notre article <a href="{{route('livraison-installation-defibrillateur')}}" title="Livraison et Installation defibrillateur semi-automatique">« Livraison et Installation ».</a></p>
                 </div>
             </div>
         </div>

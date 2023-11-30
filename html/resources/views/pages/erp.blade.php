@@ -3,8 +3,7 @@
 @section('content')
 <section class="mainScreen">
     <img    srcset="{{ asset('images/content/erp_formuleLocation.webp') }} 1920w,
-                    {{ asset('images/content/erp_formuleLocation_600.webp') }} 700w,
-                    {{ asset('images/content/erp_formuleLocation_400.webp 500w') }} 500w"
+                    {{ asset('images/content/erp_formuleLocation_600.webp') }} 700w"
             src="{{ asset('images/content/erp_formuleLocation.webp') }}"
             width="1600"
             height="580"
@@ -48,8 +47,7 @@
         <div class="acsList__inner">
             <div class="acsList__img__box">
                 <img    srcset="{{ asset('images/content/erp__acsList_1.webp') }} 1920w,
-                            {{ asset('images/content/erp__acsList_1_600.webp') }} 700w,
-                            {{ asset('images/content/erp__acsList_1_400.webp') }} 500w"
+                                {{ asset('images/content/erp__acsList_1_600.webp') }} 700w"
                         src="{{ asset('images/content/erp__acsList_1.webp') }}"
                         width="1100"
                         height="740"

@@ -34,7 +34,7 @@ class accessoireDefibrillateurPackTrainerController extends Controller
                     'link' => '#',
                 ],
                 [
-                    'name' => 'Nos Défibrillateurs et les prix',
+                    'name' => 'Accessoires',
                     'link' => route('defibrillateur-prix'),
                 ],
                 [

@@ -452,7 +452,7 @@
         </div>
     </div>
 </section>
-<section class="faq faq__prix" id="faq">
+<section class="faq faq__prix bg-white" id="faq">
     <div class="container">
         <div class="faq__inner">
             <h2 class="global__heading">

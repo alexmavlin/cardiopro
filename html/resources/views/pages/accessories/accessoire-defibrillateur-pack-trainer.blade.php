@@ -24,7 +24,7 @@
 <section class="boiter">
     <div class="container">
         <div class="boiter_inner">
-            <h2>Pack Trainer : votre assistant de massage cardiaque pratique et efficace</h2>
+            <h1>Pack Trainer : votre assistant de massage cardiaque pratique et efficace</h1>
             <div class="boiter__list">
                 <div class="boiter__box">
                     <img    srcset="{{ asset('images/content/pack_trainer.webp') }} 1920w,
@@ -38,7 +38,7 @@
                             class="boiter__img">
                 </div>
                 <div class="boiter__content">
-                    <p>Pack trainer : défibrillateur de formation & mannequin</p>
+                    <h2>Pack trainer : défibrillateur de formation & mannequin</h2>
                     <div class="boiter__item">
                         <div class="boiter__rectangle"></div>
                         <div class="boiter__item__header">
@@ -52,7 +52,7 @@
                             <p class="boiter_under__price__p">HT</p>
                             <p class="boiter_comment__p">*TVA à 20 %</p>
                             <div class="boiter__buttons">
-                                <a href="" class="boiter__choisir">Choisir</a>
+                                <a href="#" data-queue-btn="6" class="boiter__choisir">Choisir</a>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
 <section class="boiter-text bg-blue">
     <div class="container">
         <div class="boiter-text__inner">
-            <h2>Enseignez et entraînez-vous à l'utilisation  des défibrillateurs avec cet assistant de </h2>
+            <h2>Enseignez et entraînez-vous à l'utilisation  des défibrillateurs avec cet assistant de massage cardiaque.</h2>
             <p>Découvrez le Pack Trainer, votre <b>assistant de massage cardiaque</b> pour former et s'entraîner à l'utilisation des défibrillateurs externes automatiques (DAE). </p>
             <p>Ce pack comprend un <b>défibrillateur d'entraînement</b>, le mannequin Practi et un sac de transport. Il offre une flexibilité totale, fonctionnant sur secteur ou avec 3 piles AA. </p>
             <p>Avec des scénarios préprogrammés, il facilite l'apprentissage des compétences essentielles en cas d'urgence. Optez pour une formation complète et sécurisée pour être prêt à sauver des vies.</p>
@@ -76,8 +76,8 @@
         <div class="defDescription__inner">
             <div class="defDescription__list">
                 <div class="defDescription__row">
-                    <button class="defDescription__button defDescription__active__button">Description</button>
-                    <button class="defDescription__button">Livraison</button>
+                    <h3 class="defDescription__button defDescription__active__button">Description</h3>
+                    <h3 class="defDescription__button">Livraison</h3>
                 </div>
             </div>
             <div class="defDescription__box ">
@@ -86,7 +86,8 @@
                         compétences de base nécessaires pour utiliser le défibrillateur en cas d'urgence. Il n'y a pas de batterie à recharger, car elle peut fonctionner sur secteur ou sur 3 piles AA.</p>
                 </div>
                 <div class="defDescription__item ">
-                    <P>2</P>
+                    <p>CardioPro vous assure une livraison de vos <a href="{{route('accessoires-defibrillateurs')}}" title="accessoires pour défibrillateur" style="color:#CA1D1F">accesoires pour défibrillateur</a> sous 48h ouvrées en France (sous réserve d’une commande avant midi). Nous mettons tout en oeuvre afin que votre expérience soit un véritable succès et nous vous efforçons de garantir une livraison sécurisée, selon le mode de livraison que vous choisirez.</p>
+                    <p>Plus d’informations dans notre article <a href="{{route('livraison-installation-defibrillateur')}}" title="Livraison et Installation defibrillateur semi-automatique">« Livraison et Installation ».</a></p>
                 </div>
             </div>
         </div>

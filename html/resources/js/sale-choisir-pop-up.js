@@ -2,6 +2,7 @@ import { animateHeight, fadeIn, fadeOut } from './functions'
 
 let choisirPopupBtns = document.querySelectorAll('.sale__choisir')
 let defExplorePopupBtns = document.querySelectorAll('.defExplore__choisir')
+let boiterButtons = document.querySelectorAll('.boiter__choisir')
 
 let price
 let selectBox
@@ -68,6 +69,34 @@ if (defExplorePopupBtns.length > 0)
     })
 }
 
+if (boiterButtons.length > 0)
+{
+    closeBtn = document.querySelector('#defExplorePopUp__close')
+    boiterButtons.forEach(function(element) {
+        element.addEventListener("click", function(e) {
+            e.preventDefault()
+
+            setVarsDefExplorePopup(this)
+            showDefExplorePopUp()
+        })
+    })
+
+    closeBtn.addEventListener("click", function() {
+        if (choisirPopup)
+        {
+            if (choisirPopup.classList.contains('active'))
+            {
+                choisirPopup.classList.remove('active')
+                fadeOut(choisirPopup, 300, function() {
+                    choisirPopup.style.pointerEvents = "none"
+                    choisirPopup.style.display = "none"
+                    body.style.overflow = "auto"
+                })
+            }
+        }
+    })
+}
+
 function setVarsDefExplorePopup(element)
 {
     selectBox = document.querySelector('#packDefExplore')
@@ -79,7 +108,6 @@ function setVarsDefExplorePopup(element)
 function showDefExplorePopUp() 
 {
     selectBox.value = selectValue
-    console.log(selectValue, selectBox, selectBox.value)
 
     choisirPopup.style.display = "flex"
     body.style.overflow = "hidden"

@@ -34,7 +34,7 @@ class accessoireDefibrillateurSignaletiqueAutocollanteController extends Control
                     'link' => '#',
                 ],
                 [
-                    'name' => 'Nos Défibrillateurs et les prix',
+                    'name' => 'Accessoires',
                     'link' => route('defibrillateur-prix'),
                 ],
                 [

@@ -362,8 +362,7 @@
             </div>
             <div class="acsList__img__box">
                 <img    srcset="{{ asset('images/content/ehpad__acsList_2.webp') }} 1920w,
-                            {{ asset('images/content/ehpad__acsList_2_600.webp') }} 700w,
-                            {{ asset('images/content/ehpad__acsList_2_400.webp') }} 500w"
+                            {{ asset('images/content/ehpad__acsList_2_600.webp') }} 700w"
                         src="{{ asset('images/content/ehpad__acsList_2.webp') }}"
                         width="1100"
                         height="740"
@@ -381,7 +380,6 @@
 </section>
 <section class="installer">
     <div class="container">
-        <h2>CardioPro s’occupe de tout !</h2>
         <div class="installer__inner">
             <div class="installer__item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">

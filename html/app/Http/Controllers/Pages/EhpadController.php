@@ -27,7 +27,7 @@ class EhpadController extends Controller
                     'link' => route('index'),
                 ],
                 [
-                    'name' => 'Nos Offers',
+                    'name' => 'Nos Solutions',
                     'link' => '#',
                 ],
                 [

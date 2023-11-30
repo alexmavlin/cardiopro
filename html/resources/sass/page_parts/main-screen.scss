@@ -1,7 +1,7 @@
 .mainScreen {
     position: relative;
     overflow: hidden;
-    aspect-ratio: 1 / 0.3625;
+    aspect-ratio: 1 / 0.2312;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,6 +14,7 @@
         aspect-ratio:  1 / 0.3625;
         object-fit: cover;
         z-index: 1;
+        height: 370px !important;
     }
     &__filter {
         position: absolute;
@@ -52,6 +53,7 @@
     }
     .mainScreen__img {
         aspect-ratio: 1 / 1.1787;
+        height: unset !important;
     }
     .mainScreen__h1 {
         font-size: 32px;

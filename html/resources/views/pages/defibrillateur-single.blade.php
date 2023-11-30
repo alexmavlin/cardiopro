@@ -191,7 +191,6 @@
                         </div>
                         <div class="sale__buttons">
                             <a href="#" class="sale__choisir">Choisir</a>
-                            <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -227,7 +226,6 @@
                         </div>
                         <div class="sale__buttons">
                             <a href="#" class="sale__choisir">Choisir</a>
-                            <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
                 </div>
@@ -270,7 +268,6 @@
                             </div>
                             <div class="sale__buttons">
                                 <a href="#" class="sale__choisir">Choisir</a>
-                                <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                             </div>
                         </div>
                     </div>
@@ -306,7 +303,6 @@
                             </div>
                             <div class="sale__buttons">
                                 <a href="#" class="sale__choisir">Choisir</a>
-                                <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                             </div>
                         </div>
                     </div>
@@ -353,12 +349,12 @@
         <div class="defDescription__inner">
             <div class="defDescription__list">
                 <div class="defDescription__row">
-                    <button class="defDescription__button defDescription__active__button">Description</button>
-                    <button class="defDescription__button">Maintenance</button>
+                    <h3 class="defDescription__button defDescription__active__button">Description</h3>
+                    <h3 class="defDescription__button">Maintenance</h3>
                 </div>
                 <div class="defDescription__row">
-                    <button class="defDescription__button">Tarif & Subvention</button>
-                    <button class="defDescription__button">Livraison & Installation</button>
+                    <h3 class="defDescription__button">Tarif & Subvention</h3>
+                    <h3 class="defDescription__button">Livraison & Installation</h3>
                 </div>
             </div>
             <div class="defDescription__box ">
