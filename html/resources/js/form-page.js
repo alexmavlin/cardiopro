@@ -33,7 +33,6 @@ if (formPageButtonsRow)
 
             contentToShow = document.getElementById(this.getAttribute('data-link-id'))
             formToHide = contentToShow.parentElement.querySelector('.formPage__content--form__block')
-            console.log(formToHide, 'form to hide')
 
             startHeight = 0
             targetHeight = contentToShow.offsetHeight

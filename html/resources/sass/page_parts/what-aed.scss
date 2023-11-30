@@ -330,6 +330,7 @@
     }
     .whatAED__mobile {
         display: block;
+        object-fit: contain;
     }
 }
 @media (max-width: 450px) {

@@ -2,6 +2,7 @@ import { fadeIn } from "./functions";
 import { fadeOut } from "./functions";
 import { animateHeight } from "./functions";
 import { animateRotation } from "./functions";
+import { setVarsChoisirPopup } from "./sale-choisir-pop-up"
 
 const mediaQuery = window.matchMedia("(min-width: 1121px)")
 if (mediaQuery.matches) {
@@ -160,22 +161,24 @@ if (errorWidget)
     if (formId != 'default') {
     
 
-        let form = document.getElementById(formId)
-        let btn = document.querySelector('[data-link-id="' + formId + '"]')
-
-        let startHeight
-        let targetHeight
-
-        console.log(btn)
-
-        btn.classList.add('active')
-        form.style.position = "unset"
-        form.style.pointerEvents = "all"
-        form.style.opacity = 1
-        form.classList.add('active')
+        
 
         if (formId == 'achat-form')
         {
+            let form = document.getElementById(formId)
+            let btn = document.querySelector('[data-link-id="' + formId + '"]')
+
+            let startHeight
+            let targetHeight
+
+            console.log(btn)
+
+            btn.classList.add('active')
+            form.style.position = "unset"
+            form.style.pointerEvents = "all"
+            form.style.opacity = 1
+            form.classList.add('active')
+
             let achatForm = form.querySelector('#content-achat-form')
             let priceSpan = form.querySelector('#price2')
 
@@ -195,6 +198,20 @@ if (errorWidget)
         console.log(formId)
         if (formId == 'location-form')
         {
+            let form = document.getElementById(formId)
+            let btn = document.querySelector('[data-link-id="' + formId + '"]')
+
+            let startHeight
+            let targetHeight
+
+            console.log(btn)
+
+            btn.classList.add('active')
+            form.style.position = "unset"
+            form.style.pointerEvents = "all"
+            form.style.opacity = 1
+            form.classList.add('active')
+
             let locationForm = form.querySelector('#content-location-form')
             let priceSpan = form.querySelector('#price1')
 
@@ -209,6 +226,70 @@ if (errorWidget)
                 locationForm.style.pointerEvents = "all"
                 locationForm.style.position = "unset"
                 locationForm.classList.add('active')
+            })
+        }
+
+        if (formId == 'saleChoisirPopUp')
+        {
+            let choisirPopup = document.querySelector('#saleChoisirPopUp')
+            let body = document.querySelector('body')
+            let closeBtn
+
+            choisirPopup.style.display = "flex"
+            body.style.overflow = "hidden"
+
+            closeBtn = document.getElementById('saleChoisirPopUp__close')
+
+            fadeIn(choisirPopup, 200, function() {
+                choisirPopup.style.pointerEvents = "all"
+                choisirPopup.classList.add('active')
+            })
+
+            closeBtn.addEventListener("click", function() {
+                if (choisirPopup)
+                {
+                    if (choisirPopup.classList.contains('active'))
+                    {
+                        fadeOut(choisirPopup, 300, function() {
+                            choisirPopup.style.pointerEvents = "none"
+                            choisirPopup.style.display = "none"
+                            choisirPopup.classList.remove('active')
+                            body.style.overflow = "auto"
+                        })
+                    }
+                }
+            })
+        }
+
+        if (formId == 'defExplorePopUp')
+        {
+            let choisirPopup = document.querySelector('#defExplorePopUp')
+            let body = document.querySelector('body')
+            let closeBtn
+
+            choisirPopup.style.display = "flex"
+            body.style.overflow = "hidden"
+
+            closeBtn = document.getElementById('defExplorePopUp__close')
+
+            fadeIn(choisirPopup, 200, function() {
+                choisirPopup.style.pointerEvents = "all"
+                choisirPopup.classList.add('active')
+            })
+
+            closeBtn.addEventListener("click", function() {
+                if (choisirPopup)
+                {
+                    if (choisirPopup.classList.contains('active'))
+                    {
+                        fadeOut(choisirPopup, 300, function() {
+                            choisirPopup.style.pointerEvents = "none"
+                            choisirPopup.style.display = "none"
+                            choisirPopup.classList.remove('active')
+                            body.style.overflow = "auto"
+                        })
+                    }
+                }
             })
         }
     }

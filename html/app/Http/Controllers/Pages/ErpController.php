@@ -27,7 +27,7 @@ class ErpController extends Controller
                     'link' => route('index'),
                 ],
                 [
-                    'name' => 'Nos Offres',
+                    'name' => 'Nos Solutions',
                     'link' => '#',
                 ],
                 [

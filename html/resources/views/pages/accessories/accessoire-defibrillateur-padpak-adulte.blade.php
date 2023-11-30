@@ -24,12 +24,11 @@
 <section class="boiter">
     <div class="container">
         <div class="boiter_inner">
-            <h2>Batterie pour défibrillateur et électrodes (adulte) :  kit complet pour un usage optimal</h2>
+            <h1>Batterie pour défibrillateur et électrodes (adulte) : kit complet pour un usage optimal</h1>
             <div class="boiter__list">
                 <div class="boiter__box">
                     <img    srcset="{{ asset('images/content/padPak_adultes.webp') }} 1920w,
-                                    {{ asset('images/content/padPak_adultes.webp') }} 700w,
-                                    {{ asset('images/content/padPak_adultes_400.webp') }} 500w"
+                                    {{ asset('images/content/padPak_adultes_600.webp') }} 700w"
                             src="{{ asset('images/content/padPak_adultes.webp') }}"
                             width="523"
                             height="631"
@@ -38,7 +37,7 @@
                             class="boiter__img">
                 </div>
                 <div class="boiter__content">
-                    <p>PadPak adultes</p>
+                    <h2>PadPak adultes</h2>
                     <div class="boiter__item">
                         <div class="boiter__rectangle"></div>
                         <div class="boiter__item__header">
@@ -52,7 +51,7 @@
                             <p class="boiter_under__price__p">HT</p>
                             <p class="boiter_comment__p">*TVA à 20 %</p>
                             <div class="boiter__buttons">
-                                <a href="" class="boiter__choisir">Choisir</a>
+                                <a href="#" data-queue-btn="1" class="boiter__choisir">Choisir</a>
                             </div>
                         </div>
                     </div>
@@ -65,7 +64,7 @@
     <div class="container">
         <div class="boiter-text__inner">
             <h2>Kit batterie pour défibrillateur et électrodes (adulte) : l'indispensable pour votre défibrillateur</h2>
-            <p>Ce PadPak adulte est essentiel pour les défibrillateurs comme le <a href="https://cardiopro.fr/defibrillateur-prix/defibrillateur-automatique-heartsine-360P">défibrillateur Heartsine 360P</a> et le <a href="https://cardiopro.fr/defibrillateur-prix/defibrillateur-semi-automatique-heartsine-350P">DSA Heartsine 350P</a>. </p>
+            <p>Ce PadPak adulte est essentiel pour les <a href="{{ route('defibrillateur-single') }}"><span>défibrillateurs</span></a></p>
             <p>Il contient une <b>batterie pour défibrillateur et des électrodes</b> (adulte), adaptées aux victimes de plus de 25 kilos ou de plus de 8 ans.</p>
             <p>Ce kit a une durée de vie de 4 ans et sa pile permet plus de 60 chocs à 200J/18V ou six heures de suivi continu. </p>
             <p>En outre, une alerte retentit lorsque la charge atteint dix décharges ou moins.</p>
@@ -77,8 +76,8 @@
         <div class="defDescription__inner">
             <div class="defDescription__list">
                 <div class="defDescription__row">
-                    <button class="defDescription__button defDescription__active__button">Description</button>
-                    <button class="defDescription__button">Livraison</button>
+                    <h3 class="defDescription__button defDescription__active__button">Description</h3>
+                    <h3 class="defDescription__button">Livraison</h3>
                 </div>
             </div>
             <div class="defDescription__box ">
@@ -86,7 +85,8 @@
                     <p>Le <b>PadPak adulte</b> est le kit qui contient le pack de piles et d’électrodes pour les <b>défibrillateurs Samaritan PAD</b>. Sa durée de vie est de 4 ans, il peut administrer minimum 30 chocs de 200J. Avec un câble d’un mètre de long, une surface active du gel de 100cm2, il est destiné à secourir une victime adulte. Le positionnement des électrodes est antérolatéral, et la pile est fabriquée à partir de lithium-dioxyde de manganèse, délivrant plus de 60 chocs à 200J/18V.</p>
                 </div>
                 <div class="defDescription__item ">
-                    <P>2</P>
+                    <p>CardioPro vous assure une livraison de vos <a href="{{ route('accessoires-defibrillateurs')}}" title="accessoires pour défibrillateur" style="color:#CA1D1F">accesoires pour défibrillateur</a> sous 48h ouvrées en France (sous réserve d’une commande avant midi). Nous mettons tout en oeuvre afin que votre expérience soit un véritable succès et nous vous efforçons de garantir une livraison sécurisée, selon le mode de livraison que vous choisirez.</p>
+                    <p>Plus d’informations dans notre article <a href="/livraison-installation-defibrillateur" title="Livraison et Installation defibrillateur semi-automatique">« Livraison et Installation ».</a></p>
                 </div>
             </div>
         </div>

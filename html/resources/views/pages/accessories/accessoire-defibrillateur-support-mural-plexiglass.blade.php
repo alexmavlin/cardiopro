@@ -24,7 +24,7 @@
 <section class="boiter">
     <div class="container">
         <div class="boiter_inner">
-            <h2>Support mural défibrillateur : stockage facile et signalétique claire</h2>
+            <h1>Support mural défibrillateur : stockage facile et signalétique claire</h1>
             <div class="boiter__list">
                 <div class="boiter__box">
                     <img    srcset="{{ asset('images/content/support_mural.webp') }} 1920w,
@@ -38,7 +38,7 @@
                             class="boiter__img">
                 </div>
                 <div class="boiter__content">
-                    <p>Support mural en plexiglass</p>
+                    <h2>Support mural en plexiglass</h2>
                     <div class="boiter__item">
                         <div class="boiter__rectangle"></div>
                         <div class="boiter__item__header">
@@ -52,7 +52,7 @@
                             <p class="boiter_under__price__p">HT</p>
                             <p class="boiter_comment__p">*TVA à 20 %</p>
                             <div class="boiter__buttons">
-                                <a href="" class="boiter__choisir">Choisir</a>
+                                <a href="#" data-queue-btn="9" class="boiter__choisir">Choisir</a>
                             </div>
                         </div>
                     </div>
@@ -76,8 +76,8 @@
         <div class="defDescription__inner">
             <div class="defDescription__list">
                 <div class="defDescription__row">
-                    <button class="defDescription__button defDescription__active__button">Description</button>
-                    <button class="defDescription__button">Livraison</button>
+                    <h3 class="defDescription__button defDescription__active__button">Description</h3>
+                    <h3 class="defDescription__button">Livraison</h3>
                 </div>
             </div>
             <div class="defDescription__box ">
@@ -85,7 +85,8 @@
                     <p>Avec ce <b>kit support mural</b> pour DAE, placez stratégiquement votre défibrillateur afin qu'il reste dans de bonnes conditions de stockage. Sa signalétique permettra aux employés et visiteurs de savoir rapidement où il se trouve. Fait en plastique transparent, il répond parfaitement aux règles standard (avec un pictogramme « DAE » et les dimensions idéales : 460 x 250 x 150 mm).</p>
                 </div>
                 <div class="defDescription__item ">
-                    <P>2</P>
+                    <p>CardioPro vous assure une livraison de vos <a href="{{route('accessoires-defibrillateurs')}}" title="accessoires pour défibrillateur" style="color:#CA1D1F">accesoires pour défibrillateur</a> sous 48h ouvrées en France (sous réserve d’une commande avant midi). Nous mettons tout en oeuvre afin que votre expérience soit un véritable succès et nous vous efforçons de garantir une livraison sécurisée, selon le mode de livraison que vous choisirez.</p>
+                    <p>Plus d’informations dans notre article <a href="{{route('livraison-installation-defibrillateur')}}" title="Livraison et Installation defibrillateur semi-automatique">« Livraison et Installation ».</a></p>
                 </div>
             </div>
         </div>

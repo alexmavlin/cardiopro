@@ -24,7 +24,7 @@
 <section class="boiter">
     <div class="container">
         <div class="boiter_inner">
-            <h2>Batterie pour défibrillateur et électrodes pédiatriques :  facilité d'utilisation en cas d’urgence</h2>
+            <h1>Batterie pour défibrillateur et électrodes pédiatriques : facilité d'utilisation en cas d’urgence</h1>
             <div class="boiter__list">
                 <div class="boiter__box">
                     <img    srcset="{{ asset('images/content/padPak_Pédiatrique.webp') }} 1920w,
@@ -38,7 +38,7 @@
                             class="boiter__img">
                 </div>
                 <div class="boiter__content">
-                    <p>PadPak Pédiatrique</p>
+                    <h2>PadPak Pédiatrique</h2>
                     <div class="boiter__item">
                         <div class="boiter__rectangle"></div>
                         <div class="boiter__item__header">
@@ -52,7 +52,7 @@
                             <p class="boiter_under__price__p">HT</p>
                             <p class="boiter_comment__p">*TVA à 20 %</p>
                             <div class="boiter__buttons">
-                                <a href="" class="boiter__choisir">Choisir</a>
+                                <a href="#" data-link-btn="2" class="boiter__choisir">Choisir</a>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
     <div class="container">
         <div class="boiter-text__inner">
             <h2>PadPak pédiatrique : le kit complet avec de défibrillateur et électrodes (pédiatriques)</h2>
-            <p>Le PadPak pédiatrique est le kit indispensable pour les interventions d'urgence chez les enfants (jusqu'à 8 ans ou 25 kg) avec les défibrillateurs comme le <a href="https://cardiopro.fr/defibrillateur-prix/defibrillateur-automatique-heartsine-360P">défibrillateur Heartsine 360P</a> et le <a href="https://cardiopro.fr/defibrillateur-prix/defibrillateur-semi-automatique-heartsine-350P">DSA Heartsine 350P</a>. </p>
+            <p>Le PadPak pédiatrique est le kit indispensable pour les interventions d'urgence chez les enfants (jusqu'à 8 ans ou 25 kg) avec un <a href="{{ route('defibrillateur-single') }}"><span>défibrillateur</span></a>.</p>
             <p>Ce kit comprend une <b>batterie pour défibrillateur et des électrodes (pédiatriques)</b> pré-gélifiées et auto-adhésives. Sa durée de vie est de 4 ans à partir de la date de fabrication.</p>
             <p>Son <b>autonomie est de 6 heures</b> en opération continue et il peut administrer au moins 60 chocs à 50 joules.</p>
         </div>
@@ -76,8 +76,8 @@
         <div class="defDescription__inner">
             <div class="defDescription__list">
                 <div class="defDescription__row">
-                    <button class="defDescription__button defDescription__active__button">Description</button>
-                    <button class="defDescription__button">Livraison</button>
+                    <h3 class="defDescription__button defDescription__active__button">Description</h3>
+                    <h3 class="defDescription__button">Livraison</h3>
                 </div>
             </div>
             <div class="defDescription__box ">
@@ -86,7 +86,8 @@
                         ECG/défibrillation et sont combinées pré-connectées au défibrillateur. Elles sont pré-gélifiées et auto-adhésives pour permettre au secouriste d’aller vite dans son opération.</p>
                 </div>
                 <div class="defDescription__item ">
-                    <P>2</P>
+                    <p>CardioPro vous assure une livraison de vos <a href="{{ route('accessoires-defibrillateurs') }}" title="accessoires pour défibrillateur" style="color:#CA1D1F">accesoires pour défibrillateur</a> sous 48h ouvrées en France (sous réserve d’une commande avant midi). Nous mettons tout en oeuvre afin que votre expérience soit un véritable succès et nous vous efforçons de garantir une livraison sécurisée, selon le mode de livraison que vous choisirez.</p>
+                    <p>Plus d’informations dans notre article <a href="{{ route('livraison-installation-defibrillateur') }}" title="Livraison et Installation defibrillateur semi-automatique">« Livraison et Installation ».</a></p>
                 </div>
             </div>
         </div>

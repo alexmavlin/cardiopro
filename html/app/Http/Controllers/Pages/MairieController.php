@@ -27,11 +27,11 @@ class MairieController extends Controller
                     'link' => route('index'),
                 ],
                 [
-                    'name' => 'Nos Offres',
+                    'name' => 'Nos Solutions',
                     'link' => '#',
                 ],
                 [
-                    'name' => 'Location de défibrillateur',
+                    'name' => 'Mairie',
                     'link' => route('mairie'),
                 ],
             ],

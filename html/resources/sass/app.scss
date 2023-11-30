@@ -1096,7 +1096,8 @@ button.sale__button__active {
     align-items: center;
     text-align: center;
 }
-.sale__choisir {
+.sale__choisir,
+.sale__button--dynamic {
     flex-grow: 1;
     max-width: 182px;
     width: 100%;

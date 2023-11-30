@@ -71,7 +71,7 @@
                     <p class="defExplore__ht">HT*</p>
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
-                        <a href="" class="defExplore__choisir">Choisir</a>
+                        <a href="#" data-queue-btn="1" class="defExplore__choisir" data-select-value="PadPak Adulte">Choisir</a>
                         <a href="{{ route('accessoire-defibrillateur-padpak-adulte') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                     <p class="defExplore__ht">HT*</p>
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
-                        <a href="" class="defExplore__choisir">Choisir</a>
+                        <a href="#" data-queue-btn="2" class="defExplore__choisir" data-select-value="PadPak Pédiatrique">Choisir</a>
                         <a href="{{ route('accessoire-defibrillateur-padpak-pédiatrique') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
@@ -115,7 +115,7 @@
                     <p class="defExplore__ht">HT*</p>
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
-                        <a href="" class="defExplore__choisir">Choisir</a>
+                        <a href="#" data-queue-btn="3" class="defExplore__choisir" data-select-value="Trousse de Secours">Choisir</a>
                         <a href="{{ route('accessoire-defibrillateur-trousse-de-secours') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                     <p class="defExplore__ht">HT*</p>
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
-                        <a href="" class="defExplore__choisir">Choisir</a>
+                        <a href="#" data-queue-btn="4" class="defExplore__choisir" data-select-value="Boitier Mural intérieur avec alarme: Aivia 100">Choisir</a>
                         <a href="{{ route('accessoire-defibrillateur-boitier-Aivia-100') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
@@ -159,7 +159,7 @@
                     <p class="defExplore__ht">HT*</p>
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
-                        <a href="" class="defExplore__choisir">Choisir</a>
+                        <a href="#" data-queue-btn="5" class="defExplore__choisir" data-select-value="Boitier Mural extérieur avec alarme : DAC 350">Choisir</a>
                         <a href="{{ route('accessoire-defibrillateur-boitier-DAC-350') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
@@ -181,7 +181,7 @@
                     <p class="defExplore__ht">HT*</p>
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
-                        <a href="" class="defExplore__choisir">Choisir</a>
+                        <a href="#" data-queue-btn="6" class="defExplore__choisir" data-select-value="Défibrillateur de Formation & Fannequin">Choisir</a>
                         <a href="{{ route('accessoire-defibrillateur-pack-trainer') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
@@ -203,7 +203,7 @@
                     <p class="defExplore__ht">HT*</p>
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
-                        <a href="" class="defExplore__choisir">Choisir</a>
+                        <a href="#" data-queue-btn="7" class="defExplore__choisir" data-select-value="Samaritan PAD Trainer">Choisir</a>
                         <a href="{{ route('accessoire-defibrillateur-Samaritan-PAD-Trainer') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
@@ -225,7 +225,7 @@
                     <p class="defExplore__ht">HT*</p>
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
-                        <a href="" class="defExplore__choisir">Choisir</a>
+                        <a href="#" data-queue-btn="8" class="defExplore__choisir" data-select-value="Signalétique autocollante">Choisir</a>
                         <a href="{{ route('accessoire-defibrillateur-signaletique-autocollante') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>
@@ -247,7 +247,7 @@
                     <p class="defExplore__ht">HT*</p>
                     <p class="defExplore__dscr">*TVA à 20 %</p>
                     <div class="defExplore__buttons">
-                        <a href="" class="defExplore__choisir">Choisir</a>
+                        <a href="#" data-queue-btn="9" class="defExplore__choisir" data-select-value="Support mural en plexiglass">Choisir</a>
                         <a href="{{ route('accessoire-defibrillateur-support-mural-plexiglass') }}" class="defExplore__ensavoir">En savoir +</a>
                     </div>
                 </div>

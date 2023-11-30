@@ -166,7 +166,7 @@
                                     </div>
                                     <div class="sale__buttons">
                                         <a  href="" 
-                                            class="sale__choisir sale__button--dynamic" 
+                                            class="sale__button--dynamic" 
                                             data-form-id="content-location-form"
                                             data-form-price="39"
                                             data-form-type="Location - Pack access">Choisir</a>
@@ -205,7 +205,7 @@
                                     </div>
                                     <div class="sale__buttons">
                                         <a  href="" 
-                                            class="sale__choisir sale__button--dynamic" 
+                                            class="sale__button--dynamic" 
                                             data-form-id="content-location-form"
                                             data-form-price="49"
                                             data-form-type="Location - Pack Zen">Choisir</a>
@@ -346,7 +346,7 @@
                                     </div>
                                     <div class="sale__buttons">
                                         <a  href="" 
-                                            class="sale__choisir sale__button--dynamic" 
+                                            class="sale__button--dynamic" 
                                             data-form-id="content-achat-form"
                                             data-form-price="1190"
                                             data-form-type="Achat - Pack access">Choisir</a>
@@ -385,7 +385,7 @@
                                     </div>
                                     <div class="sale__buttons">
                                         <a  href="" 
-                                            class="sale__choisir sale__button--dynamic" 
+                                            class="sale__button--dynamic" 
                                             data-form-id="content-achat-form"
                                             data-form-price="1490"
                                             data-form-type="Achat - Pack zen">Choisir</a>
