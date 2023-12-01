@@ -28,10 +28,6 @@ class ReconnaitreUnArretCardiaqueController extends Controller
                     'link' => route('index'),
                 ],
                 [
-                    'name' => 'Sauvons des Vies',
-                    'link' => '#',
-                ],
-                [
                     'name' => 'Reconnaitre un arret cardiaque',
                     'link' => route('reconnaitre-un-arret-cardiaque'),
                 ],

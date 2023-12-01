@@ -28,7 +28,7 @@ class LesSubventionsController extends Controller
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => '#',
+                    'link' => route('defibrillateur-prix'),
                 ],
                 [
                     'name' => 'FAQ Défibrillateur',

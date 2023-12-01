@@ -28,7 +28,7 @@ class MaintenanceDefibrillateurController extends Controller
                 ],
                 [
                     'name' => 'Nos Offres',
-                    'link' => '#',
+                    'link' => route('defibrillateur-prix'),
                 ],
                 [
                     'name' => 'Maintenance de défibrillateur',

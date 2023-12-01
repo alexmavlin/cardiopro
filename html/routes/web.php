@@ -5,6 +5,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'IndexController')->name('index');
 
+Route::group(['namespace' => 'Admin', 'prefix' => 'admin'], function() {
+    /* Admin Dashboard */
+    Route::get('/dashboard', 'DashboardController')->name('admin.dashboard');
+    /* // Admin Dashboard */
+
+    /* Admin Blog */
+    Route::group(['namespace' => 'Blog', 'prefix' => 'blog'], function() {
+        Route::get('/create', 'CreateController')->name('admin.blog.create');
+    });
+    /* // Admin Blog */
+});
+
 Route::group(['namespace' => 'Mailer', 'prefix' => 'email'], function() {
     Route::post('/send', 'SendContactController@sendContactPage')->name('send-main-contact');
     Route::post('/send-form-3', 'SendContactController@sendForm3')->name('send-form-3');

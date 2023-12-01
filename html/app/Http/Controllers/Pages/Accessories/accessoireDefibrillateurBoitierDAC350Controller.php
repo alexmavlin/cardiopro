@@ -31,11 +31,11 @@ class accessoireDefibrillateurBoitierDAC350Controller extends Controller
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => '#',
+                    'link' => route('defibrillateur-prix'),
                 ],
                 [
                     'name' => 'Accessoires',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => route('accessoires-defibrillateurs'),
                 ],
                 [
                     'name' => 'Boitier Mural DAC-350',

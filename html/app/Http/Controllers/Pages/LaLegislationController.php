@@ -27,10 +27,6 @@ class LaLegislationController extends Controller
                     'link' => route('index'),
                 ],
                 [
-                    'name' => 'Sauvons des Vies',
-                    'link' => '#',
-                ],
-                [
                     'name' => 'La Législation',
                     'link' => route('legislation-defibrillateur'),
                 ],

@@ -28,10 +28,6 @@ class DefibrillateurCardiaqueCestQuoiController extends Controller
                     'link' => route('defibrillateur-cardiaque-cest-quoi'),
                 ],
                 [
-                    'name' => 'Sauvons des Vies',
-                    'link' => '#',
-                ],
-                [
                     'name' => "Qu'est ce qu'un défibrillateur ?",
                     'link' => route('defibrillateur-cardiaque-cest-quoi'),
                 ],

@@ -31,11 +31,11 @@ class accessoireDfibrillateurPadpakPediatriqueController extends Controller
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => '#',
+                    'link' => route('defibrillateur-prix'),
                 ],
                 [
                     'name' => 'Accessoires',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => route('accessoires-defibrillateurs'),
                 ],
                 [
                     'name' => 'PadPak Pédiatrique',

@@ -29,7 +29,7 @@ class DifferenceDefibrillateurController extends Controller
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => '#',
+                    'link' => route('defibrillateur-prix'),
                 ],
                 [
                     'name' => 'Différence DAE DSA',

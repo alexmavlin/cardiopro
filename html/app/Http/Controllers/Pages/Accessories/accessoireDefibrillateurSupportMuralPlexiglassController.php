@@ -31,11 +31,11 @@ class accessoireDefibrillateurSupportMuralPlexiglassController extends Controlle
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => '#',
+                    'link' => route('defibrillateur-prix'),
                 ],
                 [
                     'name' => 'Accessoires',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => route('accessoires-defibrillateurs'),
                 ],
                 [
                     'name' => 'Support mural en plexiglass',

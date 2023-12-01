@@ -29,7 +29,7 @@ class ObligationsController extends Controller
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => '#',
+                    'link' => route('defibrillateur-prix'),
                 ],
                 [
                     'name' => 'Défibrillateur Obligatoire',

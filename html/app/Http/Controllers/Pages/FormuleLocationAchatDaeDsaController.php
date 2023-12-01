@@ -29,7 +29,7 @@ class FormuleLocationAchatDaeDsaController extends Controller
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => '#',
+                    'link' => route('defibrillateur-prix'),
                 ],
                 [
                     'name' => 'Formule location et achat DAE',

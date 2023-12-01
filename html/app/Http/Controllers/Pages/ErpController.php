@@ -28,7 +28,7 @@ class ErpController extends Controller
                 ],
                 [
                     'name' => 'Nos Solutions',
-                    'link' => '#',
+                    'link' => route('defibrillateur-prix'),
                 ],
                 [
                     'name' => 'Location de défibrillateur',

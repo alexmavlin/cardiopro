@@ -18,6 +18,7 @@ class AccessoiresDefibrillateursController extends Controller
 
     public function __invoke()
     {
+        
         $data = [
             'description' => $this->description,
             'keywords' => $this->keywords,
@@ -29,7 +30,7 @@ class AccessoiresDefibrillateursController extends Controller
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => '#',
+                    'link' => route('defibrillateur-prix'),
                 ],
                 [
                     'name' => 'Accessoires pour défibrillateurs',

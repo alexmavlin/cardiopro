@@ -29,7 +29,7 @@ class DefibrillateurSingleController extends Controller
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => '#',
+                    'link' => route('defibrillateur-prix'),
                 ],
                 [
                     'name' => 'Nos Défibrillateurs et les prix',
