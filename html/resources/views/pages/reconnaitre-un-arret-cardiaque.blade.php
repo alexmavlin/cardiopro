@@ -99,7 +99,7 @@
                     <div class="whatAED__content">
                         <h3 class="whatAED__content__header">Ralentissement du rythme cardiaque, comment un défibrillateur peut renverser la situation ?</h3>
                         <p class="whatAED__content__p">Dans de nombreux cas <b>d'arrêt cardiaque</b>, le cœur bat toujours, mais le <b>rythme des battements est si anormal</b> que la contraction du cœur ne fonctionne pas et que le cœur <b>ne peut plus remplir sa fonction de pompage</b>: il s'agit d’une fibrillation. Le DAE peut être utilisé pour <b>analyser le rythme cardiaque</b> de la victime et <b>administrer le choc</b> nécessaire pour <b>rétablir un rythme normal des battements du cœur</b> (sinusal). Si la <b>réanimation cardio-pulmonaire</b> et la défibrillation sont effectuées dans les premières minutes suivant l'arrêt cardiaque, les <b>chances de survie augmentent grandement</b>.</p>
-                        <p class="whatAED__content__p">Cardiopro contribue à l'effort national visant à abaisser le taux de mortalité suite à un arrêt cardiaque, en proposant aux ERP et Entreprises des packs de <a href="https://cardiopro.fr/location-defibrillateur">location de défibrillateurs tout</a> compris !</p>
+                        <p class="whatAED__content__p">Cardiopro contribue à l'effort national visant à abaisser le taux de mortalité suite à un arrêt cardiaque, en proposant aux ERP et Entreprises des packs de <a href="{{route('location-defibrillateur')}}">location de défibrillateurs tout</a> compris !</p>
                     </div>
                 </div>
             </div>

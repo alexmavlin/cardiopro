@@ -443,7 +443,7 @@
                             title="" 
                             class="rightDef__img">
                     <h3 class="rightDef__title">Besoin d'un défibrillateur automatique externe ?</h3>
-                    <p class="rightDef__text">Pour les ERP et de nombreuses entreprises, la <a href="https://cardiopro.fr/obligations">présence d'un défibrillateur est une obligation légale</a>. Cependant, il ne faut pas oublier qu’il s’agit avant tout d’un dispositif médical capable de sauver des vies ; qu'il s'agisse de membres de votre personnel, de clients ou de visiteurs. 
+                    <p class="rightDef__text">Pour les ERP et de nombreuses entreprises, la <a href="{{route('obligations')}}">présence d'un défibrillateur est une obligation légale</a>. Cependant, il ne faut pas oublier qu’il s’agit avant tout d’un dispositif médical capable de sauver des vies ; qu'il s'agisse de membres de votre personnel, de clients ou de visiteurs. 
                         Même avec un budget restreint, il existe des solutions abordables pour répondre à tous vos besoins en matière de défibrillation. </p>
                 </div>
                 <div class="rightDef__item">
@@ -454,7 +454,7 @@
                             title="" 
                             class="rightDef__img">
                     <h3 class="rightDef__title">Comment sélectionner le tarif ou modèle qui me convient ?</h3>
-                    <p class="rightDef__text">En ce qui concerne nos offres, vous avez le choix entre la location et l’<a href="">achat de votre défibrillateur</a>, chacune ayant ses avantages. Un défibrillateur cardiaque a un prix d’achat allant de 1190 à 2590 €, 
+                    <p class="rightDef__text">En ce qui concerne nos offres, vous avez le choix entre la location et l’<a href="{{route('achat-defibrillateur')}}">achat de votre défibrillateur</a>, chacune ayant ses avantages. Un défibrillateur cardiaque a un prix d’achat allant de 1190 à 2590 €, 
                         tandis que les mensualités de location sont comprises entre 39 et 69 €.  </p>
                     <p class="rightDef__text">Le prix d’un défibrillateur dépend de plusieurs critères, notamment le modèle, la marque, le type d'entretien et les services inclus dans le contrat.</p>
                 </div>
@@ -468,7 +468,7 @@
                             title="" 
                             class="rightDef__img">
                     <h3 class="rightDef__title">Maintenance et entretien : des éléments à prendre en compte</h3>
-                    <p class="rightDef__text">En plus du coût initial du défibrillateur, il est essentiel de prendre en compte les dépenses liées à son entretien. Ces dispositifs nécessitent une <a href="https://cardiopro.fr/maintenance-defibrillateur">maintenance régulière</a>, dont le coût moyen annuel se situe entre 240 et 480 €. 
+                    <p class="rightDef__text">En plus du coût initial du défibrillateur, il est essentiel de prendre en compte les dépenses liées à son entretien. Ces dispositifs nécessitent une <a href="{{route('maintenance-defibrillateur')}}">maintenance régulière</a>, dont le coût moyen annuel se situe entre 240 et 480 €. 
                         Assurez-vous également que le modèle choisi est conforme aux normes en vigueur.</p>
                 </div>
                 <div class="rightDef__item">
@@ -512,7 +512,7 @@
                     </div>
                     <div class="faq__content">
                         <p>Le Défibrillateur Automatique Externe (DAE) est une machine médicale automatisée qui permet au grand public de <strong>réagir rapidement en cas d'arrêt cardiaque</strong>. Facile d'utilisation et ne nécessitant pas de formation médicale, le DAE fournit des instructions vocales claires et précises, guide l'utilisateur tout au long du processus et administre automatiquement un choc électrique lorsque cela est nécessaire. La seule action requise pour utiliser ce dispositif est de placer correctement les électrodes conformément aux indications fournies.</p>
-                        <p>Les <strong>DAE sont particulièrement adaptés aux entreprises</strong> et <a href="https://cardiopro.fr/erp">établissements recevant du public</a> (ERP) où le personnel n’est pas forcément formé à la pratique des premiers secours. </p>
+                        <p>Les <strong>DAE sont particulièrement adaptés aux entreprises</strong> et <a href="{{route('erp')}}">établissements recevant du public</a> (ERP) où le personnel n’est pas forcément formé à la pratique des premiers secours. </p>
                     </div>
                 </div>
                 <div class="faq__item">
@@ -521,7 +521,7 @@
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>Lorsque vous choisissez un défibrillateur, assurez-vous de prendre en compte sa fiabilité à long terme, même si le prix reste un critère important. Évitez l'erreur fréquente de rechercher uniquement un modèle bon marché en ligne, sans évaluer correctement vos besoins en matière de maintenance. Privilégiez plutôt un <a href="https://cardiopro.fr/">service professionnel spécialisé dans les défibrillateurs</a>, offrant un suivi adapté à des tarifs compétitifs pour la sécurité de tous.</p>
+                        <p>Lorsque vous choisissez un défibrillateur, assurez-vous de prendre en compte sa fiabilité à long terme, même si le prix reste un critère important. Évitez l'erreur fréquente de rechercher uniquement un modèle bon marché en ligne, sans évaluer correctement vos besoins en matière de maintenance. Privilégiez plutôt un <a href="{{route('index')}}">service professionnel spécialisé dans les défibrillateurs</a>, offrant un suivi adapté à des tarifs compétitifs pour la sécurité de tous.</p>
                     </div>
                 </div>
                 <div class="faq__item">

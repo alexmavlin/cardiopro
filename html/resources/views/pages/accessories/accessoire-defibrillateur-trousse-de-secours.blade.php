@@ -64,7 +64,7 @@
 <section class="boiter-text bg-blue">
     <div class="container">
         <div class="boiter-text__inner">
-            <h2>Trousse de secours : l’indispensable pour  des premiers secours efficaces</h2>
+            <h2>Trousse de secours : l’indispensable pour des premiers secours efficaces</h2>
             <p>Ce <b>kit de secours</b> contient tout l’essentiel pour des premiers secours efficaces et une utilisation optimale du défibrillateur cardiaque.</p>
             <p>Présenté dans une <b>trousse de secours</b> compacte, ce kit comprend :</p>
             <ul>

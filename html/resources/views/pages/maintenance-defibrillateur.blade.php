@@ -38,7 +38,7 @@
     <div class="container">
         <div class="mastHead__inner">
             <h2 class="mastHead__h2">Confiez la maintenance et l’entretien de vos défibrillateurs à CardioPro</h2>
-            <p class="mastHead__p">Si vous avez installé des <a href="https://cardiopro.fr/entreprise">défibrillateurs dans votre entreprise </a>ou ERP, sachez que leur maintenance est obligatoire. Optez pour la tranquillité d'esprit en confiant cette tâche à des spécialistes. Chez CardioPro, nous nous chargeons de l’entretien et de la maintenance de vos défibrillateurs, vous libérant de cette préoccupation.</p>
+            <p class="mastHead__p">Si vous avez installé des <a href="{{route('entreprise')}}">défibrillateurs dans votre entreprise </a>ou ERP, sachez que leur maintenance est obligatoire. Optez pour la tranquillité d'esprit en confiant cette tâche à des spécialistes. Chez CardioPro, nous nous chargeons de l’entretien et de la maintenance de vos défibrillateurs, vous libérant de cette préoccupation.</p>
         </div>
     </div>
 </section>
@@ -55,7 +55,7 @@
                     class="defCabinet__img__maintenance__1"> 
                 <div class="defCabinet__text">
                     <p>Pour assurer la performance et la fiabilité de votre défibrillateur, une <b>maintenance professionnelle</b> s'avère essentielle. En France, où près de 50 000 arrêts cardiaques surviennent chaque année, l’état de votre défibrillateur peut faire la différence entre la vie et la mort. </p>
-                    <p>La <a href="https://cardiopro.fr/legislation-defibrillateur"></a>législation requiert cette maintenance. En effet, conformément au décret n°2018-1186 du 19 décembre 2018, le propriétaire du défibrillateur doit veiller à sa maintenance. Les chefs d'entreprise ont également l'obligation d'<b>entretenir leurs dispositifs de sécurité</b>, dont les défibrillateurs. </p>
+                    <p>La <a href="{{route('legislation-defibrillateur')}}"></a>législation requiert cette maintenance. En effet, conformément au décret n°2018-1186 du 19 décembre 2018, le propriétaire du défibrillateur doit veiller à sa maintenance. Les chefs d'entreprise ont également l'obligation d'<b>entretenir leurs dispositifs de sécurité</b>, dont les défibrillateurs. </p>
                     <p>Les <b>procédures de maintenance </b>varient selon la marque, mais incluent généralement la vérification des batteries, des électrodes, des voyants ainsi que la mise à jour du logiciel. CardioPro propose une <b>solution de maintenance connectée</b> incluse dans chaque Pack Défibrillateur, garantissant un remplacement rapide du matériel en cas de besoin.</p>
                 </div>
             </div>       

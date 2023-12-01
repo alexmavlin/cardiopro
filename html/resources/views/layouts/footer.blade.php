@@ -80,12 +80,12 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="{{route('form')}}">
                                     <span>Devis</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="{{route('contact')}}">
                                     <span>Contactez-nous</span>
                                 </a>
                             </li>
@@ -100,8 +100,8 @@
             <div class="footer__copy--inner">
                 <p>© 2023 Copyright: CardioPro.fr</p>
                 <ul class="footer__copy--legal">
-                    <li><a href="https://cardiopro.fr/politique-de-confidentialite">Mention légale</a></li>
-                    <li><a href="https://cardiopro.fr/cgv">CGV</a></li>
+                    <li><a href="#">Mention légale</a></li>
+                    <li><a href="#">CGV</a></li>
                 </ul>
             </div>
         </div>

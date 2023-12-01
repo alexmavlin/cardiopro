@@ -68,7 +68,7 @@
                         <p class="whatAED__content__p">Afin de prévenir la mort subite due à un arrêt cardiaque, le <b>ministère de la Santé</b> a commencé à prendre des mesures en 2007 pour <b>promouvoir l’installation</b>, dans les <b>ERP</b>, de dispositifs <b>DAE</b> dans tout le pays. 
                             La <b>loi n°2018-527 du 28 juin 2018</b> a été votée à la quasi-unanimité, renforçant ce cadre législatif et réglementaire. La loi oblige à réfléchir stratégiquement au lieu de mise en service du <b>défibrillateur</b>, qui doit être positionné dans un site fréquenté, accessible en permanence et relativement loin des secours - c’est-à-dire que dans l’idéal, 
                             il est utile d’installer le DAE dans des endroits où le temps d’intervention des secours est connu pour être long afin de faire gagner du temps à la victime.</p>
-                        <p class="whatAED__content__p">CardioPro contribue à l'effort national visant à démocratiser l'accès au défibrillateur, en proposant aux ERP et Entreprises des packs de <a href="https://cardiopro.fr/location-defibrillateur">location de défibrillateurs</a> tout compris <a href="https://cardiopro.fr/defibrillateur-prix">à partir de 49 € par mois.</a></p>
+                        <p class="whatAED__content__p">CardioPro contribue à l'effort national visant à démocratiser l'accès au défibrillateur, en proposant aux ERP et Entreprises des packs de <a href="{{route('location-defibrillateur')}}">location de défibrillateurs</a> tout compris <a href="{{route('defibrillateur-prix')}}">à partir de 49 € par mois.</a></p>
                     </div>
                 </div>
                 <div class="whatAED__item">
@@ -82,7 +82,7 @@
                     </div>
                     <div class="whatAED__content">
                         <h2 class="whatAED__content__header">2020, la mise en application de la legislation en faveur des DAE entre en vigueur</h2>
-                        <p class="whatAED__content__p"><b class="">Le décret n ° 2018-1186 du 19 décembre 2018, applicable à la loi n ° 2018-528 du 28 juin 2018, indique que les ERP soumis à l' <a href="https://cardiopro.fr/obligations">obligation de détenir des DAE</a> sont :</b></p>
+                        <p class="whatAED__content__p"><b class="">Le décret n ° 2018-1186 du 19 décembre 2018, applicable à la loi n ° 2018-528 du 28 juin 2018, indique que les ERP soumis à l' <a href="{{route('obligations')}}">obligation de détenir des DAE</a> sont :</b></p>
                         <div class="whatAED__content__row">
                             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
                                 <g clip-path="url(#clip0_3_3907)">
@@ -151,7 +151,7 @@
                         <p class="whatAED__content__p"><b>L’obligation de posséder un DAE</b> incombe aux <b>propriétaires des ERP.</b></p>
                         <p class="whatAED__content__p">Lorsque plusieurs ERP sont situés dans le même emplacement géographique, le <b>défibrillateur</b> peut être partagé. Par même emplacement géographique, il faut entendre que le <b>DAE</b> partagé soit accessible à tout moment dans un <b>délai de 5 minutes</b> depuis le lieu de l'urgence cardiaque. Selon l'<b>article R.123-21 de la loi sur la construction et le logement</b>, il est précisé qu'il est également possible de mutualiser un DAE pour les 
                             ERP placés sous la même direction et situés dans le même bâtiment.</p>
-                        <p class="whatAED__content__p">Et bien-sûr, n’importe qui voulant <a href="https://cardiopro.fr/achat-defibrillateur">acheter</a> et <b>installer un défibrillateur</b> peut le faire !</p>
+                        <p class="whatAED__content__p">Et bien-sûr, n’importe qui voulant <a href="{{route('achat-defibrillateur')}}">acheter</a> et <b>installer un défibrillateur</b> peut le faire !</p>
                     </div>
                 </div>
             </div>

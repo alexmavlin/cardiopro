@@ -59,9 +59,9 @@
                             title="" 
                             class="whatAED__img__subventions"> 
                     <div class="whatAED__content">
-                        <p class="whatAED__content__p whatAED__item__p">Avec le <b>décret n°2018-1186 du 19 décembre 2018</b>, les <b>défibrillateurs automatiques externes (DAE)</b> devront être <a href="https://cardiopro.fr/obligations">obligatoirement installés</a> dans tous 
+                        <p class="whatAED__content__p whatAED__item__p">Avec le <b>décret n°2018-1186 du 19 décembre 2018</b>, les <b>défibrillateurs automatiques externes (DAE)</b> devront être <a href="{{route('obligations')}}">obligatoirement installés</a> dans tous 
                             les <b>établissements recevant du public (ERP)</b> (voir notre article sur la législation pour savoir quelle est la date limite pour l’ERP dont vous êtes en charge). Le <b>défibrillateur</b> est un <b>matériel médical</b> nécessaire, mais onéreux… Il peut représenter un poids financier important, 
-                            et c’est pourquoi des <b>subventions</b> sont proposées pour financer tout ou partie de l’<a href="https://cardiopro.fr/achat-defibrillateur">achat de DAE</a>.</p>
+                            et c’est pourquoi des <b>subventions</b> sont proposées pour financer tout ou partie de l’<a href="{{('achat-defibrillateur')}}">achat de DAE</a>.</p>
                     </div>
                 </div>
             </div>
@@ -75,10 +75,10 @@
         </div>
         <div class="acsList__inner">
             <h3 class="acsList__h2">Subventions pour les entreprises (de moins de 50 salariés)</h3>
-            <p class="acsList__p">Les Caisses d’Assurance Retraite et de la Santé au Travail (CARSAT) sont habilitées à dispenser des subventions aux petites entreprises pour l’<b>achat d’un DAE</b>. La CARSAT peut en effet financer généralement 40% du <a href="https://cardiopro.fr/defibrillateur-prix">prix d’achat du défibrillateur</a> (plafonné à 1200€), voire 70% si l’entreprise compte 20% de secouristes formés. Pour en bénéficier, il faut d’abord prévenir le conseil d’entreprise, syndicat ou tout autre organisme représentatif du personnel de sa démarche (et s’il n’y en a pas, donner un constat de carence ou indiquer qu’il y a
+            <p class="acsList__p">Les Caisses d’Assurance Retraite et de la Santé au Travail (CARSAT) sont habilitées à dispenser des subventions aux petites entreprises pour l’<b>achat d’un DAE</b>. La CARSAT peut en effet financer généralement 40% du <a href="{{route('defibrillateur-prix')}}">prix d’achat du défibrillateur</a> (plafonné à 1200€), voire 70% si l’entreprise compte 20% de secouristes formés. Pour en bénéficier, il faut d’abord prévenir le conseil d’entreprise, syndicat ou tout autre organisme représentatif du personnel de sa démarche (et s’il n’y en a pas, donner un constat de carence ou indiquer qu’il y a
                  moins de 11 employés). Il faut ensuite fournir un document unique d’évaluation des risques (DUER) mis à jour, avoir réglé ses cotisations URSSAF et avoir souscrit à un service de santé au travail.</p>
             <h3 class="acsList__h2">Subventions pour les activités agricoles</h3>
-            <p class="acsList__p">La <b>Mutuelle de Santé Agricole (MSA)</b> est habilitée à dispenser une aide financière simplifiée agricole (AFSA) aux très <b>petites entreprises agricoles</b>. Cette subvention peut couvrir jusqu’à 50% du <a href="https://cardiopro.fr/location-defibrillateur">prix de location</a> ou d’<b>achat du DAE</b>, qui est plafonné à 3000 euros.</p>
+            <p class="acsList__p">La <b>Mutuelle de Santé Agricole (MSA)</b> est habilitée à dispenser une aide financière simplifiée agricole (AFSA) aux très <b>petites entreprises agricoles</b>. Cette subvention peut couvrir jusqu’à 50% du <a href="{{route('location-defibrillateur')}}">prix de location</a> ou d’<b>achat du DAE</b>, qui est plafonné à 3000 euros.</p>
             <h3 class="acsList__h2">Subventions pour les mairies et administrations</h3>
             <p class="acsList__p">Les <b>mairies et les administrations publiques</b> peuvent également bénéficier de subventions publiques pour l'<b>achat d'un défibrillateur</b>, en se tournant vers le Conseil Général et Régional auquel elles sont rattachées.</p>
             <h3 class="acsList__h2">Dotation d’Équipement des Territoires Ruraux (DETR)</h3>

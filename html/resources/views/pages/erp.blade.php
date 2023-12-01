@@ -66,12 +66,12 @@
             <p class="acsList__p">Dans la même lignée, depuis le 1er janvier 2020, <b>les ERP de catégorie 3 doivent s’équiper d’un</b> défibrillateur. Ces établissements ont une capacité d’accueil de 301 à 700 personnes. </p>
             <p class="acsList__p">L'objectif est d’augmenter considérablement les chances de survie des victimes sans devoir attendre l’arrivée, souvent tardive, des secours</p>
             <h3 class="acsList__h2">Le défibrillateur est-il obligatoire pour les ERP catégories 4 ?</h3>
-            <p class="acsList__p">Depuis le 1er janvier 2021, les établissements de la 4ème catégorie, relevant <a href="https://cardiopro.fr/erp">des établissements recevant du public (ERP)</a>, sont <b>légalement obligés de disposer d'un défibrillateur automatique externe (DAE)</b> pour assurer la sécurité de leurs employés et visiteurs. </p>
+            <p class="acsList__p">Depuis le 1er janvier 2021, les établissements de la 4ème catégorie, relevant <a href="{{route('erp')}}">des établissements recevant du public (ERP)</a>, sont <b>légalement obligés de disposer d'un défibrillateur automatique externe (DAE)</b> pour assurer la sécurité de leurs employés et visiteurs. </p>
             <p class="acsList__p">La catégorie 4 inclut les ERP ayant une capacité d'accueil de moins de 300 personnes, à l'exception de ceux relevant de la 5ème catégorie. </p>
-            <p class="acsList__p">Cette réglementation vise à renforcer ala préparation aux <a href="https://cardiopro.fr/reconnaitre-un-arret-cardiaque">situations d'urgence cardiaque</a> en assurant une réponse rapide et efficace, même dans les établissements de moindre fréquentation.</p>
+            <p class="acsList__p">Cette réglementation vise à renforcer ala préparation aux <a href="{{route('reconnaitre-un-arret-cardiaque')}}">situations d'urgence cardiaque</a> en assurant une réponse rapide et efficace, même dans les établissements de moindre fréquentation.</p>
             <h3 class="acsList__h2">Le défibrillateur est-il obligatoire pour les ERP catégories 5 ?</h3>
             <p class="acsList__p">Toujours dans la même optique d’assurer une prise en charge rapide en cas d'urgence cardiaque, depuis le 1er janvier 2022, l’<b>installation de défibrillateurs est obligatoire dans certains ERP de catégorie 5</b>. Ceci permet de garantir la sécurité et le bien-être du plus grand nombre, même dans des établissements de petite taille.</p>
-            <p class="acsList__p">Ainsi, sont notamment concernés par cette obligation : les <a class="acsList__a__grey" href="https://cardiopro.fr/ehpad">structures d'accueil pour les personnes âgées</a> et handicapées, les <a class="acsList__a__grey" href="https://cardiopro.fr/medical">établissements de soins</a>, les gares, les <a class="acsList__a__grey" href="https://cardiopro.fr/hotel">hôtels et restaurants</a> d’altitude, les refuges en montagne, les installations sportives couvertes ainsi que les salles polyvalentes sportives. </p>
+            <p class="acsList__p">Ainsi, sont notamment concernés par cette obligation : les <a class="acsList__a__grey" href="{{route('ehpad')}}">structures d'accueil pour les personnes âgées</a> et handicapées, les <a class="acsList__a__grey" href="{{route('medical')}}">établissements de soins</a>, les gares, les <a class="acsList__a__grey" href="{{route('hotel')}}">hôtels et restaurants</a> d’altitude, les refuges en montagne, les installations sportives couvertes ainsi que les salles polyvalentes sportives. </p>
         </div>
     </div>
 </section>
@@ -98,7 +98,7 @@
             <p class="acsList__p">Vous cherchez une solution simple et efficace pour répondre à l'obligation gouvernementale d'installer des <b>défibrillateurs dans votre ERP </b>? CardioPro a la réponse ! </p>
             <p class="acsList__p">Notre <b>pack clé en main, au prix de 39€ par mois</b>, offre une solution complète pour vous équiper en toute simplicité. Ce pack comprend un défibrillateur, <b>tous les accessoires nécessaires</b> (boîtier mural, électrodes, trousse de secours, etc.) ainsi qu'un <b>remplacement illimité du matériel </b>en cas d'utilisation ou de panne. </p>
             <p class="acsList__p">Chez CardioPro nous prenons également en charge l'<b>installation du défibrillateur et de la formation de votre personnel à son utilisation</b>. Nous vous accompagnons dans le respect des règles d'installation et de signalétique.</p>
-            <p class="acsList__p">En outre, nous proposons la <a href="https://cardiopro.fr/maintenance-defibrillateur">maintenance et l'entretien obligatoires de votre défibrillateur</a> pour assurer votre conformité.</p>
+            <p class="acsList__p">En outre, nous proposons la <a href="{{route('maintenance-defibrillateur')}}">maintenance et l'entretien obligatoires de votre défibrillateur</a> pour assurer votre conformité.</p>
         </div>
     </div>
 </section>
@@ -367,7 +367,7 @@
                     <path d="M27.4631 35.1626C28.6665 35.1626 29.6421 34.187 29.6421 32.9836C29.6421 31.7802 28.6665 30.8047 27.4631 30.8047C26.2597 30.8047 25.2842 31.7802 25.2842 32.9836C25.2842 34.187 26.2597 35.1626 27.4631 35.1626Z" fill="#C22921"/>
                   </svg>
                 <h2>Où installer le défibrillateur dans votre entreprise ?</h2>
-                    <p>Pour placer un défibrillateur, il est essentiel de choisir un endroit ouvert, aisément accessible et avec beaucoup de passage. Un tel emplacement assure que le défibrillateur sera rapidement repéré et utilisé en cas <a href="https://cardiopro.fr/reconnaitre-un-arret-cardiaque">d'urgence cardiaque</a>, ce qui peut avoir un impact déterminant sur la survie de la victime. </p>
+                    <p>Pour placer un défibrillateur, il est essentiel de choisir un endroit ouvert, aisément accessible et avec beaucoup de passage. Un tel emplacement assure que le défibrillateur sera rapidement repéré et utilisé en cas <a href="{{route('reconnaitre-un-arret-cardiaque')}}">d'urgence cardiaque</a>, ce qui peut avoir un impact déterminant sur la survie de la victime. </p>
             </div>
             <div class="installer__item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
@@ -375,8 +375,8 @@
                     <path d="M18.027 35.3585H23.0077V40.3392C23.0077 40.9933 23.5383 41.524 24.1925 41.524H30.9003C31.5544 41.524 32.0851 40.9933 32.0851 40.3392V35.3585H37.0657C37.7199 35.3585 38.2505 34.8278 38.2505 34.1737V27.4659C38.2505 26.8118 37.7199 26.2811 37.0657 26.2811H32.0851V21.3004C32.0851 20.6463 31.5544 20.1156 30.9003 20.1156H24.1925C23.5383 20.1156 23.0077 20.6463 23.0077 21.3004V26.2811H18.027C17.3729 26.2811 16.8422 26.8118 16.8422 27.4659V34.1737C16.8422 34.8278 17.3729 35.3585 18.027 35.3585ZM19.2118 28.6507H24.1925C24.8466 28.6507 25.3773 28.12 25.3773 27.4659V22.4852H29.7154V27.4659C29.7154 28.12 30.2461 28.6507 30.9003 28.6507H35.8809V32.9889H30.9003C30.2461 32.9889 29.7154 33.5196 29.7154 34.1737V39.1544H25.3773V34.1737C25.3773 33.5196 24.8466 32.9889 24.1925 32.9889H19.2118V28.6507Z" fill="#C22921" stroke="#C22921" stroke-width="0.8"/>
                   </svg>
                 <h2>Comment installer le boitier de votre défibrillateur ?</h2>
-                <p>L’<a href="https://cardiopro.fr/livraison-installation-defibrillateur">installation d'un défibrillateur</a> dépend du lieu où il sera mis et du boîtier qui le contiendra.</p>
-                <p>Dans le cas d'un <a href="https://cardiopro.fr/accessoire/accessoire-defibrillateur-boitier-Aivia-100">boîtier mural interne</a>, il suffit généralement de percer le mur et de le fixer le boîtier. En revanche, pour un boîtier mural externe, l'intervention d'un technicien électricien est nécessaire pour le raccordement au secteur électrique.</p>
+                <p>L’<a href="{{route('livraison-installation-defibrillateur')}}">installation d'un défibrillateur</a> dépend du lieu où il sera mis et du boîtier qui le contiendra.</p>
+                <p>Dans le cas d'un <a href="{{route('accessoire-defibrillateur-boitier-Aivia-100')}}">boîtier mural interne</a>, il suffit généralement de percer le mur et de le fixer le boîtier. En revanche, pour un boîtier mural externe, l'intervention d'un technicien électricien est nécessaire pour le raccordement au secteur électrique.</p>
             </div>
             <div class="installer__item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">

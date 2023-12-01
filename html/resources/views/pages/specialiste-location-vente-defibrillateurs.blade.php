@@ -54,7 +54,7 @@
     <section class="suitsYou">
         <div class="container">
             <div class="suitsYou__header">
-                <h2 class="">   <a href=""><span>CardioPro.fr</span></a> 
+                <h2 class="">   <a href="{{route('index')}}"><span>CardioPro.fr</span></a> 
                                 <br>Le Spécialiste du défibrillateur automatisé externe</h2>
             </div>
             <div class="suitsYou__inner img__rows">
@@ -68,7 +68,7 @@
                             class="neverLost__img">
                     <div class="neverLost__text">
                         <p class=""><b>Spécialiste des matériels</b> professionnels de <b>défibrillation</b> depuis 2007, <b>CardioPro</b> a pour vocation de démocratiser l’accès aux <b>défibrillateurs auto et semi-auto</b> afin de combattre le fléau actuel que représente l’arrêt cardiaque.</p>
-                        <p class="">Entreprises, collectivités territoriales, centres sportifs et associatifs, nous sommes tous acteurs dans la prévention des risques cardiaques : <b>CardioPro</b> s’engage chaque jour à mettre en place des <a href="https://cardiopro.fr/defibrillateur-prix"><span>solutions abordables</span></a> aussi bien pour l<a href="https://cardiopro.fr/achat-defibrillateur"><span>'achat</span></a> que la <a href="https://cardiopro.fr/location-defibrillateur"><span>location de défibrillateur</span></a>, afin que plus jamais des vies humaines ne soit perdues par manque d’équipement.</p>
+                        <p class="">Entreprises, collectivités territoriales, centres sportifs et associatifs, nous sommes tous acteurs dans la prévention des risques cardiaques : <b>CardioPro</b> s’engage chaque jour à mettre en place des <a href="{{route('defibrillateur-prix')}}"><span>solutions abordables</span></a> aussi bien pour l<a href="{{route('achat-defibrillateur')}}"><span>'achat</span></a> que la <a href="{{route('location-defibrillateur')}}"><span>location de défibrillateur</span></a>, afin que plus jamais des vies humaines ne soit perdues par manque d’équipement.</p>
                     </div>
                 </div>
                 <div class="neverLost__row">
@@ -81,7 +81,7 @@
                             class="neverLost__img">
                     <div class="neverLost__text">
                         <p class="">Nous apportons un soin particulier à sélectionner des <b>produits de qualité</b> répondant aux <b>normes européennes</b> tout en vous accompagnant dans leur installation et en vous faisant profiter de notre expertise pour une utilisation optimale.</p>
-                        <p class="">Notre équipe de passionnés est disponible pour vous faire bénéficier des <b>meilleurs conseils et formations</b>, et veille à ce que votre établissement soit en phase avec l'<a href="https://cardiopro.fr/obligations"><span>obligation</span></a> de s'équiper en défibrillateur.</p>
+                        <p class="">Notre équipe de passionnés est disponible pour vous faire bénéficier des <b>meilleurs conseils et formations</b>, et veille à ce que votre établissement soit en phase avec l'<a href="{{route('obligations')}}"><span>obligation</span></a> de s'équiper en défibrillateur.</p>
                     </div>
                 </div>
             </div>

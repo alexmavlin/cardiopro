@@ -89,9 +89,9 @@
             <div class="suitsYou__header__mobile">
                 <h2 class="">À vos côtés pour trouver le Pack Défibrillateur qui vous convient !</h2>
             </div>
-            <p class="suitsYou__p">Un défibrillateur pour sauver des vies !Nous vous offrons la possibilité de louer ou d’acheter votre DAE et DSA. Pour éclaircir votre choix, CardioPro vous aide à trouver la formule adaptée à vos exigences et vos capacités de financement. Consultez toutes nos <a href="https://cardiopro.fr/defibrillateur-prix" class="">offres</a>
-                 détaillées de <a href="https://cardiopro.fr/location-defibrillateur" class="">location mensuelle</a> et d’ <a href="https://cardiopro.fr/achat-defibrillateur" class="">achat de DAE</a> ci-dessous pour lever vos hésitations. Affinez-les en optant pour un appareil <b class="">semi-automatisé (DSA) ou automatisé (DAE).</b> Comparez les avantages d’un Achat DAE avec ceux en Location, garantissant le <b class="">remplacement illimité</b> en cas de dysfonctionnement 
-                et après chaque utilisation, une offre parfaite pour les ERP ayant <a href="https://cardiopro.fr/obligations" class="">l'obligation</a> de s'équiper de défibrillateur.</p>
+            <p class="suitsYou__p">Un défibrillateur pour sauver des vies !Nous vous offrons la possibilité de louer ou d’acheter votre DAE et DSA. Pour éclaircir votre choix, CardioPro vous aide à trouver la formule adaptée à vos exigences et vos capacités de financement. Consultez toutes nos <a href="{{route('defibrillateur-prix')}}" class="">offres</a>
+                 détaillées de <a href="{{route('location-defibrillateur')}}" class="">location mensuelle</a> et d’ <a href="{{route('achat-defibrillateur')}}" class="">achat de DAE</a> ci-dessous pour lever vos hésitations. Affinez-les en optant pour un appareil <b class="">semi-automatisé (DSA) ou automatisé (DAE).</b> Comparez les avantages d’un Achat DAE avec ceux en Location, garantissant le <b class="">remplacement illimité</b> en cas de dysfonctionnement 
+                et après chaque utilisation, une offre parfaite pour les ERP ayant <a href="{{route('obligations')}}" class="">l'obligation</a> de s'équiper de défibrillateur.</p>
         </div>
     </div>
 </section>
@@ -372,9 +372,9 @@
                     <path d="M7.34952 9.68327C12.6014 4.43138 20.9693 4.19456 26.5021 8.9728C32.0315 4.19456 40.3994 4.43138 45.6511 9.68327C50.8936 14.9257 51.1389 23.273 46.3872 28.8062L29.5645 45.6867C27.949 47.3022 25.3757 47.3756 23.6733 45.907L23.4363 45.6867L6.61346 28.8062C1.86169 23.273 2.10704 14.9257 7.34952 9.68327ZM10.4136 12.7474C6.71482 16.4462 6.60915 22.3775 10.0966 26.204L10.4136 26.536L26.5004 42.6226L37.9894 31.1306L30.3304 23.4719L28.0325 25.77C25.494 28.3083 21.3784 28.3083 18.84 25.77C16.3016 23.2316 16.3016 19.116 18.84 16.5776L23.3925 12.0221C19.6817 9.05143 14.3037 9.18749 10.7457 12.4303L10.4136 12.7474ZM28.7984 18.8757C29.6445 18.0295 31.0164 18.0295 31.8625 18.8757L41.0535 28.0665L42.587 26.536C46.3945 22.7285 46.3945 16.555 42.587 12.7474C38.8881 9.04857 32.9569 8.94288 29.1305 12.4303L28.7984 12.7474L21.9041 19.6417C21.1184 20.4274 21.0623 21.6664 21.7358 22.5168L21.9041 22.7057C22.6899 23.4916 23.9288 23.5477 24.7792 22.8741L24.9684 22.7057L28.7984 18.8757Z" fill="#C22921"/>
                   </svg>
                 <h2 class="">Louer un DAE</h2>
-                <p class=""><a href="https://cardiopro.fr/location-defibrillateur" class="">Louer un DAE</a> vous permet de lisser les couts sur l’ensemble de votre période de location et de bénéficier de la maintenance de votre appareil de sauvetage pendant toute la durée du contrat. 
+                <p class=""><a href="{{route('location-defibrillateur')}}" class="">Louer un DAE</a> vous permet de lisser les couts sur l’ensemble de votre période de location et de bénéficier de la maintenance de votre appareil de sauvetage pendant toute la durée du contrat. 
                     Vous pourrez ainsi sécuriser vos employés ainsi que vos clients face au risque d’arrêt cardiaque à un coût très abordable et ainsi être en phase avec la législation en rapport avec l’ obligation 
-                    <a href="https://cardiopro.fr/obligations" class="">d’équipement pour les ERP.</a></p>
+                    <a href="{{route('obligations')}}" class="">d’équipement pour les ERP.</a></p>
             </div>
             <div class="choice__item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="53" height="52" viewBox="0 0 53 52" fill="none">
@@ -384,7 +384,7 @@
                     <path d="M29.5676 26.6761C30.1396 27.4561 31.3356 27.4561 31.9076 26.6761L39.3436 17.1081C40.1236 16.1201 39.3956 14.716 38.1476 14.716H34.7156C35.2876 8.99605 40.0716 4.52405 45.9476 4.52405H45.9996C47.2476 4.52405 47.5596 2.86005 46.4156 2.39205C44.6996 1.71605 42.8796 1.30005 40.9556 1.30005C33.4156 1.30005 27.1756 7.22805 26.6036 14.716H23.3276C22.0796 14.716 21.4036 16.1201 22.1316 17.1081L29.5676 26.6761Z" fill="#C22921"/>
                   </svg>
                 <h2 class="">Achat de DAE</h2>
-                <p class=""><a href="https://cardiopro.fr/location-defibrillateur" class="">Acheter un DAE</a> fait de vous ou votre entreprise le propriétaire du matériel vous permettant d’éviter un coût mensuel lié à la location de celui-ci. À noter que vous devrez souscrire à 
+                <p class=""><a href="{{route('location-defibrillateur')}}" class="">Acheter un DAE</a> fait de vous ou votre entreprise le propriétaire du matériel vous permettant d’éviter un coût mensuel lié à la location de celui-ci. À noter que vous devrez souscrire à 
                     un contrat de maintenance afin de s’assurer que votre matériel soit opérationnel à chaque instant.</p>
             </div>
         </div>
@@ -439,9 +439,9 @@
             <div class="obligation__row">
                 <div class="obligation__text">
                     <p class="">La législation favorable à l’obligation d’installation des défibrillateurs est entrée en vigueur depuis le 1er janvier 2020 :</p>
-                    <p class=""><a href="https://cardiopro.fr/obligations#section4" class="">ERP 1, 2, 3 :</a> à partir du 1er janvier 2020, établissement recevant entre 301 à +1500 personnes</p>
-                    <p class="https://cardiopro.fr/obligations#section5"><a href="" class="">ERP 4 :</a> à partir du 1er janvier 2021, établissement recevant moins 300 personnes</p>
-                    <p class="https://cardiopro.fr/obligations#section6"><a href="" class="">ERP 5 :</a> à partir du 1er janvier 2022 il est obligatoire pour les ERP 5 d’acheter un DAE ou de louer un DAE. Vous trouverez ci-dessous une liste non-exhaustive de ERP 5 entrant dans le cadre de l’obligation :</p>
+                    <p class=""><a href="{{route('obligations')}}#section4" class="">ERP 1, 2, 3 :</a> à partir du 1er janvier 2020, établissement recevant entre 301 à +1500 personnes</p>
+                    <p class=""><a href="{{route('obligations')}}#section5" class="">ERP 4 :</a> à partir du 1er janvier 2021, établissement recevant moins 300 personnes</p>
+                    <p class=""><a href="{{route('obligations')}}#section6" class="">ERP 5 :</a> à partir du 1er janvier 2022 il est obligatoire pour les ERP 5 d’acheter un DAE ou de louer un DAE. Vous trouverez ci-dessous une liste non-exhaustive de ERP 5 entrant dans le cadre de l’obligation :</p>
                 </div>
                 <div class="obligation__img__box">
                     <img    srcset="{{ asset('images/content/formulepage_obligation.webp') }} 1920w,

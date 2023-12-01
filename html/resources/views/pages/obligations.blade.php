@@ -38,7 +38,7 @@
     <div class="container">
         <div class="mastHead__inner">
             <h2 class="mastHead__h2">Défibrillateurs dans les ERP et entreprises : les obligations légales</h2>
-            <p class="mastHead__p">Selon le Code de la construction et de l'habitation, l’installation d’un <b>défibrillateur est obligatoire </b>dans tous les <a href="https://cardiopro.fr/erp">Établissements Recevant du Public (ERP)</a>. Les entreprises se conforment également aux exigences du Code du Travail, qui met en avant la sécurité des employés. Cela signifie que même si votre entreprise n'est pas un ERP, elle peut être amenée à installer un défibrillateur pour répondre à ces préoccupations en matière de santé et de sécurité.</p>
+            <p class="mastHead__p">Selon le Code de la construction et de l'habitation, l’installation d’un <b>défibrillateur est obligatoire </b>dans tous les <a href="{{route('erp')}}">Établissements Recevant du Public (ERP)</a>. Les entreprises se conforment également aux exigences du Code du Travail, qui met en avant la sécurité des employés. Cela signifie que même si votre entreprise n'est pas un ERP, elle peut être amenée à installer un défibrillateur pour répondre à ces préoccupations en matière de santé et de sécurité.</p>
         </div>
     </div>
 </section>
@@ -107,7 +107,7 @@
         <div class="acsList__content">
             <h3 class="acsList__h2" id="2022">2022 : défibrillateurs obligatoires dans certains ERP de catégorie 5</h3>
             <p class="acsList__p">Depuis le 1er janvier 2022, la <b>nouvelle loi sur les défibrillateurs</b> impose leur installation dans certains ERP de catégorie 5. Des contrôles de conformité sont prévus par le biais d'inspections de sécurité et de prévention des risques. Cela marque la dernière étape pour rendre les défibrillateurs facilement accessibles dans tous les ERP en France.</p>
-            <p class="acsList__p">Les ERP de catégorie 5 concernés englobent divers types d'établissements, notamment les <a href="https://cardiopro.fr/ehpad">structures pour personnes âgées</a> et handicapées, les salles de conférences, les centres commerciaux, les <a href="https://cardiopro.fr/hotel">hôtels</a>, les écoles, les musées et bien d'autres.</p>
+            <p class="acsList__p">Les ERP de catégorie 5 concernés englobent divers types d'établissements, notamment les <a href="{{route('ehpad')}}">structures pour personnes âgées</a> et handicapées, les salles de conférences, les centres commerciaux, les <a href="{{route('hotel')}}">hôtels</a>, les écoles, les musées et bien d'autres.</p>
             <p class="acsList__p">Cette loi vise à garantir la sécurité des salariés et des visiteurs en offrant un accès rapide aux défibrillateurs dans un large éventail d'établissements publics.</p>
             <h3 class="acsList__h2" id="2021">2021 : défibrillateurs obligatoires dans les ERP de catégorie 4</h3>
             <p class="acsList__p">Depuis le 1er janvier 2021, la législation a rendu les <b>défibrillateurs automatiques obligatoires</b> dans les Établissements Recevant du Public (ERP) de catégorie 4. C’est-à-dire, les établissements pouvant accueillir jusqu'à 300 personnes, y compris les employés.</p>
@@ -424,7 +424,7 @@
             <p class="acsList__p">Toutes les entreprises ne sont pas concernées par cette réglementation. Toutefois, il faut rester vigilant car en vertu du Code du travail, l'employeur peut être tenu responsable en cas d'urgence cardiaque sur le lieu de travail.</p>
             <h3 class="acsList__h2">Selon le Code du travail</h3>
             <p class="acsList__p">En vertu du Code du travail, l'employeur a la responsabilité de garantir la santé et la sécurité de ses employés, ce qui inclut des dispositions pour les premiers secours, que l'entreprise soit classée comme ERP ou non. Une de ces obligations consiste à mettre à disposition un "matériel de premiers secours adapté aux risques naturels".</p>
-            <p class="acsList__p">Avant d'<a href="">acquérir un défibrillateur</a>, les entreprises doivent évaluer les risques avec la médecine du travail et les représentants des salariés. </p>
+            <p class="acsList__p">Avant d'<a href="{{route('defibrillateur-single')}}">acquérir un défibrillateur</a>, les entreprises doivent évaluer les risques avec la médecine du travail et les représentants des salariés. </p>
             <p class="acsList__p">Les facteurs de risque courants qui justifient l'acquisition d'un DAE incluent :</p>
             <ul>
                 <li>la présence régulière de personnes âgées de plus de 50 ans ;</li>
@@ -468,7 +468,7 @@
                     <div class="regarding__item">
                         <h3>Est-il obligatoire de déclarer son défibrillateur ?</h3>
                         <p>La <b>déclaration des défibrillateurs externes automatisés (DEA) est effectivement obligatoire</b> pour garantir la sécurité de tous les citoyens. Les propriétaires de DEA doivent signaler leur emplacement dans la base de données nationale Géo’DAE.</p>
-                        <p>Cette mesure vise à assurer l'accessibilité des DEA en cas d'urgence, permettant leur localisation rapide afin de maximiser les chances de survie d'une <a href="https://cardiopro.fr/reconnaitre-un-arret-cardiaque">victime d'arrêt cardiaque</a>.</p>
+                        <p>Cette mesure vise à assurer l'accessibilité des DEA en cas d'urgence, permettant leur localisation rapide afin de maximiser les chances de survie d'une <a href="{{route('reconnaitre-un-arret-cardiaque')}}">victime d'arrêt cardiaque</a>.</p>
                         <p>En contribuant à cette base de données, vous participez activement à sauver des vies.</p>
                     </div>
                 </div>

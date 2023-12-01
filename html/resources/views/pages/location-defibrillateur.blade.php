@@ -38,7 +38,7 @@
     <div class="container">
         <div class="mastHead__inner">
             <h2 class="mastHead__h2">Location de défibrillateurs : une solution complète et pratique</h2>
-            <p class="mastHead__p">Optez pour nos packs de location <b>de défibrillateur</b>, comprenant le défibrillateur automatique externe (DAE) ou semi-automatique (DSA), la signalétique, le boîtier mural et le remplacement illimité du matériel en cas d'utilisation ou de panne. Une solution pratique pour externaliser la <a href="https://cardiopro.fr/maintenance-defibrillateur">maintenance de votre défibrillateur</a> à un coût avantageux.</p>
+            <p class="mastHead__p">Optez pour nos packs de location <b>de défibrillateur</b>, comprenant le défibrillateur automatique externe (DAE) ou semi-automatique (DSA), la signalétique, le boîtier mural et le remplacement illimité du matériel en cas d'utilisation ou de panne. Une solution pratique pour externaliser la <a href="{{route('maintenance-defibrillateur')}}">maintenance de votre défibrillateur</a> à un coût avantageux.</p>
         </div>
     </div>
 </section>
@@ -298,7 +298,7 @@
         <div class="choose__rent__inner">
             <div class="choose__rent__header">
                 <h2>Pourquoi opter pour la location de votre défibrillateur ?</h2>
-                <p>Vous hésitez entre louer et <a href="https://cardiopro.fr/achat-defibrillateur">acheter un défibrillateur ?</a> Découvrez ici les avantages de la location !</p>
+                <p>Vous hésitez entre louer et <a href="{{route('achat-defibrillateur')}}">acheter un défibrillateur ?</a> Découvrez ici les avantages de la location !</p>
             </div>
             <div class="choose__rent__list">
                 <div class="choose__rent__row">
@@ -330,7 +330,7 @@
                                 title=""
                                 class="choose__rent__img">
                         <h3>Mise à niveau facile</h3>
-                        <p>Avec les <a href="https://cardiopro.fr/defibrillateur-prix">défibrillateurs</a>, la technologie évolue rapidement, offrant de nouvelles fonctionnalités pour les sauvetages. Opter pour la location vous permet de profiter des innovations sans vous soucier de l'obsolescence technologique.</p>
+                        <p>Avec les <a href="{{route('defibrillateur-prix')}}">défibrillateurs</a>, la technologie évolue rapidement, offrant de nouvelles fonctionnalités pour les sauvetages. Opter pour la location vous permet de profiter des innovations sans vous soucier de l'obsolescence technologique.</p>
                     </div>
                 </div>
                 <div class="choose__rent__row">

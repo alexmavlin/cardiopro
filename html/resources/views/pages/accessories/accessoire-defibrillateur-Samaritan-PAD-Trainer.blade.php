@@ -84,7 +84,7 @@
             <div class="defDescription__box ">
                 <div class="defDescription__item defDescription__active">
                     <p>Le <b>Samaritan PAD Trainer</b> offre une démonstration extrêmement réaliste pour <b>former à l’utilisation d’un défibrillateur</b>. Il est très facile à utiliser, et peut être commandé à distance pour guider l’utilisateur tout au long de la simulation, des compressions thoraciques jusqu’à l’administration d’énergie. Il est totalement identique aux <b>défibrillateurs Samaritan</b>, 
-                        la seule différence étant qu’il ne délivre pas réellement de choc électrique. Il est disponible en trois modèles : SAM 500P, SAM 360P et  SAM 350P.</p>
+                        la seule différence étant qu’il ne délivre pas réellement de choc électrique. Il est disponible en trois modèles : SAM 500P, SAM 360P et SAM 350P.</p>
                 </div>
                 <div class="defDescription__item ">
                     <p>CardioPro vous assure une livraison de vos <a href="{{route('accessoires-defibrillateurs')}}" title="accessoires pour défibrillateur" style="color:#CA1D1F">accesoires pour défibrillateur</a> sous 48h ouvrées en France (sous réserve d’une commande avant midi). Nous mettons tout en oeuvre afin que votre expérience soit un véritable succès et nous vous efforçons de garantir une livraison sécurisée, selon le mode de livraison que vous choisirez.</p>
