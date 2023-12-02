@@ -9,7 +9,7 @@
                         </svg>
                         <span>01 85 73 04 70</span>
                     </a>
-                    <a href="mailto:contact@cardiopro.fr" class="header__top--contact">
+                    <a href="mailto:contact@cardiopro.fr" class="header__top--contact" aria-label="contact@cardiopro.fr">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none">
                             <path d="M13.9453 5.42188H4.05469C3.47196 5.42188 3 5.89677 3 6.47656V12.8047C3 13.3879 3.47543 13.8594 4.05469 13.8594H13.9453C14.5232 13.8594 15 13.3899 15 12.8047V6.47656C15 5.8978 14.5299 5.42188 13.9453 5.42188ZM13.7976 6.125C13.5821 6.33934 9.87382 10.0281 9.74578 10.1555C9.54656 10.3547 9.28172 10.4644 9 10.4644C8.71828 10.4644 8.45344 10.3547 8.25356 10.1548C8.16745 10.0692 4.50007 6.42111 4.20239 6.125H13.7976ZM3.70312 12.6616V6.62012L6.74152 9.6425L3.70312 12.6616ZM4.20284 13.1562L7.24003 10.1384L7.75704 10.6527C8.08905 10.9847 8.53048 11.1675 9 11.1675C9.46952 11.1675 9.91095 10.9847 10.2423 10.6533L10.76 10.1384L13.7972 13.1562H4.20284ZM14.2969 12.6616L11.2585 9.6425L14.2969 6.62012V12.6616Z" fill="#021647"/>
                         </svg>
@@ -43,12 +43,12 @@
     <div class="header__bar">
         <div class="container">
             <div class="header__bottom--inner">
-                <a href="{{ route('index') }}" class="header__bar--logo">
-                    <img    src="{{ asset('images/content/logo_page.png') }}" 
+                <a href="{{ route('index') }}" class="header__bar--logo" aria-label="Homa page - header">
+                    <img    src="{{ asset('images/content/logo_page.webp') }}" 
                             alt=""
                             title=""
                             width="218"
-                            height="46">
+                            height="65">
                 </a>
                 <div class="header__nav--wrapper" id="header__nav--wrapper">
                     <nav class="header__nav">
@@ -155,7 +155,7 @@
                                 <span>01 85 73 04 07</span>
                                 </a>
                             </li>
-                            <li><a href="">
+                            <li><a href="https://www.google.com/maps/place/11+Av.+Charles+de+Gaulle,+95700+Roissy-en-France,+%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%83%D1%81%D0%BA%D0%B0/@49.0007893,2.5117163,17z/data=!3m1!4b1!4m6!3m5!1s0x47e615762f9050cd:0x1f5951f4bede76a3!8m2!3d49.0007893!4d2.5142912!16s%2Fg%2F11bw4jm3gk?entry=ttu">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4626 8.66667C11.4728 8.66667 10.6677 9.4718 10.6677 10.4626C10.6677 11.4523 11.4728 12.2564 12.4626 12.2564C13.4523 12.2564 14.2574 11.4523 14.2574 10.4626C14.2574 9.4718 13.4523 8.66667 12.4626 8.66667ZM12.4626 13.7949C10.6246 13.7949 9.12921 12.3005 9.12921 10.4626C9.12921 8.62359 10.6246 7.12821 12.4626 7.12821C14.3005 7.12821 15.7959 8.62359 15.7959 10.4626C15.7959 12.3005 14.3005 13.7949 12.4626 13.7949Z" fill="#2B65F6"/>
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4615 3.53846C8.6441 3.53846 5.53846 6.67385 5.53846 10.5262C5.53846 15.4277 11.3067 20.2031 12.4615 20.4574C13.6164 20.2021 19.3846 15.4267 19.3846 10.5262C19.3846 6.67385 16.279 3.53846 12.4615 3.53846ZM12.4615 22C10.6215 22 4 16.3056 4 10.5262C4 5.82462 7.7959 2 12.4615 2C17.1272 2 20.9231 5.82462 20.9231 10.5262C20.9231 16.3056 14.3015 22 12.4615 22Z" fill="#2B65F6"/>
@@ -169,7 +169,7 @@
                         <span>Devis en ligne</span>
                     </a>
                 </div>
-                <a href="#" class="header__burger" id="header__burger"><span></span></a>
+                <a href="#" class="header__burger" id="header__burger" aria-label="Burger button - open menu"><span></span></a>
             </div>
         </div>
     </div>

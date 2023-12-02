@@ -3,11 +3,12 @@
         <div class="container">
             <div class="footer__top--inner">
                 <div class="footer__top--block">
-                    <a href="{{ route('index') }}" class="footer__top--logo">
-                        <img    src="{{ asset('images/content/logo_page.png') }}" 
+                    <a href="{{ route('index') }}" class="footer__top--logo" aria-label="Home page link - footer">
+                        <img    src="{{ asset('images/content/logo_page.webp') }}" 
                                 alt=""
                                 width="218"
-                                height="46">
+                                height="65"
+                                loading="lazy">
                     </a>
                     <p class="footer__top--info">Achat et location de défibrillateurs en France, Belgique, Luxembourg et Suisse</p>
                 </div>
@@ -16,7 +17,7 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="mailto:contact@cardiopro.fr">
+                                <a href="mailto:contact@cardiopro.fr" aria-label="contact@cardiopro.fr">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
                                         <path d="M21.3997 4H3.26691C2.19857 4 1.33331 4.87063 1.33331 5.93359V17.5352C1.33331 18.6044 2.20493 19.4688 3.26691 19.4688H21.3997C22.4591 19.4688 23.3333 18.6081 23.3333 17.5352V5.93359C23.3333 4.87252 22.4715 4 21.3997 4ZM21.1289 5.28906C20.7339 5.68201 13.9353 12.4448 13.7006 12.6783C13.3353 13.0435 12.8498 13.2446 12.3333 13.2446C11.8168 13.2446 11.3313 13.0435 10.9648 12.6771C10.807 12.52 4.08344 5.83193 3.5377 5.28906H21.1289ZM2.62238 17.2728V6.19678L8.19276 11.7378L2.62238 17.2728ZM3.53851 18.1797L9.1067 12.6469L10.0546 13.5898C10.6632 14.1985 11.4725 14.5337 12.3333 14.5337C13.1941 14.5337 14.0034 14.1985 14.6109 13.591L15.5599 12.6469L21.1281 18.1797H3.53851ZM22.0443 17.2728L16.4739 11.7378L22.0443 6.19678V17.2728Z" fill="#0039C6"/>
                                     </svg>
@@ -32,7 +33,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="https://www.google.com/maps/place/11+Av.+Charles+de+Gaulle,+95700+Roissy-en-France,+%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%83%D1%81%D0%BA%D0%B0/@49.0007893,2.5117163,17z/data=!3m1!4b1!4m6!3m5!1s0x47e615762f9050cd:0x1f5951f4bede76a3!8m2!3d49.0007893!4d2.5142912!16s%2Fg%2F11bw4jm3gk?entry=ttu">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7958 8.66667C11.8061 8.66667 11.0009 9.4718 11.0009 10.4626C11.0009 11.4523 11.8061 12.2564 12.7958 12.2564C13.7855 12.2564 14.5907 11.4523 14.5907 10.4626C14.5907 9.4718 13.7855 8.66667 12.7958 8.66667ZM12.7958 13.7949C10.9579 13.7949 9.46246 12.3005 9.46246 10.4626C9.46246 8.62359 10.9579 7.12821 12.7958 7.12821C14.6338 7.12821 16.1291 8.62359 16.1291 10.4626C16.1291 12.3005 14.6338 13.7949 12.7958 13.7949Z" fill="#0039C6"/>
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7948 3.53846C8.97736 3.53846 5.87171 6.67385 5.87171 10.5262C5.87171 15.4277 11.6399 20.2031 12.7948 20.4574C13.9497 20.2021 19.7179 15.4267 19.7179 10.5262C19.7179 6.67385 16.6122 3.53846 12.7948 3.53846ZM12.7948 22C10.9548 22 4.33325 16.3056 4.33325 10.5262C4.33325 5.82462 8.12915 2 12.7948 2C17.4604 2 21.2563 5.82462 21.2563 10.5262C21.2563 16.3056 14.6348 22 12.7948 22Z" fill="#0039C6"/>
@@ -48,22 +49,22 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="{{ route('defibrillateur-single') }}">
                                     <span>Défibrillateur de Qualité CLASS III</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="{{ route('form') }}">
                                     <span>DEVIS RAPIDE</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="{{ route('livraison-installation-defibrillateur') }}">
                                     <span>Livraison du DAE en 48H</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="{{ route('maintenance-defibrillateur') }}">
                                     <span>Maintenance du Défibrillateur</span>
                                 </a>
                             </li>

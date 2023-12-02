@@ -19,9 +19,9 @@
                 <div class="getDefibrilators__content">
                     <h1 class="">Obtenez des défibrillateurs pour professionnels</h1>
                     <div class="getDefibrilators__group">
-                        <p class="">Avec CardioPro, l'accès à des défibrillateurs est simple et rapide. Disponible à la vente et à la location, vous pourrez <a href="{{ route('formule-dae-dsa') }}" class="getDefibrilators__a"><span>trouver la formule</span></a> qui vous convient pour assurer la sécurité de vos clients et de votre personnel.</p>
+                        <p class="">Avec CardioPro, l'accès à des défibrillateurs est simple et rapide. Disponible à la vente et à la location, vous pourrez <a href="{{ route('formule-dae-dsa') }}" class="getDefibrilators__a" title="Trouver la formule" aria-label="Trouver la formule"><span>trouver la formule</span></a> qui vous convient pour assurer la sécurité de vos clients et de votre personnel.</p>
                         <div class="getDefibrilators__button">
-                            <a href="{{route('defibrillateur-prix')}}" class="">
+                            <a href="{{route('defibrillateur-prix')}}" class="" title="Choisir un défibrillateur" aria-label="Choisir un défibrillateur">
                                 Choisir un défibrillateur
                                 <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 20" fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9354 1.77432C22.3315 3.31182 22.5741 5.47074 21.8452 7.32466C20.5989 10.4947 17.7947 13.3667 15.1347 16.091C13.8336 17.4235 12.5671 18.7206 11.5342 20C11.2958 19.7676 11.0493 19.5285 10.7963 19.2832C7.39974 15.9883 2.84134 11.5664 1.13675 7.32466C0.865647 6.65009 0.735988 5.92776 0.755671 5.20179C0.775355 4.47588 0.943976 3.76149 1.25124 3.10233C1.55851 2.4431 1.99798 1.85295 2.54285 1.36776C4.7118 -0.569202 8.1072 -0.267226 10.1711 1.77957L11.5342 3.1314L13.1129 1.5657C13.6307 1.0522 14.2486 0.648714 14.9289 0.37986C15.6091 0.111001 16.3374 -0.0175902 17.0694 0.00193214C17.8014 0.0214486 18.5218 0.188678 19.1864 0.493401C19.8511 0.798129 20.4462 1.23396 20.9354 1.77432ZM8.47293 10.6278L13.2134 4.49904L12.3016 9.12603H15.004C15.252 9.12603 15.3919 9.41098 15.2401 9.60716L10.4996 15.7359L11.4115 11.109H8.70905C8.46099 11.109 8.32117 10.824 8.47293 10.6278Z" fill="white"/>
@@ -34,19 +34,22 @@
                                 width="106"
                                 height="106"
                                 alt=""
-                                title="" 
+                                title=""
+                                loading="lazy" 
                                 class="getDefibrilators__bottom__img">
                         <img    src="{{ asset('images/content/homepage_getDefibrilators_2.png') }}"
                                 width="106"
                                 height="106"
                                 alt=""
-                                title="" 
+                                title=""
+                                loading="lazy" 
                                 class="getDefibrilators__bottom__img">
                         <img    src="{{ asset('images/content/homepage_getDefibrilators_3.png') }}"
                                 width="106"
                                 height="106"
                                 alt=""
                                 title="" 
+                                loading="lazy"
                                 class="getDefibrilators__bottom__img"> 
                     </div>
                     <div class="getDefibrilators__line"></div>
@@ -70,11 +73,12 @@
                             height="440"
                             alt=""
                             title="" 
+                            loading="lazy"
                             class="safety__img">
                     <div class="safety__text">
                         <p class="">Сhez CardioPro, nous simplifions le processus de commande de défibrillateurs automatiques externes (DAE) 
                             et de défibrillateurs semi-automatiques (DSA) pour vous aider à optimiser la sécurité dans votre établissement. 
-                            Avec une gamme de produits de qualité et des options de vente et de <a href="{{route('location-defibrillateur')}}" class="">location de défibrillateurs</a>, vous pouvez commander rapidement et en toute confiance.</p>
+                            Avec une gamme de produits de qualité et des options de vente et de <a href="{{route('location-defibrillateur')}}" class="" title="location de défibrillateurs" aria-label="location de défibrillateurs">location de défibrillateurs</a>, vous pouvez commander rapidement et en toute confiance.</p>
                         <p class="">N'attendez pas l'imprévisible, assurez-vous d'être prêt à protéger la vie de vos clients et de votre personnel en commandant vos DAE ou DSA dès aujourd'hui.</p>
                     </div>
                 </div>
@@ -127,8 +131,8 @@
             <div class="sale__inner">
                 <div class="sale__header">
                     <h2 class="">Vente et location de défibrillateurs : nos offres</h2>
-                    <p class="">En tant que spécialistes de la location et la <a href="{{route('achat-defibrillateur')}}" class="">vente de défibrillateurs</a>, chez CardioPro, nous nous engageons à vous fournir des produits 
-                        de la plus haute qualité fabriqués en Irlande et aux États-Unis. Pour en savoir plus sur notre entreprise et nos engagements, consultez notre page dédiée à la <a href="{{route('specialiste-location-vente-defibrillateurs')}}" class="">présentation de CardioPro.</a></p>
+                    <p class="">En tant que spécialistes de la location et la <a href="{{route('achat-defibrillateur')}}" class="" title="vente de défibrillateurs" aria-label="vente de défibrillateurs">vente de défibrillateurs</a>, chez CardioPro, nous nous engageons à vous fournir des produits 
+                        de la plus haute qualité fabriqués en Irlande et aux États-Unis. Pour en savoir plus sur notre entreprise et nos engagements, consultez notre page dédiée à la <a href="{{route('specialiste-location-vente-defibrillateurs')}}" class="" title="présentation de CardioPro" aria-label="présentation de CardioPro">présentation de CardioPro.</a></p>
                 </div>
                 <div class="sale__slider">
                     <button class="sale__button__active">Location</button>
@@ -145,6 +149,7 @@
                             height="387"
                             alt=""
                             title="" 
+                            loading="lazy"
                             class="sale__img">
                     <div class="sale__frame__content">
                         <h3>défibrillateur automatique</h3>
@@ -212,8 +217,8 @@
                                 <p class="">Support mural</p>
                             </div>
                             <div class="sale__buttons">
-                                <a href="#" class="sale__choisir">Choisir</a>
-                                <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
+                                <a href="#" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
+                                <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir" title="En savoir" aria-label="En savoir">En savoir +</a>
                             </div>
                         </div>
                     </div>
@@ -248,8 +253,8 @@
                                 <p class="">Support mural</p>
                             </div>
                             <div class="sale__buttons">
-                                <a href="#" class="sale__choisir">Choisir</a>
-                                <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
+                                <a href="#" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
+                                <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir" title="En savoir" aria-label="En savoir">En savoir +</a>
                             </div>
                         </div>
                     </div>
@@ -266,6 +271,7 @@
                                 height="387"
                                 alt=""
                                 title="" 
+                                loading="lazy"
                                 class="sale__img">
                         <div class="sale__frame__content">
                             <h3>défibrillateur automatique</h3>
@@ -333,8 +339,8 @@
                                     <p class="">Support mural</p>
                                 </div>
                                 <div class="sale__buttons">
-                                    <a href="#" class="sale__choisir">Choisir</a>
-                                    <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
+                                    <a href="#" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
+                                    <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir" title="En savoir" aria-label="En savoir">En savoir +</a>
                                 </div>
                             </div>
                         </div>
@@ -369,8 +375,8 @@
                                     <p class="">Support mural</p>
                                 </div>
                                 <div class="sale__buttons">
-                                    <a href="#" class="sale__choisir">Choisir</a>
-                                    <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
+                                    <a href="#" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
+                                    <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir" title="En savoir" aria-label="En savoir">En savoir +</a>
                                 </div>
                             </div>
                         </div>
@@ -398,14 +404,15 @@
                                 height="206"
                                 alt=""
                                 title="" 
+                                loading="lazy"
                                 class="protect__img">
                         <div class="protect__item__content">
                             <p class="protect__date">4/12/2022</p>
                             <h3 class="">
-                                <a href="{{ route('posts-single') }}">Peut-on avoir un défibrillateur chez soi ?</a>
+                                <a href="{{ route('posts-single') }}" title="Peut-on avoir un défibrillateur chez soi ?" aria-label="Peut-on avoir un défibrillateur chez soi ?">Peut-on avoir un défibrillateur chez soi ?</a>
                             </h3>
                             <p class="protect__item__p">Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est...</p>
-                            <a href="{{ route('posts-single') }}" class="">En savoir plus</a> 
+                            <a href="{{ route('posts-single') }}" class="" title="En savoir plus" aria-label="En savoir plus">En savoir plus</a> 
                         </div>       
                     </div>
                     <div class="protect__item">
@@ -414,12 +421,13 @@
                                 height="206"
                                 alt=""
                                 title="" 
+                                loading="lazy"
                                 class="protect__img">
                         <div class="protect__item__content">
                             <p class="protect__date">4/12/2022</p>
-                            <h3 class=""><a href="{{ route('posts-single') }}">Les Subventions pour acquérir un défibrillateur</a></h3>
+                            <h3 class=""><a href="{{ route('posts-single') }}" title="Les Subventions pour acquérir un défibrillateur" aria-label="Les Subventions pour acquérir un défibrillateur">Les Subventions pour acquérir un défibrillateur</a></h3>
                             <p class="protect__item__p">Un défibrillateur est un appareil de secours de grande importance mais...</p>
-                            <a href="{{ route('posts-single') }}" class="">En savoir plus</a> 
+                            <a href="{{ route('posts-single') }}" class="" title="En savoir plus" aria-label="En savoir plus">En savoir plus</a> 
                         </div>      
                     </div>
                     <div class="protect__item">
@@ -428,12 +436,13 @@
                                 height="206"
                                 alt=""
                                 title="" 
+                                loading="lazy"
                                 class="protect__img">
                         <div class="protect__item__content">
                             <p class="protect__date">4/12/2022</p>
-                            <h3 class=""><a href="{{ route('posts-single') }}">Défibrillateur et arrêts cardiaques : chiffres clés</a></h3>
+                            <h3 class=""><a href="{{ route('posts-single') }}" title="Défibrillateur et arrêts cardiaques : chiffres clés" aria-label="Défibrillateur et arrêts cardiaques : chiffres clés">Défibrillateur et arrêts cardiaques : chiffres clés</a></h3>
                             <p class="protect__item__p">1 arrêt cardiaque sur 4 à lieu dans un lieu publique et une victime...</p>
-                            <a href="{{ route('posts-single') }}" class="">En savoir plus</a> 
+                            <a href="{{ route('posts-single') }}" class="" title="En savoir plus" aria-label="En savoir plus">En savoir plus</a> 
                         </div>       
                     </div>
                 </div>
@@ -465,7 +474,7 @@
                             <div class="faq__status--icon"></div>
                         </div>
                         <div class="faq__content">
-                            <p>Un <strong>défibrillateur est un dispositif de réanimation</strong> pour venir en aide à une <a href="{{ route('reconnaitre-un-arret-cardiaque') }}"><span>personne en état d'arrêt cardiaque</span></a>. Lorsque les symptômes se manifestent, la victime est souvent en fibrillation ventriculaire nécessitant une correction électrique immédiate. Seul un défibrillateur peut fournir le choc électrique vital pour éviter un décès soudain.</strong></p>
+                            <p>Un <strong>défibrillateur est un dispositif de réanimation</strong> pour venir en aide à une <a href="{{ route('reconnaitre-un-arret-cardiaque') }}" title="personne en état d'arrêt cardiaque" aria-label="personne en état d'arrêt cardiaque"><span>personne en état d'arrêt cardiaque</span></a>. Lorsque les symptômes se manifestent, la victime est souvent en fibrillation ventriculaire nécessitant une correction électrique immédiate. Seul un défibrillateur peut fournir le choc électrique vital pour éviter un décès soudain.</strong></p>
                             <p>Équiper votre établissement d'un défibrillateur améliore donc considérablement la sécurité sanitaire et offre une protection juridique efficace en cas d'incident.</p>
                         </div>
                     </div>
@@ -624,7 +633,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                                 <path d="M21.2512 4.5H3.11835C2.05002 4.5 1.18475 5.37063 1.18475 6.43359V18.0352C1.18475 19.1044 2.05637 19.9688 3.11835 19.9688H21.2512C22.3106 19.9688 23.1848 19.1081 23.1848 18.0352V6.43359C23.1848 5.37252 22.3229 4.5 21.2512 4.5ZM20.9804 5.78906C20.5853 6.18201 13.7868 12.9448 13.552 13.1783C13.1868 13.5435 12.7012 13.7446 12.1848 13.7446C11.6683 13.7446 11.1827 13.5435 10.8163 13.1771C10.6584 13.02 3.93488 6.33193 3.38914 5.78906H20.9804ZM2.47382 17.7728V6.69678L8.0442 12.2378L2.47382 17.7728ZM3.38995 18.6797L8.95814 13.1469L9.90599 14.0898C10.5147 14.6985 11.324 15.0337 12.1848 15.0337C13.0455 15.0337 13.8548 14.6985 14.4623 14.091L15.4114 13.1469L20.9796 18.6797H3.38995ZM21.8957 17.7728L16.3253 12.2378L21.8957 6.69678V17.7728Z" fill="white"/>
                               </svg>
-                            <a href="mailto:contact@cardiopro.fr" class="">contact@cardiopro.fr</a>
+                            <a href="mailto:contact@cardiopro.fr" class="" aria-label="contact@cardiopro.fr">contact@cardiopro.fr</a>
                         </div>
                         <div class="additionalInfo__line">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
