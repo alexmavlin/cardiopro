@@ -48,7 +48,7 @@
                             alt=""
                             title=""
                             width="218"
-                            height="65">
+                            height="45">
                 </a>
                 <div class="header__nav--wrapper" id="header__nav--wrapper">
                     <nav class="header__nav">

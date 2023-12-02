@@ -57,20 +57,6 @@
                   </div>
                   <!-- // Meta Description -->
 
-                  <!-- Canonical -->
-                  <div class="form-group">
-                    <label for="canonical">Canonical:</label>
-                    @error('canonical')
-                      <p class="text-danger">{{$message}}</p>
-                    @enderror
-                    <input  name="canonical" 
-                            type="text" 
-                            class="form-control" 
-                            id="canonical" 
-                            placeholder="Canonical">
-                  </div>
-                  <!-- // Canonical -->
-
                   <!-- Meta Keywords -->
                   <div class="form-group">
                     <label for="meta_keywords">Meta Keywords :</label>
@@ -142,15 +128,72 @@
                   <!-- // Titre H2 en haut de page -->
 
                   <!-- IMG and Video Uploader -->
-                  <div class="template-demo" id="file-types-selector">
-                    <button type="button" class="btn btn-inverse-primary btn-fw">IMG</button>
-                    <button type="button" class="btn btn-inverse-primary btn-fw">Video</button>
+                  <div class="form-group">
+                    <label for="img_src">IMG:</label>
+                    @error('img_src')
+                        <p class="text-danger">{{ $message }}</p>
+                    @enderror
+                    <input type="file" name="img_src" class="form-control" id="img_src">
                   </div>
                   <!-- // IMG and Video Uploader -->
 
+                  <!-- IMG Alt -->
+                  <div class="form-group">
+                    <label for="img_alt">IMG Alt:</label>
+                    @error('img_alt')
+                      <p class="text-danger">{{$message}}</p>
+                    @enderror
+                    <input  name="img_alt" 
+                            type="text" 
+                            class="form-control" 
+                            id="img_alt" 
+                            placeholder="IMG Alt">
+                  </div>
+                  <!-- // IMG Alt -->
 
-                  <button type="submit" class="btn btn-primary mr-2">Submit</button>
-                  <button class="btn btn-light">Cancel</button>
+                  <!-- Titre H1 sous l'image -->
+                  <div class="form-group">
+                    <label for="h1">Titre H1 sous l'image :</label>
+                    @error('h1')
+                      <p class="text-danger">{{$message}}</p>
+                    @enderror
+                    <input  name="h1" 
+                            type="text" 
+                            class="form-control" 
+                            id="h1" 
+                            placeholder="Post Title">
+                  </div>
+                  <!-- // Titre H1 sous l'image -->
+
+                  <!-- Content -->
+                  @for($i = 1; $i <= 10; $i++)
+
+                  <div class="form-group">
+                    <label for="h3_{{$i}}">H3-{{$i}} :</label>
+                    @error('h3_{{$i}}')
+                      <p class="text-danger">{{$message}}</p>
+                    @enderror
+                    <input  name="h3_{{$i}}" 
+                            type="text" 
+                            class="form-control" 
+                            id="h3_{{$i}}" 
+                            placeholder="Balise H3">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="p_{{$i}}">p-{{$i}} :</label>
+                    @error('p_{{$i}}')
+                      <p class="text-danger">{{$message}}</p>
+                    @enderror
+                    <textarea name="p_{{$i}}" id="p_{{$i}}" class="form-control" rows="10"></textarea>
+                  </div>
+
+                  @endfor
+                  <!-- // Content -->
+
+
+                  <button type="submit" class="btn btn-primary mr-2">Post</button>
+                  <a href="{{ route('admin.blog.create') }}" class="btn btn-light">Discard</a>
                 </form>
               </div>
             </div>

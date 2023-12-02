@@ -7,7 +7,7 @@
                         <img    src="{{ asset('images/content/logo_page.webp') }}" 
                                 alt=""
                                 width="218"
-                                height="65"
+                                height="45"
                                 loading="lazy">
                     </a>
                     <p class="footer__top--info">Achat et location de défibrillateurs en France, Belgique, Luxembourg et Suisse</p>

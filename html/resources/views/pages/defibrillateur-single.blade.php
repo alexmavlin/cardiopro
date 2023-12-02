@@ -190,7 +190,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=39')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                         </div>
                     </div>
                 </div>
@@ -225,7 +225,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=49')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                         </div>
                     </div>
                 </div>
@@ -267,7 +267,7 @@
                                 <p class="">Support mural</p>
                             </div>
                             <div class="sale__buttons">
-                                <a href="#" class="sale__choisir">Choisir</a>
+                                <a href="{{ route('form', 'type=achat-form&price=1190')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             </div>
                         </div>
                     </div>
@@ -302,7 +302,7 @@
                                 <p class="">Support mural</p>
                             </div>
                             <div class="sale__buttons">
-                                <a href="#" class="sale__choisir">Choisir</a>
+                                <a href="{{ route('form', 'type=achat-form&price=1490')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             </div>
                         </div>
                     </div>
@@ -375,7 +375,7 @@
                 </div>
                 <div class="defDescription__item ">
                     <p>Un défibrillateur est un matériel médical qui doit impérativement être en bon état de marche. C’est pourquoi ses piles/sa batterie doit être changées à date de péremption ou si une usure constatée (si en avance de la date indiquée), et que tous ses éléments électriques (électrodes, voyant) doivent être souvent vérifiés.</p>
-                    <p>Plus d’informations dans notre article <a href="{{route('defibrillateur-utilisation')}}" title="Maintenance defibrillateur semi-automatique">« Utilisation et Maintenance ».</a></p>
+                    <p>Plus d’informations dans notre article <a href="" title="Maintenance defibrillateur semi-automatique">« Utilisation et Maintenance ».</a></p>
                 </div>
                 <div class="defDescription__item ">
                     <p>CardioPro vous assure une livraison de vos <a href="{{route('accessoires-defibrillateurs')}}" title="accessoires pour défibrillateur" style="color:#CA1D1F">accesoires pour défibrillateur</a> sous 48h ouvrées en France (sous réserve d’une commande avant midi). Nous mettons tout en oeuvre afin que votre expérience soit un véritable succès et nous vous efforçons de garantir une livraison sécurisée, selon le mode de livraison que vous choisirez.</p>
