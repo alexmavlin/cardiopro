@@ -60,6 +60,7 @@ class BlogSingleController extends Controller
     private function getRecentBlogs(): Collection
     {
         return Blog::select('id', 'url', 'img_src', 'img_alt', 'date', 'h1', 'meta_description', 'created_at')
+                        ->limit(3)
                         ->where('url', '<>', $this->url)
                         ->orderBy('created_at', 'DESC')
                         ->get();

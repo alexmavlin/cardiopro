@@ -397,54 +397,21 @@
                         souffre d'un malaise cardiaque. Ainsi, nous facilitons l'achat et la location 
                         de défibrillateurs, car investir dans cet équipement est un acte citoyen qui sauve des milliers de vies chaque année. Nous garantissons également une gestion continue de votre matériel.</p>
                 </div>
-                <div class="protect__content">
-                    <div class="protect__item">
-                        <img    src="{{ asset('images/content/homepage_protect_1.png') }}"
-                                width="358"
-                                height="206"
-                                alt=""
-                                title="" 
-                                loading="lazy"
-                                class="protect__img">
-                        <div class="protect__item__content">
-                            <p class="protect__date">4/12/2022</p>
-                            <h3 class="">
-                                <a href="{{ route('posts-single') }}" title="Peut-on avoir un défibrillateur chez soi ?" aria-label="Peut-on avoir un défibrillateur chez soi ?">Peut-on avoir un défibrillateur chez soi ?</a>
-                            </h3>
-                            <p class="protect__item__p">Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est...</p>
-                            <a href="{{ route('posts-single') }}" class="" title="En savoir plus" aria-label="En savoir plus">En savoir plus</a> 
-                        </div>       
+                <div class="blogPosts__inner">
+                    @foreach ($data['blogs'] as $item)
+                    <div class="blogPosts__item">
+                        <img    src="{{ asset('images/blog/' . $item->img_src) }}" 
+                                alt="{{ $item->img_alt }}" 
+                                title="{{ $item->img_alt }}" 
+                                width="354" 
+                                height="186"
+                                class="blogPosts__item--img">
+                        <time datetime="0" class="blogPosts__item--date">{{ date("d/m/Y", strtotime($item->date)) }}</time>
+                        <h3 class="blogPosts__item--h3">{{ $item->h1 }}</h3>
+                        <p class="blogPosts__item--p">{!! strlen($item->meta_description) > 69 ? substr($item->meta_description, 0, 69) . '...' : $item->meta_description !!}</p>
+                        <a href="{{route('posts-single', $item->url)}}" title="{{ $item->meta_description }}" aria-label="{{ $item->meta_description }}" class="blogPosts__item--a">En savoir plus</a>
                     </div>
-                    <div class="protect__item">
-                        <img    src="{{ asset('images/content/homepage_protect_2.png') }}"
-                                width="358"
-                                height="206"
-                                alt=""
-                                title="" 
-                                loading="lazy"
-                                class="protect__img">
-                        <div class="protect__item__content">
-                            <p class="protect__date">4/12/2022</p>
-                            <h3 class=""><a href="{{ route('posts-single') }}" title="Les Subventions pour acquérir un défibrillateur" aria-label="Les Subventions pour acquérir un défibrillateur">Les Subventions pour acquérir un défibrillateur</a></h3>
-                            <p class="protect__item__p">Un défibrillateur est un appareil de secours de grande importance mais...</p>
-                            <a href="{{ route('posts-single') }}" class="" title="En savoir plus" aria-label="En savoir plus">En savoir plus</a> 
-                        </div>      
-                    </div>
-                    <div class="protect__item">
-                        <img    src="{{ asset('images/content/homepage_protect_3.png') }}"
-                                width="358"
-                                height="206"
-                                alt=""
-                                title="" 
-                                loading="lazy"
-                                class="protect__img">
-                        <div class="protect__item__content">
-                            <p class="protect__date">4/12/2022</p>
-                            <h3 class=""><a href="{{ route('posts-single') }}" title="Défibrillateur et arrêts cardiaques : chiffres clés" aria-label="Défibrillateur et arrêts cardiaques : chiffres clés">Défibrillateur et arrêts cardiaques : chiffres clés</a></h3>
-                            <p class="protect__item__p">1 arrêt cardiaque sur 4 à lieu dans un lieu publique et une victime...</p>
-                            <a href="{{ route('posts-single') }}" class="" title="En savoir plus" aria-label="En savoir plus">En savoir plus</a> 
-                        </div>       
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>

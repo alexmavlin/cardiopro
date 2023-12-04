@@ -420,7 +420,7 @@
                         <ul>
                             <li>Les <a href="{{route('ehpad')}}">EHPAD</a></li>
                             <li>Les <a href="{{route('medical')}}">centres de soins</a></li>
-                            <li>Les <a href="{{route('obligation-defibrillateur-salle-de-sport')}}">salles de sports</a> et les complexes sportifs</li>
+                            <li>Les <a href="#">salles de sports</a> et les complexes sportifs</li>
                             <li>Les refuges d’altitude</li>
                             <li>Les <a href="{{route('hotel')}}">hôtels et restaurant</a> d’altitude</li>
                             <li>Les gares</li>
