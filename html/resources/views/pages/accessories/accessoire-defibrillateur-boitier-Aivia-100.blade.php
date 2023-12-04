@@ -64,7 +64,7 @@
 <section class="boiter-text bg-blue">
     <div class="container">
         <div class="boiter-text__inner">
-            <h2>Boîtier pour défibrillateur : la solution  pour une protection optimale</h2>
+            <h2>Boîtier pour défibrillateur : la solution pour une protection optimale</h2>
             <p>Ce <b>boîtier pour défibrillateur</b> est conçu pour être installé en intérieur. Équipé de la détection automatique de la lumière, il garantit un éclairage de jour comme de nuit grâce à des LED intégrées. </p>
             <p>La sécurité est au cœur de son design, avec une entrée protégée par un joint en plastique et une alarme visuelle (LED rouge clignotante) et sonore (80 dB) qui se déclenche automatiquement à l'ouverture du capot.</p>
             <p>Alimenté par piles (fournies), ce <b>boîtier intérieur</b> assure la disponibilité de votre défibrillateur en tout temps. </p>

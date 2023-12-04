@@ -27,10 +27,6 @@ class LexiqueController extends Controller
                     'link' => route('index'),
                 ],
                 [
-                    'name' => 'Sauvons des Vies',
-                    'link' => '#',
-                ],
-                [
                     'name' => 'Lexique',
                     'link' => route('lexique-defibrillateur'),
                 ],

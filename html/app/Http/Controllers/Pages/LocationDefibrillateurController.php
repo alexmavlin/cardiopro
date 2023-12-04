@@ -28,7 +28,7 @@ class LocationDefibrillateurController extends Controller
                 ],
                 [
                     'name' => 'Nos Offres',
-                    'link' => '#',
+                    'link' => route('defibrillateur-prix'),
                 ],
                 [
                     'name' => 'Location de défibrillateur',

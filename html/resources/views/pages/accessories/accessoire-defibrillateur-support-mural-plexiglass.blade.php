@@ -65,7 +65,7 @@
     <div class="container">
         <div class="boiter-text__inner">
             <h2>Support mural pour défibrillateur : stockage pratique et sécurisé</h2>
-            <p>Ce <b>support mural pour défibrillateur</b> vous permet de stocker votre défibrillateur de manière optimale. Fabriqué en plexiglass, il répond aux normes standard avec un pictogramme  « DAE » 
+            <p>Ce <b>support mural pour défibrillateur</b> vous permet de stocker votre défibrillateur de manière optimale. Fabriqué en plexiglass, il répond aux normes standard avec un pictogramme « DAE » 
                 et a les dimensions idéales (460 x 250 x 150 mm) pour accueillir un DAE compact. Ce <b>support mural pour défibrillateur</b> est également livré avec son matériel de fixation pour une installation simple et efficace. </p>
             <p>Un choix sobre et esthétique pour assurer la visibilité et l'accessibilité de votre défibrillateur.</p>
         </div>

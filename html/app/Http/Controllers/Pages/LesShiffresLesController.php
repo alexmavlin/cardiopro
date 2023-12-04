@@ -27,10 +27,6 @@ class LesShiffresLesController extends Controller
                     'link' => route('index'),
                 ],
                 [
-                    'name' => 'Sauvons des Vies',
-                    'link' => '#',
-                ],
-                [
                     'name' => 'Les Chiffres Clés',
                     'link' => route('chiffres-cles-arret-cardiaque'),
                 ],

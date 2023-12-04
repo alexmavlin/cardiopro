@@ -28,10 +28,6 @@ class NosValeursEntrepriseVenteDefibrillateurAutomatiseExterneController extends
                     'link' => route('index'),
                 ],
                 [
-                    'name' => "L'Entreprise",
-                    'link' => '#',
-                ],
-                [
                     'name' => 'Nos Valeurs',
                     'link' => route('nos-valeurs-entreprise-vente-defibrillateur-automatise-externe'),
                 ],

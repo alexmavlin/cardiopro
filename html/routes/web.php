@@ -5,6 +5,24 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'IndexController')->name('index');
 
+Route::group(['namespace' => 'Admin', 'prefix' => 'admin'], function() {
+    /* Admin Dashboard */
+    Route::get('/dashboard', 'DashboardController')->name('admin.dashboard');
+    /* // Admin Dashboard */
+
+    /* Admin Blog */
+    Route::group(['namespace' => 'Blog', 'prefix' => 'blog'], function() {
+        Route::get('/index', 'IndexController')->name('admin.blog.index');
+        Route::get('/create', 'CreateController')->name('admin.blog.create');
+        Route::post('/store', 'StoreController')->name('admin.blog.store');
+        Route::get('/edit/{blog}', 'EditController')->name('admin.blog.edit');
+        Route::patch('/update/{blog}', 'UpdateController')->name('admin.blog.update');
+        Route::get('/delete/{blog}', 'DeleteRequestController')->name('admin.blog.delete');
+        Route::delete('/destroy/{blog}', 'DeleteController')->name('admin.blog.destroy');
+    });
+    /* // Admin Blog */
+});
+
 Route::group(['namespace' => 'Mailer', 'prefix' => 'email'], function() {
     Route::post('/send', 'SendContactController@sendContactPage')->name('send-main-contact');
     Route::post('/send-form-3', 'SendContactController@sendForm3')->name('send-form-3');
@@ -21,7 +39,7 @@ Route::group(['namespace' => 'Pages'], function() {
     Route::get('/specialiste-location-vente-defibrillateurs', 'SpecialisteLocationVenteDefibrillateursController')->name('specialiste-location-vente-defibrillateurs');
     Route::get('/nos-valeurs-entreprise-vente-defibrillateur-automatise-externe', 'NosValeursEntrepriseVenteDefibrillateurAutomatiseExterneController')->name('nos-valeurs-entreprise-vente-defibrillateur-automatise-externe');
     Route::get('/posts', 'BlogIndexController')->name('posts');
-    Route::get('/post/defibrillateur-pour-particulier', 'BlogSingleController')->name('posts-single');
+    Route::get('/post/{url}', 'BlogSingleController')->name('posts-single');
     Route::get('/defibrillateur-cardiaque-cest-quoi', 'DefibrillateurCardiaqueCestQuoiController')->name('defibrillateur-cardiaque-cest-quoi');
     Route::get('/reconnaitre-un-arret-cardiaque', 'ReconnaitreUnArretCardiaqueController')->name('reconnaitre-un-arret-cardiaque');
     Route::get('/chiffres-cles-arret-cardiaque', 'LesShiffresLesController')->name('chiffres-cles-arret-cardiaque');

@@ -177,7 +177,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=39')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -213,7 +213,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=49')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -298,7 +298,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=achat-form&price=1190')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -334,7 +334,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=achat-form&price=1490')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -395,7 +395,7 @@
                     <path d="M27.4631 35.1626C28.6665 35.1626 29.6421 34.187 29.6421 32.9836C29.6421 31.7802 28.6665 30.8047 27.4631 30.8047C26.2597 30.8047 25.2842 31.7802 25.2842 32.9836C25.2842 34.187 26.2597 35.1626 27.4631 35.1626Z" fill="#C22921"/>
                   </svg>
                 <h2>Où installer le défibrillateur dans votre entreprise ?</h2>
-                <p>Concernant l’emplacement du <b>défibrillateur dans un restaurant</b> ou tout autre <a href="https://cardiopro.fr/erp">établissement recevant du public (ERP)</a>, le décret n°2018-1186 exige que le DAE soit visible et facilement accessible en permanence.</p>
+                <p>Concernant l’emplacement du <b>défibrillateur dans un restaurant</b> ou tout autre <a href="{{route('erp')}}">établissement recevant du public (ERP)</a>, le décret n°2018-1186 exige que le DAE soit visible et facilement accessible en permanence.</p>
                 <p>Il est également recommandé de le placer au centre de l'établissement pour garantir un accès en moins de 3 minutes car en cas d'arrêt cardiaque chaque seconde compte.</p>
             </div>
             <div class="installer__item">
@@ -443,7 +443,7 @@
             </div>
             <p class="acsList__p">N’oublions pas que l'obligation gouvernementale d'installer des <b>défibrillateurs dans les hôtels</b> et restaurants a pour but principal de sauver des vies. Ce dispositif accroît considérablement les chances de survie en cas d'arrêt cardiaque, passant de seulement 4 % dans un lieu non équipé à 90 % lorsque cet appareil est à portée de main.</p>
             <p class="acsList__p">Au-delà de cet aspect, de nombreuses raisons peuvent inciter les <b>établissements de l'industrie hôtelière et de la restauration à s'équiper de défibrillateurs</b>. Ils souhaitent notamment <b>rassurer leur clientèle internationale</b>, habituée à trouver des défibrillateurs dans tous les lieux publics, une pratique plus courante à l'étranger qu'en France. De plus, la présence d'un défibrillateur est un gage de qualité pour la clientèle nationale et internationale.</p>
-            <p class="acsList__p">Chez CardioPro, nous comprenons ces enjeux et simplifions le respect de cette exigence réglementaire en proposant une gamme de solutions clé en main personnalisables pour la location et l’<a href="https://cardiopro.fr/achat-defibrillateur">achat de défibrillateurs</a>. Nous fournissons tout le matériel nécessaire, effectuons l'installation et si besoin, assurons la maintenance régulière.</p>
+            <p class="acsList__p">Chez CardioPro, nous comprenons ces enjeux et simplifions le respect de cette exigence réglementaire en proposant une gamme de solutions clé en main personnalisables pour la location et l’<a href="{{route('achat-defibrillateur')}}">achat de défibrillateurs</a>. Nous fournissons tout le matériel nécessaire, effectuons l'installation et si besoin, assurons la maintenance régulière.</p>
             <h3 class="acsList__h2">Solutions clé en main pour l'installation de défibrillateurs</h3>
             <p class="acsList__p">CardioPro vous offre des solutions clé en main pour simplifier l’installation de <b>défibrillateurs, désormais obligatoires, dans les restaurants</b> et hôtels. Nos packs personnalisables comprennent l'installation, la formation du personnel et un remplacement illimité du matériel.</p>
             <h3 class="acsList__h2">Emplacement optimal et signalétique réglementaire</h3>

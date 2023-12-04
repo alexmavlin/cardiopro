@@ -38,7 +38,7 @@
     <div class="container">
         <div class="mastHead__inner">
             <h2 class="mastHead__h2">Une solution complète pour l'achat de votre défibrillateur</h2>
-            <p class="mastHead__p">CardioPro offre une solution complète d'<b>achat de défibrillateur</b> comprenant le DAE ou DSA, les électrodes, la signalétique et le boîtier mural. Un achat intelligent qui peut sauver des vies en plus d’être en accord avec les obligations légales des <a href="https://cardiopro.fr/erp">ERP</a> et les directives du Code du Travail.</p>
+            <p class="mastHead__p">CardioPro offre une solution complète d'<b>achat de défibrillateur</b> comprenant le DAE ou DSA, les électrodes, la signalétique et le boîtier mural. Un achat intelligent qui peut sauver des vies en plus d’être en accord avec les obligations légales des <a href="{{route('erp')}}">ERP</a> et les directives du Code du Travail.</p>
         </div>
     </div>
 </section>
@@ -55,7 +55,7 @@
                 <h2 class="definitionDef__header__mobile">Définition de défibrillateur</h2>
                 <div class="definitionDef__content">
                     <p class="">Gagnez en tranquillité d'esprit en achetant un <b>défibrillateur</b> chez CardioPro. Notre offre tout-en-un comprend l'installation, la formation à l'utilisation et une maintenance connectée ; le tout, à un prix accessible. L’occasion parfaite d’<b>équiper votre espace de travail d'un défibrillateur fiable</b> en toute simplicité.</p>
-                    <p class="">Aujourd'hui, de nombreux établissements sont tenus d'en avoir un. En choisissant CardioPro pour l’<b>achat d’un défibrillateur pour votre entreprise</b>, vous investissez dans la sécurité de vos employés, clients et visiteurs. Optez pour l'achat ou la <a href="https://cardiopro.fr/location-defibrillateur">location d'un défibrillateur</a> CardioPro et renforcez votre engagement envers la sécurité sur votre  lieu de travail.</p>
+                    <p class="">Aujourd'hui, de nombreux établissements sont tenus d'en avoir un. En choisissant CardioPro pour l’<b>achat d’un défibrillateur pour votre entreprise</b>, vous investissez dans la sécurité de vos employés, clients et visiteurs. Optez pour l'achat ou la <a href="{{route('location-defibrillateur')}}">location d'un défibrillateur</a> CardioPro et renforcez votre engagement envers la sécurité sur votre lieu de travail.</p>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
     <div class="container">
         <div class="slider__inner">
             <div class="sale__small__header">
-                <h2>Découvrez nos offres de location de défibrillateurs</h2>
+                <h2>Découvrez nos offres de vente de défibrillateurs</h2>
             </div>
         <div class="sale__content">
             <div class="sale__frame ">
@@ -145,7 +145,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=39')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=49')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -266,7 +266,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=achat-form&price=1190')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -302,7 +302,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=achat-form&price=1490')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -400,8 +400,8 @@
                             class="whatAED__img__achat"> 
                     <div class="whatAED__content">
                         <h2 class="whatAED__content__header__achat">Qu’est-ce qu’un défibrillateur automatique externe DAE ?</h2>
-                        <p class="whatAED__content__p">Le <b>défibrillateur externe automatique</b> (DAE) est un dispositif médical automatisé pouvant être utilisé par tout le monde pour sauver des vies en cas d'urgence cardiaque. Lorsqu'<a href="https://cardiopro.fr/reconnaitre-un-arret-cardiaque">une personne est en arrêt cardiaque</a>, le <b>défibrillateur automatique</b> envoie seul un choc électrique qui peut rétablir son rythme cardiaque. Cette machine médicale augmente ainsi considérablement les chances de survie de la victime.</p>
-                        <p class="whatAED__content__p">La popularité des défibrillateurs a connu une forte croissance depuis l'adoption de la loi du 4 mai 2007 (décret n°2007-705), qui a légalisé leur utilisation par le grand public. De plus, la <a href="https://cardiopro.fr/legislation-defibrillateur">législation concernant les défibrillateurs</a> exige que les établissements recevant du public (ERP) installent ces dispositifs.</p>
+                        <p class="whatAED__content__p">Le <b>défibrillateur externe automatique</b> (DAE) est un dispositif médical automatisé pouvant être utilisé par tout le monde pour sauver des vies en cas d'urgence cardiaque. Lorsqu'<a href="{{route('reconnaitre-un-arret-cardiaque')}}">une personne est en arrêt cardiaque</a>, le <b>défibrillateur automatique</b> envoie seul un choc électrique qui peut rétablir son rythme cardiaque. Cette machine médicale augmente ainsi considérablement les chances de survie de la victime.</p>
+                        <p class="whatAED__content__p">La popularité des défibrillateurs a connu une forte croissance depuis l'adoption de la loi du 4 mai 2007 (décret n°2007-705), qui a légalisé leur utilisation par le grand public. De plus, la <a href="{{route('legislation-defibrillateur')}}">législation concernant les défibrillateurs</a> exige que les établissements recevant du public (ERP) installent ces dispositifs.</p>
                         <p class="whatAED__content__p">Le défibrillateur est un outil essentiel, simple d'utilisation, offrant un traitement rapide et efficace en cas d'urgence cardiaque. L'équiper dans votre ERP ou bureau vous prépare à l'imprévisible et contribue à garantir la sécurité de tous.</p>
                     </div>
                 </div>
@@ -418,11 +418,11 @@
                         <p class="whatAED__content__p">Depuis 2020, les établissements recevant du public (ERP) de catégories 1, 2 et 3 sont tenus de <b>s’équiper d’un défibrillateur</b>. En 2021, les ERP de catégorie 4 sont venus s'ajouter à cette liste et depuis le 1er janvier 2022, la réglementation couvre certains ERP de catégorie 5.</p>
                         <p class="whatAED__content__p">Cela signifie que tous les établissements suivants sont dans l’<b>obligation de détenir un défibrillateur </b>:</p>
                         <ul>
-                            <li>Les <a href="https://cardiopro.fr/ehpad">EHPAD</a></li>
-                            <li>Les <a href="https://cardiopro.fr/medical">centres de soins</a></li>
-                            <li>Les <a href="https://cardiopro.fr/post/obligation-defibrillateur-salle-de-sport">salles de sports</a> et les complexes sportifs</li>
+                            <li>Les <a href="{{route('ehpad')}}">EHPAD</a></li>
+                            <li>Les <a href="{{route('medical')}}">centres de soins</a></li>
+                            <li>Les <a href="#">salles de sports</a> et les complexes sportifs</li>
                             <li>Les refuges d’altitude</li>
-                            <li>Les <a href="https://cardiopro.fr/hotel">hôtels et restaurant</a> d’altitude</li>
+                            <li>Les <a href="{{route('hotel')}}">hôtels et restaurant</a> d’altitude</li>
                             <li>Les gares</li>
                             <li>Les ERP de catégorie 1 à 4</li>
                         </ul>
@@ -448,7 +448,7 @@
                         <h2 class="whatAED__content__header__achat">Qu’est-ce qu’un défibrillateur semi-automatique (DSA) ?</h2>
                         <p class="whatAED__content__p">Dans le cas d’un arrêt cardiaque, le rétablissement du rythme cardiaque de la victime est vital. C'est là que le <b>défibrillateur semi-automatique (DSA)</b> entre en jeu. Il est conçu pour être facilement utilisable par le grand public afin de maximiser les chances de réanimer une personne victime d'un arrêt cardiaque.</p>
                         <p class="whatAED__content__p">Le défibrillateur semi-automatique analyse le tracé cardiaque de la victime et détermine si un traitement par chocs électriques est nécessaire. Aucune intervention manuelle n'est requise, simplement l'appui sur un bouton pour délivrer le choc électrique salvateur.</p>
-                        <p class="whatAED__content__p">Avec un <b>DSA</b> au sein de votre établissement ou entreprise, vous avez un matériel fiable pour <b>agir en cas d'urgence cardiaque</b> sans nécessiter de compétences médicales avancées. Gardez-le  à portée de main pour sauver des vies en toute simplicité.</p>
+                        <p class="whatAED__content__p">Avec un <b>DSA</b> au sein de votre établissement ou entreprise, vous avez un matériel fiable pour <b>agir en cas d'urgence cardiaque</b> sans nécessiter de compétences médicales avancées. Gardez-le à portée de main pour sauver des vies en toute simplicité.</p>
                     </div>
                 </div>
                 <div class="whatAED__item">
@@ -461,9 +461,9 @@
                     <div class="whatAED__content">
                         <h2 class="whatAED__content__header__achat">Qui peut acheter et utiliser un DSA ?</h2>
                         <p class="whatAED__content__p">L'<b>achat de défibrillateurs</b> n'est plus réservé aux professionnels ou aux organismes publics. Désormais, tout individu peut acquérir un <b>défibrillateur automatisé</b> pour contribuer à la sécurité sanitaire de son environnement.</p>
-                        <p class="whatAED__content__p">Il existe deux types principaux de <a href="https://cardiopro.fr/defibrillateur-prix">défibrillateurs sur le marché </a>: les DAE (Défibrillateurs Automatiques Externes) et les DSA (Défibrillateurs Semi-Automatiques). Ces deux équipements de santé sont conçus pour fournir une assistance immédiate en cas d'urgence cardiaque. Leur facilité d'utilisation est leur principal atout, permettant à toute personne, quels que soient son âge ou ses connaissances médicales, de prendre en charge un arrêt cardiaque.</p>
-                        <p class="whatAED__content__p">La <a href="https://cardiopro.fr/difference-defibrillateur">différence entre un DSA et un DEA</a> est qu’un défibrillateur semi-automatique exige une intervention humaine pour délivrer un choc électrique ; tandis qu'un défibrillateur automatique externe fonctionne entièrement de manière automatisée, ne requérant aucune action supplémentaire à part le positionnement des électrodes.</p>
-                        <p class="whatAED__content__p">Avec <a href="https://cardiopro.fr/">CardioPro</a>, équipez-vous d'un dispositif à la fois rassurant, intuitif et simple d'utilisation.</p>
+                        <p class="whatAED__content__p">Il existe deux types principaux de <a href="{{route('defibrillateur-prix')}}">défibrillateurs sur le marché </a>: les DAE (Défibrillateurs Automatiques Externes) et les DSA (Défibrillateurs Semi-Automatiques). Ces deux équipements de santé sont conçus pour fournir une assistance immédiate en cas d'urgence cardiaque. Leur facilité d'utilisation est leur principal atout, permettant à toute personne, quels que soient son âge ou ses connaissances médicales, de prendre en charge un arrêt cardiaque.</p>
+                        <p class="whatAED__content__p">La <a href="{{route('difference-defibrillateur')}}">différence entre un DSA et un DEA</a> est qu’un défibrillateur semi-automatique exige une intervention humaine pour délivrer un choc électrique ; tandis qu'un défibrillateur automatique externe fonctionne entièrement de manière automatisée, ne requérant aucune action supplémentaire à part le positionnement des électrodes.</p>
+                        <p class="whatAED__content__p">Avec <a href="{{route('index')}}">CardioPro</a>, équipez-vous d'un dispositif à la fois rassurant, intuitif et simple d'utilisation.</p>
                     </div>
                 </div>
             </div>

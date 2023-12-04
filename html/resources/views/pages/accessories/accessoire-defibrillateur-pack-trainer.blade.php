@@ -64,7 +64,7 @@
 <section class="boiter-text bg-blue">
     <div class="container">
         <div class="boiter-text__inner">
-            <h2>Enseignez et entraînez-vous à l'utilisation  des défibrillateurs avec cet assistant de massage cardiaque.</h2>
+            <h2>Enseignez et entraînez-vous à l'utilisation des défibrillateurs avec cet assistant de massage cardiaque.</h2>
             <p>Découvrez le Pack Trainer, votre <b>assistant de massage cardiaque</b> pour former et s'entraîner à l'utilisation des défibrillateurs externes automatiques (DAE). </p>
             <p>Ce pack comprend un <b>défibrillateur d'entraînement</b>, le mannequin Practi et un sac de transport. Il offre une flexibilité totale, fonctionnant sur secteur ou avec 3 piles AA. </p>
             <p>Avec des scénarios préprogrammés, il facilite l'apprentissage des compétences essentielles en cas d'urgence. Optez pour une formation complète et sécurisée pour être prêt à sauver des vies.</p>

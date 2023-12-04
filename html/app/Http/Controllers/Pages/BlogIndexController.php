@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers\Pages;
 
+use App\Blog;
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
+use Illuminate\Pagination\LengthAwarePaginator;
 
 class BlogIndexController extends Controller
 {
@@ -32,8 +33,14 @@ class BlogIndexController extends Controller
                     'link' => route('posts'),
                 ],
             ],
+            'blogs' => $this->getBlogs(),
         ];
 
         return view('pages/posts', compact('data'));
+    }
+
+    private function getBlogs(): LengthAwarePaginator
+    {
+        return Blog::select('id', 'url', 'h1', 'img_src', 'img_alt', 'meta_description', 'date', 'created_at')->orderBy('created_at', 'DESC')->paginate(6);
     }
 }

@@ -7,9 +7,16 @@ if (formPageButtonsRow)
     let contentBlockWrappers
     let contentToShow
     let contentToHide
+    let formToShow
     let formToHide
+    let formType
+    let formPrice
+    let priceSpan
+    let priceInput
+    let typeInput
     let startHeight
     let targetHeight
+    let currentButton
 
     let formPageButtons = formPageButtonsRow.querySelectorAll('.formPage__button')
     let contentBlock = document.getElementById('formPage__content')
@@ -82,9 +89,9 @@ if (formPageButtonsRow)
         saleButtons.forEach(function(element) {
             element.addEventListener("click", function(e) {
                 e.preventDefault()
-                let formToShow = document.getElementById(this.getAttribute('data-form-id'))
-                let formPrice = this.getAttribute('data-form-price')
-                let formType = this.getAttribute('data-form-type')
+                formToShow = document.getElementById(this.getAttribute('data-form-id'))
+                formPrice = this.getAttribute('data-form-price')
+                formType = this.getAttribute('data-form-type')
 
                 if (!formToShow.classList.contains('active'))
                 {
@@ -101,10 +108,9 @@ if (formPageButtonsRow)
                 }
                 if (this.getAttribute('data-form-id') == 'content-location-form')
                 {
-                    console.log(formPrice)
-                    let priceSpan = document.getElementById('price1')
-                    let priceInput = document.getElementById('price1-input')
-                    let typeInput = document.getElementById('type1-input')
+                    priceSpan = document.getElementById('price1')
+                    priceInput = document.getElementById('price1-input')
+                    typeInput = document.getElementById('type1-input')
                     fadeOut(priceSpan, 150, function() {
                         priceSpan.innerText = formPrice
                         fadeIn(priceSpan, 150)
@@ -128,5 +134,75 @@ if (formPageButtonsRow)
                 }
             })
         })
+    }
+
+    /* Functionality when has URL Params */
+
+    let urlParams = new URLSearchParams(window.location.search)
+
+    let type = urlParams.get('type')
+    let price = urlParams.get('price')
+
+    if (type)
+    {
+        currentButton = document.querySelector('[data-link-id="' + type + '"]')
+        contentToShow = document.getElementById(type)
+        formToShow = document.getElementById('content-' + type)
+
+        currentButton.classList.add('active')
+
+        startHeight = 0
+        targetHeight = contentToShow.offsetHeight + formToShow.offsetHeight
+
+        if (!contentToShow.classList.contains('active'))
+            {
+                animateHeight(contentBlock, 300, startHeight, targetHeight, function() {
+                    fadeIn(contentToShow, 150)
+                    contentToShow.style.pointerEvents = "all"
+                    contentToShow.style.position = "unset"
+                    contentToShow.classList.add('active')
+
+                    fadeIn(formToShow, 150, function() {
+                        if (price)
+                        {
+                            priceSpan = formToShow.querySelector('.formPage__content--form__header--price__span')
+                            if (type == 'location-form')
+                            {
+                                priceInput = formToShow.querySelector('#price1-input')
+                                typeInput = formToShow.querySelector('#type1-input')
+                                if (price == 39)
+                                {
+                                    typeInput.value = 'Location - Pack access'
+                                }
+                                if (price == 49)
+                                {
+                                    typeInput.value = 'Location - Pack zen'
+                                }
+                            }
+                            if (type == 'achat-form')
+                            {
+                                priceInput = formToShow.querySelector('#price2-input')
+                                typeInput = formToShow.querySelector('#type2-input')
+                                if (price == 1190)
+                                {
+                                    typeInput.value = 'Achat - Pack access'
+                                }
+                                if (price == 1490)
+                                {
+                                    typeInput.value = 'Achat - Pack zen'
+                                }
+                            }
+                            priceSpan.innerText = price
+                            priceInput.value = price
+                        }
+                        let rect = formToShow.getBoundingClientRect()
+                        let distance = rect.top + window.scrollY
+                        window.scrollTo(0, distance)
+                    })
+                    formToShow.style.pointerEvents = "all"
+                    formToShow.style.position = "unset"
+                    formToShow.classList.add('active')
+                })
+            }
     }
 }

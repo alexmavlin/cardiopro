@@ -62,8 +62,8 @@
                             title="" 
                             class="neverLost__img">
                     <div class="neverLost__text">
-                        <p class="">Investir dans l’<a href="https://cardiopro.fr/achat-defibrillateur"><span>acquisition d’un défibrillateur</span></a> est un acte citoyen qui aujourd’hui permet de sauver des milliers de vies par an .</p>
-                        <p class="">Chez CardioPro nous avons la volonté d’améliorer sans cesse l’accès aux soins de premiers secours, en accompagnant les entreprises et <a href="https://cardiopro.fr/obligations"><span>ERP ayant l'obligation d'installation de DAE</span></a>, ainsi que d'offrir le meilleur service grâce à nos valeurs fortes : Engagement, Réactivité et Qualité.</p>
+                        <p class="">Investir dans l’<a href="{{route('achat-defibrillateur')}}"><span>acquisition d’un défibrillateur</span></a> est un acte citoyen qui aujourd’hui permet de sauver des milliers de vies par an .</p>
+                        <p class="">Chez CardioPro nous avons la volonté d’améliorer sans cesse l’accès aux soins de premiers secours, en accompagnant les entreprises et <a href="{{route('obligations')}}"><span>ERP ayant l'obligation d'installation de DAE</span></a>, ainsi que d'offrir le meilleur service grâce à nos valeurs fortes : Engagement, Réactivité et Qualité.</p>
                     </div>
                 </div>
             </div>

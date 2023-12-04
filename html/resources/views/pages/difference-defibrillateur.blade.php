@@ -73,7 +73,7 @@
                     </div>
                     <div class="faq__content">
                         <p>Le Défibrillateur Automatique Externe (DAE) est une machine médicale automatisée qui permet au grand public de <b>réagir rapidement en cas d'arrêt cardiaque</b>. Facile d'utilisation et ne nécessitant pas de formation médicale, le DAE fournit des instructions vocales claires et précises, guide l'utilisateur tout au long du processus et administre automatiquement un choc électrique lorsque cela est nécessaire. La seule action requise pour utiliser ce dispositif est de placer correctement les électrodes conformément aux indications fournies.</p>
-                        <p>Les <b>DAE sont particulièrement adaptés aux entreprises</b> et <a href="https://cardiopro.fr/erp">établissements recevant du public</a> (ERP) où le personnel n’est pas forcément formé à la pratique des premiers secours. </p>
+                        <p>Les <b>DAE sont particulièrement adaptés aux entreprises</b> et <a href="{{route('erp')}}">établissements recevant du public</a> (ERP) où le personnel n’est pas forcément formé à la pratique des premiers secours. </p>
                     </div>
                 </div>
                 <div class="faq__item">
@@ -94,7 +94,7 @@
                     <div class="faq__content">
                         <p>La <b>différence entre un DAE et un DSA réside dans leur niveau d'automatisation</b>. Le <b>DAE fonctionne de manière entièrement automatique</b>, fournissant des instructions vocales et administrant automatiquement le choc électrique. En revanche, le DSA requiert une intervention manuelle pour délivrer le choc. </p>
                         <p>Les deux dispositifs sont accessibles à tous, offrant une réponse rapide en cas d’arrêt cardiaque. </p>
-                        <p>CardioPro recommande l'<a href="https://cardiopro.fr/livraison-installation-defibrillateur">installation d’un DAE</a> dans les <a href="https://cardiopro.fr/entreprise">entreprises</a>, collectivités et associations pour son <b>utilisation intuitive et plus facile.</b></p>
+                        <p>CardioPro recommande l'<a href="{{route('livraison-installation-defibrillateur')}}">installation d’un DAE</a> dans les <a href="{{route('entreprise')}}">entreprises</a>, collectivités et associations pour son <b>utilisation intuitive et plus facile.</b></p>
                     </div>
                 </div>
             </div>
@@ -187,7 +187,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=39')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -223,7 +223,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=49')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -308,7 +308,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=achat-form&price=1190')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -344,7 +344,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=achat-form&price=1490')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>

@@ -29,7 +29,7 @@ class SpecialisteLocationVenteDefibrillateursController extends Controller
                 ],
                 [
                     'name' => 'Nos Offres',
-                    'link' => '#',
+                    'link' => route('defibrillateur-prix'),
                 ],
                 [
                     'name' => 'Formule location et achat DAE',

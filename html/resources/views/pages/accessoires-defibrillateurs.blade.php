@@ -283,7 +283,7 @@
                     <div class="faq__content">
                         <p>Les <strong>prix des boîtiers pour défibrillateur</strong> varient en fonction de leur type (interne ou externe), de la marque et de leurs options.</p>
                         <p>Chez CardioPro, parmi notre <strong>catalogue d’accessoire pour défibrillateur</strong>, nous vous proposons un <a href="https://cardiopro.fr/accessoire/accessoire-defibrillateur-boitier-Aivia-100"><span>boîtier mural intérieur</span></a>, au tarif de 150€ HT. Ce boîtier est équipé de la détection automatique de la lumière et d’une alarme.</p>
-                        <p>Nous proposons également un <a href="https://cardiopro.fr/accessoire/accessoire-defibrillateur-boitier-DAC-350"><span>boîtier mural extérieur</span></a> au prix de 300€ HT. Résistant aux intempéries, ce boîtier est également muni d’une alarme automatique.</p>
+                        <p>Nous proposons également un <a href="{{route('accessoire-defibrillateur-boitier-DAC-350')}}"><span>boîtier mural extérieur</span></a> au prix de 300€ HT. Résistant aux intempéries, ce boîtier est également muni d’une alarme automatique.</p>
                     </div>
                 </div>
                 <div class="faq__item">
@@ -303,7 +303,7 @@
                     </div>
                     <div class="faq__content">
                         <p>Le <strong>prix d'une batterie ou d’une pile de rechange pour défibrillateur</strong> peut varier en fonction du modèle, de sa capacité et de sa durée de vie.</p>
-                        <p>Chez CardioPro, nous proposons <strong>divers accessoires pour défibrillateurs</strong> notamment des <a href="https://cardiopro.fr/accessoire/accessoire-defibrillateur-padpak-adulte"><span>kits complets comprenant les piles et les électrodes</span></a> à un tarif moyen d'environ 180€ HT.</p>
+                        <p>Chez CardioPro, nous proposons <strong>divers accessoires pour défibrillateurs</strong> notamment des <a href="{{route('accessoire-defibrillateur-padpak-adulte')}}"><span>kits complets comprenant les piles et les électrodes</span></a> à un tarif moyen d'environ 180€ HT.</p>
                         <p>Il est recommandé de vérifier les spécificités de votre défibrillateur pour obtenir un devis précis.</p>
                     </div>
                 </div>
@@ -313,7 +313,7 @@
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>Un <a href="https://cardiopro.fr/accessoire/accessoire-defibrillateur-Samaritan-PAD-Trainer"><span>défibrillateur de formation</span></a> est un tout autre type d’accessoire pour défibrillateur. Il est essentiel pour l'apprentissage et la pratique de la défibrillation cardiaque lors des sessions de formation aux gestes de premiers secours.</p>
+                        <p>Un <a href="{{route('accessoire-defibrillateur-Samaritan-PAD-Trainer')}}"><span>défibrillateur de formation</span></a> est un tout autre type d’accessoire pour défibrillateur. Il est essentiel pour l'apprentissage et la pratique de la défibrillation cardiaque lors des sessions de formation aux gestes de premiers secours.</p>
                         <p>Conçus pour ressembler aux véritables défibrillateurs DSA DEA, ils intègrent des scénarios programmés afin de simuler de manière réaliste le déroulement d'une séance de réanimation cardio-pulmonaire.</p>
                         <p>Ces appareils permettent aux apprenants de s'exercer en toute sécurité et de développer les compétences nécessaires pour intervenir efficacement en cas d'urgence cardiaque.</p>
                     </div>
@@ -441,7 +441,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                             <path d="M21.2512 4.5H3.11835C2.05002 4.5 1.18475 5.37063 1.18475 6.43359V18.0352C1.18475 19.1044 2.05637 19.9688 3.11835 19.9688H21.2512C22.3106 19.9688 23.1848 19.1081 23.1848 18.0352V6.43359C23.1848 5.37252 22.3229 4.5 21.2512 4.5ZM20.9804 5.78906C20.5853 6.18201 13.7868 12.9448 13.552 13.1783C13.1868 13.5435 12.7012 13.7446 12.1848 13.7446C11.6683 13.7446 11.1827 13.5435 10.8163 13.1771C10.6584 13.02 3.93488 6.33193 3.38914 5.78906H20.9804ZM2.47382 17.7728V6.69678L8.0442 12.2378L2.47382 17.7728ZM3.38995 18.6797L8.95814 13.1469L9.90599 14.0898C10.5147 14.6985 11.324 15.0337 12.1848 15.0337C13.0455 15.0337 13.8548 14.6985 14.4623 14.091L15.4114 13.1469L20.9796 18.6797H3.38995ZM21.8957 17.7728L16.3253 12.2378L21.8957 6.69678V17.7728Z" fill="white"/>
                           </svg>
-                        <a class="">contact@cardiopro.fr</a>
+                        <a href="mailto:contact@cardiopro.fr" class="">contact@cardiopro.fr</a>
                     </div>
                     <div class="additionalInfo__line">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">

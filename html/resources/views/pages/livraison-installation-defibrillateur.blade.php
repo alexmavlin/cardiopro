@@ -67,7 +67,7 @@
                         <path d="M52.4475 27.2631V26.1773C52.4475 25.2123 51.8041 24.3678 50.8591 24.0461L46.5967 22.8599L46.3956 22.3773C46.3152 22.1562 46.2147 21.9752 46.1544 21.7742C45.9131 21.2313 45.7321 20.7488 45.4909 20.1054L45.3099 19.643L47.4814 15.8228C47.984 14.9583 47.8433 13.8324 47.0993 13.1689L44.0232 10.1128C43.6009 9.69057 43.0179 9.4493 42.4147 9.4493C42.0327 9.4493 41.6708 9.54983 41.3491 9.75089L37.529 11.9223C37.529 11.9223 36.5639 11.5202 36.3226 11.4197C35.82 11.2186 35.3575 11.0176 34.7946 10.7964L34.2919 10.5953L33.166 6.47364L33.1459 6.43343L33.1258 6.35301C32.8443 5.42814 31.9597 4.76465 30.9946 4.76465H26.6115C25.5861 4.76465 24.7015 5.42814 24.4803 6.39322L23.3544 10.6355L22.8718 10.8366C22.6306 10.9371 22.4094 11.0377 22.2083 11.1181L22.1681 11.1382C21.6856 11.3393 21.2232 11.5403 20.6401 11.7615L20.1575 11.9424L16.3374 9.75089C15.9956 9.54983 15.6136 9.4493 15.2316 9.4493C14.6486 9.4493 14.0655 9.69057 13.6634 10.1329L10.547 13.189C9.82315 13.9128 9.66231 15.0186 10.1851 15.8832L12.3364 19.6832C12.3364 19.6832 11.9343 20.6482 11.8337 20.8895C11.6327 21.3922 11.4316 21.8546 11.2105 22.4377L11.0094 22.9403L6.88771 24.0662L6.84749 24.0863L6.76707 24.1064C5.8422 24.3879 5.17871 25.2726 5.17871 26.2377V30.6207C5.17871 31.6461 5.8422 32.5107 6.78718 32.7519L11.0094 33.9181L11.2105 34.4006C11.5523 35.1848 11.8136 35.808 12.1353 36.6525L12.3163 37.1149L10.1448 40.9551C9.6422 41.8197 9.80305 42.9456 10.547 43.6292L13.603 46.6853C14.0454 47.1276 14.6083 47.3488 15.1914 47.3488C15.5734 47.3488 15.9554 47.2482 16.2972 47.0472L20.0972 44.8959L21.2835 45.3985C21.7861 45.5996 22.2486 45.8006 22.8316 46.0419L23.3343 46.243L24.5406 50.6059V50.626C24.8623 51.4906 25.7269 52.0938 26.6316 52.0938H31.0147C32.0401 52.0938 32.9046 51.4303 33.1459 50.4853L34.312 46.243L34.7946 46.0419C35.0157 45.9615 35.1967 45.8609 35.3978 45.8006H35.4179C35.9607 45.5795 36.4433 45.3784 37.0665 45.1371L37.529 44.9562L41.3692 47.1276C41.6909 47.3287 42.0729 47.4292 42.4549 47.4292C43.0581 47.4292 43.6411 47.1879 44.0634 46.7456L47.1194 43.6895C47.8433 42.9657 47.984 41.8599 47.4612 41.0154L45.2898 37.1953C45.2898 37.1953 45.6919 36.2101 45.7925 35.989C45.9935 35.4863 46.1946 35.044 46.4157 34.4609L46.6168 33.9583L50.9798 32.7519H50.9999C51.8644 32.4303 52.4676 31.5657 52.4676 30.6609V27.2631H52.4475ZM50.9194 31.1033L45.4507 32.5911L45.3099 32.9731C44.7269 34.4609 44.4655 35.1445 43.8221 36.5922L43.5808 37.1752L46.3755 42.1012L42.5353 45.9615L37.6295 43.1467L37.2877 43.2673C35.6993 43.8906 35.0157 44.1721 33.5279 44.8154L33.0052 45.0366L31.5173 50.4853H26.0486L24.5607 45.0165L24.1988 44.8758C22.711 44.2927 22.0274 44.0313 20.5798 43.3879L19.9565 43.1266L15.0306 45.9414L11.1904 42.0609L14.0052 37.1551L13.8845 36.8133C13.2814 35.225 12.9999 34.5414 12.3364 32.9932L12.1353 32.5107L6.70675 31.0229V25.5541L12.1755 24.0662L12.3163 23.7043C12.9396 22.0959 13.1808 21.4726 13.8041 20.0652L14.0454 19.4821L11.2306 14.6768L15.0909 10.8165L19.9967 13.6112L20.3586 13.4705C21.9671 12.8673 22.6507 12.5858 24.1385 11.9223L24.621 11.7213L26.1089 6.27258H31.5777L33.0655 11.7414L33.4274 11.8821C34.5935 12.3244 35.257 12.6059 36.1216 12.9678C36.1216 12.9678 36.7247 13.2292 37.0866 13.3699L37.6697 13.6112L42.5956 10.7964L46.4157 14.6567L43.6411 19.5625L43.7819 19.9043C44.2845 21.2313 44.5861 21.9551 45.0284 23.0207L45.511 24.1668L50.9396 25.6546V31.1033H50.9194Z" stroke="#0039C6" stroke-width="0.4" mask="url(#path-2-outside-1_141_11588)"/>
                       </svg>
                     <h3>Installation professionnelle</h3>
-                    <p>Notre <b>service professionnel d'installation de défibrillateur</b> vous garantit son bon fonctionnement. Nous optimisons l'accès au <a href="https://cardiopro.fr/difference-defibrillateur">DAE ou DSA</a> en le plaçant 
+                    <p>Notre <b>service professionnel d'installation de défibrillateur</b> vous garantit son bon fonctionnement. Nous optimisons l'accès au <a href="{{route('difference-defibrillateur')}}">DAE ou DSA</a> en le plaçant 
                         judicieusement dans votre établissement et effectuons sa mise en service. Nous veillons à ce que le défibrillateur soit prêt à être utilisé en cas de besoin.</p>
                 </div>
                 <div class="servicesBenefits__item">
@@ -75,8 +75,8 @@
                         <path d="M47.6487 36.1702C47.5391 35.0531 46.9461 34.0636 46.0758 33.3869C46.9461 32.7166 47.5391 31.7207 47.6487 30.6035C47.7583 29.448 47.3715 28.2989 46.5915 27.4498C45.8051 26.5944 44.6899 26.1092 43.5296 26.1092H33.7959C34.2536 24.7367 34.9562 22.5917 35.2527 21.3596C36.0198 18.206 35.3043 16.1823 33.119 15.346C31.5333 14.7395 29.29 14.7332 27.5947 18.1741C27.3304 18.7167 27.0983 19.2912 26.8533 19.8977C25.938 22.1895 24.9002 24.7814 21.3676 27.1498C20.8455 27.5009 20.3749 27.8329 19.9495 28.1585C19.2984 26.9774 17.9576 26.1667 16.4105 26.1667H11.6339C11.0989 26.1667 10.667 26.5944 10.667 27.1243C10.667 27.6541 11.0989 28.0819 11.6339 28.0819H16.4105C17.5322 28.0819 18.4411 28.8415 18.4411 29.7736V46.793C18.4411 47.7251 17.5322 48.4847 16.4105 48.4847H11.6339C11.0989 48.4847 10.667 48.9125 10.667 49.4423C10.667 49.9722 11.0989 50.3999 11.6339 50.3999H16.4105C17.9576 50.3999 19.2984 49.5828 19.9495 48.4018C21.8962 49.5892 24.4102 50.4063 27.4399 50.8276C27.4657 50.8276 27.4851 50.8276 27.5109 50.834L29.4318 50.9617L40.0229 51C43.7294 51 44.3418 48.9635 44.4256 48.0889C44.4965 47.3995 44.4385 46.793 44.258 46.2887C46.0436 45.9248 47.4618 44.4693 47.6358 42.6818C47.7518 41.4625 47.3135 40.2815 46.4819 39.4324C47.3135 38.5833 47.7518 37.4023 47.6358 36.183L47.6487 36.1702ZM45.7213 42.4903C45.6117 43.5947 44.5868 44.4565 43.3878 44.4565H41.325C41.0478 44.4437 40.7642 44.4437 40.4935 44.4565C39.9649 44.4757 39.5523 44.9098 39.5652 45.4333C39.5781 45.9567 40.0035 46.3717 40.5321 46.3717H41.267C41.6924 46.3972 42.105 46.4738 42.3048 46.6909C42.5498 46.9462 42.5498 47.4889 42.5111 47.891C42.408 48.8742 41.1058 49.0784 40.0358 49.0784L29.5092 49.0401L27.6849 48.9189C24.6036 48.4847 22.1541 47.6293 20.3814 46.3717V30.2651C20.9551 29.7864 21.6319 29.282 22.4635 28.733C26.4924 26.039 27.6978 23.0194 28.6647 20.5999C28.8968 20.0254 29.1095 19.4828 29.3416 19.0104C30.4568 16.7441 31.5268 16.7888 32.4293 17.1335C33.3189 17.4718 34.0473 18.1677 33.3833 20.9128C32.9514 22.6939 31.5591 26.7221 31.5462 26.7604C31.443 27.0541 31.4946 27.3732 31.6751 27.6286C31.8556 27.8776 32.1521 28.0308 32.4615 28.0308H43.536C44.1549 28.0308 44.7479 28.2925 45.1669 28.7458C45.5924 29.2054 45.7922 29.8055 45.7277 30.4311C45.6182 31.5355 44.5997 32.3974 43.3942 32.3974H41.0865C40.7577 32.3974 40.4612 32.5825 40.2807 32.8634C40.1002 33.1379 40.0873 33.5082 40.2292 33.8018C40.2292 33.8146 40.2614 33.8657 40.2678 33.8784C40.4354 34.1976 40.7642 34.3955 41.1252 34.3955H43.3942C44.5932 34.3955 45.6182 35.2573 45.7277 36.3617C45.8115 37.2427 45.3732 38.0471 44.6126 38.4684H41.209C40.6739 38.4684 40.2421 38.8962 40.2421 39.426C40.2421 39.9559 40.6739 40.3836 41.209 40.3836H44.6126C45.3797 40.8113 45.818 41.6157 45.7277 42.4903H45.7213ZM13.7869 46.5887C15.0826 46.5887 16.1333 45.5482 16.1333 44.265C16.1333 42.9818 15.0826 41.9413 13.7869 41.9413C12.4913 41.9413 11.4405 42.9818 11.4405 44.265C11.4405 45.5482 12.4913 46.5887 13.7869 46.5887ZM13.7869 43.8564C14.0126 43.8564 14.1995 44.0416 14.1995 44.265C14.1995 44.4884 14.0126 44.6736 13.7869 44.6736C13.5613 44.6736 13.3744 44.4884 13.3744 44.265C13.3744 44.0416 13.5613 43.8564 13.7869 43.8564ZM30.2311 12.0519V6.95758C30.2311 6.42772 30.663 6 31.1981 6C31.7331 6 32.165 6.42772 32.165 6.95758V12.0519C32.165 12.5818 31.7331 13.0095 31.1981 13.0095C30.663 13.0095 30.2311 12.5818 30.2311 12.0519ZM21.69 10.7305C21.3096 10.3538 21.3096 9.74734 21.69 9.37707C22.0703 9.00043 22.6827 9.00043 23.0565 9.37707L26.6922 12.9776C27.0725 13.3542 27.0725 13.9607 26.6922 14.331C26.5052 14.5161 26.2538 14.6119 26.0089 14.6119C25.7639 14.6119 25.5125 14.5161 25.3256 14.331L21.69 10.7305ZM35.5557 14.331C35.1754 13.9543 35.1754 13.3478 35.5557 12.9776L39.1913 9.37707C39.5716 9.00043 40.184 9.00043 40.5579 9.37707C40.9382 9.75372 40.9382 10.3602 40.5579 10.7305L36.9223 14.331C36.7353 14.5161 36.4839 14.6119 36.239 14.6119C35.994 14.6119 35.7426 14.5161 35.5557 14.331Z" fill="white"/>
                       </svg>
                     <h3>Service complet</h3>
-                    <p>Notre approche vise à <a href="https://cardiopro.fr/nos-valeurs-entreprise-vente-defibrillateur-automatise-externe">rendre les défibrillateurs automatisés plus accessibles</a>. 
-                        Pour ce faire, nous proposons une expédition rapide et efficace, sans coûts supplémentaires, vous donnant ainsi la possibilité de facilement répondre à vos éventuelles <a href="">obligations liées au Défibrillateur Automatique Externe (DAE)</a>.</p>
+                    <p>Notre approche vise à <a href="{{route('nos-valeurs-entreprise-vente-defibrillateur-automatise-externe')}}">rendre les défibrillateurs automatisés plus accessibles</a>. 
+                        Pour ce faire, nous proposons une expédition rapide et efficace, sans coûts supplémentaires, vous donnant ainsi la possibilité de facilement répondre à vos éventuelles <a href="{{route('obligations')}}">obligations liées au Défibrillateur Automatique Externe (DAE)</a>.</p>
                 </div>
             </div>
         </div>
@@ -168,7 +168,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=39')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -204,7 +204,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=49')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -289,7 +289,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=achat-form&price=1190')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -325,7 +325,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=achat-form&price=1490')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -340,7 +340,7 @@
         <div class="livraisonSlider__inner">
             <div class="livraisonSlider__header">
                 <h2>CardioPro à votre service dans toute la France !</h2>
-                <p>CardioPro répand son expertise à travers toute la France ! Nous proposons nos services de vente et de <a href="https://cardiopro.fr/location-defibrillateur">location de défibrillateurs</a>, mais également de livraison et d’installation, dans toutes les régions.</p>
+                <p>CardioPro répand son expertise à travers toute la France ! Nous proposons nos services de vente et de <a href="{{route('location-defibrillateur')}}">location de défibrillateurs</a>, mais également de livraison et d’installation, dans toutes les régions.</p>
             </div>
             <div class="livraisonSlider__box">
                 <button class="livraisonSlider__button__left">
@@ -416,9 +416,9 @@
                         class="definitionDef__img">
                 <h2 class="definitionDef__header__mobile">Définition de défibrillateur</h2>
                 <div class="definitionDef__content">
-                    <p>En tant que <a href="https://cardiopro.fr/">spécialistes des défibrillateurs</a>, chez CardioPro, nous nous engageons à fournir des services complets et de haute qualité. Nous assurons la <b>livraison, l'installation et la mise en service de votre défibrillateur</b>, garantissant ainsi son bon fonctionnement. </p>
+                    <p>En tant que <a href="{{route('index')}}">spécialistes des défibrillateurs</a>, chez CardioPro, nous nous engageons à fournir des services complets et de haute qualité. Nous assurons la <b>livraison, l'installation et la mise en service de votre défibrillateur</b>, garantissant ainsi son bon fonctionnement. </p>
                     <p>Avant l’installation, nous vous conseillons sur l'emplacement idéal, veillant à ce que le dispositif soit à la fois protégé des éléments, visible par tous et facilement accessible. Nous vérifions également le support et ses options. À la fin de notre intervention, un rapport détaillé des contrôles effectués vous est remis pour vos éventuels besoins futurs.  </p>
-                    <p>Dans certains cas, des accessoires peuvent s'avérer nécessaires. Pour répondre à ces besoins spécifiques, nous proposons divers <a href="https://cardiopro.fr/accessoires-defibrillateurs">accessoires pour défibrillateurs</a> tels que des boîtiers chauffants ou des modèles avec alarme intégrée.</p>
+                    <p>Dans certains cas, des accessoires peuvent s'avérer nécessaires. Pour répondre à ces besoins spécifiques, nous proposons divers <a href="{{route('accessoires-defibrillateurs')}}">accessoires pour défibrillateurs</a> tels que des boîtiers chauffants ou des modèles avec alarme intégrée.</p>
                 </div>
             </div>
         </div>
@@ -483,7 +483,7 @@
                         <div class="faq__status--icon"></div>
                     </div>
                     <div class="faq__content">
-                        <p>L'<strong>installation d'un DAE</strong> implique la fixation de son boîtier ou <a href="https://cardiopro.fr/accessoire/accessoire-defibrillateur-support-mural-plexiglass"><span>support mural</span></a>, que ce soit en intérieur ou en extérieur. Dans les deux cas, le support doit être fixé dans un endroit passant et facile d'accès, à environ 1,3 mètre du sol, en laissant un espace libre de 15 à 20 centimètres autour de celui-ci.</p>
+                        <p>L'<strong>installation d'un DAE</strong> implique la fixation de son boîtier ou <a href="{{route('accessoire-defibrillateur-support-mural-plexiglass')}}"><span>support mural</span></a>, que ce soit en intérieur ou en extérieur. Dans les deux cas, le support doit être fixé dans un endroit passant et facile d'accès, à environ 1,3 mètre du sol, en laissant un espace libre de 15 à 20 centimètres autour de celui-ci.</p>
                         <p>L'installation des boîtiers intérieurs est relativement simple, se basant sur un système de fixation par vis. En revanche, pour les modèles destinés à l'extérieur, un raccordement électrique est indispensable, nécessitant l'intervention d'un technicien électricien.</p>
                     </div>
                 </div>

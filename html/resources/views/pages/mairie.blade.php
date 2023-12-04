@@ -38,7 +38,7 @@
     <div class="container">
         <div class="mastHead__inner">
             <h2 class="mastHead__h2">Les mairies doivent équiper leurs structures de défibrillateurs</h2>
-            <p class="mastHead__p">Chaque mairie est tenue d’équiper ses locaux et les structures placées sous sa tutelle en défibrillateurs. En 2022, la législation concernant l'installation de <a href="https://cardiopro.fr/erp">défibrillateurs dans les ERP</a> de catégorie 1, 2, 3 et 4 a été renforcée. Elle prévoit désormais des sanctions plus sévères, incluant des peines pouvant aller jusqu'à 5 ans d'emprisonnement en cas d'un non-respect du décret.</p>
+            <p class="mastHead__p">Chaque mairie est tenue d’équiper ses locaux et les structures placées sous sa tutelle en défibrillateurs. En 2022, la législation concernant l'installation de <a href="{{route('erp')}}">défibrillateurs dans les ERP</a> de catégorie 1, 2, 3 et 4 a été renforcée. Elle prévoit désormais des sanctions plus sévères, incluant des peines pouvant aller jusqu'à 5 ans d'emprisonnement en cas d'un non-respect du décret.</p>
         </div>
     </div>
 </section>
@@ -56,7 +56,7 @@
                                 class="whatAED__img__entreprise">
                     </div>
                     <div class="whatAED__content whatAED__content__entreprise">
-                        <p class="whatAED__content__p">Les <b>Mairies et collectivités</b> entrent dans la catégorie des établissements recevant du public (ERP). À ce titre, elles sont dans l’<a href="https://cardiopro.fr/obligations">obligation</a> de prévoir l'<a href="https://cardiopro.fr/achat-defibrillateur">achat</a> et l’<b>installation d’un défibrillateur</b> dans leurs différents locaux. Gymnase, stade, théâtre, salle des fêtes, hôtel de ville, club de sport, etc., sont tout autant de lieux fortement fréquentés où l’assistance à personne en danger doit pouvoir être encouragée.</p>
+                        <p class="whatAED__content__p">Les <b>Mairies et collectivités</b> entrent dans la catégorie des établissements recevant du public (ERP). À ce titre, elles sont dans l’<a href="{{route('obligations')}}">obligation</a> de prévoir l'<a href="{{route('achat-defibrillateur')}}">achat</a> et l’<b>installation d’un défibrillateur</b> dans leurs différents locaux. Gymnase, stade, théâtre, salle des fêtes, hôtel de ville, club de sport, etc., sont tout autant de lieux fortement fréquentés où l’assistance à personne en danger doit pouvoir être encouragée.</p>
                     </div>
                 </div>
                 <div class="whatAED__item">
@@ -82,7 +82,7 @@
                                 class="whatAED__img__entreprise__logo">
                     </div>
                     <div class="whatAED__content whatAED__content__entreprise">
-                        <p class="whatAED__content__p">Cardiopro contribue à cet effort national visant à abaisser le taux de mortalité suite à un arrêt cardiaque, en proposant aux Mairies, ERP et Entreprises des packs de <a href="https://cardiopro.fr/location-defibrillateur">location de défibrillateurs</a> clé en main au <a href="https://cardiopro.fr/defibrillateur-prix">prix de 39,00 € par mois</a>.</p>
+                        <p class="whatAED__content__p">Cardiopro contribue à cet effort national visant à abaisser le taux de mortalité suite à un arrêt cardiaque, en proposant aux Mairies, ERP et Entreprises des packs de <a href="{{route('location-defibrillateur')}}">location de défibrillateurs</a> clé en main au <a href="{{route('defibrillateur-prix')}}">prix de 39,00 € par mois</a>.</p>
                     </div>
                 </div>
             </div>
@@ -177,7 +177,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=39')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -213,7 +213,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=49')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -298,7 +298,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=achat-form&price=1190')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -334,7 +334,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=achat-form&price=1490')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -386,7 +386,7 @@
                     <path d="M27.4631 35.1626C28.6665 35.1626 29.6421 34.187 29.6421 32.9836C29.6421 31.7802 28.6665 30.8047 27.4631 30.8047C26.2597 30.8047 25.2842 31.7802 25.2842 32.9836C25.2842 34.187 26.2597 35.1626 27.4631 35.1626Z" fill="#C22921"/>
                   </svg>
                 <h2>Où installer le défibrillateur dans votre entreprise ?</h2>
-                <p>Pour placer un défibrillateur, il est essentiel de choisir un endroit ouvert, aisément accessible et avec beaucoup de passage. Un tel emplacement assure que le défibrillateur sera rapidement repéré et utilisé en <a href="https://cardiopro.fr/reconnaitre-un-arret-cardiaque">cas d'urgence cardiaque</a>, ce qui peut avoir un impact déterminant sur la survie de la victime. </p>
+                <p>Pour placer un défibrillateur, il est essentiel de choisir un endroit ouvert, aisément accessible et avec beaucoup de passage. Un tel emplacement assure que le défibrillateur sera rapidement repéré et utilisé en <a href="{{route('reconnaitre-un-arret-cardiaque')}}">cas d'urgence cardiaque</a>, ce qui peut avoir un impact déterminant sur la survie de la victime. </p>
             </div>
             <div class="installer__item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
@@ -394,8 +394,8 @@
                     <path d="M18.027 35.3585H23.0077V40.3392C23.0077 40.9933 23.5383 41.524 24.1925 41.524H30.9003C31.5544 41.524 32.0851 40.9933 32.0851 40.3392V35.3585H37.0657C37.7199 35.3585 38.2505 34.8278 38.2505 34.1737V27.4659C38.2505 26.8118 37.7199 26.2811 37.0657 26.2811H32.0851V21.3004C32.0851 20.6463 31.5544 20.1156 30.9003 20.1156H24.1925C23.5383 20.1156 23.0077 20.6463 23.0077 21.3004V26.2811H18.027C17.3729 26.2811 16.8422 26.8118 16.8422 27.4659V34.1737C16.8422 34.8278 17.3729 35.3585 18.027 35.3585ZM19.2118 28.6507H24.1925C24.8466 28.6507 25.3773 28.12 25.3773 27.4659V22.4852H29.7154V27.4659C29.7154 28.12 30.2461 28.6507 30.9003 28.6507H35.8809V32.9889H30.9003C30.2461 32.9889 29.7154 33.5196 29.7154 34.1737V39.1544H25.3773V34.1737C25.3773 33.5196 24.8466 32.9889 24.1925 32.9889H19.2118V28.6507Z" fill="#C22921" stroke="#C22921" stroke-width="0.8"/>
                   </svg>
                 <h2>Comment installer le boitier de votre défibrillateur ?</h2>
-                <p>L’<a href="https://cardiopro.fr/livraison-installation-defibrillateur">installation d'un défibrillateur</a> dépend du lieu où il sera mis et du boîtier qui le contiendra.</p>
-                <p>Dans le cas d'un <a href="https://cardiopro.fr/accessoire/accessoire-defibrillateur-boitier-Aivia-100">boîtier mural interne</a>, il suffit généralement de percer le mur et de le fixer le boîtier. En revanche, pour un boîtier mural externe, l'intervention d'un technicien électricien est nécessaire pour le raccordement au secteur électrique.</p>
+                <p>L’<a href="{{route('livraison-installation-defibrillateur')}}">installation d'un défibrillateur</a> dépend du lieu où il sera mis et du boîtier qui le contiendra.</p>
+                <p>Dans le cas d'un <a href="{{route('accessoire-defibrillateur-boitier-Aivia-100')}}">boîtier mural interne</a>, il suffit généralement de percer le mur et de le fixer le boîtier. En revanche, pour un boîtier mural externe, l'intervention d'un technicien électricien est nécessaire pour le raccordement au secteur électrique.</p>
             </div>
             <div class="installer__item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">

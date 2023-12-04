@@ -86,7 +86,7 @@
                 </div>
                 <div class="defDescription__item ">
                     <p>CardioPro vous assure une livraison de vos <a href="{{ route('accessoires-defibrillateurs')}}" title="accessoires pour défibrillateur" style="color:#CA1D1F">accesoires pour défibrillateur</a> sous 48h ouvrées en France (sous réserve d’une commande avant midi). Nous mettons tout en oeuvre afin que votre expérience soit un véritable succès et nous vous efforçons de garantir une livraison sécurisée, selon le mode de livraison que vous choisirez.</p>
-                    <p>Plus d’informations dans notre article <a href="/livraison-installation-defibrillateur" title="Livraison et Installation defibrillateur semi-automatique">« Livraison et Installation ».</a></p>
+                    <p>Plus d’informations dans notre article <a href="{{route('livraison-installation-defibrillateur')}}" title="Livraison et Installation defibrillateur semi-automatique">« Livraison et Installation ».</a></p>
                 </div>
             </div>
         </div>

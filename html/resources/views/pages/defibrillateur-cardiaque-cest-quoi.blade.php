@@ -64,7 +64,7 @@
                 <div class="definitionDef__content">
                     <p class=""><span>Un défibrillateur cardiaque</span> est une machine, simple d’utilisation qui permet à n’importe qui, formé ou non, de <b class="">secourir une victime d’arrêt cardiaque</b> soudain. Le dispositif de défibrillation, c'est-à-dire de transmission de courant électrique à travers les tissus cardiaques pour leur faire retrouver un niveau normal (qualifié de « sinusal »), est constitué d'un boîtier contenant une ou plusieurs batteries alimentant un micro-ordinateur. Le <b class="">but de la défibrillation</b> est de «remettre à niveau» le tissu myocardique. 
                         Après avoir appliqué deux électrodes recouvertes de gel conducteur sur la poitrine de la victime, l'ordinateur analysera le <b class="">rythme cardiaque</b> de la victime et indiquera si pratiquer une <b class="">défibrillation</b> (c’est-à-dire administrer un choc à la victime) est nécessaire.</p>
-                    <p class="">Le <a href="https://cardiopro.fr/defibrillateur-prix">prix d'un défibrillateur</a> n'influt pas sur son utilisation mais en fonction du modèle choisi, le choc se produira de différentes manières :</p>
+                    <p class="">Le <a href="{{route('defibrillateur-prix')}}">prix d'un défibrillateur</a> n'influt pas sur son utilisation mais en fonction du modèle choisi, le choc se produira de différentes manières :</p>
                 </div>
             </div>
             <div class="definitionDef__row">
@@ -102,7 +102,7 @@
             <div class="whatAED__header">
                 <h2>Qu'est-ce qu'un DAE et un DSA ?</h2>
                 <p>Il y a deux types de défibrillateurs cardiaques autorisés par la loi et disponibles
-                     à <a href="">l'achat</a> ou à la <a href="">location</a> ; les défibrillateurs semi-automatiques (DSA) et les défibrillateurs entièrement automatiques (DEA).</p>
+                     à <a href="{{route('achat-defibrillateur')}}">l'achat</a> ou à la <a href="{{route('location-defibrillateur')}}">location</a> ; les défibrillateurs semi-automatiques (DSA) et les défibrillateurs entièrement automatiques (DEA).</p>
             </div>
             <div class="whatAED__content">
                 <div class="whatAED__item">
@@ -129,7 +129,7 @@
                     <div class="whatAED__content">
                         <h3 class="whatAED__content__header">Qu'est-ce qu'un DAE ?</h3>
                         <p class="whatAED__content__p">Avec un <b>DEA</b>, le <b>défibrillateur cardiaque enverra le choc</b> sans aucune intervention après avoir informé le témoin secouriste de l'immédiateté du choc (en l’avertissant avec un message vocal comme “choc en 3, 2, 1”). Le <b>défibrillateur cardiaque entièrement automatique</b> est grandement indiqué pour la majorité des 
-                            commerces et <a href="https://cardiopro.fr/obligations">obligatoire pour les ERP</a>, lorsque moins de 30% de la population environnante -et donc susceptible d'intervenir- est formée à l'utilisation du défibrillateur cardiaque.</p>
+                            commerces et <a href="{{route('obligations')}}">obligatoire pour les ERP</a>, lorsque moins de 30% de la population environnante -et donc susceptible d'intervenir- est formée à l'utilisation du défibrillateur cardiaque.</p>
                     </div>
                 </div>
             </div>
@@ -224,7 +224,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=39')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -260,7 +260,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=49')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -348,7 +348,7 @@
                                 <p class="">Support mural</p>
                             </div>
                             <div class="sale__buttons">
-                                <a href="#" class="sale__choisir">Choisir</a>
+                                <a href="{{ route('form', 'type=achat-form&price=1190')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                                 <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                             </div>
                         </div>
@@ -384,7 +384,7 @@
                                 <p class="">Support mural</p>
                             </div>
                             <div class="sale__buttons">
-                                <a href="#" class="sale__choisir">Choisir</a>
+                                <a href="{{ route('form', 'type=achat-form&price=1490')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                                 <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                             </div>
                         </div>

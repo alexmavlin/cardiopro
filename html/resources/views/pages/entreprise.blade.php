@@ -60,7 +60,7 @@
                                 class="whatAED__img__entreprise">
                     </div>
                     <div class="whatAED__content whatAED__content__entreprise">
-                        <p class="whatAED__content__p">Si vous êtes employeur, vous savez peut-être que le Code de la Construction et de l'Habitation n'impose l'installation de défibrillateurs qu'aux <a href="https://cardiopro.fr/erp">Établissements Recevant du Public (ERP)</a>. Les entreprises qui ne sont pas spécifiquement destinées à accueillir du public ne sont donc pas tenues par la loi d’installer un défibrillateur. Cependant, selon le Code du Travail, l’employeur pourrait être tenu responsable en cas d'accident, car il a la responsabilité de garantir la santé de ses salariés sur le lieu de travail.</p>
+                        <p class="whatAED__content__p">Si vous êtes employeur, vous savez peut-être que le Code de la Construction et de l'Habitation n'impose l'installation de défibrillateurs qu'aux <a href="h{{route('erp')}}">Établissements Recevant du Public (ERP)</a>. Les entreprises qui ne sont pas spécifiquement destinées à accueillir du public ne sont donc pas tenues par la loi d’installer un défibrillateur. Cependant, selon le Code du Travail, l’employeur pourrait être tenu responsable en cas d'accident, car il a la responsabilité de garantir la santé de ses salariés sur le lieu de travail.</p>
                     </div>
                 </div>
                 <div class="whatAED__item">
@@ -87,7 +87,7 @@
         <div class="slider__inner">
             <div class="sale__small__header">
                 <h2>Pourquoi choisir CardioPro pour l'achat ou la location d'un défibrillateur pour votre entreprise ?</h2>
-                <p>CardioPro s'engage activement dans l'initiative nationale visant à réduire le taux de mortalité résultant d'arrêts cardiaques. Dans cette optique, nous proposons des solutions complètes de <a href="https://cardiopro.fr/location-defibrillateur">location de défibrillateurs aux entreprises et aux Établissements Recevant du Public (ERP)</a>. Nos packs tout-en-un, disponibles à partir de seulement 39 € par mois, sont conçus pour simplifier votre accès à cette technologie vitale.</p>
+                <p>CardioPro s'engage activement dans l'initiative nationale visant à réduire le taux de mortalité résultant d'arrêts cardiaques. Dans cette optique, nous proposons des solutions complètes de <a href="{{route('location-defibrillateur')}}">location de défibrillateurs aux entreprises et aux Établissements Recevant du Public (ERP)</a>. Nos packs tout-en-un, disponibles à partir de seulement 39 € par mois, sont conçus pour simplifier votre accès à cette technologie vitale.</p>
             </div>
             <div class="sale__slider">
                 <button class="sale__button__active">Location</button>
@@ -171,7 +171,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=39')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -207,7 +207,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=49')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -292,7 +292,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=achat-form&price=1190')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -328,7 +328,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=achat-form&price=1490')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -387,7 +387,7 @@
             <h3 class="acsList__h2">Pourquoi investir dans un défibrillateur si je n’en ai pas l’obligation légale ?</h3>
             <p class="acsList__p">L'<b>installation d'un défibrillateur dans le lieu de travail</b> présente de nombreux avantages tant pour vous, en tant qu'employeur, que pour votre entreprise dans son ensemble. En qualité de chef d'entreprise, vous avez la responsabilité de garantir la sécurité de vos collaborateurs. La <b>mise en place d'un défibrillateur dans votre entreprise</b> est donc une mesure judicieuse pour répondre à cette responsabilité légale tout en améliorant la sécurité de votre personnel.</p>
             <p class="acsList__p">Dans de nombreux pays comme le Danemark, des lois sur la santé et la sécurité au travail exigent la présence de défibrillateurs automatiques externes sur les chantiers de construction. Ces dispositifs ont déjà fait leurs preuves en sauvant des vies au sein des entreprises depuis leur introduction.</p>
-            <p class="acsList__p">Il est essentiel de comprendre que lorsqu'<a href="https://cardiopro.fr/reconnaitre-un-arret-cardiaque">une personne est confrontée à un arrêt cardiaque soudain</a>, chaque seconde compte. La rapidité d'intervention peut littéralement faire la différence entre la vie et la mort. Dans la plupart des situations, il n'est pas possible d'attendre l'arrivée des secours, ce qui souligne l'importance cruciale d'avoir un défibrillateur automatique à portée de main pour les premiers intervenants.</p>
+            <p class="acsList__p">Il est essentiel de comprendre que lorsqu'<a href="{{route('reconnaitre-un-arret-cardiaque')}}">une personne est confrontée à un arrêt cardiaque soudain</a>, chaque seconde compte. La rapidité d'intervention peut littéralement faire la différence entre la vie et la mort. Dans la plupart des situations, il n'est pas possible d'attendre l'arrivée des secours, ce qui souligne l'importance cruciale d'avoir un défibrillateur automatique à portée de main pour les premiers intervenants.</p>
         </div>
     </div>
 </section>
@@ -396,7 +396,7 @@
         <div class="choose__rent__inner">
             <div class="choose__rent__header">
                 <h2>Les bonnes raisons de disposer d’un défibrillateur en entreprise</h2>
-                <p>Vous hésitez entre louer et <a href="https://cardiopro.fr/achat-defibrillateur">acheter un défibrillateur ? </a>Découvrez ici les avantages de la location !</p>
+                <p>Vous hésitez entre louer et <a href="{{route('achat-defibrillateur')}}">acheter un défibrillateur ? </a>Découvrez ici les avantages de la location !</p>
             </div>
             <div class="choose__rent__list">
                 <div class="choose__rent__row">
@@ -445,7 +445,7 @@
                     <path d="M27.4631 35.1626C28.6665 35.1626 29.6421 34.187 29.6421 32.9836C29.6421 31.7802 28.6665 30.8047 27.4631 30.8047C26.2597 30.8047 25.2842 31.7802 25.2842 32.9836C25.2842 34.187 26.2597 35.1626 27.4631 35.1626Z" fill="#C22921"/>
                   </svg>
                 <h2>Où installer le défibrillateur dans votre entreprise ?</h2>
-                <p>Pour placer un défibrillateur, il est essentiel de choisir un endroit ouvert, aisément accessible et avec beaucoup de passage. Un tel emplacement assure que le défibrillateur sera rapidement repéré et utilisé en <a href="https://cardiopro.fr/reconnaitre-un-arret-cardiaque">cas d'urgence cardiaque</a>, ce qui peut avoir un impact déterminant sur la survie de la victime. </p>
+                <p>Pour placer un défibrillateur, il est essentiel de choisir un endroit ouvert, aisément accessible et avec beaucoup de passage. Un tel emplacement assure que le défibrillateur sera rapidement repéré et utilisé en <a href="{{route('reconnaitre-un-arret-cardiaque')}}">cas d'urgence cardiaque</a>, ce qui peut avoir un impact déterminant sur la survie de la victime. </p>
             </div>
             <div class="installer__item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
@@ -453,8 +453,8 @@
                     <path d="M18.027 35.3585H23.0077V40.3392C23.0077 40.9933 23.5383 41.524 24.1925 41.524H30.9003C31.5544 41.524 32.0851 40.9933 32.0851 40.3392V35.3585H37.0657C37.7199 35.3585 38.2505 34.8278 38.2505 34.1737V27.4659C38.2505 26.8118 37.7199 26.2811 37.0657 26.2811H32.0851V21.3004C32.0851 20.6463 31.5544 20.1156 30.9003 20.1156H24.1925C23.5383 20.1156 23.0077 20.6463 23.0077 21.3004V26.2811H18.027C17.3729 26.2811 16.8422 26.8118 16.8422 27.4659V34.1737C16.8422 34.8278 17.3729 35.3585 18.027 35.3585ZM19.2118 28.6507H24.1925C24.8466 28.6507 25.3773 28.12 25.3773 27.4659V22.4852H29.7154V27.4659C29.7154 28.12 30.2461 28.6507 30.9003 28.6507H35.8809V32.9889H30.9003C30.2461 32.9889 29.7154 33.5196 29.7154 34.1737V39.1544H25.3773V34.1737C25.3773 33.5196 24.8466 32.9889 24.1925 32.9889H19.2118V28.6507Z" fill="#C22921" stroke="#C22921" stroke-width="0.8"/>
                   </svg>
                 <h2>Comment installer le boitier de votre défibrillateur ?</h2>
-                <p>L’<a href="">installation d'un défibrillateur</a> dépend du lieu où il sera mis et du boîtier qui le contiendra.</p>
-                <p>Dans le cas d'un <a href="https://cardiopro.fr/accessoire/accessoire-defibrillateur-boitier-Aivia-100">boîtier mural interne</a>, il suffit généralement de percer le mur et de le fixer le boîtier. En revanche, pour un boîtier mural externe, l'intervention d'un technicien électricien est nécessaire pour le raccordement au secteur électrique.</p>
+                <p>L’<a href="{{route('livraison-installation-defibrillateur')}}">installation d'un défibrillateur</a> dépend du lieu où il sera mis et du boîtier qui le contiendra.</p>
+                <p>Dans le cas d'un <a href="{{route('accessoire-defibrillateur-boitier-Aivia-100')}}">boîtier mural interne</a>, il suffit généralement de percer le mur et de le fixer le boîtier. En revanche, pour un boîtier mural externe, l'intervention d'un technicien électricien est nécessaire pour le raccordement au secteur électrique.</p>
             </div>
             <div class="installer__item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">

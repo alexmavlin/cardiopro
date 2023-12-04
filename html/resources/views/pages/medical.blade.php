@@ -55,7 +55,7 @@
                                 class="whatAED__img__entreprise">
                     </div>
                     <div class="whatAED__content whatAED__content__entreprise">
-                        <p class="whatAED__content__p">À partir du <b>1er janvier 2022</b>, tous les <b>centres de soins</b> devront respecter l’<a class="acsList__a__grey" href="https://cardiopro.fr/obligations">obligation</a> d'<a class="acsList__a__grey" href="https://cardiopro.fr/achat-defibrillateur">acheter et installer</a> un défibrillateur prévu par décret. Le <a class="acsList__a__grey" href="https://cardiopro.fr/">défibrillateur</a> a un <b>rôle important à jouer pour sauver des vies</b>. Afin de protéger la population, sa démocratisation dans de nombreux lieux est progressivement mise en place. Après les mairies, les collectivités, les hôtels et les restaurants, ce sont maintenant les centres de soin qui s’équipent en défibrillateur. Leur présence dans vos locaux a toute son importance quand on sait qu’ils permettent de sauver des vies. En effet, pour une <b>victime d’arrêt cardiaque</b>, la présence d’un défibrillateur à proximité lui offre de très <b>grandes chances de survie</b>.</p>
+                        <p class="whatAED__content__p">À partir du <b>1er janvier 2022</b>, tous les <b>centres de soins</b> devront respecter l’<a class="acsList__a__grey" href="{{route('obligations')}}">obligation</a> d'<a class="acsList__a__grey" href="{{route('achat-defibrillateur')}}">acheter et installer</a> un défibrillateur prévu par décret. Le <a class="acsList__a__grey" href="{{route('index')}}">défibrillateur</a> a un <b>rôle important à jouer pour sauver des vies</b>. Afin de protéger la population, sa démocratisation dans de nombreux lieux est progressivement mise en place. Après les mairies, les collectivités, les hôtels et les restaurants, ce sont maintenant les centres de soin qui s’équipent en défibrillateur. Leur présence dans vos locaux a toute son importance quand on sait qu’ils permettent de sauver des vies. En effet, pour une <b>victime d’arrêt cardiaque</b>, la présence d’un défibrillateur à proximité lui offre de très <b>grandes chances de survie</b>.</p>
                     </div>
                 </div>
                 <div class="whatAED__item">
@@ -68,7 +68,7 @@
                                 class="whatAED__img__entreprise__logo">
                     </div>
                     <div class="whatAED__content whatAED__content__entreprise">
-                        <p class="whatAED__content__p">Cardiopro contribue à cet effort national visant à abaisser le taux de mortalité suite à un arrêt cardiaque, en proposant aux <b>Centres de Soins, ERP et Entreprises</b> des packs de <a href="https://cardiopro.fr/location-defibrillateur">location de défibrillateurs</a> clé en main au <a href="https://cardiopro.fr/defibrillateur-prix">prix de 39,00 € par mois.</a></p>
+                        <p class="whatAED__content__p">Cardiopro contribue à cet effort national visant à abaisser le taux de mortalité suite à un arrêt cardiaque, en proposant aux <b>Centres de Soins, ERP et Entreprises</b> des packs de <a href="{{route('location-defibrillateur')}}">location de défibrillateurs</a> clé en main au <a href="{{route('defibrillateur-prix')}}">prix de 39,00 € par mois.</a></p>
                     </div>
                 </div>
             </div>
@@ -188,7 +188,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=39')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -224,7 +224,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=location-form&price=49')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -309,7 +309,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=achat-form&price=1190')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
@@ -345,7 +345,7 @@
                             <p class="">Support mural</p>
                         </div>
                         <div class="sale__buttons">
-                            <a href="#" class="sale__choisir">Choisir</a>
+                            <a href="{{ route('form', 'type=achat-form&price=1490')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
                             <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir">En savoir +</a>
                         </div>
                     </div>
