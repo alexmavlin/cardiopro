@@ -13,9 +13,9 @@
                       <a href="{{$item['url']}}">{{$item['name']}}</a>
                   @endforeach
                 </p>
-                <form action="{{route('admin.blog.store')}}" method="POST" class="forms-sample" enctype="multipart/form-data">
-                  
-                  @csrf
+                <form action="{{ route('admin.blog.update', $data['blog']->id) }}" method="POST" class="forms-sample" enctype="multipart/form-data">
+                    @csrf
+                    @method('PATCH')
 
                   <!-- URL Input -->
                   <div class="form-group">
@@ -28,7 +28,7 @@
                             class="form-control" 
                             id="url" 
                             placeholder="Custom URL"
-                            value="{{old('url')}}">
+                            value="{{old('url') ?: $data['blog']->url}}">
                   </div>
                   <!-- // URL Input -->
 
@@ -43,7 +43,7 @@
                             class="form-control" 
                             id="title" 
                             placeholder="Balise Title"
-                            value="{{old('title')}}">
+                            value="{{old('title') ?: $data['blog']->title}}">
                   </div>
                   <!-- // Balise Title -->
 
@@ -58,7 +58,7 @@
                             class="form-control" 
                             id="meta_description" 
                             placeholder="Meta Description"
-                            value="{{old('meta_description')}}">
+                            value="{{old('meta_description') ?: $data['blog']->meta_description}}">
                   </div>
                   <!-- // Meta Description -->
 
@@ -73,7 +73,7 @@
                             class="form-control" 
                             id="meta_keywords" 
                             placeholder="Meta Keywords"
-                            value="{{old('meta_keywords')}}">
+                            value="{{old('meta_keywords') ?: $data['blog']->meta_keywords}}">
                   </div>
                   <!-- Meta Keywords -->
 
@@ -88,7 +88,7 @@
                             class="form-control" 
                             id="date" 
                             placeholder=""
-                            value="{{old('date')}}">
+                            value="{{old('date') ?: $data['blog']->date}}">
                   </div>
                   <!-- // Date de création -->
 
@@ -103,7 +103,7 @@
                             class="form-control" 
                             id="author" 
                             placeholder="Auteur"
-                            value="{{old('author')}}">
+                            value="{{old('author') ?: $data['blog']->author}}">
                   </div>
                   <!-- // Auteur -->
 
@@ -118,7 +118,7 @@
                             class="form-control" 
                             id="breadcrumb" 
                             placeholder="Breadcrumb"
-                            value="{{old('breadcrumb')}}">
+                            value="{{old('breadcrumb') ?: $data['blog']->breadcrumb}}">
                   </div>
                   <!-- // Breadcrumb -->
 
@@ -133,7 +133,7 @@
                             class="form-control" 
                             id="h2" 
                             placeholder="Titre H2 en haut de page"
-                            value="{{old('h2')}}">
+                            value="{{old('h2') ?: $data['blog']->h2}}">
                   </div>
                   <!-- // Titre H2 en haut de page -->
 
@@ -143,7 +143,7 @@
                     @error('p_content')
                       <p class="text-danger">{{$message}}</p>
                     @enderror
-                    <textarea name="p_content" id="p_content" class="form-control" rows="10">{{ old('p_content') }}</textarea>
+                    <textarea name="p_content" id="p_content" class="form-control" rows="10">{{ old('p_content') ?: $data['blog']->p_content }}</textarea>
                   </div>
 
                   <!-- IMG and Video Uploader -->
@@ -170,7 +170,7 @@
                             class="form-control" 
                             id="img_alt" 
                             placeholder="IMG Alt"
-                            value="{{old('img_alt')}}">
+                            value="{{old('img_alt') ?: $data['blog']->img_alt}}">
                   </div>
                   <!-- // IMG Alt -->
 
@@ -185,7 +185,7 @@
                             class="form-control" 
                             id="h1" 
                             placeholder="Post Title"
-                            value="{{old('h1')}}">
+                            value="{{old('h1') ?: $data['blog']->h1}}">
                   </div>
                   <!-- // Titre H1 sous l'image -->
 
@@ -202,7 +202,7 @@
                             class="form-control" 
                             id="h3_{{$i}}" 
                             placeholder="Balise H3"
-                            value="{{old('h3_' . $i)}}">
+                            value="{{old('h3_' . $i) ?: $data['blog']['h3_' . $i]}}">
                   </div>
 
                   <div class="form-group">
@@ -210,15 +210,15 @@
                     @error('p_{{$i}}')
                       <p class="text-danger">{{$message}}</p>
                     @enderror
-                    <textarea name="p_{{$i}}" id="p_{{$i}}" class="form-control" rows="10">{{ old('p_' . $i) }}</textarea>
+                    <textarea name="p_{{$i}}" id="p_{{$i}}" class="form-control" rows="10">{{ old('p_' . $i) ?: $data['blog']['p_' . $i] }}</textarea>
                   </div>
 
                   @endfor
                   <!-- // Content -->
 
 
-                  <button type="submit" class="btn btn-primary mr-2">Post</button>
-                  <a href="{{ route('admin.blog.create') }}" class="btn btn-light">Discard</a>
+                  <button type="submit" class="btn btn-primary mr-2">Update</button>
+                  <a href="{{ route('admin.blog.index') }}" class="btn btn-light">Go Back</a>
                 </form>
               </div>
             </div>

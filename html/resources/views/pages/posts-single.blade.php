@@ -3,8 +3,8 @@
 @section('content')
 
     <section class="mainScreen">
-        <img    srcset="{{ $data['main_img'] }} 1920w"
-                src="{{ $data['main_img'] }}"
+        <img    srcset="{{ asset('images/blog/' . $data['blog']->img_src) }} 1920w"
+                src="{{ asset('images/blog/' . $data['blog']->img_src) }}"
                 width="1600"
                 height="580"
                 alt=""
@@ -12,7 +12,7 @@
                 class="mainScreen__img">
         <div class="mainScreen__filter"></div>
 
-        <h1 class="mainScreen__h1">{{ $data['main_title'] }}</h1>
+        <h1 class="mainScreen__h1">{{ $data['blog']->h1 }}</h1>
     </section>
 
     @if (isset($data['breadcrumbs']))
@@ -38,46 +38,21 @@
     <section class="blogContent">
         <div class="container">
             <div class="blogContent__inner">
-                <time class="blogContent__date" datetime="0">4/12/2022</time>
+                <time class="blogContent__date" datetime="0">{{ date("d/m/Y", strtotime($data['blog']->date)) }}</time>
                 <article class="blogContent__article">
-                    <h2 class="blogContent__h1">Peut-on avoir un défibrillateur chez soi ? D'abord, combien ça coûte ?</h2>
-                    <p>Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est important de considérer aussi bien la praticité de l’achat que les commodités de location. Comme toute chose, chacun d’eux à ses avantages et ses inconvénients. Alors, comment savoir pour quelle option opter? Il suffit de faire un bilan de vos besoins médicaux.</p>
-                    <p>Considérez la durée, la fréquence d’utilisation qui nécessiterait une vérification régulière de l’état de ses composants, mais également le budget que vous aurez alloué à cet équipement.</p>
-                    <p>Dans votre bilan, prenez en compte que vous pourrez trouver un bon défibrillateur fonctionnel à partir de 990€ à l’achat, si cela revient à une valeur mensuelle de 30€ à la location. Donc, achat ou location ? Voyons ensemble les avantages et les inconvénients de ces deux options.</p>
-                    <p>Prenons en compte le facteur de la durée, d’abord. Pour une utilisation qui passe de mois en années, il serait nettement préférable d’opter pour l’achat. Prenons l’espérance de vie d’une batterie qui nécessite un rechange au bout de 5 ans. En achat, vous aurez dépensé un total de 1090€ comprenant l’achat à 990€ et un rechange des électrodes qui se fait tous les 2 ans et demi à 100€ TTC.</p>
-                    <p>Si après 5 ans, vous avez toujours besoin d’utiliser votre défibrillateur, il vous suffira simplement d’acheter une nouvelle batterie à 100€ TTC ainsi qu’un nouveau rechange d’électrodes.</p>
-                    <p>Dans l’aspect de la location, un des plus grands avantages est que vous n’aurez pas besoin d’avoir un gros budget de départ. En plus de cela, vous n’aurez pas besoin de penser à la maintenance nécessaire de votre défibrillateur. À 30€ le mois, tout renouvellement aussi bien des électrodes que de la batterie est compris.</p>
+                    <h2 class="blogContent__h1">{{ $data['blog']->h2 }}</h2>
+                    {!! $data['blog']->p_content !!}
                 </article>
+                @for ($i = 1; $i <= 10; $i++)
                 <article class="blogContent__article">
-                    <h2>Est-il possible d’avoir un défibrillateur chez soi ?</h2>
-                    <p>La réponse est « OUI » ! Il est tout à fait possible de se procurer un défibrillateur pour particulier. Si vous vous posez cette question, c’est que vous connaissez déjà l’utilité d’un défibrillateur. Il est tout de même essentiel de connaître les chiffres exacts qui illustrent l’importance d’avoir un défibrillateur spécialisé pour particulier chez soi.</p>
-                    <p>Saviez-vous que, chaque année, plus de 50 000 morts en France sont causées par les arrêts cardiaques ? Un détail plus tranchant encore est que 80 % d’entre elles se produisent au domicile des victimes. Une des raisons pour laquelle ce chiffre s’élève tant est que les victimes n’ont pas pu être secourues à temps.</p>
-                    <p>Si les 4 premières minutes après une attaque cardiaque sont les plus cruciales pour maintenir un minimum de chance de survie, les secours n’arrivent qu’après 10 à 15 minutes, et cela une fois que l’un des proches de la victime les a contactés.En ce sens, il y a deux informations importantes : il faut agir dans les premières minutes suivant une attaque, et être entouré d’un proche qui connaît les gestes simples à adopter pour maintenir la vie d’une victime frappée par une crise cardiaque. Ces gestes simples, toutefois, nécessitent un appareil capable de stimuler le cœur de la victime afin de maximiser ses chances de survie : un défibrillateur.</p>
-                    <p>Ainsi, avant que les secours n’arrivent, ces gestes simples doivent être entrepris : alerter les secours, masser le cœur de la victime et défibriller. Vous aurez compris l’importance d’avoir un défibrillateur chez vous, car plus un défibrillateur pour particulier est proche, plus les chances de survie sont élevées.</p>
-                    <p>Pourtant, l’importance des défibrillateurs n’est pas encore nationalement reconnue en France, puisque seulement 200 000 défibrillateurs ont été répertoriés. En échange, des millions de foyers se focalisent à avoir des extincteurs chez eux bien que les victimes d’arrêts cardiaques soient près de 300 fois plus celles d’incendies. Les chiffres sont ahurissants ! </p>
-                    <p>Nous ne pouvons plus nous permettre d’attendre que les secours arrivent, alors il est primordial d’avoir l’équipement nécessaire à portée de main. Et si chaque foyer s’équipait d’un extincteur et d’un défibrillateur ? Vous pourrez alors réagir aussi bien aux incendies qu’aux arrêts cardiaques de manière adéquate et instantanée, pour sauver la vie des personnes que vous aimez.</p>
+                    @if ($data['blog']['h3_' . $i])
+                    <h3>{{ $data['blog']['h3_' . $i] }}</h3>
+                    @endif
+                    @if ($data['blog']['p_' . $i])
+                    {!! $data['blog']['p_' . $i] !!}
+                    @endif
                 </article>
-                <article class="blogContent__article">
-                    <h2>Est-il légal d’avoir un défibrillateur pour particulier chez soi ?</h2>
-                    <p>Afin de déterminer si le défibrillateur pour particulier est adéquat pour l’utilisation à domicile, il est nécessaire de connaître les caractéristiques indispensables qu’un défibrillateur automatisé externe doit avoir.</p>
-                    <p>Premièrement, la simplicité. Alors que les défibrillateurs sont précédés de leur réputation comme étant des appareils réservés aux secouristes, les défibrillateurs pour particulier ont été conçus pour être utilisables par tous, avec ou sans notion médicale. En ce sens, les DAE pour particulier doivent être simples d’utilisation, avec des boutons et indicateurs clairs.</p>
-                    <p>Ensuite, il y a le facteur automatique. Les DAE peuvent être utilisés par le grand public car ils analysent automatiquement le rythme cardiaque de la victime et sont aptes à délivrer la thérapie adéquate. Alors, si vous venez en secours à une victime d’arrêt cardiaque, vous n’aurez pas à vous inquiéter de doses, d'injections ou autre facteur décisif d’un secourisme médical.</p>
-                    <p>D’ailleurs, si vous n’avez aucune idée de ce qu’il faut faire en cas d’urgence, un guide vocal et visuel vous accompagnera à chaque étape lors d’une situation d’urgence.</p>
-                    <p>Aussi, les défibrillateurs pour particulier ont été conçus avec tacte pour être pratiques et fonctionnels. Le but est de faire en sorte qu’aucune seconde ne soit perdue. Alors les DAE nouvelle génération ont été adaptés pour inclure un mode enfant qui s’active grâce à un seul bouton. La technologie continue d’épater !</p>
-                    <p>Toutefois, il ne sert à rien d’avoir un défibrillateur automatique chez soi sans suivi ni maintenance. La batterie pourrait être endommagée, les électrodes usées, et le DAE ne sera d’aucune utilité en cas d’urgence. Saviez-vous qu’une estimation en cours déclare que 20 à 30% des défibrillateurs déployés dans les espaces publics en France sont défaillants ? Un manque de suivi et de maintenance ne saura pas excuser la perte d’une vie en cas d’urgence.</p>
-                    <p>Alors optez pour une maintenance quotidienne, bien que les défibrillateurs aient la capacité de s’auto-contrôler. En effet, à l’aide d’auto-tests quotidiens, les défibrillateurs vous indiqueront s’ils sont toujours aptes à fonctionner correctement. Un indicateur led s'illumine en vert si ces composants et fonctionnalités sont toujours au top, et en rouge si ce n’est pas le cas. De ce fait, vous aurez le temps de faire revoir votre défibrillateur au lieu de découvrir une défaillance lors d’une situation d’urgence.</p>
-                    <p>Nul besoin de vous alerter si l’indicateur vire au rouge. Si vous l’avez compris, c’est que le fournisseur a également été notifié. Ce dernier prendra alors les mesures nécessaires pour régler toute anomalie, selon les termes de votre procuration du défibrillateur pour particulier.</p>
-                    <p>En outre, au-delà de la maintenance, les défibrillateurs automatisés externes se mettent également à jour d’une manière automatique. Avec un logiciel suivant les dernières fonctionnalités, vous n’aurez jamais de défibrillateur obsolète. En optant pour les défibrillateurs derniers cris, comme ceux proposés par CardioPro, simples, fonctionnels et innovants, priorisez votre tranquillité d’esprit en sachant que vous avez ce qu’il faut pour réagir durant les situations d’urgence médicale.</p>
-                </article>
-                <article class="blogContent__article">
-                    <h2>Et la location d’un défibrillateur pour particulier ?</h2>
-                    <p>Quelle serait la meilleure option, acheter ou louer un défibrillateur pour particulier ? Cette question a déjà été introduite plus haut. Il est temps d’y répondre.</p>
-                    <p>Auriez-vous besoin d’un défibrillateur fonctionnel pour une durée se prolongeant sur les années ? Si cela répond à vos attentes médicales, l’achat est l’option à prendre. Les défibrillateurs sont généralement mis en garantie allant jusqu’à 5 ans avec une possibilité de paiement et un pack complet incluant des services de maintenance, bien qu’ils n’incluent pas tout. Cela peut revenir onéreux et un budget conséquent est à prévoir.</p>
-                    <p>Ou plutôt, recherchez-vous une garantie de maximisation des chances de survie d’une victime d’arrêt cardiaque, sans avoir besoin ni d’une trésorerie en béton armé ni d'engagement ? Si le second vous parle le plus, la location est l’option pour vous.</p>
-                    <p>Si vous décidez de louer un défibrillateur automatisé externe, vous paierez une somme moindre par rapport à l’achat chaque mois. Sans engagement de votre part, vous bénéficierez également de tous les services de maintenance, que ce soit en remplacement illimité des consommables en cas de dysfonctionnement ou du dépassement de la date de péremption.</p>
-                    <p>D’un point de vue d’une entreprise, la location d’un défibrillateur permet de répartir les coûts sur le mensuel puisqu’elle ne nécessite aucune avance. Ainsi donc, vous aurez l’avantage de conserver votre trésorerie tout en bénéficiant d’un défibrillateur à portée de main.</p>
-                    <p>Par ailleurs, louer un défibrillateur permet également une optimisation fiscale puisque, contrairement aux achats, les loyers feront partie des charges déductibles de vos résultats fiscaux. Si vous n’êtes pas encore convaincu, CardioPro est là pour vous assister et vous permettre de faire le meilleur choix. Nos experts sauront faire une étude spécifique de vos besoins pour déterminer l’offre qui vous correspondra le mieux. Lorsque votre choix sera fait, transférez toutes les responsabilités de maintenance et de suivi à CardioPro.</p>
-                </article>
+                @endfor
             </div>
         </div>
     </section>
@@ -86,42 +61,20 @@
         <div class="container">
             <h2 class="blogWidget__heading">Articles Récents</h2>
             <div class="blogPosts__inner">
+                @foreach ($data['blogs'] as $item)
                 <div class="blogPosts__item">
-                    <img    src="{{ asset('images/content/blog_index_page_01.png') }}" 
-                            alt="" 
-                            title="" 
+                    <img    src="{{ asset('images/blog/' . $item->img_src) }}" 
+                            alt="{{ $item->img_alt }}" 
+                            title="{{ $item->img_alt }}" 
                             width="354" 
                             height="186"
                             class="blogPosts__item--img">
-                    <time datetime="0" class="blogPosts__item--date">4/12/2022</time>
-                    <h3 class="blogPosts__item--h3">Peut-on avoir un défibrillateur chez soi ?</h3>
-                    <p class="blogPosts__item--p">Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est...</p>
-                    <a href="{{ route('posts-single') }}" class="blogPosts__item--a">En savoir plus</a>
+                    <time datetime="0" class="blogPosts__item--date">{{ date("d/m/Y", strtotime($item->date)) }}</time>
+                    <h3 class="blogPosts__item--h3">{{ $item->h1 }}</h3>
+                    <p class="blogPosts__item--p">{!! strlen($item->meta_description) > 69 ? substr($item->meta_description, 0, 69) . '...' : $item->meta_description !!}</p>
+                    <a href="{{route('posts-single', $item->url)}}" title="{{ $item->meta_description }}" aria-label="{{ $item->meta_description }}" class="blogPosts__item--a">En savoir plus</a>
                 </div>
-                <div class="blogPosts__item">
-                    <img    src="{{ asset('images/content/blog_index_page_02.png') }}" 
-                            alt="" 
-                            title="" 
-                            width="354" 
-                            height="186"
-                            class="blogPosts__item--img">
-                    <time datetime="0" class="blogPosts__item--date">4/12/2022</time>
-                    <h3 class="blogPosts__item--h3">Comment se pose un défibrillateur cardiaque</h3>
-                    <p class="blogPosts__item--p">Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est...</p>
-                    <a href="{{ route('posts-single') }}" class="blogPosts__item--a">En savoir plus</a>
-                </div>
-                <div class="blogPosts__item">
-                    <img    src="{{ asset('images/content/blog_index_page_03.png') }}" 
-                            alt="" 
-                            title="" 
-                            width="354" 
-                            height="186"
-                            class="blogPosts__item--img">
-                    <time datetime="0" class="blogPosts__item--date">4/12/2022</time>
-                    <h3 class="blogPosts__item--h3">Quel est le mode d'emploi du défibrillateur ?</h3>
-                    <p class="blogPosts__item--p">Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est...</p>
-                    <a href="{{ route('posts-single') }}" class="blogPosts__item--a">En savoir plus</a>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>

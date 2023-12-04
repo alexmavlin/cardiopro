@@ -4,30 +4,32 @@ namespace App\Http\Controllers\Admin\Blog;
 
 use App\Blog;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Admin\Blog\StoreRequest;
+use App\Http\Requests\Admin\Blog\UpdateRequest;
 use Illuminate\Support\Str;
+use Illuminate\Http\Request;
 
-class StoreController extends Controller
+class UpdateController extends Controller
 {
+    private $blog;
     private $validated_data;
 
-    public function __invoke(StoreRequest $storeRequest)
+    public function __invoke(Blog $blog, UpdateRequest $updateRequest)
     {
-        $this->validated_data = $storeRequest->validated();
-
-        // dd($this->storeBlogPost());
-        $this->storeBlogPost();
-        return redirect()->route('admin.blog.index')->with(['success' => 'Blog post successfully stored.']);
+        $this->blog = $blog;
+        $this->validated_data = $updateRequest->validated();
+        
+        // dd($this->updatePost());
+        $this->updatePost();
+        return redirect()->route('admin.blog.index');
     }
 
-    private function storeBlogPost()
+    private function updatePost(): bool
     {
-        $result = Blog::create($this->buildStoreData());
-
+        $result = $this->blog->update($this->buildUpdateData());
         return $result;
     }
 
-    private function buildStoreData(): array
+    private function buildUpdateData(): array
     {
         $response_data = [
             'url' => isset($this->validated_data['url']) ? $this->slugify($this->validated_data['url']) : '',
@@ -41,25 +43,53 @@ class StoreController extends Controller
             'h2' => isset($this->validated_data['h2']) ? $this->validated_data['h2'] : '',
             'p_content' => isset($this->validated_data['p_content']) ? $this->validated_data['p_content'] : '',
             'img_alt' => isset($this->validated_data['img_alt']) ? $this->validated_data['img_alt'] : '',
-            'img_src' => $this->uploadImg(),
+            'img_src' => $this->updateImg(),
         ];
-        for ($i = 1; $i <= 10; $i++)
+        return $this->unsetEqualData($response_data);
+    }
+
+    private function unsetEqualData($array): array
+    {
+        foreach ($array as $key => $value)
         {
-            if(isset($this->validated_data['h3_' . $i]))
+            if ($value == $this->blog[$key])
             {
-                $response_data['h3_' . $i] = $this->validated_data['h3_' . $i];
-            }
-            if (isset($this->validated_data['p_' . $i]))
-            {
-                $response_data['p_' . $i] = $this->validated_data['p_' . $i];
+                unset($array[$key]);
             }
         }
-        return $response_data;
+        return $array;
     }
 
     private function slugify($string): string
     {
         return Str::slug($string);
+    }
+
+    private function updateImg(): string
+    {
+        if (isset($this->validated_data['img_src']))
+        {
+            $this->deletePreviousImg();
+
+            $imgName = $this->setImgName();
+            $result = $this->validated_data['img_src']->move(public_path('images/blog'), $imgName);
+            return $imgName;
+        }
+
+        return $this->blog->img_src;
+    }
+
+    private function deletePreviousImg(): void
+    {
+        if ($this->blog->img_src)
+        {
+            $prevImgSrc = public_path('images/blog/') . $this->blog->img_src;
+            // dd($prevImgSrc);
+            if (file_exists($prevImgSrc))
+            {
+                unlink($prevImgSrc);
+            }
+        }
     }
 
     private function setImgName(): string
@@ -70,15 +100,4 @@ class StoreController extends Controller
         return $unique_id . '_' . $original_name;
     }
 
-    private function uploadImg(): string
-    {
-        if (isset($this->validated_data['img_src']))
-        {
-            $imgName = $this->setImgName();
-            $result = $this->validated_data['img_src']->move(public_path('images/blog'), $imgName);
-            return $imgName;
-        }
-        
-        return '';
-    }
 }

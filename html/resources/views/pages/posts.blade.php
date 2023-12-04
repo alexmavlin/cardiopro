@@ -42,78 +42,21 @@
             <p class="blogPosts__preheader">L'essentiel de l'actualité du Secourisme et des Défibrillateurs</p>
             <h2 class="blogPosts__heading">Tout savoir à propos des Défibrillateurs automatique et semi-automatique, gestes de premier secours, PSC1, secouriste du travail</h2>
             <div class="blogPosts__inner">
+                @foreach ($data['blogs'] as $item)
                 <div class="blogPosts__item">
-                    <img    src="{{ asset('images/content/blog_index_page_01.png') }}" 
-                            alt="" 
-                            title="" 
+                    <img    src="{{ asset('images/blog/' . $item->img_src) }}" 
+                            alt="{{ $item->img_alt }}" 
+                            title="{{ $item->img_alt}}" 
                             width="354" 
                             height="186"
                             class="blogPosts__item--img">
-                    <time datetime="0" class="blogPosts__item--date">4/12/2022</time>
-                    <h3 class="blogPosts__item--h3">Peut-on avoir un défibrillateur chez soi ?</h3>
-                    <p class="blogPosts__item--p">Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est...</p>
-                    <a href="{{ route('posts-single') }}" class="blogPosts__item--a">En savoir plus</a>
+                    <time datetime="0" class="blogPosts__item--date">{{ date("d/m/Y", strtotime($item->date)) }}</time>
+                    <h3 class="blogPosts__item--h3">{{ $item->h1 }}</h3>
+                    <p class="blogPosts__item--p">{!! strlen($item->meta_description) > 69 ? substr($item->meta_description, 0, 69) . '...' : $item->meta_description !!}</p>
+                    <a href="{{ route('posts-single', $item->url) }}" title="{{ $item->meta_description }}" aria-label="{{ $item->meta_description }}" class="blogPosts__item--a">En savoir plus</a>
                 </div>
-                <div class="blogPosts__item">
-                    <img    src="{{ asset('images/content/blog_index_page_02.png') }}" 
-                            alt="" 
-                            title="" 
-                            width="354" 
-                            height="186"
-                            class="blogPosts__item--img">
-                    <time datetime="0" class="blogPosts__item--date">4/12/2022</time>
-                    <h3 class="blogPosts__item--h3">Comment se pose un défibrillateur cardiaque</h3>
-                    <p class="blogPosts__item--p">Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est...</p>
-                    <a href="{{ route('posts-single') }}" class="blogPosts__item--a">En savoir plus</a>
-                </div>
-                <div class="blogPosts__item">
-                    <img    src="{{ asset('images/content/blog_index_page_03.png') }}" 
-                            alt="" 
-                            title="" 
-                            width="354" 
-                            height="186"
-                            class="blogPosts__item--img">
-                    <time datetime="0" class="blogPosts__item--date">4/12/2022</time>
-                    <h3 class="blogPosts__item--h3">Quel est le mode d'emploi du défibrillateur ?</h3>
-                    <p class="blogPosts__item--p">Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est...</p>
-                    <a href="{{ route('posts-single') }}" class="blogPosts__item--a">En savoir plus</a>
-                </div>
-                <div class="blogPosts__item">
-                    <img    src="{{ asset('images/content/blog_index_page_04.png') }}" 
-                            alt="" 
-                            title="" 
-                            width="354" 
-                            height="186"
-                            class="blogPosts__item--img">
-                    <time datetime="0" class="blogPosts__item--date">4/12/2022</time>
-                    <h3 class="blogPosts__item--h3">Tout ce qu'il faut savoir sur défibrillateur sous-cutané</h3>
-                    <p class="blogPosts__item--p">Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est...</p>
-                    <a href="{{ route('posts-single') }}" class="blogPosts__item--a">En savoir plus</a>
-                </div>
-                <div class="blogPosts__item">
-                    <img    src="{{ asset('images/content/blog_index_page_05.png') }}" 
-                            alt="" 
-                            title="" 
-                            width="354" 
-                            height="186"
-                            class="blogPosts__item--img">
-                    <time datetime="0" class="blogPosts__item--date">4/12/2022</time>
-                    <h3 class="blogPosts__item--h3">Quelle est l'espérance de vie avec un défibrillateur</h3>
-                    <p class="blogPosts__item--p">Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est...</p>
-                    <a href="{{ route('posts-single') }}" class="blogPosts__item--a">En savoir plus</a>
-                </div>
-                <div class="blogPosts__item">
-                    <img    src="{{ asset('images/content/blog_index_page_06.png') }}" 
-                            alt="" 
-                            title="" 
-                            width="354" 
-                            height="186"
-                            class="blogPosts__item--img">
-                    <time datetime="0" class="blogPosts__item--date">4/12/2022</time>
-                    <h3 class="blogPosts__item--h3">Le Gilet Défibrillateur</h3>
-                    <p class="blogPosts__item--p">Lorsqu’il s’agit du prix d’un défibrillateur pour particulier, il est...</p>
-                    <a href="{{ route('posts-single') }}" class="blogPosts__item--a">En savoir plus</a>
-                </div>
+                    
+                @endforeach
             </div>
             <div class="blogPosts__pagination">
                 <a href="#">

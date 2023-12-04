@@ -193,6 +193,11 @@ if (errorWidget)
                 achatForm.style.pointerEvents = "all"
                 achatForm.style.position = "unset"
                 achatForm.classList.add('active')
+
+                let rect = achatForm.getBoundingClientRect()
+                let distance = rect.top + window.scrollY
+                window.scrollTo(0, distance)
+
             })
         }
         console.log(formId)
@@ -226,6 +231,10 @@ if (errorWidget)
                 locationForm.style.pointerEvents = "all"
                 locationForm.style.position = "unset"
                 locationForm.classList.add('active')
+
+                let rect = locationForm.getBoundingClientRect()
+                let distance = rect.top + window.scrollY
+                window.scrollTo(0, distance)
             })
         }
 

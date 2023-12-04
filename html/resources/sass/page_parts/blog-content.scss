@@ -27,7 +27,8 @@
             padding-bottom: 18px;
             border-bottom: 1px solid #D3DCF3;
         }
-        h2 {
+        h2,
+        h3 {
             @include nunito800;
             color: #021647;
             font-size: 23px;
@@ -35,11 +36,16 @@
             border-bottom: 1px solid #D3DCF3;
             padding-bottom: 18px;
         }
-        p {
-            @include nunito600;
+        p,
+        ul > li {
+            @include nunito400;
             color: #021647;
             font-size: 17px;
             line-height: 140.4%; /* 23.868px */
+        }
+        ul > li {
+            margin-left: 18px;
+            list-style-type: disc;
         }
     }
 }

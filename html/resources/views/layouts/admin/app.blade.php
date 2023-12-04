@@ -23,12 +23,15 @@
 </head>
 
 <body>
-   
-  @include('layouts/admin/header')
+    @if (Auth::check())
+      @include('layouts/admin/header')
+    @endif
 
     @yield('content')
   
-  @include('layouts/admin/footer')
+    @if (Auth::check())
+      @include('layouts/admin/footer')
+    @endif
     
     <!-- plugins:js -->
   <script src="{{asset('admin/vendors/js/vendor.bundle.base.js')}}"></script>

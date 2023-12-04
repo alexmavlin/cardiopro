@@ -144,7 +144,7 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="#">Manage posts</a></li>
+                <li class="nav-item"> <a class="nav-link" href="{{ route('admin.blog.index') }}">Manage posts</a></li>
                 <li class="nav-item"> <a class="nav-link" href="{{ route('admin.blog.create') }}">Create new post</a></li>
               </ul>
             </div>
