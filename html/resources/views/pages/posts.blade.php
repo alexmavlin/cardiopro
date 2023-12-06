@@ -62,16 +62,18 @@
             @if ($data['pagination']['show'])
                 <div class="blogPosts__pagination">
                     <a href="{{ $data['pagination']['prev_url'] ?: '#'}}">
-                        <span>{{ $data['pagination']['prev_num'] ?: '1' }}</span>
+                        <span>{{ $data['pagination']['prev_num'] ?: '' }}</span>
                     </a>
                     <a href="{{ $data['pagination']['next_url'] ?: '#' }}">
-                        <span>Suivant</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                            <path d="M13.6724 12.0007L8.72266 7.05093L10.1369 5.63672L16.5009 12.0007L10.1369 18.3646L8.72266 16.9504L13.6724 12.0007Z" fill="#C22921"/>
-                        </svg>
+                        <span>{{ $data['pagination']['next_num'] ? 'Suivant' : '' }}</span>
+                        @if ($data['pagination']['next_num'])
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                <path d="M13.6724 12.0007L8.72266 7.05093L10.1369 5.63672L16.5009 12.0007L10.1369 18.3646L8.72266 16.9504L13.6724 12.0007Z" fill="#C22921"/>
+                            </svg>
+                        @endif
                     </a>
                     <a href="{{ $data['pagination']['next_url'] ?: '#' }}">
-                        <span>{{ $data['pagination']['next_num'] ?: $data['pagination']['last'] }}</span>
+                        <span>{{ $data['pagination']['next_num'] ?: '' }}</span>
                     </a>
                 </div>
             @endif

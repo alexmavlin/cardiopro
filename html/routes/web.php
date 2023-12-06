@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'IndexController')->name('index');
 
-Route::group(['namespace' => 'Admin', 'prefix' => 'admin'], function() {
+Route::group(['namespace' => 'Admin', 'middleware' => 'auth', 'prefix' => 'admin'], function() {
     /* Admin Dashboard */
     Route::get('/dashboard', 'DashboardController')->name('admin.dashboard');
     /* // Admin Dashboard */
