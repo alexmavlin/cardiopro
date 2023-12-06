@@ -44,14 +44,18 @@
                     {!! $data['blog']->p_content !!}
                 </article>
                 @for ($i = 1; $i <= 10; $i++)
-                <article class="blogContent__article">
-                    @if ($data['blog']['h3_' . $i])
-                    <h3>{{ $data['blog']['h3_' . $i] }}</h3>
+
+                    @if ($data['blog']['h3_' . $i] || $data['blog']['p_' . $i])
+                        <article class="blogContent__article">
+                            @if ($data['blog']['h3_' . $i])
+                            <h3>{{ $data['blog']['h3_' . $i] }}</h3>
+                            @endif
+                            @if ($data['blog']['p_' . $i])
+                            {!! $data['blog']['p_' . $i] !!}
+                            @endif
+                        </article>
                     @endif
-                    @if ($data['blog']['p_' . $i])
-                    {!! $data['blog']['p_' . $i] !!}
-                    @endif
-                </article>
+                    
                 @endfor
             </div>
         </div>

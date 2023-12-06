@@ -36,6 +36,13 @@
             border-bottom: 1px solid #D3DCF3;
             padding-bottom: 18px;
         }
+        h4 {
+            @include nunito800;
+            color: #021647;
+            font-size: 18px;
+            line-height: 123%;
+            padding-bottom: 6px;
+        }
         p,
         ul > li,
         ol > li {

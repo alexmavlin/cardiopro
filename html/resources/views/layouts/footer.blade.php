@@ -101,8 +101,8 @@
             <div class="footer__copy--inner">
                 <p>© 2023 Copyright: CardioPro.fr</p>
                 <ul class="footer__copy--legal">
-                    <li><a href="#">Mention légale</a></li>
-                    <li><a href="#">CGV</a></li>
+                    <li><a href="{{ route('politique-de-confidentialite') }}">Mention légale</a></li>
+                    <li><a href="{{ route('cgv') }}">CGV</a></li>
                 </ul>
             </div>
         </div>
