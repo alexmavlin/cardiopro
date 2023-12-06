@@ -171,8 +171,6 @@ if (errorWidget)
             let startHeight
             let targetHeight
 
-            console.log(btn)
-
             btn.classList.add('active')
             form.style.position = "unset"
             form.style.pointerEvents = "all"
@@ -188,7 +186,6 @@ if (errorWidget)
                 fadeIn(achatForm, 150, function() {
                     let formPrice = form.querySelector('#price2-input').getAttribute('value')
                     priceSpan.innerText = formPrice
-                    console.log(formPrice)
                 })
                 achatForm.style.pointerEvents = "all"
                 achatForm.style.position = "unset"
@@ -200,7 +197,6 @@ if (errorWidget)
 
             })
         }
-        console.log(formId)
         if (formId == 'location-form')
         {
             let form = document.getElementById(formId)
@@ -208,8 +204,6 @@ if (errorWidget)
 
             let startHeight
             let targetHeight
-
-            console.log(btn)
 
             btn.classList.add('active')
             form.style.position = "unset"
@@ -226,7 +220,6 @@ if (errorWidget)
                 fadeIn(locationForm, 150, function() {
                     let formPrice = form.querySelector('#price1-input').getAttribute('value')
                     priceSpan.innerText = formPrice
-                    console.log(formPrice)
                 })
                 locationForm.style.pointerEvents = "all"
                 locationForm.style.position = "unset"
