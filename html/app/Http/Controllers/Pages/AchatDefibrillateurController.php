@@ -9,6 +9,7 @@ class AchatDefibrillateurController extends Controller
     private $description = "Acheter un Défibrillateur au meilleur prix , bénéficiez du conseil de nos experts et demandez votre devis réponse dans la journée garantie.";
     private $keywords = "achat défibrillateur, défibrillateur achat, achat défibrillateur entreprise, achat défibrillateur automatique, achat défibrillateur automatique externe";
     private $canonical;
+    private $title = "Achat et Vente de Défibrillateur Automatique à Partir de 1190 €";
 
     public function __construct()
     {
@@ -21,6 +22,7 @@ class AchatDefibrillateurController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

@@ -49,29 +49,32 @@
                             title="{{ $item->img_alt}}" 
                             width="354" 
                             height="186"
+                            loading="lazy"
                             class="blogPosts__item--img">
                     <time datetime="0" class="blogPosts__item--date">{{ date("d/m/Y", strtotime($item->date)) }}</time>
                     <h3 class="blogPosts__item--h3">{{ $item->h1 }}</h3>
                     <p class="blogPosts__item--p">{!! strlen($item->meta_description) > 69 ? substr($item->meta_description, 0, 69) . '...' : $item->meta_description !!}</p>
-                    <a href="{{ route('posts-single', $item->url) }}" title="{{ $item->meta_description }}" aria-label="{{ $item->meta_description }}" class="blogPosts__item--a">En savoir plus</a>
+                    <a href="{{ route('posts-single', $item->url) }}" title="{{ $item->meta_description }}" aria-label="En savoir plus" class="blogPosts__item--a">En savoir plus</a>
                 </div>
                     
                 @endforeach
             </div>
-            <div class="blogPosts__pagination">
-                <a href="#">
-                    <span>1</span>
-                </a>
-                <a href="#">
-                    <span>Suivant</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                        <path d="M13.6724 12.0007L8.72266 7.05093L10.1369 5.63672L16.5009 12.0007L10.1369 18.3646L8.72266 16.9504L13.6724 12.0007Z" fill="#C22921"/>
-                    </svg>
-                </a>
-                <a href="#">
-                    <span>2</span>
-                </a>
-            </div>
+            @if ($data['pagination']['show'])
+                <div class="blogPosts__pagination">
+                    <a href="{{ $data['pagination']['prev_url'] ?: '#'}}">
+                        <span>{{ $data['pagination']['prev_num'] ?: '1' }}</span>
+                    </a>
+                    <a href="{{ $data['pagination']['next_url'] ?: '#' }}">
+                        <span>Suivant</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                            <path d="M13.6724 12.0007L8.72266 7.05093L10.1369 5.63672L16.5009 12.0007L10.1369 18.3646L8.72266 16.9504L13.6724 12.0007Z" fill="#C22921"/>
+                        </svg>
+                    </a>
+                    <a href="{{ $data['pagination']['next_url'] ?: '#' }}">
+                        <span>{{ $data['pagination']['next_num'] ?: $data['pagination']['last'] }}</span>
+                    </a>
+                </div>
+            @endif
         </div>
     </section>
 
@@ -193,7 +196,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                                 <path d="M21.2512 4.5H3.11835C2.05002 4.5 1.18475 5.37063 1.18475 6.43359V18.0352C1.18475 19.1044 2.05637 19.9688 3.11835 19.9688H21.2512C22.3106 19.9688 23.1848 19.1081 23.1848 18.0352V6.43359C23.1848 5.37252 22.3229 4.5 21.2512 4.5ZM20.9804 5.78906C20.5853 6.18201 13.7868 12.9448 13.552 13.1783C13.1868 13.5435 12.7012 13.7446 12.1848 13.7446C11.6683 13.7446 11.1827 13.5435 10.8163 13.1771C10.6584 13.02 3.93488 6.33193 3.38914 5.78906H20.9804ZM2.47382 17.7728V6.69678L8.0442 12.2378L2.47382 17.7728ZM3.38995 18.6797L8.95814 13.1469L9.90599 14.0898C10.5147 14.6985 11.324 15.0337 12.1848 15.0337C13.0455 15.0337 13.8548 14.6985 14.4623 14.091L15.4114 13.1469L20.9796 18.6797H3.38995ZM21.8957 17.7728L16.3253 12.2378L21.8957 6.69678V17.7728Z" fill="white"/>
                               </svg>
-                            <a class="">contact@cardiopro.fr</a>
+                            <a href="mailto:contact@cardiopro.fr" class="">contact@cardiopro.fr</a>
                         </div>
                         <div class="additionalInfo__line">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">

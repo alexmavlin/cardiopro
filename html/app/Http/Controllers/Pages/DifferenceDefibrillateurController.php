@@ -9,6 +9,7 @@ class DifferenceDefibrillateurController extends Controller
 {
     private $description = "Projetez vous d'investir dans un DAE ? Trouvez toutes les informations essentielles pour choisir sereinement votre Défibrillateur Automatique Externe.";
     private $keywords = "défibrillateur utilisation";
+    private $title = "Spécialiste du DAE (défibrillateur automatisé externe) Devis en Ligne &#10084;";
     private $canonical;
 
     public function __construct()
@@ -22,6 +23,7 @@ class DifferenceDefibrillateurController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

@@ -9,6 +9,7 @@ class MedicalController extends Controller
     private $description = "Tout centre de soins a obligation de s’équiper d’un défibrillateur depuis janvier 2022. Cela concerne aussi bien les cabinets de médecins généralistes, dentaires, infirmiers que les centres d’analyses médicales, qui accueillent une clientèle à risque.";
     private $keywords = "Défibrillateur centre de soins, Défibrillateur obligation centre de soins";
     private $canonical;
+    private $title = "Défibrillateur en Centre de Soins, les Obligations au 1er Janvier 2022 | Nos Solutions | Spécialiste du DAE | CardioPro";
 
     public function __construct()
     {
@@ -21,6 +22,7 @@ class MedicalController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

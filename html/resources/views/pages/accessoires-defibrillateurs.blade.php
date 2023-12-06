@@ -39,7 +39,7 @@
     <div class="container">
         <div class="mastHead__inner">
             <h2 class="mastHead__h2">Chez CardioPro, vous trouverez tout ce dont vous avez besoin pour votre défibrillateur</h2>
-            <img    src="{{ asset('images/content/logo_page.png') }}"
+            <img    src="{{ asset('images/content/logo_page.webp') }}"
                     width="250"
                     height="75"
                     alt=""
@@ -62,6 +62,7 @@
                             height="159"
                             alt=""
                             title="" 
+                            loading="lazy"
                             class="defExplore__img">
                     <p class="defExplore__name">PadPak Adulte</p>
                     <div class="defExplore__price__row">
@@ -84,6 +85,7 @@
                             height="159"
                             alt=""
                             title="" 
+                            loading="lazy"
                             class="defExplore__img">
                     <p class="defExplore__name">PadPak Pédiatrique</p>
                     <div class="defExplore__price__row">
@@ -106,6 +108,7 @@
                             height="159"
                             alt=""
                             title="" 
+                            loading="lazy"
                             class="defExplore__img">
                     <p class="defExplore__name">Trousse de Secours</p>
                     <div class="defExplore__price__row">
@@ -128,6 +131,7 @@
                             height="159"
                             alt=""
                             title="" 
+                            loading="lazy"
                             class="defExplore__img">
                     <p class="defExplore__name">Boitier Mural intérieur avec alarme: Aivia 100</p>
                     <div class="defExplore__price__row">
@@ -150,6 +154,7 @@
                             height="159"
                             alt=""
                             title="" 
+                            loading="lazy"
                             class="defExplore__img">
                     <p class="defExplore__name">Boitier Mural extérieur avec alarme : DAC 350</p>
                     <div class="defExplore__price__row">
@@ -172,6 +177,7 @@
                             height="159"
                             alt=""
                             title="" 
+                            loading="lazy"
                             class="defExplore__img">
                     <p class="defExplore__name">Défibrillateur de Formation & Fannequin</p>
                     <div class="defExplore__price__row">
@@ -194,6 +200,7 @@
                             height="159"
                             alt=""
                             title="" 
+                            loading="lazy"
                             class="defExplore__img">
                     <p class="defExplore__name">Samaritan PAD Trainer</p>
                     <div class="defExplore__price__row">
@@ -216,6 +223,7 @@
                             height="159"
                             alt=""
                             title="" 
+                            loading="lazy"
                             class="defExplore__img">
                     <p class="defExplore__name">Signalétique autocollante</p>
                     <div class="defExplore__price__row">
@@ -238,6 +246,7 @@
                             height="159"
                             alt=""
                             title="" 
+                            loading="lazy"
                             class="defExplore__img">
                     <p class="defExplore__name">Support mural en plexiglass</p>
                     <div class="defExplore__price__row">

@@ -8,6 +8,7 @@ class EhpadController extends Controller
 {
     private $description = "Les EHPAD ont obligation de faire installer des défibrillateurs dans leurs locaux depuis le 1er janvier 2022. La sanction pour non-conformité est lourde car ses établissements accueillent une clientèle à haut risque et se doivent d’être en capacité de porter secours à une victime de malaise cardiaque.";
     private $keywords = "défibrillateur ephad";
+    private $title = "Défibrillateur pour les EPHAD, toutes les Obligations depuis 2020 | Nos Solutions | Spécialiste du DAE | CardioPro";
     private $canonical;
 
     public function __construct()
@@ -21,6 +22,7 @@ class EhpadController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

@@ -9,6 +9,7 @@ class LivraisonInstallationDefibrillateurController extends Controller
 {
     private $description = "Installateur de défibrillateur expérimenté, CardioPro propose un service complet d’installation et de Maintenance. Demandez votre Devis";
     private $keywords = "installation defibrillateur";
+    private $title = "Installation Défibrillateur pour Votre Entreprise Livraison sous 24H";
     private $canonical;
 
     public function __construct()
@@ -22,6 +23,7 @@ class LivraisonInstallationDefibrillateurController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

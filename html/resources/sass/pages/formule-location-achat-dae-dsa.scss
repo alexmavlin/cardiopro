@@ -89,7 +89,7 @@
     p {
         color: #021647;
         font-size: 18px;
-        @include nunito600;
+        @include nunito400;
         text-align: center;
     }
 }
@@ -180,7 +180,7 @@
     }
     p {
         max-width: 506px;
-        @include nunito600;
+        @include nunito400;
         font-size: 18px;
         color: #021647;
         padding-left: 20px;
@@ -453,7 +453,7 @@
         margin: 22px auto 0;
         color: #021647;
         font-size: 18px;
-        @include nunito700;
+        @include nunito400;
         text-align: center;
     }
     b {
@@ -572,7 +572,7 @@
         max-width: 490px;
         color: #021647;
         font-size: 18px;
-        @include nunito700;
+        @include nunito400;
         text-align: center;
     }
     p + p {
@@ -636,7 +636,7 @@
         max-width: 525px;
         color: #021647;
         font-size: 18px;
-        @include nunito700;
+        @include nunito400;
         text-align: center;
     }
     b {
@@ -765,7 +765,7 @@
         margin-bottom: 9px;
     }
     p {
-        @include nunito600;
+        @include nunito400;
         color: #0039C6;
         text-align: center;
         font-size: 17px;
@@ -791,7 +791,7 @@
         margin-bottom: 9px;
     }
     p {
-        @include nunito600;
+        @include nunito400;
         color: #0039C6;
         text-align: center;
         font-size: 17px;

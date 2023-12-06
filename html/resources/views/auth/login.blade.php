@@ -9,7 +9,7 @@
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
               <div class="brand-logo">
-                <img src="{{ asset('images/content/logo_page.png') }}" alt="logo">
+                <img src="{{ asset('images/content/logo_page.webp') }}" alt="logo">
               </div>
               <form action="{{ route('login') }}" class="pt-3" method="POST">
                 @csrf

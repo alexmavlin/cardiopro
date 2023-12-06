@@ -8,6 +8,7 @@ class LocationDefibrillateurController extends Controller
 {
     private $description = "La location d'un défibrillateur, c'est un pack clé en main vous permettant de bénéficier d'un service de maintenance connectée efficace à un prix abordable.";
     private $keywords = "Location défibrillateur";
+    private $title = "Location de Défibrillateur Automatique Louer un DAE pour 39€ par Mois";
     private $canonical;
 
     public function __construct()
@@ -21,6 +22,7 @@ class LocationDefibrillateurController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

@@ -8,6 +8,7 @@ class MaintenanceDefibrillateurController extends Controller
 {
     private $description = "Les Défibrillateurs ont une obligation de maintenance découvrez nos offres de maintenance connectée à distance ou maintenance classique sur site.";
     private $keywords = "";
+    private $title = "Entreprise de maintenance et entretien pour Défibrillateur";
     private $canonical;
 
     public function __construct()
@@ -21,6 +22,7 @@ class MaintenanceDefibrillateurController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

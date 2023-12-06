@@ -52,6 +52,7 @@
                             id="enterprise" 
                             type="text" 
                             placeholder=""
+                            aria-label="Entreprise"
                             value="{{ old('company') ?: '' }}">
                 </div>
                 <div class="contactForm__group">
@@ -64,6 +65,7 @@
                             name="name" 
                             type="text" 
                             placeholder=""
+                            aria-label="Votre nom"
                             value="{{ old('name') ?: '' }}">
                 </div>
                 <div class="contactForm__group">
@@ -76,6 +78,7 @@
                             name="phone" 
                             type="number" 
                             placeholder=""
+                            aria-label="Téléphone"
                             value="{{ old('phone') ?: '' }}">
                 </div>
                 <div class="contactForm__group">
@@ -88,6 +91,7 @@
                             name="email" 
                             type="email" 
                             placeholder=""
+                            aria-label="Email"
                             value="{{ old('email') ?: '' }}">
                 </div>
                 <div class="contactForm__group">
@@ -95,7 +99,7 @@
                     @error('message')
                         <p class="text__danger">{{ $message }}</p>
                     @enderror
-                    <textarea class="contactForm__textarea" id="message" name="message" rows="4" placeholder="">{{ old('message') ?: '' }}</textarea>
+                    <textarea class="contactForm__textarea" aria-label="Message" id="message" name="message" rows="4" placeholder="">{{ old('message') ?: '' }}</textarea>
                 </div>
                 <!--
                     <div class="contactForm__group">
@@ -103,7 +107,7 @@
                     </div>
                 -->
                 
-                <button type="submit" class="">Envoyez votre message</button>
+                <button type="submit" class="" aria-label="Envoyez votre message">Envoyez votre message</button>
             </form>
             <div class="contactForm__info">
                 <h2 class="">Nos bureaux</h2>
@@ -310,7 +314,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                             <path d="M21.2512 4.5H3.11835C2.05002 4.5 1.18475 5.37063 1.18475 6.43359V18.0352C1.18475 19.1044 2.05637 19.9688 3.11835 19.9688H21.2512C22.3106 19.9688 23.1848 19.1081 23.1848 18.0352V6.43359C23.1848 5.37252 22.3229 4.5 21.2512 4.5ZM20.9804 5.78906C20.5853 6.18201 13.7868 12.9448 13.552 13.1783C13.1868 13.5435 12.7012 13.7446 12.1848 13.7446C11.6683 13.7446 11.1827 13.5435 10.8163 13.1771C10.6584 13.02 3.93488 6.33193 3.38914 5.78906H20.9804ZM2.47382 17.7728V6.69678L8.0442 12.2378L2.47382 17.7728ZM3.38995 18.6797L8.95814 13.1469L9.90599 14.0898C10.5147 14.6985 11.324 15.0337 12.1848 15.0337C13.0455 15.0337 13.8548 14.6985 14.4623 14.091L15.4114 13.1469L20.9796 18.6797H3.38995ZM21.8957 17.7728L16.3253 12.2378L21.8957 6.69678V17.7728Z" fill="white"/>
                           </svg>
-                        <a class="">contact@cardiopro.fr</a>
+                        <a href="mailto:contact@cardiopro.fr" class="">contact@cardiopro.fr</a>
                     </div>
                     <div class="additionalInfo__line">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">

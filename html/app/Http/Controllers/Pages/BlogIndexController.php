@@ -10,6 +10,7 @@ class BlogIndexController extends Controller
 {
     private $description = "Defibrillateur-Shop - Achat Défibrillateur DAE";
     private $keywords = "";
+    private $title = "CardioPro.fr | L’actualité de CardioPro";
     private $canonical;
 
     public function __construct()
@@ -19,10 +20,12 @@ class BlogIndexController extends Controller
 
     public function __invoke()
     {
+        $blogs = $this->getBlogs();
         $data = [
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
@@ -33,8 +36,19 @@ class BlogIndexController extends Controller
                     'link' => route('posts'),
                 ],
             ],
-            'blogs' => $this->getBlogs(),
+            'blogs' => $blogs,
+            'pagination' => [
+                'current' => $blogs->currentPage(),
+                'total' => $blogs->total(),
+                'next_url' => $blogs->nextPageUrl(),
+                'next_num' => $blogs->nextPageUrl() ? (int) last(explode('=', parse_url($blogs->nextPageUrl(), PHP_URL_QUERY))) : null,
+                'prev_url' => $blogs->previousPageUrl(),
+                'prev_num' => $blogs->previousPageUrl() ? (int) last(explode('=', parse_url($blogs->previousPageUrl(), PHP_URL_QUERY))) : null,
+                'last' => $blogs->lastPage(),
+                'show' => $blogs->total() > $blogs->perPage() ?: false,
+            ],
         ];
+        //dd(response()->json($data));
 
         return view('pages/posts', compact('data'));
     }

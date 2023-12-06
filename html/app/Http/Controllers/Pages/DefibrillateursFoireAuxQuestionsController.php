@@ -9,6 +9,7 @@ class DefibrillateursFoireAuxQuestionsController extends Controller
 {
     private $description = "Qu’est ce qu’un défibrillateur automatique externe (DAE) ? CardioPro répond à toute vos questions sur l’utilisation d’un défibrillateur automatique ou semi-automatique, l’achat ou la location et les obligations concernant les défibrillateurs cardiaques.";
     private $keywords = "défibrillateurs";
+    private $title = "Foire aux Questions concernant les défibrillateurs DAE et DSA | Nos Produits | Spécialiste du Défibrillateur Automatique | CardioPro";
     private $canonical;
 
     public function __construct()
@@ -22,6 +23,7 @@ class DefibrillateursFoireAuxQuestionsController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

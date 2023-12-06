@@ -405,11 +405,12 @@
                                 title="{{ $item->img_alt }}" 
                                 width="354" 
                                 height="186"
+                                loading="lazy"
                                 class="blogPosts__item--img">
                         <time datetime="0" class="blogPosts__item--date">{{ date("d/m/Y", strtotime($item->date)) }}</time>
                         <h3 class="blogPosts__item--h3">{{ $item->h1 }}</h3>
                         <p class="blogPosts__item--p">{!! strlen($item->meta_description) > 69 ? substr($item->meta_description, 0, 69) . '...' : $item->meta_description !!}</p>
-                        <a href="{{route('posts-single', $item->url)}}" title="{{ $item->meta_description }}" aria-label="{{ $item->meta_description }}" class="blogPosts__item--a">En savoir plus</a>
+                        <a href="{{route('posts-single', $item->url)}}" title="{{ $item->meta_description }}" aria-label="En savoir plus" class="blogPosts__item--a">En savoir plus</a>
                     </div>
                     @endforeach
                 </div>

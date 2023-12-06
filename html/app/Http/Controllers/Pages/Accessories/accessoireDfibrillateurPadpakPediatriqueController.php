@@ -11,6 +11,7 @@ class accessoireDfibrillateurPadpakPediatriqueController extends Controller
 
     private $description = "Le PadPak pédiatrique est le kit qui contient le pack, adapté aux enfants (jusqu&#39;à 8 ans ou 25 kg), de piles et d’une paire d’électrodes pré-combinées dans une cassette pour les défibrillateurs Samaritan PAD. Vous souhaitez acquérir un Padpak Pédiatrique ou connaitre le prix des défibrillateurs, installer un défibrillateur automatique au sein de votre entreprise ou vous avez l'obligation d'acheter un défibrillateur en tant que ERP ? Contacter Cardiopro, LE spécialiste du défibrillateur en France.";
     private $keywords = "";
+    private $title = "Accessoire Défibrillateur PadPak Pédiatrique | CardioPro spécialiste de la location et l'achat de Défibrillateur en France";
     private $canonical;
 
     public function __construct()
@@ -24,6 +25,7 @@ class accessoireDfibrillateurPadpakPediatriqueController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

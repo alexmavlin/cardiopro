@@ -9,6 +9,7 @@ class ObligationsController extends Controller
 {
     private $description = "Etes vous dans l'obligation de vous équipez d'un Défibrillateur dans votre entreprise ou votre ERP? CardioPro réalise votre audit gratuitement";
     private $keywords = "défibrillateurs";
+    private $title = "Défibrillateur Obligatoire  le guide complet pour etre en règle en 2023";
     private $canonical;
 
     public function __construct()
@@ -22,6 +23,7 @@ class ObligationsController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

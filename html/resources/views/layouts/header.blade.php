@@ -30,7 +30,7 @@
                         <span>9:00 - 18:00</span>
                     </div>
                 </div>
-                <a href="#" class="header__top--online__quotes">
+                <a href="{{route('form')}}" class="header__top--online__quotes">
                     <span>Devis en ligne</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
                         <path d="M1 1H9M9 1V9M9 1L1 9" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -54,86 +54,86 @@
                     <nav class="header__nav">
                         <ul>
                             <li class="header__nav--dropdown__li">
-                                <a href="#" title="Vendre en Viager" aria-label="Vendre en Viager">
+                                <a href="#" title="L’ENTREPRISE" aria-label="L’ENTREPRISE">
                                     <span>L’ENTREPRISE</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M2.76047 6.13544C3.0661 5.82985 3.56162 5.82985 3.86725 6.13544L8.53126 10.7995L13.1952 6.13544C13.5009 5.82985 13.9964 5.82985 14.3021 6.13544C14.6076 6.44107 14.6076 6.93662 14.3021 7.24226L9.08467 12.4597C8.77903 12.7652 8.28348 12.7652 7.97785 12.4597L2.76047 7.24226C2.45484 6.93662 2.45484 6.44107 2.76047 6.13544Z" fill="#021647"/>
                                     </svg>
                                 </a>
                                 <div class="header__nav--dropdown">
-                                    <a href="{{ route('specialiste-location-vente-defibrillateurs') }}" title="Specialiste du Defibrillateur en France " aria-label="Conseils vente">Qui sommes-nous ?</a>
-                                    <a href="{{ route('nos-valeurs-entreprise-vente-defibrillateur-automatise-externe') }}" title="Democratiser l'utilisation du Defibrillateur" aria-label="Contacter un Expert">Nos Valeurs</a>
+                                    <a href="{{ route('specialiste-location-vente-defibrillateurs') }}" title="Specialiste du Defibrillateur en France " aria-label="Qui sommes-nous ?">Qui sommes-nous ?</a>
+                                    <a href="{{ route('nos-valeurs-entreprise-vente-defibrillateur-automatise-externe') }}" title="Democratiser l'utilisation du Defibrillateur" aria-label="Nos Valeurs">Nos Valeurs</a>
                                 </div>
                             </li>
                             <li class="header__nav--dropdown__li">
-                                <a href="#" title="Acheter en Viager" aria-label="Acheter en Viager">
+                                <a href="#" title="Nos Produits" aria-label="Nos Produits">
                                     <span>Nos Produits</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M2.76047 6.13544C3.0661 5.82985 3.56162 5.82985 3.86725 6.13544L8.53126 10.7995L13.1952 6.13544C13.5009 5.82985 13.9964 5.82985 14.3021 6.13544C14.6076 6.44107 14.6076 6.93662 14.3021 7.24226L9.08467 12.4597C8.77903 12.7652 8.28348 12.7652 7.97785 12.4597L2.76047 7.24226C2.45484 6.93662 2.45484 6.44107 2.76047 6.13544Z" fill="#021647"/>
                                     </svg>
                                 </a>
                                 <div class="header__nav--dropdown">
-                                    <a href="{{ route('defibrillateur-prix') }}" title="Un large choix de Defibrillateur" aria-label="Conseils Achat">Nos défibrillateurs</a>
-                                    <a href="{{ route('difference-defibrillateur') }}" title="Defibrillateur automatique et semi automatique" aria-label="Contacter un Expert">DIFFERENCE DAE DSA</a>
-                                    <a href="{{ route('accessoires-defibrillateurs') }}" title="Electrodes , batteries et boitiers pour Defibrillateur" aria-label="Contacter un Expert">Accessoires</a>
-                                    <a href="{{ route('livraison-installation-defibrillateur') }}" title="Livraison Defibrillateur" aria-label="Contacter un Expert">Livraison et installation</a>
-                                    <a href="{{ route('faq') }}" title="FAQ Defibrillateur" aria-label="Contacter un Expert">FAQ</a>
-                                    <a href="{{ route('obligations') }}" title="Reglementation Defibrillateur" aria-label="Contacter un Expert">obligations</a>
+                                    <a href="{{ route('defibrillateur-prix') }}" title="Un large choix de Defibrillateur" aria-label="Nos défibrillateurs">Nos défibrillateurs</a>
+                                    <a href="{{ route('difference-defibrillateur') }}" title="Defibrillateur automatique et semi automatique" aria-label="DIFFERENCE DAE DSA">DIFFERENCE DAE DSA</a>
+                                    <a href="{{ route('accessoires-defibrillateurs') }}" title="Electrodes , batteries et boitiers pour Defibrillateur" aria-label="Accessoires">Accessoires</a>
+                                    <a href="{{ route('livraison-installation-defibrillateur') }}" title="Livraison Defibrillateur" aria-label="Livraison et installation">Livraison et installation</a>
+                                    <a href="{{ route('faq') }}" title="FAQ Defibrillateur" aria-label="FAQ">FAQ</a>
+                                    <a href="{{ route('obligations') }}" title="Reglementation Defibrillateur" aria-label="obligations">obligations</a>
                                 </div>
                             </li>
                             <li class="header__nav--dropdown__li">
-                                <a href="#" title="Conseils" aria-label="Conseils">
+                                <a href="#" title="Nos Offres" aria-label="Nos Offres">
                                     <span>Nos Offres</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M2.76047 6.13544C3.0661 5.82985 3.56162 5.82985 3.86725 6.13544L8.53126 10.7995L13.1952 6.13544C13.5009 5.82985 13.9964 5.82985 14.3021 6.13544C14.6076 6.44107 14.6076 6.93662 14.3021 7.24226L9.08467 12.4597C8.77903 12.7652 8.28348 12.7652 7.97785 12.4597L2.76047 7.24226C2.45484 6.93662 2.45484 6.44107 2.76047 6.13544Z" fill="#021647"/>
                                     </svg>
                                 </a>
                                 <div class="header__nav--dropdown">
-                                    <a href="{{ route('location-defibrillateur') }}" title="Defibrillateur en Location" aria-label="Avantages">Location</a>
-                                    <a href="{{ route('achat-defibrillateur') }}" title="Acheter un Defibrillateur" aria-label="Fiscalité">Achat</a>
-                                    <a href="{{ route('formule-dae-dsa') }}" title="Choisir un Defibrillateur" aria-label="Vente Viager">Trouver votre formule</a>
-                                    <a href="{{ route('maintenance-defibrillateur') }}" title="Maintenance Defibrillateur" aria-label="Simulation Viager">Maintenance / SAV</a>
+                                    <a href="{{ route('location-defibrillateur') }}" title="Defibrillateur en Location" aria-label="Location">Location</a>
+                                    <a href="{{ route('achat-defibrillateur') }}" title="Acheter un Defibrillateur" aria-label="Achat">Achat</a>
+                                    <a href="{{ route('formule-dae-dsa') }}" title="Choisir un Defibrillateur" aria-label="rouver votre formule">Trouver votre formule</a>
+                                    <a href="{{ route('maintenance-defibrillateur') }}" title="Maintenance Defibrillateur" aria-label="Maintenance / SAV">Maintenance / SAV</a>
                                 </div>
                             </li>
                             <li class="header__nav--dropdown__li">
-                                <a href="#" title="Conseils" aria-label="Conseils">
+                                <a href="#" title="Nos solutions" aria-label="Nos solutions">
                                     <span>Nos solutions</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M2.76047 6.13544C3.0661 5.82985 3.56162 5.82985 3.86725 6.13544L8.53126 10.7995L13.1952 6.13544C13.5009 5.82985 13.9964 5.82985 14.3021 6.13544C14.6076 6.44107 14.6076 6.93662 14.3021 7.24226L9.08467 12.4597C8.77903 12.7652 8.28348 12.7652 7.97785 12.4597L2.76047 7.24226C2.45484 6.93662 2.45484 6.44107 2.76047 6.13544Z" fill="#021647"/>
                                     </svg>
                                 </a>
                                 <div class="header__nav--dropdown">
-                                    <a href="{{ route('mairie') }}" title="Solutions Defibrillateur pour Mairie" aria-label="Avantages">Mairie</a>
-                                    <a href="{{ route('hotel') }}" title="Solutions Defibrillateur pour les Hotels" aria-label="Fiscalité">Hotel et Restaurant</a>
-                                    <a href="{{ route('medical') }}" title="Solutions Defibrillateur pour les Cabinets medicaux" aria-label="Vente Viager">Centre de soins</a>
-                                    <a href="{{ route('entreprise') }}" title="Solutions Defibrillateur pour les entreprises" aria-label="Simulation Viager">Entreprise</a>
-                                    <a href="{{ route('erp') }}" title="" aria-label="Simulation Viager">Erp</a>
-                                    <a href="{{ route('ehpad') }}" title="Solutions Defibrillateur pour les EHPAD" aria-label="Simulation Viager">Ehpad</a>
+                                    <a href="{{ route('mairie') }}" title="Solutions Defibrillateur pour Mairie" aria-label="Mairie">Mairie</a>
+                                    <a href="{{ route('hotel') }}" title="Solutions Defibrillateur pour les Hotels" aria-label="Hotel et Restaurant">Hotel et Restaurant</a>
+                                    <a href="{{ route('medical') }}" title="Solutions Defibrillateur pour les Cabinets medicaux" aria-label="Centre de soins">Centre de soins</a>
+                                    <a href="{{ route('entreprise') }}" title="Solutions Defibrillateur pour les entreprises" aria-label="Entreprise">Entreprise</a>
+                                    <a href="{{ route('erp') }}" title="" aria-label="Erp">Erp</a>
+                                    <a href="{{ route('ehpad') }}" title="Solutions Defibrillateur pour les EHPAD" aria-label="Ehpad">Ehpad</a>
                                 </div>
                             </li>
                             <li class="header__nav--dropdown__li">
-                                <a href="#" title="Conseils" aria-label="Conseils">
+                                <a href="#" title="Sauvons des vies" aria-label="Sauvons des vies">
                                     <span>Sauvons des vies</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M2.76047 6.13544C3.0661 5.82985 3.56162 5.82985 3.86725 6.13544L8.53126 10.7995L13.1952 6.13544C13.5009 5.82985 13.9964 5.82985 14.3021 6.13544C14.6076 6.44107 14.6076 6.93662 14.3021 7.24226L9.08467 12.4597C8.77903 12.7652 8.28348 12.7652 7.97785 12.4597L2.76047 7.24226C2.45484 6.93662 2.45484 6.44107 2.76047 6.13544Z" fill="#021647"/>
                                     </svg>
                                 </a>
                                 <div class="header__nav--dropdown">
-                                    <a href="{{ route('defibrillateur-cardiaque-cest-quoi') }}" title="Decouvrir le Defibrillateur" aria-label="Avantages">Qu’est-ce qu’un défibrillateur?</a>
-                                    <a href="{{ route('reconnaitre-un-arret-cardiaque') }}" title="Arret Cardiaque et Defibrillateur" aria-label="Fiscalité">L’arrêt cardiaque</a>
-                                    <a href="{{ route('chiffres-cles-arret-cardiaque') }}" title="Les chiffres de l'arret cardiaque en France, democratisons le Defibrillateur" aria-label="Vente Viager">Les chiffres clé</a>
-                                    <a href="{{ route('legislation-defibrillateur') }}" title="Legislation pour l'equipement en Defibrillateur" aria-label="Simulation Viager">La Législation</a>
-                                    <a href="{{ route('subventions-defibrillateur') }}" title="Aides pour acheter un Defibrillateur" aria-label="Simulation Viager">Subvention</a>
-                                    <a href="{{ route('lexique-defibrillateur') }}" title="Glossaire du Defibrillateur" aria-label="Simulation Viager">Lexique</a>
+                                    <a href="{{ route('defibrillateur-cardiaque-cest-quoi') }}" title="Decouvrir le Defibrillateur" aria-label="Qu’est-ce qu’un défibrillateur?">Qu’est-ce qu’un défibrillateur?</a>
+                                    <a href="{{ route('reconnaitre-un-arret-cardiaque') }}" title="Arret Cardiaque et Defibrillateur" aria-label="L’arrêt cardiaque">L’arrêt cardiaque</a>
+                                    <a href="{{ route('chiffres-cles-arret-cardiaque') }}" title="Les chiffres de l'arret cardiaque en France, democratisons le Defibrillateur" aria-label="Les chiffres clé">Les chiffres clé</a>
+                                    <a href="{{ route('legislation-defibrillateur') }}" title="Legislation pour l'equipement en Defibrillateur" aria-label="La Législation">La Législation</a>
+                                    <a href="{{ route('subventions-defibrillateur') }}" title="Aides pour acheter un Defibrillateur" aria-label="Subvention">Subvention</a>
+                                    <a href="{{ route('lexique-defibrillateur') }}" title="Glossaire du Defibrillateur" aria-label="Lexique">Lexique</a>
                                 </div>
                             </li>
                             <li>
-                                <a href="{{ route('posts') }}" class="header__link" title="" aria-label="">
+                                <a href="{{ route('posts') }}" class="header__link" title="Blog" aria-label="Blog">
                                     <span>Blog</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="{{ route('contact') }}" class="header__link" title="" aria-label="">
+                                <a href="{{ route('contact') }}" class="header__link" title="Contact" aria-label="Contact">
                                     <span>Contact</span>
                                 </a>
                             </li>

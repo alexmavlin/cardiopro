@@ -9,6 +9,7 @@ class FormController extends Controller
 {
     private $description = "Defibrillateur-Shop - Achat Défibrillateur DAE";
     private $keywords = "";
+    private $title = "CardioPro.fr | Form |  |";
     private $canonical;
 
     public function __construct()
@@ -22,6 +23,7 @@ class FormController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
