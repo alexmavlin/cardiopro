@@ -10,6 +10,7 @@ class DefibrillateurCardiaqueCestQuoiController extends Controller
     private $description = "Qu’est ce qu’un défibrillateur cardiaque ? Comment cet appareil de sauvetage fonctionne ? Définition et explication de ce qu’est un défibrillateur.";
     private $keywords = "c'est quoi un défibrillateur cardiaque, défibrillateur def";
     private $canonical;
+    private $title = "Défibrillateur Cardiaque definition";
 
     public function __construct()
     {
@@ -22,6 +23,7 @@ class DefibrillateurCardiaqueCestQuoiController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

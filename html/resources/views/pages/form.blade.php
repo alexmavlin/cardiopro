@@ -165,7 +165,7 @@
                                         <p class="">Support mural</p>
                                     </div>
                                     <div class="sale__buttons">
-                                        <a  href="" 
+                                        <a  href="#" 
                                             class="sale__button--dynamic" 
                                             data-form-id="content-location-form"
                                             data-form-price="39"
@@ -204,7 +204,7 @@
                                         <p class="">Support mural</p>
                                     </div>
                                     <div class="sale__buttons">
-                                        <a  href="" 
+                                        <a  href="#" 
                                             class="sale__button--dynamic" 
                                             data-form-id="content-location-form"
                                             data-form-price="49"
@@ -345,7 +345,7 @@
                                         <p class="">Support mural</p>
                                     </div>
                                     <div class="sale__buttons">
-                                        <a  href="" 
+                                        <a  href="#" 
                                             class="sale__button--dynamic" 
                                             data-form-id="content-achat-form"
                                             data-form-price="1190"
@@ -384,7 +384,7 @@
                                         <p class="">Support mural</p>
                                     </div>
                                     <div class="sale__buttons">
-                                        <a  href="" 
+                                        <a  href="#" 
                                             class="sale__button--dynamic" 
                                             data-form-id="content-achat-form"
                                             data-form-price="1490"

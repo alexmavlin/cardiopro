@@ -363,70 +363,74 @@
         <div class="cardioTable__inner">
             <h2>Détails et comparatif de nos offres de location et d’achat de défibrillateurs</h2>
             <table class="cardioTable__table">
-                <tr>
-                    <th class="cardioTable__th__fr"></th>
-                    <th class="cardioTable__th">ACHAT PACK ACCESS</th>
-                    <th class="cardioTable__th">ACHAT PACK ZEN</th>
-                    <th class="cardioTable__th">LOCATION PACK ACCESS</th>
-                    <th class="cardioTable__th">LOCATION PACK ZEN</th>
-                </tr>
-                <tr>
-                    <td class="cardioTable__gr" style="text-transform:uppercase;">PRIX</td>
-                    <td class="cardioTable__gr">1190€</td>
-                    <td class="cardioTable__gr">1490€</td>
-                    <td class="cardioTable__gr">39€</td>
-                    <td class="cardioTable__gr">49€</td>
-                </tr>
-                <tr>
-                    <td class="cardioTable__wh" style="text-transform:uppercase;">LIVRAISON </td>
-                    <td class="cardioTable__wh">0€</td>
-                    <td class="cardioTable__wh">0€</td>
-                    <td class="cardioTable__wh">0€</td>
-                    <td class="cardioTable__wh">0€</td>
-                </tr>
-                <tr>
-                    <td class="cardioTable__gr" style="text-transform:uppercase;">GARANTIE </td>
-                    <td class="cardioTable__gr">8 ans</td>
-                    <td class="cardioTable__gr">8 ans</td>
-                    <td class="cardioTable__gr">8 ans</td>
-                    <td class="cardioTable__gr">8 ans</td>
-                </tr>
-                <tr>
-                    <td class="cardioTable__wh" style="text-transform:uppercase;">ELECTRODE</td>
-                    <td class="cardioTable__wh">oui</td>
-                    <td class="cardioTable__wh">oui</td>
-                    <td class="cardioTable__wh">oui</td>
-                    <td class="cardioTable__wh">oui</td>
-                </tr>
-                <tr>
-                    <td class="cardioTable__gr" style="text-transform:uppercase;">Assistant massage Cardiaque </td>
-                    <td class="cardioTable__gr">non</td>
-                    <td class="cardioTable__gr">oui</td>
-                    <td class="cardioTable__gr">non</td>
-                    <td class="cardioTable__gr">oui</td>
-                </tr>
-                <tr>
-                    <td class="cardioTable__wh" style="text-transform:uppercase;">Trousse de Secours </td>
-                    <td class="cardioTable__wh">oui</td>
-                    <td class="cardioTable__wh">oui</td>
-                    <td class="cardioTable__wh">oui</td>
-                    <td class="cardioTable__wh">oui</td>
-                </tr>
-                <tr>
-                    <td class="cardioTable__gr" style="text-transform:uppercase;">Support Mural </td>
-                    <td class="cardioTable__gr">non</td>
-                    <td class="cardioTable__gr">oui</td>
-                    <td class="cardioTable__gr">non</td>
-                    <td class="cardioTable__gr">oui</td>
-                </tr>
-                <tr>
-                    <td class="cardioTable__wh" style="text-transform:uppercase;">kit signalétique </td>
-                    <td class="cardioTable__wh">oui</td>
-                    <td class="cardioTable__wh">oui</td>
-                    <td class="cardioTable__wh">oui</td>
-                    <td class="cardioTable__wh">oui</td>
-                </tr>
-            </table>
+                <thead>
+                    <tr>
+                        <th id="header-fr" class="cardioTable__th__fr" scope="col"></th>
+                        <th id="header-access" class="cardioTable__th" scope="col">ACHAT PACK ACCESS</th>
+                        <th id="header-zen" class="cardioTable__th" scope="col">ACHAT PACK ZEN</th>
+                        <th id="header-location-access" class="cardioTable__th" scope="col">LOCATION PACK ACCESS</th>
+                        <th id="header-location-zen" class="cardioTable__th" scope="col">LOCATION PACK ZEN</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th id="row-prix" class="cardioTable__gr" scope="row" style="text-transform:uppercase;">PRIX</th>
+                        <td headers="header-access row-prix" class="cardioTable__gr">1190€</td>
+                        <td headers="header-zen row-prix" class="cardioTable__gr">1490€</td>
+                        <td headers="header-location-access row-prix" class="cardioTable__gr">39€</td>
+                        <td headers="header-location-zen row-prix" class="cardioTable__gr">49€</td>
+                    </tr>
+                    <tr>
+                        <th id="row-livraison" class="cardioTable__wh" scope="row" style="text-transform:uppercase;">LIVRAISON</th>
+                        <td headers="header-access row-livraison" class="cardioTable__wh">0€</td>
+                        <td headers="header-zen row-livraison" class="cardioTable__wh">0€</td>
+                        <td headers="header-location-access row-livraison" class="cardioTable__wh">0€</td>
+                        <td headers="header-location-zen row-livraison" class="cardioTable__wh">0€</td>
+                    </tr>
+                    <tr>
+                        <th id="row-garantie" class="cardioTable__gr" scope="row" style="text-transform:uppercase;">GARANTIE</th>
+                        <td headers="header-access row-garantie" class="cardioTable__gr">8 ans</td>
+                        <td headers="header-zen row-garantie" class="cardioTable__gr">8 ans</td>
+                        <td headers="header-location-access row-garantie" class="cardioTable__gr">8 ans</td>
+                        <td headers="header-location-zen row-garantie" class="cardioTable__gr">8 ans</td>
+                    </tr>
+                    <tr>
+                        <th id="row-electrode" class="cardioTable__wh" scope="row" style="text-transform:uppercase;">ELECTRODE</th>
+                        <td headers="header-access row-electrode" class="cardioTable__wh">oui</td>
+                        <td headers="header-zen row-electrode" class="cardioTable__wh">oui</td>
+                        <td headers="header-location-access row-electrode" class="cardioTable__wh">oui</td>
+                        <td headers="header-location-zen row-electrode" class="cardioTable__wh">oui</td>
+                    </tr>
+                    <tr>
+                        <th id="row-assistant" class="cardioTable__gr" scope="row" style="text-transform:uppercase;">Assistant massage Cardiaque</th>
+                        <td headers="header-access row-assistant" class="cardioTable__gr">non</td>
+                        <td headers="header-zen row-assistant" class="cardioTable__gr">oui</td>
+                        <td headers="header-location-access row-assistant" class="cardioTable__gr">non</td>
+                        <td headers="header-location-zen row-assistant" class="cardioTable__gr">oui</td>
+                    </tr>
+                    <tr>
+                        <th id="row-trousse" class="cardioTable__wh" scope="row" style="text-transform:uppercase;">Trousse de Secours</th>
+                        <td headers="header-access row-trousse" class="cardioTable__wh">oui</td>
+                        <td headers="header-zen row-trousse" class="cardioTable__wh">oui</td>
+                        <td headers="header-location-access row-trousse" class="cardioTable__wh">oui</td>
+                        <td headers="header-location-zen row-trousse" class="cardioTable__wh">oui</td>
+                    </tr>
+                    <tr>
+                        <th id="row-support" class="cardioTable__gr" scope="row" style="text-transform:uppercase;">Support Mural</th>
+                        <td headers="header-access row-support" class="cardioTable__gr">non</td>
+                        <td headers="header-zen row-support" class="cardioTable__gr">oui</td>
+                        <td headers="header-location-access row-support" class="cardioTable__gr">non</td>
+                        <td headers="header-location-zen row-support" class="cardioTable__gr">oui</td>
+                    </tr>
+                    <tr>
+                        <th id="row-signal" class="cardioTable__wh" scope="row" style="text-transform:uppercase;">kit signalétique</th>
+                        <td headers="header-access row-signal" class="cardioTable__wh">oui</td>
+                        <td headers="header-zen row-signal" class="cardioTable__wh">oui</td>
+                        <td headers="header-location-access row-signal" class="cardioTable__wh">oui</td>
+                        <td headers="header-location-zen row-signal" class="cardioTable__wh">oui</td>
+                    </tr>
+                </tbody>
+            </table>            
         </div>
     </div>
 </section>
@@ -870,7 +874,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                             <path d="M21.2512 4.5H3.11835C2.05002 4.5 1.18475 5.37063 1.18475 6.43359V18.0352C1.18475 19.1044 2.05637 19.9688 3.11835 19.9688H21.2512C22.3106 19.9688 23.1848 19.1081 23.1848 18.0352V6.43359C23.1848 5.37252 22.3229 4.5 21.2512 4.5ZM20.9804 5.78906C20.5853 6.18201 13.7868 12.9448 13.552 13.1783C13.1868 13.5435 12.7012 13.7446 12.1848 13.7446C11.6683 13.7446 11.1827 13.5435 10.8163 13.1771C10.6584 13.02 3.93488 6.33193 3.38914 5.78906H20.9804ZM2.47382 17.7728V6.69678L8.0442 12.2378L2.47382 17.7728ZM3.38995 18.6797L8.95814 13.1469L9.90599 14.0898C10.5147 14.6985 11.324 15.0337 12.1848 15.0337C13.0455 15.0337 13.8548 14.6985 14.4623 14.091L15.4114 13.1469L20.9796 18.6797H3.38995ZM21.8957 17.7728L16.3253 12.2378L21.8957 6.69678V17.7728Z" fill="white"/>
                           </svg>
-                        <a class="">contact@cardiopro.fr</a>
+                        <a href="mailto:contact@cardiopro.fr" class="">contact@cardiopro.fr</a>
                     </div>
                     <div class="additionalInfo__line">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">

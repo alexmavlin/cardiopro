@@ -9,6 +9,7 @@ class ReconnaitreUnArretCardiaqueController extends Controller
 {
     private $description = "Connaître les gestes de premiers secours et savoir appréhender un arrêt cardiaque combiné à l’utilisation d’un défibrillateur automatisé externe permet d’agir plus rapidement et ainsi d’augmenter considérablement les chances de survie de la victime.";
     private $keywords = "";
+    private $title = "Reconnaitre un arrêt cardiaque, les gestes de premier secours | Sauvons des vies | Spécialiste du DAE et DSA | CardioPro";
     private $canonical;
 
     public function __construct()
@@ -22,6 +23,7 @@ class ReconnaitreUnArretCardiaqueController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

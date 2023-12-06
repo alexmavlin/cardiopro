@@ -9,6 +9,7 @@ class NosValeursEntrepriseVenteDefibrillateurAutomatiseExterneController extends
 {
     private $description = "S’équiper d’un défibrillateur automatisé externe est un geste citoyen qui sauvera potentiellement des vies. Les gestes de premiers secours et massage cardiaque ne suffisent souvent pas à sauver une victime, c’est pourquoi les DAE sont essentiels pour maximiser les chances de survie.";
     private $keywords = "Défibrillateur automatisé externe";
+    private $title = "Augmenter les chances de survie grâce au Défibrillateur Externe Automatisé | Spécialiste du Défibrillateur Automatique | CardioPro";
     private $canonical;
 
     public function __construct()
@@ -22,6 +23,7 @@ class NosValeursEntrepriseVenteDefibrillateurAutomatiseExterneController extends
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

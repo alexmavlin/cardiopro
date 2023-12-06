@@ -6,12 +6,12 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <meta name="description" content="{{ $data['description'] }}">
-    <meta name="keywords" content="{{ $data['keywords'] }}">
+    <meta name="description" content="{!! $data['description'] !!}">
+    <meta name="keywords" content="{!! $data['keywords'] !!}">
     <link rel="canonical" href="{{ $data['canonical'] }}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" async>
     @if (isset($data['title']))
-    <title>{{ $data['title'] }}</title>
+    <title>{!! $data['title'] !!}</title>
     @endif
 </head>
 <body>

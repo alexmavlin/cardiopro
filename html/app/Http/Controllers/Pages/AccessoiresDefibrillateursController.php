@@ -9,6 +9,7 @@ class AccessoiresDefibrillateursController extends Controller
 {
     private $description = "Gamme d'accessoires pour Défibrillateur : Batterie , Défibrillateur de Formation, Support Mural , Electrode , Signalétique.";
     private $keywords = "accessoires défibrillateurs";
+    private $title = "Accessoires pour Défibrillateur • Batterie Electrode Support Mural";
     private $canonical;
 
     public function __construct()
@@ -23,6 +24,7 @@ class AccessoiresDefibrillateursController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

@@ -27,6 +27,7 @@ class BlogSingleController extends Controller
             'description' => $blog->meta_description,
             'keywords' => $blog->meta_keywords,
             'canonical' => $this->canonical,
+            'title' => $blog->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

@@ -11,6 +11,7 @@ class accessoireDefibrillateurSamaritanPADTrainerController extends Controller
 
     private $description = "Un défibrillateur de formation permet de former un individu à l’utilisation d’un DAE, il ne délivre pas de réel choc électrique mais est tout autant réaliste. Le Samaritan PAD Trainer offre une simulation parfaitement réaliste, facile à utiliser, il peut aussi être commander à distance";
     private $keywords = "";
+    private $title = "Achat de Défibrillateur de Formation | Accessoires | Nos Produits | Spécialiste du Défibrillateur Automatique | CardioPro";
     private $canonical;
 
     public function __construct()
@@ -24,6 +25,7 @@ class accessoireDefibrillateurSamaritanPADTrainerController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

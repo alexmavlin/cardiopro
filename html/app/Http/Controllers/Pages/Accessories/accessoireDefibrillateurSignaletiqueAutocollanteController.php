@@ -11,6 +11,7 @@ class accessoireDefibrillateurSignaletiqueAutocollanteController extends Control
 
     private $description = "Très simples mais nécessaires pour rassurer les utilisateurs des lieux en faisant savoir que le site est équipé de défibrillateurs et rapidement les guider en cas de besoin, ils sont à placer dans l&#39;entrée, la salle d&#39;attente et la salle principale. Vous souhaitez acquérir une signalétique autocollante ou connaitre le prix des défibrillateurs, installer un défibrillateur automatique au sein de votre entreprise ou vous avez l'obligation d'acheter un défibrillateur en tant que ERP ? Contacter Cardiopro, LE spécialiste du défibrillateur en France.";
     private $keywords = "";
+    private $title = "Accessoire Défibrillateur Signalétique Autocollante | CardioPro spécialiste de la location et l'achat de Défibrillateur en France";
     private $canonical;
 
     public function __construct()
@@ -24,6 +25,7 @@ class accessoireDefibrillateurSignaletiqueAutocollanteController extends Control
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

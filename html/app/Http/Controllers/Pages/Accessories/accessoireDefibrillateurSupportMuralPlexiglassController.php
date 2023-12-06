@@ -11,6 +11,7 @@ class accessoireDefibrillateurSupportMuralPlexiglassController extends Controlle
 
     private $description = "Avec ce kit support mural pour DAE, placez stratégiquement votre défibrillateur afin qu&#39;il reste dans de bonnes conditions de stockage. Sa signalétique permettra aux employés et visiteurs de savoir rapidement où il se trouve. Fait en plastique transparent, il répond parfaitement aux règles standard. Vous souhaitez acquérir un support mural ou connaitre le prix des défibrillateurs, installer un défibrillateur automatique au sein de votre entreprise ou vous avez l'obligation d'acheter un défibrillateur en tant que ERP ? Contacter Cardiopro, LE spécialiste du défibrillateur en France.";
     private $keywords = "";
+    private $title = "Accessoire Défibrillateur support mural | CardioPro spécialiste de la location et l'achat de Défibrillateur en France";
     private $canonical;
 
     public function __construct()
@@ -24,6 +25,7 @@ class accessoireDefibrillateurSupportMuralPlexiglassController extends Controlle
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',

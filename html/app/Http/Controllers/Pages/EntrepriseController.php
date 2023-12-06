@@ -9,6 +9,7 @@ class EntrepriseController extends Controller
     private $description = "Défibrillateur pour les Entreprises découvrez nos formules et les nouvelles obligations  tout inclus cliquez pour recevoir votre devis en moins de 24H.";
     private $keywords = "défibrillateur entreprise, défibrillateur pour entreprise, défibrillateur obligation entreprise, achat défibrillateur entreprise, défibrillateur obligatoire entreprise";
     private $canonical;
+    private $title = "Défibrillateur en Entreprise, les Obligations pour 2023";
 
     public function __construct()
     {
@@ -21,6 +22,7 @@ class EntrepriseController extends Controller
             'description' => $this->description,
             'keywords' => $this->keywords,
             'canonical' => $this->canonical,
+            'title' => $this->title,
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
