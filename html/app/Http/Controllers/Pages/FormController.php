@@ -26,11 +26,13 @@ class FormController extends Controller
             'title' => $this->title,
             'breadcrumbs' => [
                 [
-                    'name' => 'Cardiopro',
+                    'name' => 'Home',
+                    'title' => "Défibrillateur automatisé externe",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Form',
+                    'title' => "Spécialiste location et vente Défibrillateur automatisé externe",
                     'link' => route('form'),
                 ],
             ],

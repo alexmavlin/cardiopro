@@ -26,14 +26,16 @@ class EhpadController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Achat et location défibrillateur pour les Ephad",
                     'link' => route('index'),
                 ],
                 [
-                    'name' => 'Nos Solutions',
-                    'link' => route('defibrillateur-prix'),
+                    'name' => 'Nos Offres',
+                    'link' => "#",
                 ],
                 [
                     'name' => 'Défibrillateur EPHAD',
+                    'title' => "Obligation défibrillateur EPHAD",
                     'link' => route('ehpad'),
                 ],
             ],

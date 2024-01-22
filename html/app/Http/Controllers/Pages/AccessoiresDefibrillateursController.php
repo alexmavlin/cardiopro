@@ -28,14 +28,16 @@ class AccessoiresDefibrillateursController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Location et achat de Défibrillateur",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
                     'name' => 'Accessoires pour défibrillateurs',
+                    'title' => "Défibrillateur de Formation, Batterie, Électrodes, Boitier pour pose",
                     'link' => route('accessoires-defibrillateurs'),
                 ],
             ],

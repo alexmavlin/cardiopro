@@ -27,10 +27,16 @@ class NosValeursEntrepriseVenteDefibrillateurAutomatiseExterneController extends
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => 'Défibrillateur automatisé externe',
                     'link' => route('index'),
                 ],
                 [
+                    'name' => "L'Entreprise",
+                    'link' => "#",
+                ],
+                [
                     'name' => 'Nos Valeurs',
+                    'title' => 'Spécialiste location et vente Défibrillateur automatisé externe',
                     'link' => route('nos-valeurs-entreprise-vente-defibrillateur-automatise-externe'),
                 ],
             ],

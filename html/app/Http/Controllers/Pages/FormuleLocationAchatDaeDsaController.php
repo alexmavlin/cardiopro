@@ -27,14 +27,16 @@ class FormuleLocationAchatDaeDsaController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Achat et location de DAE",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
                     'name' => 'Formule location et achat DAE',
+                    'title' => "Formule location et achat DAE",
                     'link' => route('formule-dae-dsa'),
                 ],
             ],

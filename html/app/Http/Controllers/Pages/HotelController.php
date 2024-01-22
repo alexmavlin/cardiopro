@@ -26,14 +26,16 @@ class HotelController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Achat et location défibrillateur",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Solutions',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
-                    'name' => 'Hotel',
+                    'name' => 'Défibrillateur Hotel et Restaurant',
+                    'title' => "Défibrillateur hotel restaurant obligation",
                     'link' => route('hotel'),
                 ],
             ],

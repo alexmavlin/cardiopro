@@ -27,14 +27,16 @@ class LivraisonInstallationDefibrillateurController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Service d'achat et location pour installation de défibrillateur",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
                     'name' => 'Installation de défibrillateur',
+                    'title' => "Installation et pose de défibrillateur automatique",
                     'link' => route('livraison-installation-defibrillateur'),
                 ],
             ],

@@ -26,10 +26,16 @@ class LexiqueController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Location et achat de défibrillateur",
                     'link' => route('index'),
                 ],
                 [
+                    'name' => "Sauvons des Vies",
+                    'link' => "#",
+                ],
+                [
                     'name' => 'Lexique',
+                    'title' => "Lexique défibrillateur",
                     'link' => route('lexique-defibrillateur'),
                 ],
             ],

@@ -29,18 +29,21 @@ class accessoireDefibrillateurPackTrainerController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Défibrillateur prix",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
-                    'name' => 'Accessoires',
+                    'name' => 'Nos Défibrillateurs et les prix',
+                    'title' => "Prix des défibrillateurs automatique",
                     'link' => route('accessoires-defibrillateurs'),
                 ],
                 [
                     'name' => 'Pack trainer : défibrillateur de formation & mannequin',
+                    'title' => "Accessoire Défibrillateur : Pack trainer : défibrillateur de formation & mannequin",
                     'link' => route('accessoire-defibrillateur-pack-trainer'),
                 ],
             ],

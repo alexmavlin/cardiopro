@@ -27,14 +27,16 @@ class SpecialisteLocationVenteDefibrillateursController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
-                    'link' => route('specialiste-location-vente-defibrillateurs'),
+                    'title' => 'Spécialiste de la vente et la location de défibrillateur',
+                    'link' => route('index'),
                 ],
                 [
-                    'name' => 'Nos Offres',
-                    'link' => route('defibrillateur-prix'),
+                    'name' => "L'Entreprise",
+                    'link' => '#',
                 ],
                 [
-                    'name' => 'Formule location et achat DAE',
+                    'name' => 'Qui sommes nous ?',
+                    'title' => "Spécialiste en défibrillateur automatisé externe",
                     'link' => route('specialiste-location-vente-defibrillateurs'),
                 ],
             ],

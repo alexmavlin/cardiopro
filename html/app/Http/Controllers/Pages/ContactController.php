@@ -27,10 +27,12 @@ class ContactController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Spécialiste vente et location de défibrillateur",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Contact',
+                    'title' => "contact Cardiopro",
                     'link' => route('contact'),
                 ],
             ],

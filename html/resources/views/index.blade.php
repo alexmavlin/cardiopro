@@ -217,7 +217,7 @@
                                 <p class="">Support mural</p>
                             </div>
                             <div class="sale__buttons">
-                                <a href="{{ route('form', 'type=location-form&price=39')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
+                                <a href="{{ route('form', 'type=location-form&price=39')}}" class="sale__choisir" data-price="39" title="Choisir" aria-label="Choisir">Choisir</a>
                                 <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir" title="En savoir" aria-label="En savoir">En savoir +</a>
                             </div>
                         </div>
@@ -253,7 +253,7 @@
                                 <p class="">Support mural</p>
                             </div>
                             <div class="sale__buttons">
-                                <a href="{{ route('form', 'type=location-form&price=49')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
+                                <a href="{{ route('form', 'type=location-form&price=49')}}" class="sale__choisir" data-price="49" title="Choisir" aria-label="Choisir">Choisir</a>
                                 <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir" title="En savoir" aria-label="En savoir">En savoir +</a>
                             </div>
                         </div>
@@ -339,7 +339,7 @@
                                     <p class="">Support mural</p>
                                 </div>
                                 <div class="sale__buttons">
-                                    <a href="{{ route('form', 'type=achat-form&price=1190')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
+                                    <a href="{{ route('form', 'type=achat-form&price=1190')}}" class="sale__choisir" data-price="1190" title="Choisir" aria-label="Choisir">Choisir</a>
                                     <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir" title="En savoir" aria-label="En savoir">En savoir +</a>
                                 </div>
                             </div>
@@ -375,7 +375,7 @@
                                     <p class="">Support mural</p>
                                 </div>
                                 <div class="sale__buttons">
-                                    <a href="{{ route('form', 'type=achat-form&price=1490')}}" class="sale__choisir" title="Choisir" aria-label="Choisir">Choisir</a>
+                                    <a href="{{ route('form', 'type=achat-form&price=1490')}}" class="sale__choisir" data-price="1490" title="Choisir" aria-label="Choisir">Choisir</a>
                                     <a href="{{ route('defibrillateur-single') }}" class="sale__ensavoir" title="En savoir" aria-label="En savoir">En savoir +</a>
                                 </div>
                             </div>
@@ -543,7 +543,7 @@
                               </svg>
                         </div>
                         <div class="additionalInfo__line__bottom">
-                            <h3 class="">Notre Philosophie</h3>
+                            <p class="additionalInfo__line__bottom__heading">Notre Philosophie</h3>
                         </div>
                         <div class="additionalInfo__line__bottom">
                             <p class="">Nous vous équipons pour, ensemble, sauver des vies !</p>
@@ -595,7 +595,7 @@
                     </div>
                     <div class="additionalInfo__item__bottom">
                         <div class="additionalInfo__line">
-                            <h3 class="">Contactez nous !</h3>
+                            <p class="additionalInfo__line__heading">Contactez nous !</h3>
                         </div>
                         <div class="additionalInfo__line">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">

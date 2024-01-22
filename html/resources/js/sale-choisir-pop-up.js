@@ -1,7 +1,10 @@
 import { animateHeight, fadeIn, fadeOut } from './functions'
 
 let defExplorePopupBtns = document.querySelectorAll('.defExplore__choisir')
-let boiterButtons = document.querySelectorAll('.boiter__choisir')
+let choisirButtons = document.querySelectorAll('.sale__choisir')
+
+console.log(choisirButtons)
+
 
 let price
 let selectBox
@@ -38,14 +41,14 @@ if (defExplorePopupBtns.length > 0)
     })
 }
 
-if (boiterButtons.length > 0)
+if (choisirButtons.length > 0)
 {
-    closeBtn = document.querySelector('#defExplorePopUp__close')
-    boiterButtons.forEach(function(element) {
+    closeBtn = document.querySelector('#saleChoisirPopUp__close')
+    choisirButtons.forEach(function(element) {
         element.addEventListener("click", function(e) {
             e.preventDefault()
 
-            setVarsDefExplorePopup(this)
+            setVarsChoisirPopup(this)
             showDefExplorePopUp()
         })
     })
@@ -71,6 +74,14 @@ function setVarsDefExplorePopup(element)
     selectBox = document.querySelector('#packDefExplore')
     selectValue = document.querySelector('[data-queue="' + element.getAttribute('data-queue-btn') + '"]').value
     choisirPopup = document.querySelector('#defExplorePopUp')
+    body = document.querySelector('body')
+}
+
+function setVarsChoisirPopup(element)
+{
+    selectBox = document.querySelector('#choisir-pack')
+    selectValue = document.querySelector('[data-price="' + element.getAttribute('data-price') + '"]').value
+    choisirPopup = document.querySelector('#saleChoisirPopUp')
     body = document.querySelector('body')
 }
 

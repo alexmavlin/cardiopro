@@ -26,14 +26,16 @@ class MaintenanceDefibrillateurController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Maintenance de défibrillateur DAE",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Offres',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
                     'name' => 'Maintenance de défibrillateur',
+                    'title' => "Maintenance de défibrillateur DAE",
                     'link' => route('maintenance-defibrillateur'),
                 ],
             ],

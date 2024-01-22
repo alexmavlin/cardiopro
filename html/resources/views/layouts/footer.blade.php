@@ -13,7 +13,7 @@
                     <p class="footer__top--info">Achat et location de défibrillateurs en France, Belgique, Luxembourg et Suisse</p>
                 </div>
                 <div class="footer__top--block">
-                    <h2>Contactez nous !</h2>
+                    <p class="footer__heading">Contactez nous !</p>
                     <nav>
                         <ul>
                             <li>
@@ -45,7 +45,7 @@
                     </nav>
                 </div>
                 <div class="footer__top--block">
-                    <h2>Pourquoi nous choisir ?</h2>
+                    <p class="footer__heading">Pourquoi nous choisir ?</p>
                     <nav>
                         <ul>
                             <li>
@@ -72,7 +72,7 @@
                     </nav>
                 </div>
                 <div class="footer__top--block">
-                    <h2>Accès rapide</h2>
+                    <p class="footer__heading">Accès rapide</p>
                     <nav>
                         <ul>
                             <li>

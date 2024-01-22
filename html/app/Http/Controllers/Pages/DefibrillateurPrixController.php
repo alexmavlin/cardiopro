@@ -27,14 +27,16 @@ class DefibrillateurPrixController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Défibrillateur prix",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
                     'name' => 'Défibrillateurs et Prix',
+                    'title' => "Prix des défibrillateurs automatique",
                     'link' => route('defibrillateur-prix'),
                 ],
             ],

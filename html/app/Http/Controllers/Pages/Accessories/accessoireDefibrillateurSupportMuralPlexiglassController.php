@@ -29,18 +29,21 @@ class accessoireDefibrillateurSupportMuralPlexiglassController extends Controlle
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Défibrillateur prix",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
-                    'name' => 'Accessoires',
+                    'name' => 'Nos Défibrillateurs et les prix',
+                    'title' => "Prix des défibrillateurs automatique",
                     'link' => route('accessoires-defibrillateurs'),
                 ],
                 [
                     'name' => 'Support mural en plexiglass',
+                    'title' => "Accessoire Défibrillateur : Support mural en plexiglass",
                     'link' => route('accessoire-defibrillateur-support-mural-plexiglass'),
                 ],
             ],

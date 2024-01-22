@@ -29,18 +29,21 @@ class accessoireDefibrillateurBoitierDAC350Controller extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Défibrillateur prix",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
-                    'name' => 'Accessoires',
+                    'name' => 'Nos Défibrillateurs et les prix',
+                    'title' => "Prix des défibrillateurs automatique",
                     'link' => route('accessoires-defibrillateurs'),
                 ],
                 [
                     'name' => 'Boitier Mural DAC-350',
+                    'title' => "Accessoire Défibrillateur :  Boitier Mural Défibrillateur extérieur avec alarme DAC 350",
                     'link' => route('accessoire-defibrillateur-boitier-DAC-350'),
                 ],
             ],

@@ -27,10 +27,16 @@ class ReconnaitreUnArretCardiaqueController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "achat et location de défibrillateur",
                     'link' => route('index'),
                 ],
                 [
+                    'name' => "Sauvons des Vies",
+                    'link' => "#",
+                ],
+                [
                     'name' => 'Reconnaitre un arret cardiaque',
+                    'title' => "Comment reconnaitre un arrêt cardiaque ?",
                     'link' => route('reconnaitre-un-arret-cardiaque'),
                 ],
             ],

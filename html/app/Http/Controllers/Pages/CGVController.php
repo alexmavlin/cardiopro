@@ -26,11 +26,13 @@ class CGVController extends Controller
             'canonical' => $this->canonical,
             'breadcrumbs' => [
                 [
-                    'name' => 'Cardiopro',
+                    'name' => 'Home',
+                    'title' => "Défibrillateur prix",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Conditions Générales de Vente',
+                    'title' => "Condition Générale de Vente Cardiopro",
                     'link' => route('cgv'),
                 ],
             ],

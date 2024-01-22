@@ -26,14 +26,16 @@ class MedicalController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Achat et location défibrillateur",
                     'link' => route('index'),
                 ],
                 [
-                    'name' => 'Nos Solutions',
-                    'link' => route('defibrillateur-prix'),
+                    'name' => 'Nos Offres',
+                    'link' => "#",
                 ],
                 [
                     'name' => 'Défibrillateur Centre de Soins',
+                    'title' => "Défibrillateur Centre de Soins obligation",
                     'link' => route('medical'),
                 ],
             ],

@@ -26,11 +26,13 @@ class PolitiqueDeConfidentialiteController extends Controller
             'canonical' => $this->canonical,
             'breadcrumbs' => [
                 [
-                    'name' => 'Cardiopro',
+                    'name' => 'Home',
+                    'title' => "Défibrillateur prix",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Politique de confidentialite',
+                    'title' => "Offres pour l'achat ou la location de défibrillateur",
                     'link' => route('politique-de-confidentialite'),
                 ],
             ],

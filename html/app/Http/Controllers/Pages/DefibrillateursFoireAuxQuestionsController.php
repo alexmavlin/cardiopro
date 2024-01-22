@@ -27,14 +27,16 @@ class DefibrillateursFoireAuxQuestionsController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Achat et location de défibrillateur",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
                     'name' => 'FAQ Défibrillateur',
+                    'title' => "FAQ Défibrillateur",
                     'link' => route('faq'),
                 ],
             ],

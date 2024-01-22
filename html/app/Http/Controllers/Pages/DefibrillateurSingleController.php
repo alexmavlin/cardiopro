@@ -27,18 +27,21 @@ class DefibrillateurSingleController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Défibrillateur prix",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
                     'name' => 'Nos Défibrillateurs et les prix',
+                    'title' => "Prix des défibrillateurs automatique",
                     'link' => route('defibrillateur-prix'),
                 ],
                 [
                     'name' => 'Défibrillateur Automatique',
+                    'title' => "Défibrillateur Heartsine 360P",
                     'link' => route('defibrillateur-single'),
                 ],
             ],

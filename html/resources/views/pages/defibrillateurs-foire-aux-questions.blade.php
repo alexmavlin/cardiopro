@@ -439,7 +439,7 @@
                               </svg>
                         </div>
                         <div class="additionalInfo__line__bottom">
-                            <h3 class="">Notre Philosophie</h3>
+                            <p class="additionalInfo__line__bottom__heading">Notre Philosophie</h3>
                         </div>
                         <div class="additionalInfo__line__bottom">
                             <p class="">Nous vous équipons pour, ensemble, sauver des vies !</p>
@@ -491,7 +491,7 @@
                     </div>
                     <div class="additionalInfo__item__bottom">
                         <div class="additionalInfo__line">
-                            <h3 class="">Contactez nous !</h3>
+                            <p class="additionalInfo__line__heading">Contactez nous !</h3>
                         </div>
                         <div class="additionalInfo__line">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">

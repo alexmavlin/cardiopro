@@ -697,6 +697,12 @@
         @include nunito400;
         font-size: 17px;
     }
+    p.additionalInfo__line__heading {
+        color: #FFF;
+        @include nunito800;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
     a {
         margin-left: 50px;
         color: #FFF;
@@ -720,7 +726,8 @@
     background: var(--0039-c-6, #0039C6);
     padding: 28px 38px;
     width: 543px;
-    h3 {
+    h3,
+    &__heading {
         color: #FFF;
         @include nunito800;
         font-size: 22px;
@@ -732,6 +739,12 @@
         color: #FFF;
         @include nunito400;
         font-size: 17px;
+    }
+    p.additionalInfo__line__bottom__heading {
+        color: #FFF;
+        @include nunito800;
+        font-size: 22px;
+        text-transform: uppercase;
     }
 }
 .additionalInfo__line__bottom + .additionalInfo__line__bottom {

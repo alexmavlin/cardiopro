@@ -31,6 +31,7 @@ class BlogSingleController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Actualité secourisme et défibrillateurs",
                     'link' => route('index'),
                 ],
                 [

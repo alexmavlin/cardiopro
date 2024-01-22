@@ -27,14 +27,16 @@ class ObligationsController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Achat de défibrillateur en cas d'obligation",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
                     'name' => 'Défibrillateur Obligatoire',
+                    'title' => "Défibrillateur obligatoire ERP 2022 2021",
                     'link' => route('obligations'),
                 ],
             ],

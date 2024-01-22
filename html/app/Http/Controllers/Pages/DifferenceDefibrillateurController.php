@@ -27,14 +27,16 @@ class DifferenceDefibrillateurController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Défibrillateur automatisé externe et semi-automatique",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
                     'name' => 'Différence DAE DSA',
+                    'title' => "Différence défibrillateur automatique et semi-automatique",
                     'link' => route('difference-defibrillateur'),
                 ],
             ],

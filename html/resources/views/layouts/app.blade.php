@@ -9,6 +9,7 @@
     <meta name="description" content="{!! $data['description'] !!}">
     <meta name="keywords" content="{!! $data['keywords'] !!}">
     <link rel="canonical" href="{{ $data['canonical'] }}">
+    <link rel="icon" href="{{ asset('images/content/favicon.ico') }}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" async>
     @if (isset($data['title']))
     <title>{!! $data['title'] !!}</title>

@@ -26,14 +26,16 @@ class EntrepriseController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Achat et location défibrillateur pour entreprise",
                     'link' => route('index'),
                 ],
                 [
-                    'name' => 'Nos Solutions',
-                    'link' => route('defibrillateur-prix'),
+                    'name' => 'Nos Offres',
+                    'link' => "#",
                 ],
                 [
-                    'name' => 'Location de défibrillateur',
+                    'name' => 'Défibrillateur Mairie',
+                    'title' => "Défibrillateur entreprise obligation",
                     'link' => route('entreprise'),
                 ],
             ],

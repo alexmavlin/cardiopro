@@ -26,14 +26,16 @@ class LesSubventionsController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Location et achat de défibrillateur",
                     'link' => route('index'),
                 ],
                 [
-                    'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'name' => 'Sauvons des Vies',
+                    'link' => "#",
                 ],
                 [
-                    'name' => 'FAQ Défibrillateur',
+                    'name' => 'Les Subventions',
+                    'title' => "Les subventions liées à l'installation de défibrillateur",
                     'link' => route('subventions-defibrillateur'),
                 ],
             ],

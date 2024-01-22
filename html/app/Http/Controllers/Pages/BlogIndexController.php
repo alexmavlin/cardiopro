@@ -29,11 +29,12 @@ class BlogIndexController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "achat et location de défibrillateurs",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Blog',
-                    'link' => route('posts'),
+                    'link' => "#",
                 ],
             ],
             'blogs' => $blogs,

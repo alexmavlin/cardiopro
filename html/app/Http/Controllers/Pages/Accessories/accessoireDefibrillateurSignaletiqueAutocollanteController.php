@@ -29,18 +29,21 @@ class accessoireDefibrillateurSignaletiqueAutocollanteController extends Control
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Défibrillateur prix",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
-                    'name' => 'Accessoires',
+                    'name' => 'Nos Défibrillateurs et les prix',
+                    'title' => "Prix des défibrillateurs automatique",
                     'link' => route('accessoires-defibrillateurs'),
                 ],
                 [
                     'name' => 'Signalétique autocollante',
+                    'title' => "Accessoire Défibrillateur : Signalétique autocollante",
                     'link' => route('accessoire-defibrillateur-signaletique-autocollante'),
                 ],
             ],

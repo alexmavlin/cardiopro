@@ -29,18 +29,21 @@ class accessoireDefibrillateurBoitierAivia100Controller extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Défibrillateur prix",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
-                    'name' => 'Accessoires',
+                    'name' => 'Nos Défibrillateurs et les prix',
+                    'title' => "Prix des défibrillateurs automatique",
                     'link' => route('accessoires-defibrillateurs'),
                 ],
                 [
-                    'name' => '',
+                    'name' => 'Boitier Mural Aivia 100',
+                    'title' => "Accessoire Défibrillateur :  Boitier Mural Défibrillateur intérieur avec Alarme Aivia 100",
                     'link' => route('accessoire-defibrillateur-boitier-Aivia-100'),
                 ],
             ],

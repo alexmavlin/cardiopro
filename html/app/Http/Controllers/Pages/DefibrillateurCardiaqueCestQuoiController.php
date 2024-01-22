@@ -27,10 +27,16 @@ class DefibrillateurCardiaqueCestQuoiController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "achat et location de défibrillateur",
                     'link' => route('defibrillateur-cardiaque-cest-quoi'),
                 ],
                 [
+                    'name' => "Sauvons des Vies",
+                    'link' => "#",
+                ],
+                [
                     'name' => "Qu'est ce qu'un défibrillateur ?",
+                    'title' => "Définition défibrillateur c'est quoi ?",
                     'link' => route('defibrillateur-cardiaque-cest-quoi'),
                 ],
             ],

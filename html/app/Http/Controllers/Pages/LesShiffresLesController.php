@@ -26,10 +26,16 @@ class LesShiffresLesController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Vente Défibrillateur automatique et semi-auto",
                     'link' => route('index'),
                 ],
                 [
+                    'name' => "Sauvons des Vies",
+                    'link' => "#",
+                ],
+                [
                     'name' => 'Les Chiffres Clés',
+                    'title' => "Les chiffres clés de l'arrêt cardiaque",
                     'link' => route('chiffres-cles-arret-cardiaque'),
                 ],
             ],

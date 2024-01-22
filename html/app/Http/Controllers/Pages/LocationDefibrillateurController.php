@@ -26,14 +26,16 @@ class LocationDefibrillateurController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Spécialiste de la vente et location de DAE",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Offres',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
                     'name' => 'Location de défibrillateur',
+                    'title' => "Location de défibrillateur",
                     'link' => route('location-defibrillateur'),
                 ],
             ],

@@ -26,14 +26,16 @@ class AchatDefibrillateurController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Spécialiste de l'achat de défibrillateur automatique",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Offres',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
                     'name' => 'Achat défibrillateur',
+                    'title' => "Achat défibrillateur entreprise",
                     'link' => route('achat-defibrillateur'),
                 ],
             ],

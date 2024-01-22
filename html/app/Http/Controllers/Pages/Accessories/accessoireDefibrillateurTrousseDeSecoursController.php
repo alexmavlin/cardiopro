@@ -29,18 +29,21 @@ class accessoireDefibrillateurTrousseDeSecoursController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Défibrillateur prix",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
-                    'name' => 'Accessoires',
+                    'name' => 'Nos Défibrillateurs et les prix',
+                    'title' => "Prix des défibrillateurs automatique",
                     'link' => route('accessoires-defibrillateurs'),
                 ],
                 [
-                    'name' => 'Trousse de Secours',
+                    'name' => 'Accessoire Défibrillateur : Trousse de Secours',
+                    'title' => "Accessoire Défibrillateur : Trousse de Secours",
                     'link' => route('accessoire-defibrillateur-trousse-de-secours'),
                 ],
             ],

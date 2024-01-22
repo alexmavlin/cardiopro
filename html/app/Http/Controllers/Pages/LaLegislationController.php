@@ -26,10 +26,16 @@ class LaLegislationController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Location et achat de défibrillateur",
                     'link' => route('index'),
                 ],
                 [
+                    'name' => "Sauvons des Vies",
+                    'link' => "#",
+                ],
+                [
                     'name' => 'La Législation',
+                    'title' => "La législation des défibrillateurs DAE & DSA",
                     'link' => route('legislation-defibrillateur'),
                 ],
             ],

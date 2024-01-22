@@ -29,18 +29,21 @@ class accessoireDefibrillateurPadpakAdulteController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Défibrillateur prix",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Produits',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
-                    'name' => 'Accessoires',
+                    'name' => 'Nos Défibrillateurs et les prix',
+                    'title' => "Prix des défibrillateurs automatique",
                     'link' => route('accessoires-defibrillateurs'),
                 ],
                 [
                     'name' => 'PadPak adultes',
+                    'title' => "Accessoire Défibrillateur : PadPak adultes",
                     'link' => route('accessoire-defibrillateur-padpak-adulte'),
                 ],
             ],

@@ -26,14 +26,16 @@ class MairieController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Achat et location défibrillateur",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Solutions',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
-                    'name' => 'Mairie',
+                    'name' => 'Défibrillateur Mairie',
+                    'title' => "Défibrillateur mairie obligation",
                     'link' => route('mairie'),
                 ],
             ],

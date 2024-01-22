@@ -26,14 +26,16 @@ class ErpController extends Controller
             'breadcrumbs' => [
                 [
                     'name' => 'Cardiopro',
+                    'title' => "Location et Achat de défibrillateur pour ERP",
                     'link' => route('index'),
                 ],
                 [
                     'name' => 'Nos Solutions',
-                    'link' => route('defibrillateur-prix'),
+                    'link' => "#",
                 ],
                 [
-                    'name' => 'Location de défibrillateur',
+                    'name' => 'Défibrillateur ERP',
+                    'title' => "Défibrillateur ERP catégorie 5, 4, 3, 2, 1",
                     'link' => route('erp'),
                 ],
             ],
